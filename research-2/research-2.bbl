@@ -1,0 +1,132 @@
+\begin{thebibliography}{20}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Acton et~al.(2007)Acton, Yin, Verosub, Jovane, Roth, Jacobsen, and
+  Ebel}]{Acton2007}
+Acton, G., Yin, Q.~Z., Verosub, K.~L., Jovane, L., Roth, A., Jacobsen, B.,
+  Ebel, D.~S., 2007. Micromagnetic coercivity distributions and interactions in
+  chondrules with implications for paleointensities of the early solar system.
+  J. Geophys. Res. 112~(B3).
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2006JB004655}
+
+\bibitem[{Armijo(1966)}]{Armijo1966}
+Armijo, L., 1966. Minimization of functions having {L}ipschitz continuous first
+  partial derivatives. Pac. J. Math. 16~(1), 1--3.
+\newline\urlprefix\url{https://dx.doi.org/10.2140/pjm.1966.16.1}
+
+\bibitem[{De~Biasi et~al.(2016)De~Biasi, Curiale, and Zysler}]{Biasi2016}
+De~Biasi, E., Curiale, J., Zysler, R.~D., 2016. Quantitative study of {FORC}
+  diagrams in thermally corrected {Stoner--Wohlfarth} nanoparticles systems. J.
+  Magn. Magn. Mater. 419, 580--587.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.jmmm.2016.06.075}
+
+\bibitem[{Dunlop and {\"O}zdemir(1997)}]{Dunlop}
+Dunlop, D.~J., {\"O}zdemir, {\"O}., 1997. Rock Magnetism. Cambridge University
+  Press, Cambridge.
+
+\bibitem[{Egli et~al.(2010)Egli, Chen, Winklhofer, Kodama, and
+  Horng}]{Egli2010}
+Egli, R., Chen, A.~P., Winklhofer, M., Kodama, K.~P., Horng, C., 2010.
+  Detection of noninteracting single domain particles using first-order
+  reversal curve diagrams. Geochem. Geophys. Geosyst. 11~(1).
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2009GC002916}
+
+\bibitem[{Graham~Jr.(1958)}]{Graham1958}
+Graham~Jr., C.~D., 1958. Magnetocrystalline anisotropy constants of iron at
+  room temperature and below. Phys. Rev. 112~(4), 1117.
+\newline\urlprefix\url{https://doi.org/10.1103/PhysRev.112.1117}
+
+\bibitem[{Guowei et~al.(2014)Guowei, Baomin, Feng, Novakova, Krivenkov,
+  Kiseleva, Chang, Jiancun, Polyakov, Blake, de~Groot, and
+  Palstra}]{Guowei2014}
+Guowei, L., Baomin, Z., Feng, Y., Novakova, A.~A., Krivenkov, M.~S., Kiseleva,
+  T.~Y., Chang, L., Jiancun, R., Polyakov, A.~O., Blake, G.~R., de~Groot,
+  R.~A., Palstra, T. T.~M., 2014. High-purity {F}e$_\text{3}${S}$_\text{4}$
+  greigite microcrystals for magnetic and electrochemical performance. Chem.
+  Mater. 26~(20), 5821--5829.
+\newline\urlprefix\url{https://dx.doi.org/10.1021/cm501493m}
+
+\bibitem[{Harrison and Lascu(2014)}]{Harrison2014}
+Harrison, R.~J., Lascu, I., 2014. Forculator: A micromagnetic tool for
+  simulating first-order reversal curve diagrams. Geochem. Geophys. Geosyst.
+  15~(12), 4671--4691.
+\newline\urlprefix\url{https://dx.doi.org/10.1002/2014GC005582}
+
+\bibitem[{Mayergoyz(1986)}]{Mayergoyz1986}
+Mayergoyz, I., 1986. Mathematical models of hysteresis. IEEE T. Magn. 22~(5),
+  603--608.
+\newline\urlprefix\url{https://dx.doi.org/10.1109/TMAG.1986.1064347}
+
+\bibitem[{Muxworthy et~al.(2004)Muxworthy, Heslop, and
+  Williams}]{Muxworthy2004}
+Muxworthy, A.~R., Heslop, D., Williams, W., 2004. Influence of magnetostatic
+  interactions on first-order-reversal-curve ({FORC}) diagrams: a micromagnetic
+  approach. Geophys. J. Int. 158~(3), 888--897.
+\newline\urlprefix\url{https://dx.doi.org/10.1111/j.1365-246X.2004.02358.x}
+
+\bibitem[{Newell(2005)}]{Newell2005}
+Newell, A.~J., 2005. A high-precision model of first-order reversal curve
+  ({FORC}) functions for single-domain ferromagnets with uniaxial anisotropy.
+  Geochem. Geophys. Geosyst. 6~(5).
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2004GC000877}
+
+\bibitem[{Pike et~al.(1999)Pike, Roberts, and Verosub}]{Pike1999}
+Pike, C.~R., Roberts, A.~P., Verosub, K.~L., 1999. Characterizing interactions
+  in fine magnetic particle systems using first order reversal curves. J. Appl.
+  Phys. 85~(9), 6660--6667.
+\newline\urlprefix\url{https://dx.doi.org/10.1063/1.370176}
+
+\bibitem[{Pike et~al.(2005)Pike, Ross, Scalettar, and Zimanyi}]{Pike2005}
+Pike, C.~R., Ross, C.~A., Scalettar, R.~T., Zimanyi, G., 2005. First-order
+  reversal curve diagram analysis of a perpendicular nickel nanopillar array.
+  Phys. Rev. B 71~(13), 134407.
+\newline\urlprefix\url{https://doi.org/10.1103/PhysRevB.71.134407}
+
+\bibitem[{Proenca et~al.(2017)Proenca, Sousa, Ventura, Garcia, Vazquez, and
+  Araujo}]{Proenca2017}
+Proenca, M.~P., Sousa, C.~T., Ventura, J., Garcia, J., Vazquez, M., Araujo,
+  J.~P., 2017. Identifying weakly-interacting single domain states in {Ni}
+  nanowire arrays by {FORC}. J. Alloy. Compd. 699~(C), 421--429.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.jallcom.2016.12.340}
+
+\bibitem[{Roberts et~al.(2011)Roberts, Chang, Rowan, Horng, and
+  Florindo}]{Roberts2011}
+Roberts, A.~P., Chang, L., Rowan, C.~J., Horng, C.~S., Florindo, F., 2011.
+  Magnetic properties of sedimentary greigite ({F}e$_3${S}$_4$): An update.
+  Rev. Geophys. 49~(1).
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2010RG000336}
+
+\bibitem[{Roberts et~al.(2000)Roberts, Pike, and Verosub}]{Roberts2000}
+Roberts, A.~P., Pike, C.~R., Verosub, K.~L., 2000. First-order reversal curve
+  diagrams: {A} new tool for characterizing the magnetic properties of natural
+  samples. J. Geophys. Res.: Sol. Ea. 105~(B12), 28461--28475.
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2000JB900326}
+
+\bibitem[{Stoner and Wohlfarth(1948)}]{Stoner1948}
+Stoner, E.~C., Wohlfarth, E.~P., 1948. A mechanism of magnetic hysteresis in
+  heterogeneous alloys. Philos. T. R. Soc. A. 240~(826), 599--642.
+\newline\urlprefix\url{https://www.jstor.org/stable/91421}
+
+\bibitem[{Usov and Peschany(1997)}]{Usov1997}
+Usov, N.~A., Peschany, S.~E., 1997. Theoretical hysteresis loops for
+  single-domain particles with cubic anisotropy. J. Magn. Magn. Mat. 174~(3),
+  247--260.
+\newline\urlprefix\url{https://doi.org/10.1016/S0304-8853(97)00180-7}
+
+\bibitem[{Walker et~al.(1993)Walker, Mayo, O'Grady, Charles, and
+  Chantrell}]{Walker1993}
+Walker, M., Mayo, P.~I., O'Grady, K., Charles, S.~W., Chantrell, R.~W., 1993.
+  The magnetic properties of single-domain particles with cubic anisotropy.
+  {I}. {H}ysteresis loops. J. Phys.: Condens. Matter 5~(17), 2779.
+\newline\urlprefix\url{https://doi.org/10.1088/0953-8984/5/17/012}
+
+\bibitem[{Winklhofer et~al.(2014)Winklhofer, Chang, and Eder}]{Winklhofer2014}
+Winklhofer, M., Chang, L., Eder, S. H.~K., 2014. On the magnetocrystalline
+  anisotropy of greigite ({F}e$_3${S}$_4$). Geochem. Geophys. Geosyst. 15~(4),
+  1558--1579.
+\newline\urlprefix\url{https://dx.doi.org/10.1002/2013GC005121}
+
+\end{thebibliography}

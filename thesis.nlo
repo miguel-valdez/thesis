@@ -1,0 +1,29 @@
+\nomenclatureentry{aB$\boldsymbol{B}$@[{$\boldsymbol{B}$}]\begingroup Magnetic induction field [\si{\tesla}]\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{aH$\boldsymbol{H}$@[{$\boldsymbol{H}$}]\begingroup Magnetic field [\si{\ampere \per \metre}]\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{aM$\boldsymbol{M}$@[{$\boldsymbol{M}$}]\begingroup Magnetisation [\si{\ampere \per \metre}]\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{bA$M_\text{S}$@[{$M_\text{S}$}]\begingroup Saturation magnetisation [\si{\ampere \per \metre}]\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{bB$A$@[{$A$}]\begingroup Exchange stiffness constant [\si{\joule \per \metre}]\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{bC$K_1$@[{$K_1$}]\begingroup First magnetocrystalline anisotropy constant [\si{\joule \per \metre^3}]\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{bD$K_2$@[{$K_2$}]\begingroup Second magnetocrystalline anisotropy constant [\si{\joule \per \metre^3}]\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{bE$E_\text{G}$@[{$E_\text{G}$}]\begingroup Magnetic Gibbs free-energy [\si{\joule}]\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{bF$K_\text{B}$@[{$K_\text{B}$}]\begingroup Boltzmann's constant [\si{\joule \per \kelvin}]\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{cD$d$@[{$d$}]\begingroup Particle size [\si{\metre}]\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{d @[{ }]\begingroup  \nomeqref {0}|nompageref}{7}
+\nomenclatureentry{dA\textbf{Greek Symbols}@[{\textbf{Greek Symbols}}]\begingroup  \nomeqref {0}|nompageref}{7}
+\nomenclatureentry{dB$\mu_\text{B}$@[{$\mu_\text{B}$}]\begingroup Bohr magneton\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{dC$\gamma$@[{$\gamma$}]\begingroup Gyromagnetic ratio\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{dD$\mu_0$@[{$\mu_0$}]\begingroup Vacuum permeability\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{dZ @[{ }]\begingroup  \nomeqref {0}|nompageref}{7}
+\nomenclatureentry{e\textbf{List of Abbreviations}@[{\textbf{List of Abbreviations}}]\begingroup  \nomeqref {0}|nompageref}{7}
+\nomenclatureentry{eASD@[{SD}]\begingroup Single-domain\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{eBSSD@[{SSD}]\begingroup Stable single-domain\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{eCPSD@[{PSD}]\begingroup Pseudo single-domain\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{eDMD@[{MD}]\begingroup Multi-domain\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{eESV@[{SV}]\begingroup Single vortex\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{eFEAV@[{EAV}]\begingroup Easy aligned vortex\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{eGHAV@[{HAV}]\begingroup Hard-aligned vortex\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{eHIAV@[{IAV}]\begingroup Intermediate-aligned vortex\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{eIFEM@[{FEM}]\begingroup Finite-element method\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{eJFD@[{FD}]\begingroup Finite difference\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{eKAMP@[{AMP}]\begingroup Action-minimising path\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{eLFORC@[{FORC}]\begingroup First-order reversal curve\nomeqref {0}|nompageref}{7}

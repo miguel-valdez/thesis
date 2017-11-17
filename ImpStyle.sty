@@ -1,0 +1,93 @@
+\makeatletter
+\if@titlepage
+%\titlepic{\includegraphics[width=0.30\textwidth]{C0/Figs/Imperial_College_London_crest}}
+\renewcommand\maketitle{
+    \begin{titlepage}%
+    \begin{center}
+        \let\footnotesize\small
+        \let\footnoterule\relax
+        \let \footnote \thanks
+        \Large\sf Imperial College London \\
+            %\linebreak
+            Department of Earth Science and Engineering
+            \rm
+            \vskip 2in
+
+            {\LARGE \sf\textbf{\@title} \par}%
+            \vskip 3em% %% Change this space if you wish
+            {\large
+                \lineskip .75em%
+                \begin{tabular}[t]{c}%
+                \LARGE\sf\@author
+                \end{tabular}\par%
+            }%
+         \@tpsepspace% %% uncomment if you need space.
+%         \@titlepic
+
+            \vskip 10em
+            \vskip 4em%   %% Change this space if you wish
+            
+          \sf Submitted in part fulfilment of the requirements
+          \linebreak
+          for the degree of Doctor of Philosophy at
+          \linebreak
+          Imperial College London, December 2017
+          \vfil
+          \end{center}
+    \end{titlepage}
+}
+\fi
+\makeatother
+\makenomenclature
+
+\def\abstract{
+  \begin{center}{
+    \large\bf Abstract}
+  \end{center}
+  \small
+  %\def\baselinestretch{1.5}
+  \linespread{1.5}
+  \normalsize
+}
+\def\endabstract{
+  \par
+}
+
+\newenvironment{acknowledgements}{
+  \cleardoublepage
+  \begin{center}{
+    \large \bf Acknowledgements}
+  \end{center}
+  \small
+  \linespread{1.5}
+  \normalsize
+}{\cleardoublepage}
+\def\endacknowledgements{
+  \par
+}
+
+\newenvironment{dedication}{
+  \cleardoublepage
+  \begin{center}{
+    \large \bf Dedication}
+  \end{center}
+  \small
+  \linespread{1.5}
+  \normalsize
+}{\cleardoublepage}
+\def\enddedication{
+  \par
+}
+
+\newenvironment{finalreferences}{
+  \cleardoublepage
+  \begin{center}{
+    \large \bf References}
+  \end{center}
+  \small
+  \linespread{1.5}
+  \normalsize
+}{\cleardoublepage}
+\def\endfinalreferences{
+  \par
+}

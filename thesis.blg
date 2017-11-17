@@ -1,0 +1,110 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: pre/declarations.aux
+A level-1 auxiliary file: pre/abstract.aux
+A level-1 auxiliary file: pre/acknowledgements.aux
+A level-1 auxiliary file: pre/dedication.aux
+A level-1 auxiliary file: pre/quote.aux
+A level-1 auxiliary file: pre/nomenclature.aux
+A level-1 auxiliary file: intro/intro.aux
+The style file: elsarticle-harv.bst
+A level-1 auxiliary file: research-1/research-1.aux
+Illegal, another \bibstyle command---line 118 of file research-1/research-1.aux
+ : \bibstyle
+ :          {elsarticle-harv}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 119 of file research-1/research-1.aux
+ : \bibdata
+ :         {references}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: research-2/research-2.aux
+Illegal, another \bibstyle command---line 46 of file research-2/research-2.aux
+ : \bibstyle
+ :          {elsarticle-harv}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 47 of file research-2/research-2.aux
+ : \bibdata
+ :         {references}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: research-3/research-3.aux
+Illegal, another \bibstyle command---line 83 of file research-3/research-3.aux
+ : \bibstyle
+ :          {elsarticle-harv}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 84 of file research-3/research-3.aux
+ : \bibdata
+ :         {references}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: research-4/research-4.aux
+Illegal, another \bibstyle command---line 48 of file research-4/research-4.aux
+ : \bibstyle
+ :          {elsarticle-harv}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 49 of file research-4/research-4.aux
+ : \bibdata
+ :         {references}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: conclusions/conclusions.aux
+Illegal, another \bibstyle command---line 3 of file conclusions/conclusions.aux
+ : \bibstyle
+ :          {elsarticle-harv}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 4 of file conclusions/conclusions.aux
+ : \bibdata
+ :         {references}
+I'm skipping whatever remains of this command
+Illegal, another \bibstyle command---line 60 of file thesis.aux
+ : \bibstyle
+ :          {elsarticle-harv}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 61 of file thesis.aux
+ : \bibdata
+ :         {references}
+I'm skipping whatever remains of this command
+Database file #1: references.bib
+Warning--empty journal in OConbhui2017
+Warning--empty journal in ValdezGrijalva2017
+Warning--empty journal in ValdezGrijalva2017B
+You've used 71 entries,
+            2821 wiz_defined-function locations,
+            1181 strings with 21222 characters,
+and the built_in function-call counts, 38217 in all, are:
+= -- 3836
+> -- 2243
+< -- 31
++ -- 852
+- -- 765
+* -- 3676
+:= -- 6912
+add.period$ -- 212
+call.type$ -- 71
+change.case$ -- 614
+chr.to.int$ -- 71
+cite$ -- 74
+duplicate$ -- 1257
+empty$ -- 2364
+format.name$ -- 989
+if$ -- 7483
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 71
+newline$ -- 283
+num.names$ -- 286
+pop$ -- 535
+preamble$ -- 1
+purify$ -- 538
+quote$ -- 0
+skip$ -- 912
+stack$ -- 0
+substring$ -- 2179
+swap$ -- 159
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 633
+warning$ -- 3
+while$ -- 316
+width$ -- 0
+write$ -- 847
+(There were 12 error messages)

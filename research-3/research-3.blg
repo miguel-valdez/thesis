@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: research-3/research-3.aux
+The style file: elsarticle-harv.bst
+Database file #1: references.bib
+Warning--empty journal in OConbhui2017
+Warning--empty journal in ValdezGrijalva2017
+Warning--empty journal in ValdezGrijalva2017B
+You've used 33 entries,
+            2821 wiz_defined-function locations,
+            887 strings with 12019 characters,
+and the built_in function-call counts, 17494 in all, are:
+= -- 1746
+> -- 1038
+< -- 12
++ -- 393
+- -- 354
+* -- 1678
+:= -- 3181
+add.period$ -- 96
+call.type$ -- 33
+change.case$ -- 284
+chr.to.int$ -- 33
+cite$ -- 36
+duplicate$ -- 578
+empty$ -- 1078
+format.name$ -- 457
+if$ -- 3416
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 35
+newline$ -- 133
+num.names$ -- 132
+pop$ -- 256
+preamble$ -- 1
+purify$ -- 250
+quote$ -- 0
+skip$ -- 422
+stack$ -- 0
+substring$ -- 956
+swap$ -- 68
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 291
+warning$ -- 3
+while$ -- 141
+width$ -- 0
+write$ -- 391
+(There were 3 warnings)
