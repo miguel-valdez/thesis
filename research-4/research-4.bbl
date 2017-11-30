@@ -1,7 +1,115 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{19}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Brown~Jr.(1963)}]{Brown}
+Brown~Jr., W.~F., 1963. Micromagnetics. Interscience, New York.
+
+\bibitem[{Day et~al.(1977)Day, Fuller, and Schmidt}]{Day1977}
+Day, R., Fuller, M., Schmidt, V.~A., 1977. Hysteresis properties of
+  titanomagnetites: {G}rain-size and compositional dependence. Phys. Earth
+  Planet. In. 13~(4), 260--267.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/0031-9201(77)90108-X}
+
+\bibitem[{De~Biasi et~al.(2016)De~Biasi, Curiale, and Zysler}]{Biasi2016}
+De~Biasi, E., Curiale, J., Zysler, R.~D., 2016. Quantitative study of {FORC}
+  diagrams in thermally corrected {Stoner--Wohlfarth} nanoparticles systems. J.
+  Magn. Magn. Mater. 419, 580--587.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.jmmm.2016.06.075}
+
+\bibitem[{Dumas et~al.(2007)Dumas, Li, Roshchin, Schuller, and Liu}]{Dumas2007}
+Dumas, R.~K., Li, C.~P., Roshchin, I.~V., Schuller, I.~K., Liu, K., 2007.
+  Magnetic fingerprints of sub-100 nm {Fe} dots. Phys. Rev. B 75~(13), 134405.
+\newline\urlprefix\url{https://dx.doi.org/10.1103/PhysRevB.75.134405}
+
+\bibitem[{Dunlop and {\"O}zdemir(1997)}]{Dunlop}
+Dunlop, D.~J., {\"O}zdemir, {\"O}., 1997. Rock Magnetism. Cambridge University
+  Press, Cambridge.
+
+\bibitem[{Egli et~al.(2010)Egli, Chen, Winklhofer, Kodama, and
+  Horng}]{Egli2010}
+Egli, R., Chen, A.~P., Winklhofer, M., Kodama, K.~P., Horng, C., 2010.
+  Detection of noninteracting single domain particles using first-order
+  reversal curve diagrams. Geochem. Geophys. Geosyst. 11~(1).
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2009GC002916}
+
+\bibitem[{Egli and Winklhofer(2014)}]{Egli2014}
+Egli, R., Winklhofer, M., 2014. Recent developments on processing and
+  interpretation aspects of first-order reversal curves ({FORC}). Proc. Kazan
+  U. Nat. Sc. 156~(1).
+
+\bibitem[{Fischbacher et~al.(2017)Fischbacher, Kovacs, Oezelt, Schrefl, Exl,
+  Fidler, Suess, Sakuma, Yano, Kato, Shoji, and Manabe}]{Fischbacher2017}
+Fischbacher, J., Kovacs, A., Oezelt, H., Schrefl, T., Exl, L., Fidler, J.,
+  Suess, D., Sakuma, N., Yano, M., Kato, A., Shoji, T., Manabe, A., 2017.
+  Nonlinear conjugate gradient methods in micromagnetics. AIP Adv. 7~(4),
+  045310.
+\newline\urlprefix\url{https://dx.doi.org/10.1063/1.4981902}
+
+\bibitem[{Fredkin and Koehler(1990)}]{Fredkin1990}
+Fredkin, D.~R., Koehler, T.~R., 1990. Hybrid method for computing demagnetizing
+  fields. IEEE T. Magn. 26~(2), 415--417.
+\newline\urlprefix\url{https://dx.doi.org/10.1109/20.106342}
+
+\bibitem[{Landau and Lifshitz(1935)}]{Landau1935}
+Landau, L.~D., Lifshitz, E., 1935. On the theory of the dispersion of magnetic
+  permeability in ferromagnetic bodies. Phys. Z. Sowjetunion 8~(153), 101--114.
+
+\bibitem[{Mayergoyz(1986)}]{Mayergoyz1986}
+Mayergoyz, I., 1986. Mathematical models of hysteresis. IEEE T. Magn. 22~(5),
+  603--608.
+\newline\urlprefix\url{https://dx.doi.org/10.1109/TMAG.1986.1064347}
+
+\bibitem[{\'O~Conbhu\'i et~al.(2017)\'O~Conbhu\'i, Williams, Fabian, Ridley,
+  Nagy, and Muxworthy}]{OConbhui2017}
+\'O~Conbhu\'i, P., Williams, W., Fabian, K., Ridley, P., Nagy, L., Muxworthy,
+  A.~R., 2017. {MERRILL: Micromagnetic Earth Related Robust Interpreted
+  Language Laboratory}. Submitted to Geochem. Geophys. Geosyst.
+
+\bibitem[{Pike et~al.(2001)Pike, Roberts, Dekkers, and Verosub}]{Pike2001}
+Pike, C.~R., Roberts, A.~P., Dekkers, M.~J., Verosub, K.~L., 2001. An
+  investigation of multi-domain hysteresis mechanisms using {FORC} diagrams.
+  Phys. Earth Planet. Inter. 126~(1), 11--25.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/S0031-9201(01)00241-2}
+
+\bibitem[{Pike et~al.(1999)Pike, Roberts, and Verosub}]{Pike1999}
+Pike, C.~R., Roberts, A.~P., Verosub, K.~L., 1999. Characterizing interactions
+  in fine magnetic particle systems using first order reversal curves. J. Appl.
+  Phys. 85~(9), 6660--6667.
+\newline\urlprefix\url{https://dx.doi.org/10.1063/1.370176}
+
+\bibitem[{Proenca et~al.(2017)Proenca, Sousa, Ventura, Garcia, Vazquez, and
+  Araujo}]{Proenca2017}
+Proenca, M.~P., Sousa, C.~T., Ventura, J., Garcia, J., Vazquez, M., Araujo,
+  J.~P., 2017. Identifying weakly-interacting single domain states in {Ni}
+  nanowire arrays by {FORC}. J. Alloy. Compd. 699~(C), 421--429.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.jallcom.2016.12.340}
+
+\bibitem[{Rave et~al.(1998)Rave, Ramst{\"o}ck, and Hubert}]{Rave1998}
+Rave, W., Ramst{\"o}ck, K., Hubert, A., 1998. Corners and nucleation in
+  micromagnetics. J. Magn. Magn. Mater. 183~(3), 329--333.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/S0304-8853(97)01086-X}
+
+\bibitem[{Roberts et~al.(2017)Roberts, Almeida, Church, Harrison, Helsop, Li,
+  Li, Muxworthy, Williams, and Zhao}]{Roberts2017}
+Roberts, A.~P., Almeida, T.~P., Church, N.~S., Harrison, R.~J., Helsop, D., Li,
+  Y., Li, J., Muxworthy, A.~R., Williams, W., Zhao, X., 2017. Resolving the
+  origin of pseudo-single domain magnetic behavior. J. Geophys. Res.
+\newline\urlprefix\url{https://dx.doi.org/10.1002/2017JB014860}
+
+\bibitem[{Roberts et~al.(2000)Roberts, Pike, and Verosub}]{Roberts2000}
+Roberts, A.~P., Pike, C.~R., Verosub, K.~L., 2000. First-order reversal curve
+  diagrams: {A} new tool for characterizing the magnetic properties of natural
+  samples. J. Geophys. Res. 105~(B12), 28461--28475.
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2000JB900326}
+
+\bibitem[{Zhao et~al.(2017)Zhao, Roberts, Heslop, Paterson, Li, and
+  Li}]{Zhao2017}
+Zhao, X., Roberts, A.~P., Heslop, D., Paterson, G.~A., Li, Y., Li, J., 2017.
+  Magnetic domain state diagnosis using hysteresis reversal curves. J. Geophys.
+  Res.
+\newline\urlprefix\url{https://dx.doi.org/10.1002/2016JB013683}
 
 \end{thebibliography}

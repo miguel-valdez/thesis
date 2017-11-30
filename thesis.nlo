@@ -7,7 +7,8 @@
 \nomenclatureentry{bD$K_2$@[{$K_2$}]\begingroup Second magnetocrystalline anisotropy constant [\si{\joule \per \metre^3}]\nomeqref {0}|nompageref}{7}
 \nomenclatureentry{bE$E_\text{G}$@[{$E_\text{G}$}]\begingroup Magnetic Gibbs free-energy [\si{\joule}]\nomeqref {0}|nompageref}{7}
 \nomenclatureentry{bF$K_\text{B}$@[{$K_\text{B}$}]\begingroup Boltzmann's constant [\si{\joule \per \kelvin}]\nomeqref {0}|nompageref}{7}
-\nomenclatureentry{cD$d$@[{$d$}]\begingroup Particle size [\si{\metre}]\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{cA$d$@[{$d$}]\begingroup Particle size [\si{\metre}]\nomeqref {0}|nompageref}{7}
+\nomenclatureentry{cB$l_\text{exch}$@[{$l_\text{exch}$}]\begingroup Exchange length [\si{\metre}]\nomeqref {0}|nompageref}{7}
 \nomenclatureentry{d @[{ }]\begingroup  \nomeqref {0}|nompageref}{7}
 \nomenclatureentry{dA\textbf{Greek Symbols}@[{\textbf{Greek Symbols}}]\begingroup  \nomeqref {0}|nompageref}{7}
 \nomenclatureentry{dB$\mu_\text{B}$@[{$\mu_\text{B}$}]\begingroup Bohr magneton\nomeqref {0}|nompageref}{7}

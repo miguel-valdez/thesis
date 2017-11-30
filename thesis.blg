@@ -37,11 +37,11 @@ Illegal, another \bibdata command---line 84 of file research-3/research-3.aux
  :         {references}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: research-4/research-4.aux
-Illegal, another \bibstyle command---line 48 of file research-4/research-4.aux
+Illegal, another \bibstyle command---line 63 of file research-4/research-4.aux
  : \bibstyle
  :          {elsarticle-harv}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 49 of file research-4/research-4.aux
+Illegal, another \bibdata command---line 64 of file research-4/research-4.aux
  : \bibdata
  :         {references}
 I'm skipping whatever remains of this command
@@ -66,45 +66,45 @@ Database file #1: references.bib
 Warning--empty journal in OConbhui2017
 Warning--empty journal in ValdezGrijalva2017
 Warning--empty journal in ValdezGrijalva2017B
-You've used 71 entries,
+You've used 75 entries,
             2821 wiz_defined-function locations,
-            1181 strings with 21222 characters,
-and the built_in function-call counts, 38217 in all, are:
-= -- 3836
-> -- 2243
-< -- 31
-+ -- 852
-- -- 765
-* -- 3676
-:= -- 6912
-add.period$ -- 212
-call.type$ -- 71
-change.case$ -- 614
-chr.to.int$ -- 71
-cite$ -- 74
-duplicate$ -- 1257
-empty$ -- 2364
-format.name$ -- 989
-if$ -- 7483
+            1203 strings with 22009 characters,
+and the built_in function-call counts, 40494 in all, are:
+= -- 4040
+> -- 2431
+< -- 32
++ -- 924
+- -- 831
+* -- 3902
+:= -- 7345
+add.period$ -- 224
+call.type$ -- 75
+change.case$ -- 656
+chr.to.int$ -- 75
+cite$ -- 78
+duplicate$ -- 1326
+empty$ -- 2473
+format.name$ -- 1069
+if$ -- 7909
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 71
-newline$ -- 283
-num.names$ -- 286
-pop$ -- 535
+missing$ -- 75
+newline$ -- 298
+num.names$ -- 302
+pop$ -- 577
 preamble$ -- 1
-purify$ -- 538
+purify$ -- 576
 quote$ -- 0
-skip$ -- 912
+skip$ -- 965
 stack$ -- 0
-substring$ -- 2179
-swap$ -- 159
+substring$ -- 2244
+swap$ -- 168
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 633
+type$ -- 669
 warning$ -- 3
-while$ -- 316
+while$ -- 330
 width$ -- 0
-write$ -- 847
+write$ -- 892
 (There were 12 error messages)

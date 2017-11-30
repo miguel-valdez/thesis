@@ -30,8 +30,8 @@ Berner, R.~A., 1984. Sedimentary pyrite formation: {A}n update. Geochim.
   Cosmochim. Ac. 48~(4), 605--615.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/0016-7037(84)90089-9}
 
-\bibitem[{Brown(1963)}]{Brown}
-Brown, W.~F., 1963. Micromagnetics. Interscience, New York.
+\bibitem[{Brown~Jr.(1963)}]{Brown}
+Brown~Jr., W.~F., 1963. Micromagnetics. Interscience, New York.
 
 \bibitem[{Chang et~al.(2009)Chang, Rainford, Stewart, Ritter, Roberts, Tang,
   and Chen}]{Chang2009}
@@ -102,16 +102,6 @@ Gilbert, T.~L., 2004. A phenomenological theory of damping in ferromagnetic
   materials. IEEE T. Magn. 6, 3443--3449.
 \newline\urlprefix\url{https://dx.doi.org/10.1109/TMAG.2004.836740}
 
-\bibitem[{Guowei et~al.(2014)Guowei, Baomin, Feng, Novakova, Krivenkov,
-  Kiseleva, Chang, Jiancun, Polyakov, Blake, de~Groot, and
-  Palstra}]{Guowei2014}
-Guowei, L., Baomin, Z., Feng, Y., Novakova, A.~A., Krivenkov, M.~S., Kiseleva,
-  T.~Y., Chang, L., Jiancun, R., Polyakov, A.~O., Blake, G.~R., de~Groot,
-  R.~A., Palstra, T. T.~M., 2014. High-purity {F}e$_\text{3}${S}$_\text{4}$
-  greigite microcrystals for magnetic and electrochemical performance. Chem.
-  Mater. 26~(20), 5821--5829.
-\newline\urlprefix\url{https://dx.doi.org/10.1021/cm501493m}
-
 \bibitem[{Hunger and Benning(2007)}]{Hunger2007}
 Hunger, S., Benning, L.~G., 2007. Greigite: a true intermediate on the
   polysulfide pathway to pyrite. Geochem. T. 8~(1), 605--615.
@@ -135,6 +125,15 @@ Larrasoa{\~n}a, J.~C., Roberts, A.~P., Musgrave, R.~J., Gr{\`a}cia, E.,
   of greigite and pyrrhotite in gas hydrate marine sedimentary systems. Earth
   Planet. Sc. Lett. 261~(3), 350--366.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/j.epsl.2007.06.032}
+
+\bibitem[{Li et~al.(2014)Li, Zhang, Yu, Novakova, Krivenkov, Kiseleva, Chang,
+  Rao, Polyakov, Blake, de~Groot, and Palstra}]{Li2014}
+Li, G., Zhang, B., Yu, F., Novakova, A.~A., Krivenkov, M.~S., Kiseleva, T.~Y.,
+  Chang, L., Rao, J., Polyakov, A.~O., Blake, G.~R., de~Groot, R.~A., Palstra,
+  T. T.~M., 2014. High-purity {F}e$_\text{3}${S}$_\text{4}$ greigite
+  microcrystals for magnetic and electrochemical performance. Chem. Mater.
+  26~(20), 5821--5829.
+\newline\urlprefix\url{https://dx.doi.org/10.1021/cm501493m}
 
 \bibitem[{Mann et~al.(1990)Mann, Sparks, Frankel, Bazylinski, and
   Jannasch}]{Mann1990}

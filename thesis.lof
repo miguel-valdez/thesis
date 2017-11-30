@@ -47,32 +47,32 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Framboidal mesh and field orientations}}{92}{figure.caption.36}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces FORCs when the field is along an easy axis}}{93}{figure.caption.37}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces FORC diagram when the field is along an easy axis}}{94}{figure.caption.38}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces FORCs when the field is along a hard axis}}{95}{figure.caption.39}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces FORC diagram when the field is along a hard axis}}{96}{figure.caption.40}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces FORCs when the field is along a saddle point}}{97}{figure.caption.41}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces FORC diagram when the field is along a saddle point}}{98}{figure.caption.42}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces FORCs when the field is along a direction between easy, hard and saddle directions}}{99}{figure.caption.43}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces FORC diagram when the field is along a direction between easy, hard and saddle directions}}{100}{figure.caption.44}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces FORCs of the framboid dispersion}}{101}{figure.caption.45}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces FORC diagram of the framboid dispersion}}{102}{figure.caption.46}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces FORCs of a dispersion of framboids and noninteracting SD particles}}{103}{figure.caption.47}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces FORCs of a dispersion of framboids and noninteracting SV particles}}{104}{figure.caption.48}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Day plot of framboid and noninteraring particles mixtures}}{105}{figure.caption.49}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Remanent state when the field is along an easy axis (view from +Z)}}{106}{figure.caption.50}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Electron holography map of the remanent state when the field is along an easy axis (view from +Z)}}{107}{figure.caption.51}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Remanent state when the field is along an easy axis (view from +Y)}}{108}{figure.caption.52}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Electron holography map of the remanent state when the field is along an easy axis (view from +Y)}}{109}{figure.caption.53}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Remanent state when the field is along an easy axis (view from +X)}}{110}{figure.caption.54}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Electron holography map of the remanent state when the field is along an easy axis (view from +X)}}{111}{figure.caption.55}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Remanent state when the field is along a hard axis (view from +Z)}}{112}{figure.caption.56}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Electron holography map of the remanent state when the field is along a hard axis (view from +Z)}}{113}{figure.caption.57}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Remanent state when the field is along a hard axis (view from +Y)}}{114}{figure.caption.58}
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Electron holography map of the remanent state when the field is along a hard axis (view from +Y)}}{115}{figure.caption.59}
-\contentsline {figure}{\numberline {5.25}{\ignorespaces Remanent state when the field is along a hard axis (view from +X)}}{116}{figure.caption.60}
-\contentsline {figure}{\numberline {5.26}{\ignorespaces Electron holography map of the remanent state when the field is along a hard axis (view from +X)}}{117}{figure.caption.61}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Framboidal mesh and field orientations}}{95}{figure.caption.36}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces FORCs when the field is along an easy axis}}{96}{figure.caption.37}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces FORC diagram when the field is along an easy axis}}{97}{figure.caption.38}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces FORCs when the field is along a hard axis}}{98}{figure.caption.39}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces FORC diagram when the field is along a hard axis}}{99}{figure.caption.40}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces FORCs when the field is along a saddle point}}{100}{figure.caption.41}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces FORC diagram when the field is along a saddle point}}{101}{figure.caption.42}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces FORCs when the field is along a direction between easy, hard and saddle directions}}{102}{figure.caption.43}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces FORC diagram when the field is along a direction between easy, hard and saddle directions}}{103}{figure.caption.44}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces FORCs of the framboid dispersion}}{104}{figure.caption.45}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces FORC diagram of the framboid dispersion}}{105}{figure.caption.46}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces FORCs of a dispersion of framboids and noninteracting SD particles}}{106}{figure.caption.47}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces FORCs of a dispersion of framboids and noninteracting SV particles}}{107}{figure.caption.48}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Day plot of framboid and noninteraring particles mixtures}}{108}{figure.caption.49}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Remanent state when the field is along an easy axis (view from +Z)}}{109}{figure.caption.50}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Electron holography map of the remanent state when the field is along an easy axis (view from +Z)}}{110}{figure.caption.51}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Remanent state when the field is along an easy axis (view from +Y)}}{111}{figure.caption.52}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Electron holography map of the remanent state when the field is along an easy axis (view from +Y)}}{112}{figure.caption.53}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Remanent state when the field is along an easy axis (view from +X)}}{113}{figure.caption.54}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Electron holography map of the remanent state when the field is along an easy axis (view from +X)}}{114}{figure.caption.55}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Remanent state when the field is along a hard axis (view from +Z)}}{115}{figure.caption.56}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Electron holography map of the remanent state when the field is along a hard axis (view from +Z)}}{116}{figure.caption.57}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Remanent state when the field is along a hard axis (view from +Y)}}{117}{figure.caption.58}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Electron holography map of the remanent state when the field is along a hard axis (view from +Y)}}{118}{figure.caption.59}
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Remanent state when the field is along a hard axis (view from +X)}}{119}{figure.caption.60}
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Electron holography map of the remanent state when the field is along a hard axis (view from +X)}}{120}{figure.caption.61}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-12}
 \addvspace {10\p@ }

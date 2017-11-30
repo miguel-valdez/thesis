@@ -39,21 +39,20 @@ Graham~Jr., C.~D., 1958. Magnetocrystalline anisotropy constants of iron at
   room temperature and below. Phys. Rev. 112~(4), 1117.
 \newline\urlprefix\url{https://doi.org/10.1103/PhysRev.112.1117}
 
-\bibitem[{Guowei et~al.(2014)Guowei, Baomin, Feng, Novakova, Krivenkov,
-  Kiseleva, Chang, Jiancun, Polyakov, Blake, de~Groot, and
-  Palstra}]{Guowei2014}
-Guowei, L., Baomin, Z., Feng, Y., Novakova, A.~A., Krivenkov, M.~S., Kiseleva,
-  T.~Y., Chang, L., Jiancun, R., Polyakov, A.~O., Blake, G.~R., de~Groot,
-  R.~A., Palstra, T. T.~M., 2014. High-purity {F}e$_\text{3}${S}$_\text{4}$
-  greigite microcrystals for magnetic and electrochemical performance. Chem.
-  Mater. 26~(20), 5821--5829.
-\newline\urlprefix\url{https://dx.doi.org/10.1021/cm501493m}
-
 \bibitem[{Harrison and Lascu(2014)}]{Harrison2014}
 Harrison, R.~J., Lascu, I., 2014. Forculator: A micromagnetic tool for
   simulating first-order reversal curve diagrams. Geochem. Geophys. Geosyst.
   15~(12), 4671--4691.
 \newline\urlprefix\url{https://dx.doi.org/10.1002/2014GC005582}
+
+\bibitem[{Li et~al.(2014)Li, Zhang, Yu, Novakova, Krivenkov, Kiseleva, Chang,
+  Rao, Polyakov, Blake, de~Groot, and Palstra}]{Li2014}
+Li, G., Zhang, B., Yu, F., Novakova, A.~A., Krivenkov, M.~S., Kiseleva, T.~Y.,
+  Chang, L., Rao, J., Polyakov, A.~O., Blake, G.~R., de~Groot, R.~A., Palstra,
+  T. T.~M., 2014. High-purity {F}e$_\text{3}${S}$_\text{4}$ greigite
+  microcrystals for magnetic and electrochemical performance. Chem. Mater.
+  26~(20), 5821--5829.
+\newline\urlprefix\url{https://dx.doi.org/10.1021/cm501493m}
 
 \bibitem[{Mayergoyz(1986)}]{Mayergoyz1986}
 Mayergoyz, I., 1986. Mathematical models of hysteresis. IEEE T. Magn. 22~(5),
@@ -102,7 +101,7 @@ Roberts, A.~P., Chang, L., Rowan, C.~J., Horng, C.~S., Florindo, F., 2011.
 \bibitem[{Roberts et~al.(2000)Roberts, Pike, and Verosub}]{Roberts2000}
 Roberts, A.~P., Pike, C.~R., Verosub, K.~L., 2000. First-order reversal curve
   diagrams: {A} new tool for characterizing the magnetic properties of natural
-  samples. J. Geophys. Res.: Sol. Ea. 105~(B12), 28461--28475.
+  samples. J. Geophys. Res. 105~(B12), 28461--28475.
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2000JB900326}
 
 \bibitem[{Stoner and Wohlfarth(1948)}]{Stoner1948}

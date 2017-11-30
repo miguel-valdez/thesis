@@ -2,47 +2,47 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: research-4/research-4.aux
 The style file: elsarticle-harv.bst
-I found no \citation commands---while reading file research-4/research-4.aux
 Database file #1: references.bib
-You've used 0 entries,
+Warning--empty journal in OConbhui2017
+You've used 19 entries,
             2821 wiz_defined-function locations,
-            631 strings with 4633 characters,
-and the built_in function-call counts, 29 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 8
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+            782 strings with 8577 characters,
+and the built_in function-call counts, 10439 in all, are:
+= -- 1006
+> -- 687
+< -- 6
++ -- 258
+- -- 237
+* -- 1014
+:= -- 1917
+add.period$ -- 56
+call.type$ -- 19
+change.case$ -- 173
+chr.to.int$ -- 19
+cite$ -- 20
+duplicate$ -- 334
+empty$ -- 613
+format.name$ -- 298
+if$ -- 2019
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 7
-num.names$ -- 0
-pop$ -- 0
+missing$ -- 21
+newline$ -- 78
+num.names$ -- 76
+pop$ -- 167
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 155
 quote$ -- 0
-skip$ -- 1
+skip$ -- 243
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 511
+swap$ -- 40
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
+type$ -- 165
+warning$ -- 1
+while$ -- 79
 width$ -- 0
-write$ -- 6
-(There was 1 error message)
+write$ -- 224
+(There was 1 warning)

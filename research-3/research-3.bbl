@@ -4,8 +4,8 @@
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 
-\bibitem[{Brown(1963)}]{Brown}
-Brown, W.~F., 1963. Micromagnetics. Interscience, New York.
+\bibitem[{Brown~Jr.(1963)}]{Brown}
+Brown~Jr., W.~F., 1963. Micromagnetics. Interscience, New York.
 
 \bibitem[{Carvallo et~al.(2006)Carvallo, Muxworthy, and Dunlop}]{Carvallo2006}
 Carvallo, C., Muxworthy, A.~R., Dunlop, D.~J., 2006. First-order reversal curve
@@ -55,16 +55,6 @@ Fredkin, D.~R., Koehler, T.~R., 1990. Hybrid method for computing demagnetizing
   fields. IEEE T. Magn. 26~(2), 415--417.
 \newline\urlprefix\url{https://dx.doi.org/10.1109/20.106342}
 
-\bibitem[{Guowei et~al.(2014)Guowei, Baomin, Feng, Novakova, Krivenkov,
-  Kiseleva, Chang, Jiancun, Polyakov, Blake, de~Groot, and
-  Palstra}]{Guowei2014}
-Guowei, L., Baomin, Z., Feng, Y., Novakova, A.~A., Krivenkov, M.~S., Kiseleva,
-  T.~Y., Chang, L., Jiancun, R., Polyakov, A.~O., Blake, G.~R., de~Groot,
-  R.~A., Palstra, T. T.~M., 2014. High-purity {F}e$_\text{3}${S}$_\text{4}$
-  greigite microcrystals for magnetic and electrochemical performance. Chem.
-  Mater. 26~(20), 5821--5829.
-\newline\urlprefix\url{https://dx.doi.org/10.1021/cm501493m}
-
 \bibitem[{Harrison and Lascu(2014)}]{Harrison2014}
 Harrison, R.~J., Lascu, I., 2014. Forculator: A micromagnetic tool for
   simulating first-order reversal curve diagrams. Geochem. Geophys. Geosyst.
@@ -80,6 +70,15 @@ Kr{\'a}sa, D., Muxworthy, A.~R., Williams, W., 2011. Room- and low-temperature
 \bibitem[{Landau and Lifshitz(1935)}]{Landau1935}
 Landau, L.~D., Lifshitz, E., 1935. On the theory of the dispersion of magnetic
   permeability in ferromagnetic bodies. Phys. Z. Sowjetunion 8~(153), 101--114.
+
+\bibitem[{Li et~al.(2014)Li, Zhang, Yu, Novakova, Krivenkov, Kiseleva, Chang,
+  Rao, Polyakov, Blake, de~Groot, and Palstra}]{Li2014}
+Li, G., Zhang, B., Yu, F., Novakova, A.~A., Krivenkov, M.~S., Kiseleva, T.~Y.,
+  Chang, L., Rao, J., Polyakov, A.~O., Blake, G.~R., de~Groot, R.~A., Palstra,
+  T. T.~M., 2014. High-purity {F}e$_\text{3}${S}$_\text{4}$ greigite
+  microcrystals for magnetic and electrochemical performance. Chem. Mater.
+  26~(20), 5821--5829.
+\newline\urlprefix\url{https://dx.doi.org/10.1021/cm501493m}
 
 \bibitem[{Mayergoyz(1986)}]{Mayergoyz1986}
 Mayergoyz, I., 1986. Mathematical models of hysteresis. IEEE T. Magn. 22~(5),
@@ -142,8 +141,7 @@ Rave, W., Ramst{\"o}ck, K., Hubert, A., 1998. Corners and nucleation in
 \newline\urlprefix\url{https://dx.doi.org/10.1016/S0304-8853(97)01086-X}
 
 \bibitem[{Roberts(2015)}]{Roberts2015}
-Roberts, A.~P., 2015. Magnetic mineral diagenesis. Earth-Science Reviews 151,
-  1--47.
+Roberts, A.~P., 2015. Magnetic mineral diagenesis. Earth Sci. Rev. 151, 1--47.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/j.earscirev.2015.09.010}
 
 \bibitem[{Roberts et~al.(2011)Roberts, Chang, Rowan, Horng, and
@@ -156,7 +154,7 @@ Roberts, A.~P., Chang, L., Rowan, C.~J., Horng, C.~S., Florindo, F., 2011.
 \bibitem[{Roberts et~al.(2014)Roberts, Heslop, Zhao, and Pike}]{Roberts2014}
 Roberts, A.~P., Heslop, D., Zhao, X., Pike, C.~R., 2014. Understanding fine
   magnetic particle systems through use of first-order reversal curve diagrams.
-  Reviews of Geophysics 52~(4), 557--602.
+  Rev. Geophys. 52~(4), 557--602.
 \newline\urlprefix\url{https://dx.doi.org/10.1002/2014RG000462}
 
 \bibitem[{Roberts et~al.(2006)Roberts, Liu, Rowan, Chang, Carvallo, Torrent,
@@ -164,14 +162,14 @@ Roberts, A.~P., Heslop, D., Zhao, X., Pike, C.~R., 2014. Understanding fine
 Roberts, A.~P., Liu, Q., Rowan, C.~J., Chang, L., Carvallo, C., Torrent, J.,
   Horng, C., 2006. Characterization of hematite ($\alpha$-{Fe$_2$O$_3$}),
   goethite ($\alpha$-{FeOOH}), greigite ({Fe$_3$S$_4$}), and pyrrhotite
-  ({Fe$_7$S$_8$}) using first-order reversal curve diagrams. Journal of
-  Geophysical Research: Solid Earth 111~(B12).
+  ({Fe$_7$S$_8$}) using first-order reversal curve diagrams. J. Geophys. Res.
+  111~(B12).
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2006JB004715}
 
 \bibitem[{Roberts et~al.(2000)Roberts, Pike, and Verosub}]{Roberts2000}
 Roberts, A.~P., Pike, C.~R., Verosub, K.~L., 2000. First-order reversal curve
   diagrams: {A} new tool for characterizing the magnetic properties of natural
-  samples. J. Geophys. Res.: Sol. Ea. 105~(B12), 28461--28475.
+  samples. J. Geophys. Res. 105~(B12), 28461--28475.
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2000JB900326}
 
 \bibitem[{Snowball(1997)}]{Snowball1997}
