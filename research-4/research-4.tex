@@ -44,11 +44,16 @@ Ferromagnetic materials have magnetisation states that are dependent on their ma
 A scatter plot of the ratio $M_{\text{RS}}/M_{\text{S}}$ against the ratio $B_{\text{CR}}/B_{\text{C}}$ is called a Day plot \citep{Day1977} and is one of the most typically used plots in rock magnetism \citep{Dunlop}. Although these basic magnetic hysteresis parameters can be useful to discern the magnetic domain state and magnetisation reversal mechanisms of magnetic systems, it has been shown recently that the Day plot can lead to erroneous interpretations \citep{Egli2014,Roberts2017}. It is logical that access to the interior of the hysteresis loop can reveal more information about magnetic behaviours, which is the basic idea behind the calculation of $B_{\text{CR}}$.\par
 
 First-order reversal curves are a set of partial hysteresis curves obtained from magnetisation states on the upper branch of the hysteresis loop for different field values $B_a$. For a given $B_a$ and $M(B_a)$, the field $B=B_b$ is increased to positive saturation to trace a magnetisation curve. This proceedure for a number of $B_a$ values creates a magnetisation function on two variables $M=M(B_a,B_b)$ for $B_b \geq B_a$. The FORC distribution $\rho$ is then defined as \citep{Roberts2000}:
-\begin{equation}
+\begin{equation}\label{forc distribution}
 \rho = -\frac{\mu_0^2}{2}\frac{\partial^2 M}{\partial B_a \partial B_b}.
 \end{equation}
 The FORC distribution is an empirical analog of the Preisach weight function which is well defined for magnetic systems that do not necessarily obey the strict conditions imposed by the Preisach model \citep{Mayergoyz1986}. Contour plots of the FORC distribution $\rho$ are called FORC diagrams and have been used increasingly as a proxy for the magnetic domain state and magnetic reversal behaviour of a variety of systems \citep{Pike1999,Pike2001,Roberts2000,Dumas2007,Egli2010,Egli2014,Biasi2016,Proenca2017,Zhao2017}.\par
-Outline of the FORC model. Explain why the choice of 85 field directions on a sector of the sphere based on symmetry arguments. Explain how the fields are obtained with an unstructured mesh over the sector of the sphere. Explain the method of only calculating the FORCs starting on switching fields since all the particles are always SD and mostly rotate reversibly.\par
+
+Calculation of the FORC distribution (Eqn. \ref{forc distribution}) is performed by least-squares fitting of a second degree polynomial surface $M(B_a,B_b)=a_0 + a_1 B_a + a_2 B_b + a_3 B_a B_b + a_4 B_a^2 + a_5 B_b^2 + e$, where $e$ is a collection of error terms, on a subgrid of the magnetisation function $M(B_a,B_b)$ including ($2\times\text{SF}+1$)$^2$ points in the vicinity of $(B_a, B_b)$ as determined by the smoothing factor SF \citep{Pike1999}. If the magnetisation is approximated in this manner, calculation of Eqn. \ref{forc distribution} yields $\rho=-\mu_0^2 a_3 / 2$. Rotated $B_b,B_a$ axes, the so-called coercive field $B_c = (B_b - B_a)/2$ and interaction field $B_u = (B_a + B_b)/2$, respectively, are used for contour plots to produce FORC diagrams.\par
+
+In an ensemble of randomly oriented particles, there are equal probabilities of finding particles with any orientation within an area element of the unit sphere. To simulate a randomly oriented dispersion of identical particles efficiently, it is necessary to obtain a number of applied field directions (equivalently, particle orientations with respect to the applied field) each of them representative of a given area on the unit sphere; additionally all these areas should span the unit sphere or alternatively, in high symmetry particle scenarios, a section of the sphere which can recreate the particle geometry under rotation operations \citep{ValdezGrijalva2017,ValdezGrijalva2018}. Given the symmetry of the model framboidal cluster geometry (Fig. \ref{FIG_01}) it is sufficient to simulate the effects of field orientations on the spherical triangle delimited by $(1, 0, 0), (a, a, a), (0, 0, 1)$, where $a=1/\sqrt{3}$. Then, the spherical triangle is subdivided into roughly equiareal triangle sub-units to obtain 85 triangular cells. The center of each cell represents a field orientation we obtain the FORC response for here. The average of the FORC response for all these orientations is the approximation to the FORC response of the ensemble of randomly oriented framboidal clusters.\par
+
+Since these calculations are computationally intensive, it is important to reduce further the amount of calculations. For each field orientation, the upper branch of the hysteresis loop is calculated. Most of the curve is traced by the sum of reversible motions of the magnetisations in each of the individual particles in the framboid. Therefore, FORCs need only to be calculated for $B_a$ field values for which at least one particle undergoes an irreversible rotation (switching) \citep{ValdezGrijalva2017,ValdezGrijalva2018}. A saturating field $B_{\text{sat}}=250\mT$ and an external field rate of change of 2$\mT$ is used for all calculations. This means that for each field orientation we calculate 251 FORCs to obtain the FORC signal of a given cluster orientation.\par
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{research-4/figs/mesh_orientations_HD.png}
@@ -56,8 +61,10 @@ Outline of the FORC model. Explain why the choice of 85 field directions on a se
 \label{FIG_01}
 \end{figure}
 
-\subsection{Mesh generation}
-Outline of mesh generation. Explain the algorithm to produce arbitrarily large ordered framboidal meshes.\par
+%\subsection{Mesh generation}
+%To generate close-packed arrangements of truncated octahedral particles
+%Truncated octahedral geometry 
+%Outline of mesh generation. Explain the algorithm to produce arbitrarily large ordered framboidal meshes.\par
 
 \section{Results}
 Results section...\par

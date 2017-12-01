@@ -1,4 +1,4 @@
-\begin{thebibliography}{19}
+\begin{thebibliography}{21}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -104,6 +104,18 @@ Roberts, A.~P., Pike, C.~R., Verosub, K.~L., 2000. First-order reversal curve
   diagrams: {A} new tool for characterizing the magnetic properties of natural
   samples. J. Geophys. Res. 105~(B12), 28461--28475.
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2000JB900326}
+
+\bibitem[{Valdez-Grijalva and Muxworthy(2017)}]{ValdezGrijalva2017}
+Valdez-Grijalva, M.~A., Muxworthy, A.~R., 2017. First-order reversal curve
+  ({FORC}) diagrams of nanomagnets with cubic magnetocrystalline anisotropy.
+  Submitted to J. Magn. Magn. Mater.
+
+\bibitem[{Valdez-Grijalva et~al.(2018)Valdez-Grijalva, Muxworthy, Williams,
+  \'O~Conbhu\'i, Nagy, Roberts, and Heslop}]{ValdezGrijalva2018}
+Valdez-Grijalva, M.~A., Muxworthy, A.~R., Williams, W., \'O~Conbhu\'i, P.,
+  Nagy, L., Roberts, A.~P., Heslop, D., 2018. Magnetic vortex effects on
+  first-order reversal curve ({FORC}) diagrams for greigite dispersions.
+  Submitted to Earth Planet. Sc. Lett.
 
 \bibitem[{Zhao et~al.(2017)Zhao, Roberts, Heslop, Paterson, Li, and
   Li}]{Zhao2017}

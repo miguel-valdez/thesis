@@ -37,11 +37,11 @@ Illegal, another \bibdata command---line 84 of file research-3/research-3.aux
  :         {references}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: research-4/research-4.aux
-Illegal, another \bibstyle command---line 63 of file research-4/research-4.aux
+Illegal, another \bibstyle command---line 61 of file research-4/research-4.aux
  : \bibstyle
  :          {elsarticle-harv}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 64 of file research-4/research-4.aux
+Illegal, another \bibdata command---line 62 of file research-4/research-4.aux
  : \bibdata
  :         {references}
 I'm skipping whatever remains of this command
@@ -65,46 +65,47 @@ I'm skipping whatever remains of this command
 Database file #1: references.bib
 Warning--empty journal in OConbhui2017
 Warning--empty journal in ValdezGrijalva2017
+Warning--empty journal in ValdezGrijalva2018
 Warning--empty journal in ValdezGrijalva2017B
-You've used 75 entries,
+You've used 76 entries,
             2821 wiz_defined-function locations,
-            1203 strings with 22009 characters,
-and the built_in function-call counts, 40494 in all, are:
-= -- 4040
-> -- 2431
+            1208 strings with 22274 characters,
+and the built_in function-call counts, 41113 in all, are:
+= -- 4092
+> -- 2490
 < -- 32
-+ -- 924
-- -- 831
-* -- 3902
-:= -- 7345
-add.period$ -- 224
-call.type$ -- 75
-change.case$ -- 656
-chr.to.int$ -- 75
-cite$ -- 78
-duplicate$ -- 1326
-empty$ -- 2473
-format.name$ -- 1069
-if$ -- 7909
++ -- 946
+- -- 852
+* -- 3965
+:= -- 7464
+add.period$ -- 226
+call.type$ -- 76
+change.case$ -- 669
+chr.to.int$ -- 76
+cite$ -- 80
+duplicate$ -- 1344
+empty$ -- 2498
+format.name$ -- 1093
+if$ -- 8022
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 75
-newline$ -- 298
-num.names$ -- 302
-pop$ -- 577
+missing$ -- 76
+newline$ -- 301
+num.names$ -- 306
+pop$ -- 590
 preamble$ -- 1
-purify$ -- 576
+purify$ -- 587
 quote$ -- 0
-skip$ -- 965
+skip$ -- 979
 stack$ -- 0
-substring$ -- 2244
-swap$ -- 168
+substring$ -- 2257
+swap$ -- 170
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 669
-warning$ -- 3
-while$ -- 330
+type$ -- 678
+warning$ -- 4
+while$ -- 333
 width$ -- 0
-write$ -- 892
+write$ -- 902
 (There were 12 error messages)

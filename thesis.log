@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  30 NOV 2017 16:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  1 DEC 2017 19:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1060,27 +1060,27 @@ LaTeX Warning: Label `FIG_09' multiply defined.
 ) (./conclusions/conclusions.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 13.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1146,15 +1146,15 @@ e
 ))
 \symgns@font=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 11.
-Package gensymb Info: Math companion symbols declared on input line 11.
-LaTeX Info: Redefining \degree on input line 11.
-LaTeX Info: Redefining \celsius on input line 11.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 13.
+Package gensymb Info: Math companion symbols declared on input line 13.
+LaTeX Info: Redefining \degree on input line 13.
+LaTeX Info: Redefining \celsius on input line 13.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 11.
-LaTeX Info: Redefining \ohm on input line 11.
-Package gensymb Info: Using \textohm for \ohm on input line 11.
-Package gensymb Info: Using \textmu for \micro on input line 11.
+erthousand on input line 13.
+LaTeX Info: Redefining \ohm on input line 13.
+Package gensymb Info: Using \textohm for \ohm on input line 13.
+Package gensymb Info: Using \textmu for \micro on input line 13.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1168,7 +1168,7 @@ Dictionary: translator-basic-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 )
-LaTeX Info: Redefining \microtypecontext on input line 11.
+LaTeX Info: Redefining \microtypecontext on input line 13.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1187,10 +1187,10 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `upgreek' on line 11.
+. Activating mapping `upgreek' on line 13.
 .................................................
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 11.
+Package hyperref Info: Link coloring OFF on input line 13.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1200,16 +1200,16 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count302
 )
-LaTeX Info: Redefining \ref on input line 11.
-LaTeX Info: Redefining \pageref on input line 11.
-LaTeX Info: Redefining \nameref on input line 11.
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
 
 \c__siunitx_mathsf_int=\count303
-LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+LaTeX Font Info:    Try loading font information for U+msa on input line 13.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1217,7 +1217,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+LaTeX Font Info:    Try loading font information for U+msb on input line 13.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1245,7 +1245,7 @@ Package microtype Info: Loading generic settings for font family
 \openout2 = `pre/declarations.aux'.
 
  (./pre/declarations.tex
-<pre/figs/CC-BY-NC-ND.pdf, id=226, 96.36pt x 33.726pt>
+<pre/figs/CC-BY-NC-ND.pdf, id=222, 96.36pt x 33.726pt>
 File: pre/figs/CC-BY-NC-ND.pdf Graphic file (type pdf)
 
 <use pre/figs/CC-BY-NC-ND.pdf>
@@ -1356,18 +1356,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15
+[15
 
 
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
@@ -1375,9 +1369,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
@@ -1392,16 +1383,13 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [18]
-Underfull \vbox (badness 4726) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19] <research-1/figs/Figure_01.pdf, id=721, 540.45389pt x 355.54906pt>
+[19] <research-1/figs/Figure_01.pdf, id=715, 540.45389pt x 355.54906pt>
 File: research-1/figs/Figure_01.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_01.pdf>
@@ -1422,9 +1410,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [21 <./research-1/figs/Figure_01.pdf>]
-Underfull \vbox (badness 1275) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
@@ -1438,7 +1423,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23] <research-1/figs/Figure_02.pdf, id=790, 539.85693pt x 582.4962pt>
+[23] <research-1/figs/Figure_02.pdf, id=784, 539.85693pt x 582.4962pt>
 File: research-1/figs/Figure_02.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_02.pdf>
@@ -1447,10 +1432,6 @@ Package pdftex.def Info: research-1/figs/Figure_02.pdf used on input line 108.
 
 
 LaTeX Warning: Float too large for page by 17.62106pt on input line 111.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1466,15 +1447,12 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [25 <./research-1/figs/Figure_02.pdf>]
-<research-1/figs/Figure_03.pdf, id=820, 540.43507pt x 494.18225pt>
+<research-1/figs/Figure_03.pdf, id=814, 540.43507pt x 494.18225pt>
 File: research-1/figs/Figure_03.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_03.pdf>
 Package pdftex.def Info: research-1/figs/Figure_03.pdf used on input line 131.
 (pdftex.def)             Requested size: 483.69687pt x 442.31676pt.
-
-Underfull \vbox (badness 1314) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1490,15 +1468,12 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [27 <./research-1/figs/Figure_03.pdf>]
-<research-1/figs/Figure_04.pdf, id=874, 540.5796pt x 432.8973pt>
+<research-1/figs/Figure_04.pdf, id=868, 540.5796pt x 432.8973pt>
 File: research-1/figs/Figure_04.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_04.pdf>
 Package pdftex.def Info: research-1/figs/Figure_04.pdf used on input line 190.
 (pdftex.def)             Requested size: 483.69687pt x 387.3515pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1514,7 +1489,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [29 <./research-1/figs/Figure_04.pdf>]
-<research-1/figs/Figure_05.pdf, id=908, 540.5796pt x 402.54391pt>
+<research-1/figs/Figure_05.pdf, id=902, 540.5796pt x 402.54391pt>
 File: research-1/figs/Figure_05.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_05.pdf>
@@ -1548,7 +1523,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33] <research-1/figs/Figure_06.pdf, id=979, 540.93002pt x 518.30002pt>
+[33] <research-1/figs/Figure_06.pdf, id=973, 540.93002pt x 518.30002pt>
 File: research-1/figs/Figure_06.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_06.pdf>
@@ -1578,7 +1553,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36] <research-1/figs/Figure_07.pdf, id=1016, 540.5796pt x 501.55379pt>
+[36] <research-1/figs/Figure_07.pdf, id=1010, 540.5796pt x 501.55379pt>
 File: research-1/figs/Figure_07.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_07.pdf>
@@ -1594,14 +1569,14 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37] <research-1/figs/Figure_08.pdf, id=1031, 540.93002pt x 499.32pt>
+[37] <research-1/figs/Figure_08.pdf, id=1025, 540.93002pt x 499.32pt>
 File: research-1/figs/Figure_08.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_08.pdf>
 Package pdftex.def Info: research-1/figs/Figure_08.pdf used on input line 300.
 (pdftex.def)             Requested size: 483.69687pt x 446.50388pt.
 
-<research-1/figs/Figure_09.pdf, id=1034, 578.16pt x 433.62pt>
+<research-1/figs/Figure_09.pdf, id=1028, 578.16pt x 433.62pt>
 File: research-1/figs/Figure_09.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_09.pdf>
@@ -1629,9 +1604,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [40 <./research-1/figs/Figure_08.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
@@ -1703,10 +1675,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
 
  (./research-2/research-2.tex
 Chapter 3.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [50
+[50
 
 
 
@@ -1719,9 +1688,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [51]
-Underfull \vbox (badness 3158) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.85004pt.
@@ -1729,24 +1695,18 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [52]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.85004pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53] <research-2/figs/FIG01.pdf, id=1322, 578.16pt x 578.16pt>
+[53] <research-2/figs/FIG01.pdf, id=1315, 578.16pt x 578.16pt>
 File: research-2/figs/FIG01.pdf Graphic file (type pdf)
 
 <use research-2/figs/FIG01.pdf>
 Package pdftex.def Info: research-2/figs/FIG01.pdf used on input line 56.
 (pdftex.def)             Requested size: 483.69687pt x 483.6926pt.
-
-Underfull \vbox (badness 2181) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1762,16 +1722,13 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [55 <./research-2/figs/FIG01.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.85004pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56] <research-2/figs/FIG02.pdf, id=1357, 578.16pt x 289.08pt>
+[56] <research-2/figs/FIG02.pdf, id=1351, 578.16pt x 289.08pt>
 File: research-2/figs/FIG02.pdf Graphic file (type pdf)
 
 <use research-2/figs/FIG02.pdf>
@@ -1784,15 +1741,12 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[57] <research-2/figs/FIG03.pdf, id=1380, 558.88799pt x 350.26859pt>
+[57] <research-2/figs/FIG03.pdf, id=1374, 558.88799pt x 350.26859pt>
 File: research-2/figs/FIG03.pdf Graphic file (type pdf)
 
 <use research-2/figs/FIG03.pdf>
 Package pdftex.def Info: research-2/figs/FIG03.pdf used on input line 114.
 (pdftex.def)             Requested size: 483.69687pt x 303.14919pt.
-
-Underfull \vbox (badness 2671) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1808,15 +1762,12 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [59 <./research-2/figs/FIG03.pdf>]
-<research-2/figs/FIG04.pdf, id=1406, 768.95282pt x 329.55121pt>
+<research-2/figs/FIG04.pdf, id=1400, 768.95282pt x 329.55121pt>
 File: research-2/figs/FIG04.pdf Graphic file (type pdf)
 
 <use research-2/figs/FIG04.pdf>
 Package pdftex.def Info: research-2/figs/FIG04.pdf used on input line 123.
 (pdftex.def)             Requested size: 483.69687pt x 207.30154pt.
-
-Underfull \vbox (badness 4673) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1825,9 +1776,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [60 <./research-2/figs/FIG04.pdf>] (./research-2/research-2.bbl
-Underfull \vbox (badness 4713) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.85004pt.
@@ -1860,10 +1808,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
 
  (./research-3/research-3.tex
 Chapter 4.
-
-Underfull \vbox (badness 2111) has occurred while \output is active []
-
- [65
+[65
 
 
 
@@ -1876,9 +1821,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [66]
-Underfull \vbox (badness 4217) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
@@ -1899,14 +1841,14 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[69] <research-3/figs/FIG_01.pdf, id=1616, 963.6pt x 963.6pt>
+[69] <research-3/figs/FIG_01.pdf, id=1610, 963.6pt x 963.6pt>
 File: research-3/figs/FIG_01.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_01.pdf>
 Package pdftex.def Info: research-3/figs/FIG_01.pdf used on input line 71.
 (pdftex.def)             Requested size: 483.69687pt x 483.69556pt.
 
-<research-3/figs/FIG_02.pdf, id=1632, 771.26541pt x 329.55121pt>
+<research-3/figs/FIG_02.pdf, id=1626, 771.26541pt x 329.55121pt>
 File: research-3/figs/FIG_02.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_02.pdf>
@@ -1927,9 +1869,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [71 <./research-3/figs/FIG_01.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
@@ -1937,22 +1876,19 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [72 <./research-3/figs/FIG_02.pdf>]
-<research-3/figs/FIG_03.pdf, id=1676, 767.94104pt x 664.59492pt>
+<research-3/figs/FIG_03.pdf, id=1670, 767.94104pt x 664.59492pt>
 File: research-3/figs/FIG_03.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_03.pdf>
 Package pdftex.def Info: research-3/figs/FIG_03.pdf used on input line 94.
 (pdftex.def)             Requested size: 483.69687pt x 418.59561pt.
 
-<research-3/figs/FIG_04.pdf, id=1684, 445.18408pt x 607.79195pt>
+<research-3/figs/FIG_04.pdf, id=1678, 445.18408pt x 607.79195pt>
 File: research-3/figs/FIG_04.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_04.pdf>
 Package pdftex.def Info: research-3/figs/FIG_04.pdf used on input line 101.
 (pdftex.def)             Requested size: 483.69687pt x 660.40268pt.
-
-Underfull \vbox (badness 4726) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1975,15 +1911,12 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [75 <./research-3/figs/FIG_04.pdf>]
-<research-3/figs/FIG_05.pdf, id=1716, 925.05597pt x 346.89601pt>
+<research-3/figs/FIG_05.pdf, id=1710, 925.05597pt x 346.89601pt>
 File: research-3/figs/FIG_05.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_05.pdf>
 Package pdftex.def Info: research-3/figs/FIG_05.pdf used on input line 108.
 (pdftex.def)             Requested size: 483.69687pt x 181.38737pt.
-
-Underfull \vbox (badness 5189) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1992,22 +1925,19 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [76 <./research-3/figs/FIG_05.pdf>]
-<research-3/figs/FIG_06.pdf, id=1740, 445.18411pt x 610.68275pt>
+<research-3/figs/FIG_06.pdf, id=1734, 445.18411pt x 610.68275pt>
 File: research-3/figs/FIG_06.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_06.pdf>
 Package pdftex.def Info: research-3/figs/FIG_06.pdf used on input line 117.
 (pdftex.def)             Requested size: 483.69687pt x 663.54372pt.
 
-<research-3/figs/FIG_07.pdf, id=1749, 442.43694pt x 605.33354pt>
+<research-3/figs/FIG_07.pdf, id=1743, 442.43694pt x 605.33354pt>
 File: research-3/figs/FIG_07.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_07.pdf>
 Package pdftex.def Info: research-3/figs/FIG_07.pdf used on input line 126.
 (pdftex.def)             Requested size: 483.69687pt x 661.8233pt.
-
-Underfull \vbox (badness 1990) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2030,15 +1960,12 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [79 <./research-3/figs/FIG_07.pdf>]
-<research-3/figs/FIG_08.pdf, id=1789, 925.05597pt x 346.89601pt>
+<research-3/figs/FIG_08.pdf, id=1782, 925.05597pt x 346.89601pt>
 File: research-3/figs/FIG_08.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_08.pdf>
 Package pdftex.def Info: research-3/figs/FIG_08.pdf used on input line 137.
 (pdftex.def)             Requested size: 483.69687pt x 181.38737pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2047,9 +1974,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [80]
-Underfull \vbox (badness 2460) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
@@ -2057,15 +1981,12 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [81 <./research-3/figs/FIG_08.pdf>]
-<research-3/figs/FIG_09.pdf, id=1838, 909.44565pt x 674.13458pt>
+<research-3/figs/FIG_09.pdf, id=1832, 909.44565pt x 674.13458pt>
 File: research-3/figs/FIG_09.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_09.pdf>
 Package pdftex.def Info: research-3/figs/FIG_09.pdf used on input line 158.
 (pdftex.def)             Requested size: 483.69687pt x 358.54457pt.
-
-Underfull \vbox (badness 1990) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2133,9 +2054,6 @@ Chapter 5.
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
@@ -2156,318 +2074,220 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[93] <research-4/figs/mesh_orientations_HD.png, id=2003, 4015.0pt x 4015.0pt>
+[93]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.05003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[94] <research-4/figs/mesh_orientations_HD.png, id=2025, 4015.0pt x 4015.0pt>
 File: research-4/figs/mesh_orientations_HD.png Graphic file (type png)
 
 <use research-4/figs/mesh_orientations_HD.png>
 Package pdftex.def Info: research-4/figs/mesh_orientations_HD.png used on input
- line 54.
+ line 59.
 (pdftex.def)             Requested size: 483.69687pt x 483.6784pt.
 
-<research-4/figs/BM21_withFORCS.pdf, id=2017, 462.52798pt x 346.89601pt>
+<research-4/figs/BM21_withFORCS.pdf, id=2039, 462.52798pt x 346.89601pt>
 File: research-4/figs/BM21_withFORCS.pdf Graphic file (type pdf)
 
 <use research-4/figs/BM21_withFORCS.pdf>
 Package pdftex.def Info: research-4/figs/BM21_withFORCS.pdf used on input line 
-69.
+76.
 (pdftex.def)             Requested size: 483.69687pt x 362.79063pt.
 
-<research-4/figs/FORC_21_SF4.pdf, id=2018, 462.52798pt x 346.89601pt>
+<research-4/figs/FORC_21_SF4.pdf, id=2040, 462.52798pt x 346.89601pt>
 File: research-4/figs/FORC_21_SF4.pdf Graphic file (type pdf)
 
 <use research-4/figs/FORC_21_SF4.pdf>
-Package pdftex.def Info: research-4/figs/FORC_21_SF4.pdf used on input line 76.
+Package pdftex.def Info: research-4/figs/FORC_21_SF4.pdf used on input line 83.
 
 (pdftex.def)             Requested size: 483.69687pt x 362.79063pt.
 
-<research-4/figs/BM16_withFORCS.pdf, id=2019, 462.52798pt x 346.89601pt>
+<research-4/figs/BM16_withFORCS.pdf, id=2041, 462.52798pt x 346.89601pt>
 File: research-4/figs/BM16_withFORCS.pdf Graphic file (type pdf)
 
 <use research-4/figs/BM16_withFORCS.pdf>
 Package pdftex.def Info: research-4/figs/BM16_withFORCS.pdf used on input line 
-83.
+90.
 (pdftex.def)             Requested size: 483.69687pt x 362.79063pt.
 
-<research-4/figs/FORC_16_SF4.pdf, id=2020, 462.52798pt x 346.89601pt>
+<research-4/figs/FORC_16_SF4.pdf, id=2042, 462.52798pt x 346.89601pt>
 File: research-4/figs/FORC_16_SF4.pdf Graphic file (type pdf)
 
 <use research-4/figs/FORC_16_SF4.pdf>
-Package pdftex.def Info: research-4/figs/FORC_16_SF4.pdf used on input line 90.
+Package pdftex.def Info: research-4/figs/FORC_16_SF4.pdf used on input line 97.
 
 (pdftex.def)             Requested size: 483.69687pt x 362.79063pt.
 
-<research-4/figs/BM14_withFORCS.pdf, id=2021, 462.52798pt x 346.89601pt>
+<research-4/figs/BM14_withFORCS.pdf, id=2043, 462.52798pt x 346.89601pt>
 File: research-4/figs/BM14_withFORCS.pdf Graphic file (type pdf)
 
 <use research-4/figs/BM14_withFORCS.pdf>
 Package pdftex.def Info: research-4/figs/BM14_withFORCS.pdf used on input line 
-97.
+104.
 (pdftex.def)             Requested size: 483.69687pt x 362.79063pt.
 
-<research-4/figs/FORC_14_SF4.pdf, id=2022, 462.52798pt x 346.89601pt>
+<research-4/figs/FORC_14_SF4.pdf, id=2044, 462.52798pt x 346.89601pt>
 File: research-4/figs/FORC_14_SF4.pdf Graphic file (type pdf)
 
 <use research-4/figs/FORC_14_SF4.pdf>
-Package pdftex.def Info: research-4/figs/FORC_14_SF4.pdf used on input line 104
+Package pdftex.def Info: research-4/figs/FORC_14_SF4.pdf used on input line 111
 .
 (pdftex.def)             Requested size: 483.69687pt x 362.79063pt.
 
-<research-4/figs/BM53_withFORCS.pdf, id=2023, 462.52798pt x 346.89601pt>
+<research-4/figs/BM53_withFORCS.pdf, id=2045, 462.52798pt x 346.89601pt>
 File: research-4/figs/BM53_withFORCS.pdf Graphic file (type pdf)
 
 <use research-4/figs/BM53_withFORCS.pdf>
 Package pdftex.def Info: research-4/figs/BM53_withFORCS.pdf used on input line 
-111.
+118.
 (pdftex.def)             Requested size: 483.69687pt x 362.79063pt.
 
-<research-4/figs/FORC_53_SF4.pdf, id=2024, 462.52798pt x 346.89601pt>
+<research-4/figs/FORC_53_SF4.pdf, id=2046, 462.52798pt x 346.89601pt>
 File: research-4/figs/FORC_53_SF4.pdf Graphic file (type pdf)
 
 <use research-4/figs/FORC_53_SF4.pdf>
-Package pdftex.def Info: research-4/figs/FORC_53_SF4.pdf used on input line 118
+Package pdftex.def Info: research-4/figs/FORC_53_SF4.pdf used on input line 125
 .
 (pdftex.def)             Requested size: 483.69687pt x 362.79063pt.
 
-<research-4/figs/BM_fram_avg.pdf, id=2025, 462.52798pt x 346.89601pt>
+<research-4/figs/BM_fram_avg.pdf, id=2047, 462.52798pt x 346.89601pt>
 File: research-4/figs/BM_fram_avg.pdf Graphic file (type pdf)
 
 <use research-4/figs/BM_fram_avg.pdf>
-Package pdftex.def Info: research-4/figs/BM_fram_avg.pdf used on input line 125
+Package pdftex.def Info: research-4/figs/BM_fram_avg.pdf used on input line 132
 .
 (pdftex.def)             Requested size: 483.69687pt x 362.79063pt.
 
-<research-4/figs/FORC_framAVG_SF4.pdf, id=2026, 462.52798pt x 346.89601pt>
+<research-4/figs/FORC_framAVG_SF4.pdf, id=2048, 462.52798pt x 346.89601pt>
 File: research-4/figs/FORC_framAVG_SF4.pdf Graphic file (type pdf)
 
 <use research-4/figs/FORC_framAVG_SF4.pdf>
 Package pdftex.def Info: research-4/figs/FORC_framAVG_SF4.pdf used on input lin
-e 132.
+e 139.
 (pdftex.def)             Requested size: 483.69687pt x 362.79063pt.
 
-<research-4/figs/FORC_framAVG_SF4_mixed_SD_ratio1.pdf, id=2027, 462.52798pt x 3
+<research-4/figs/FORC_framAVG_SF4_mixed_SD_ratio1.pdf, id=2049, 462.52798pt x 3
 46.89601pt>
 File: research-4/figs/FORC_framAVG_SF4_mixed_SD_ratio1.pdf Graphic file (type p
 df)
  <use research-4/figs/FORC_framAVG_SF4_mixed_SD_ratio1.pdf>
 Package pdftex.def Info: research-4/figs/FORC_framAVG_SF4_mixed_SD_ratio1.pdf u
-sed on input line 139.
+sed on input line 146.
 (pdftex.def)             Requested size: 483.69687pt x 362.79063pt.
 
-<research-4/figs/FORC_framAVG_SF4_mixed_vortex_ratio1.pdf, id=2028, 462.52798pt
+<research-4/figs/FORC_framAVG_SF4_mixed_vortex_ratio1.pdf, id=2050, 462.52798pt
  x 346.89601pt>
 File: research-4/figs/FORC_framAVG_SF4_mixed_vortex_ratio1.pdf Graphic file (ty
 pe pdf)
  <use research-4/figs/FORC_framAVG_SF4_mixed_vortex_ratio1.pdf>
 Package pdftex.def Info: research-4/figs/FORC_framAVG_SF4_mixed_vortex_ratio1.p
-df used on input line 146.
+df used on input line 153.
 (pdftex.def)             Requested size: 483.69687pt x 362.79063pt.
 
-<research-4/figs/DayPlot.pdf, id=2029, 462.52798pt x 346.89601pt>
+<research-4/figs/DayPlot.pdf, id=2051, 462.52798pt x 346.89601pt>
 File: research-4/figs/DayPlot.pdf Graphic file (type pdf)
 
 <use research-4/figs/DayPlot.pdf>
-Package pdftex.def Info: research-4/figs/DayPlot.pdf used on input line 153.
+Package pdftex.def Info: research-4/figs/DayPlot.pdf used on input line 160.
 (pdftex.def)             Requested size: 483.69687pt x 362.79063pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[94]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[95 <./research-4/figs/mesh_orientations_HD.png (PNG copy)>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[96 <./research-4/figs/BM21_withFORCS.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[97 <./research-4/figs/FORC_21_SF4.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[98 <./research-4/figs/BM16_withFORCS.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[99 <./research-4/figs/FORC_16_SF4.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[100 <./research-4/figs/BM14_withFORCS.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[101 <./research-4/figs/FORC_14_SF4.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[102 <./research-4/figs/BM53_withFORCS.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[103 <./research-4/figs/FORC_53_SF4.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[104 <./research-4/figs/BM_fram_avg.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[105 <./research-4/figs/FORC_framAVG_SF4.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[106 <./research-4/figs/FORC_framAVG_SF4_mixed_SD_ratio1.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[107 <./research-4/figs/FORC_framAVG_SF4_mixed_vortex_ratio1.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[108 <./research-4/figs/DayPlot.pdf>]
-<research-4/figs/fram_i21_f0_-z.png, id=2578, 3011.25pt x 2008.50375pt>
+<research-4/figs/fram_i21_f0_-z.png, id=2058, 3011.25pt x 2008.50375pt>
 File: research-4/figs/fram_i21_f0_-z.png Graphic file (type png)
 
 <use research-4/figs/fram_i21_f0_-z.png>
 Package pdftex.def Info: research-4/figs/fram_i21_f0_-z.png used on input line 
-162.
+169.
 (pdftex.def)             Requested size: 483.69687pt x 322.6237pt.
 
-<research-4/figs/fram_i21_f0_-z_EHC.png, id=2579, 3011.25pt x 2008.50375pt>
+<research-4/figs/fram_i21_f0_-z_EHC.png, id=2059, 3011.25pt x 2008.50375pt>
 File: research-4/figs/fram_i21_f0_-z_EHC.png Graphic file (type png)
 
 <use research-4/figs/fram_i21_f0_-z_EHC.png>
 Package pdftex.def Info: research-4/figs/fram_i21_f0_-z_EHC.png used on input l
-ine 169.
+ine 176.
 (pdftex.def)             Requested size: 483.69687pt x 322.6237pt.
 
-<research-4/figs/fram_i21_f0_-y.png, id=2580, 3011.25pt x 2008.50375pt>
+<research-4/figs/fram_i21_f0_-y.png, id=2060, 3011.25pt x 2008.50375pt>
 File: research-4/figs/fram_i21_f0_-y.png Graphic file (type png)
 
 <use research-4/figs/fram_i21_f0_-y.png>
 Package pdftex.def Info: research-4/figs/fram_i21_f0_-y.png used on input line 
-176.
+183.
 (pdftex.def)             Requested size: 483.69687pt x 322.6237pt.
 
-<research-4/figs/fram_i21_f0_-y_EHC.png, id=2581, 3011.25pt x 2008.50375pt>
+<research-4/figs/fram_i21_f0_-y_EHC.png, id=2061, 3011.25pt x 2008.50375pt>
 File: research-4/figs/fram_i21_f0_-y_EHC.png Graphic file (type png)
 
 <use research-4/figs/fram_i21_f0_-y_EHC.png>
 Package pdftex.def Info: research-4/figs/fram_i21_f0_-y_EHC.png used on input l
-ine 183.
+ine 190.
 (pdftex.def)             Requested size: 483.69687pt x 322.6237pt.
 
-<research-4/figs/fram_i21_f0_-x.png, id=2582, 3011.25pt x 2008.50375pt>
+<research-4/figs/fram_i21_f0_-x.png, id=2062, 3011.25pt x 2008.50375pt>
 File: research-4/figs/fram_i21_f0_-x.png Graphic file (type png)
 
 <use research-4/figs/fram_i21_f0_-x.png>
 Package pdftex.def Info: research-4/figs/fram_i21_f0_-x.png used on input line 
-190.
+197.
 (pdftex.def)             Requested size: 483.69687pt x 322.6237pt.
 
-<research-4/figs/fram_i21_f0_-x_EHC.png, id=2583, 3011.25pt x 2008.50375pt>
+<research-4/figs/fram_i21_f0_-x_EHC.png, id=2063, 3011.25pt x 2008.50375pt>
 File: research-4/figs/fram_i21_f0_-x_EHC.png Graphic file (type png)
 
 <use research-4/figs/fram_i21_f0_-x_EHC.png>
 Package pdftex.def Info: research-4/figs/fram_i21_f0_-x_EHC.png used on input l
-ine 197.
+ine 204.
 (pdftex.def)             Requested size: 483.69687pt x 322.6237pt.
 
-<research-4/figs/fram_i16_f0_-z.png, id=2584, 3011.25pt x 2008.50375pt>
+<research-4/figs/fram_i16_f0_-z.png, id=2064, 3011.25pt x 2008.50375pt>
 File: research-4/figs/fram_i16_f0_-z.png Graphic file (type png)
 
 <use research-4/figs/fram_i16_f0_-z.png>
 Package pdftex.def Info: research-4/figs/fram_i16_f0_-z.png used on input line 
-204.
+211.
 (pdftex.def)             Requested size: 483.69687pt x 322.6237pt.
 
-<research-4/figs/fram_i16_f0_-z_EHC.png, id=2585, 3011.25pt x 2008.50375pt>
+<research-4/figs/fram_i16_f0_-z_EHC.png, id=2065, 3011.25pt x 2008.50375pt>
 File: research-4/figs/fram_i16_f0_-z_EHC.png Graphic file (type png)
 
 <use research-4/figs/fram_i16_f0_-z_EHC.png>
 Package pdftex.def Info: research-4/figs/fram_i16_f0_-z_EHC.png used on input l
-ine 211.
+ine 218.
 (pdftex.def)             Requested size: 483.69687pt x 322.6237pt.
 
-<research-4/figs/fram_i16_f0_-y.png, id=2586, 3011.25pt x 2008.50375pt>
+<research-4/figs/fram_i16_f0_-y.png, id=2066, 3011.25pt x 2008.50375pt>
 File: research-4/figs/fram_i16_f0_-y.png Graphic file (type png)
 
 <use research-4/figs/fram_i16_f0_-y.png>
 Package pdftex.def Info: research-4/figs/fram_i16_f0_-y.png used on input line 
-218.
+225.
 (pdftex.def)             Requested size: 483.69687pt x 322.6237pt.
 
-<research-4/figs/fram_i16_f0_-y_EHC.png, id=2587, 3011.25pt x 2008.50375pt>
+<research-4/figs/fram_i16_f0_-y_EHC.png, id=2067, 3011.25pt x 2008.50375pt>
 File: research-4/figs/fram_i16_f0_-y_EHC.png Graphic file (type png)
 
 <use research-4/figs/fram_i16_f0_-y_EHC.png>
 Package pdftex.def Info: research-4/figs/fram_i16_f0_-y_EHC.png used on input l
-ine 225.
+ine 232.
 (pdftex.def)             Requested size: 483.69687pt x 322.6237pt.
 
-<research-4/figs/fram_i16_f0_-x.png, id=2588, 3011.25pt x 2008.50375pt>
+<research-4/figs/fram_i16_f0_-x.png, id=2068, 3011.25pt x 2008.50375pt>
 File: research-4/figs/fram_i16_f0_-x.png Graphic file (type png)
 
 <use research-4/figs/fram_i16_f0_-x.png>
 Package pdftex.def Info: research-4/figs/fram_i16_f0_-x.png used on input line 
-232.
+239.
 (pdftex.def)             Requested size: 483.69687pt x 322.6237pt.
 
-<research-4/figs/fram_i16_f0_-x_EHC.png, id=2589, 3011.25pt x 2008.50375pt>
+<research-4/figs/fram_i16_f0_-x_EHC.png, id=2069, 3011.25pt x 2008.50375pt>
 File: research-4/figs/fram_i16_f0_-x_EHC.png Graphic file (type png)
 
 <use research-4/figs/fram_i16_f0_-x_EHC.png>
 Package pdftex.def Info: research-4/figs/fram_i16_f0_-x_EHC.png used on input l
-ine 239.
+ine 246.
 (pdftex.def)             Requested size: 483.69687pt x 322.6237pt.
 
 
@@ -2476,101 +2296,193 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[109 <./research-4/figs/fram_i21_f0_-z.png (PNG copy)>]
+[95]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[110 <./research-4/figs/fram_i21_f0_-z_EHC.png (PNG copy)>]
-(./research-4/research-4.bbl
+[96 <./research-4/figs/mesh_orientations_HD.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[111 <./research-4/figs/fram_i21_f0_-y.png (PNG copy)>]
+[97 <./research-4/figs/BM21_withFORCS.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[112 <./research-4/figs/fram_i21_f0_-y_EHC.png (PNG copy)>]
-Underfull \vbox (badness 1939) has occurred while \output is active []
-
-
+[98 <./research-4/figs/FORC_21_SF4.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[113 <./research-4/figs/fram_i21_f0_-x.png (PNG copy)>]
+[99 <./research-4/figs/BM16_withFORCS.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[114 <./research-4/figs/fram_i21_f0_-x_EHC.png (PNG copy)>]
-Underfull \vbox (badness 1939) has occurred while \output is active []
-
-
+[100 <./research-4/figs/FORC_16_SF4.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[115 <./research-4/figs/fram_i16_f0_-z.png (PNG copy)>]
+[101 <./research-4/figs/BM14_withFORCS.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[116 <./research-4/figs/fram_i16_f0_-z_EHC.png (PNG copy)>]
+[102 <./research-4/figs/FORC_14_SF4.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[117 <./research-4/figs/fram_i16_f0_-y.png (PNG copy)>]
+[103 <./research-4/figs/BM53_withFORCS.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[118 <./research-4/figs/fram_i16_f0_-y_EHC.png (PNG copy)>]
+[104 <./research-4/figs/FORC_53_SF4.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[119 <./research-4/figs/fram_i16_f0_-x.png (PNG copy)>]
+[105 <./research-4/figs/BM_fram_avg.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[120 <./research-4/figs/fram_i16_f0_-x_EHC.png (PNG copy)>]))
+[106 <./research-4/figs/FORC_framAVG_SF4.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[121]
+[107 <./research-4/figs/FORC_framAVG_SF4_mixed_SD_ratio1.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.05003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[108 <./research-4/figs/FORC_framAVG_SF4_mixed_vortex_ratio1.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.05003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[109 <./research-4/figs/DayPlot.pdf>] (./research-4/research-4.bbl
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.05003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[110 <./research-4/figs/fram_i21_f0_-z.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.05003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[111 <./research-4/figs/fram_i21_f0_-z_EHC.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.05003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[112 <./research-4/figs/fram_i21_f0_-y.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.05003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[113 <./research-4/figs/fram_i21_f0_-y_EHC.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.05003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[114 <./research-4/figs/fram_i21_f0_-x.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.05003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[115 <./research-4/figs/fram_i21_f0_-x_EHC.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.05003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[116 <./research-4/figs/fram_i16_f0_-z.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.05003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[117 <./research-4/figs/fram_i16_f0_-z_EHC.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.05003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[118 <./research-4/figs/fram_i16_f0_-y.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.05003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[119 <./research-4/figs/fram_i16_f0_-y_EHC.png (PNG copy)>]))
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.05003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[120 <./research-4/figs/fram_i16_f0_-x.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 27.05003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[121 <./research-4/figs/fram_i16_f0_-x_EHC.png (PNG copy)>]
 \openout2 = `conclusions/conclusions.aux'.
 
- (./conclusions/conclusions.tex
+
+(./conclusions/conclusions.tex
 Chapter 6.
 (./conclusions/conclusions.bbl
 
@@ -2589,30 +2501,30 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
  [124] [125] [126] [127] [128] [129] [130] [131])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
 
 [132]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
  (./thesis.aux (./pre/declarations.aux) (./pre/abstract.aux)
 (./pre/acknowledgements.aux) (./pre/dedication.aux) (./pre/quote.aux)
 (./pre/nomenclature.aux) (./intro/intro.aux) (./research-1/research-1.aux)
 (./research-2/research-2.aux) (./research-3/research-3.aux)
 (./research-4/research-4.aux) (./conclusions/conclusions.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: B9F7BE9EAAA3F186E67795CC97ACB618;3816.
+(rerunfilecheck)             Checksum: 9D5CDFAB84208FA74E6FCB804ECB2875;3747.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  ) 
 Here is how much of TeX's memory you used:
- 25181 strings out of 494953
- 467871 string characters out of 6180977
- 672066 words of memory out of 5000000
- 27352 multiletter control sequences out of 15000+600000
+ 25190 strings out of 494953
+ 468109 string characters out of 6180977
+ 676410 words of memory out of 5000000
+ 27359 multiletter control sequences out of 15000+600000
  37580 words of font info for 187 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  46i,13n,46p,10428b,997s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2632,10 +2544,10 @@ mss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx1
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (132 pages, 55915146 bytes).
+Output written on thesis.pdf (132 pages, 55919177 bytes).
 PDF statistics:
- 3015 PDF objects out of 3580 (max. 8388607)
- 2373 compressed objects within 24 object streams
- 503 named destinations out of 1000 (max. 500000)
- 41645 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 3028 PDF objects out of 3580 (max. 8388607)
+ 2386 compressed objects within 24 object streams
+ 505 named destinations out of 1000 (max. 500000)
+ 41637 words of extra memory for PDF output out of 42996 (max. 10000000)
 
