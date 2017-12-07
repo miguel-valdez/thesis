@@ -61,195 +61,63 @@ Since these calculations are computationally intensive, it is important to reduc
 \label{FIG_01}
 \end{figure}
 
-%\subsection{Mesh generation}
-%To generate close-packed arrangements of truncated octahedral particles
-%Truncated octahedral geometry 
-%Outline of mesh generation. Explain the algorithm to produce arbitrarily large ordered framboidal meshes.\par
-
 \section{Results}
-Results section...\par
-
 \subsection{The FORC diagrams}
-Results of the hysteresis, FORCs and FORC diagrams. Explain here how the hysteresis curves (Figs. \ref{FIG_02}, \ref{FIG_04}, \ref{FIG_06}, \ref{FIG_08}) and FORC diagrams (Figs. \ref{FIG_03}, \ref{FIG_05}, \ref{FIG_07}, \ref{FIG_09}) depend on the field orientation. How the easy, hard axis are preserved in the framboidal structure (as compared to the isolated particles). Explain what the different FORC diagram features mean as switching fields of the individual particles in the framboids. Explain the FORCs (Fig. \ref{FIG_09}) and FORC diagram (Fig. \ref{FIG_10}) of the dispersion (ensemble average). Explain how FORC diagrams for mixtures of framboids and isolated SD particles (Fig. \ref{FIG_11}) and framboids and isolated SV particles (Fig. \ref{FIG_12}) were obtained (simple averages where the framboidal mass and isolated mass are the same). Explain how the framboids and the mixtures plot on the Day plot (Fig. \ref{FIG_14}).\par
+The FORC response is dependent on field orientation with respect to the framboid. When the field is close to the isolated particle easy axis $<$111$>$, the hysteresis response of the framboid is saturated down to $\roughly 50\mT$ (Fig. \ref{FIG_02}a). Complex local interaction fields then cause outer particles to coherently rotate to minimise the stray fields as the field is decreased. All particles in the framboid remain in a SD state throughout the hysteresis and FORCs. The remanent state is a double magnetic super-vortex with a low remanence $\roughly 0.1 \, M_\text{S}$ which is due to the effective magnetic flux-closure brought about by the super-vortex structures.
 \begin{figure}
 \centering
-\includegraphics[width=\textwidth]{research-4/figs/BM21_withFORCS.pdf}
-\caption[FORCs when the field is along an easy axis]{FORCs when the field is along an easy axis}.
+\includegraphics[width=\textwidth]{research-4/figs/forcs_easy_hard.pdf}
+\caption[FORCs when the field is along an easy and a hard axis]{FORCs when the field is along an easy and a hard axis}.
 \label{FIG_02}
 \end{figure}
+\par
 
+The FORC diagram for the easy axis-aligned applied field (Fig. \ref{FIG_02}b) has a positive peak at $B_c\approx 80\mT$ roughly 5$\mT$ above the $B_u=0$ axis. A negative response of comparable magnitude is situated below and to the left of the distribution peak. The positive peak response corresponds to the large upward jumps experienced by the reversal curve starting at the lowest switching field $B_a\approx{-}80\mT$ as it approaches positive saturation (Fig. \ref{FIG_02}a). The negative response is caused by irreversible switching of individual particles in the framboid on FORCs with higher $B_a$ values at $B_b\approx 75 \mT$. Most of the FORC diagram has a noisy appearance due to the complexity of individual particle responses caused by the local interaction fields. However, a large, continuous, positive response close to the $B_c=0$ axis is important as it was found for all field orientations.\par
+
+When the applied field is close to a hard axis, the hysteresis and FORC response is very different. The hysteresis main branches are much more rounded, desaturating via reversible motion and experiencing the first irreversible switchings at roughly 150$\mT$ (Fig. \ref{FIG_02}c) which are much smaller than the jumps for the easy axis-aligned applied field response (Fig. \ref{FIG_02}a). The FORC diagram (Fig. \ref{FIG_02}d) is dominated by signals close to the $B_c=0$ axis.\par
+
+Averaging the response for all 85 field orientations results in a very smooth set of FORCs (Fig. \ref{FIG_03}a). The remanence of the framboid ensemble is $M_\text{RS}/M_\text{S}\approx 0.1$ and the coercivity $B_\text{C}\approx 5\mT$; compare this to the remanence and coercivity of a noninteracting ensemble of isolated SD greigite particles, $M_\text{RS}/M_\text{S}\approx 0.86$ and $B_\text{C}\approx 24\mT$, respectively \citep{ValdezGrijalva2018}. The magnetostatic interactions between the particles in every framboid cause great decreases in the remanence and coercivity. The saturating field for the framboid ensemble is roughly 150$\mT$.
 \begin{figure}
 \centering
-\includegraphics[width=\textwidth]{research-4/figs/FORC_21_SF4.pdf}
-\caption[FORC diagram when the field is along an easy axis]{FORC diagram (SF=4) when the field is along an easy axis.}
+\includegraphics[width=\textwidth]{research-4/figs/forc_avg.pdf}
+\caption[FORCs of the framboid dispersion]{FORCs of the framboid dispersion.}
 \label{FIG_03}
 \end{figure}
+\par
 
+The FORC diagram of the simulated ensemble of framboidal clusters (Fig. \ref{FIG_03}b) is dominated by a large response roughly centered at ($B_c=10\mT,B_u=0$) and two lobes roughly at ($B_c=10\mT,B_u=\pm 40\mT$). These sources are part of a larger, continuous signal roughly in the rectangle defined by coordinates ($B_c=0,B_u={-}60\mT$), ($B_c=20\mT,B_u={-}60\mT$), ($B_c=20\mT,B_u=100\mT$), ($B_c=0,B_u=100\mT$). This is because the set of averaged FORCs are very smooth and do not experience sharp discontinuities on the path tho positive saturation; therefore, the signal is dominated by the differences in magnetisation values along the upper branch that serve as starting points for the FORCs.\par
+
+The negative and smaller positive responses form a noisy region to the right of this rectangle. However, these are only $\roughly 20 {\%}$ the magnitude of the peak response at maximum on some very small regions, and most of it is less than $\roughly 10 {\%}$. The simulated FORC response of an ensemble of randomly aligned greigite framboids (composed of 30$\nm$ particles) is much lower per mass than the response of noninteracting, isolated 30$\nm$ grains: 25.6$\times 10^{{-}9}\,\text{m}^4\text{A}^{{-}1}\text{kg}^{{-}1}$ and 531.6$\times 10^{{-}9}\,\text{m}^4\text{A}^{{-}1}\text{kg}^{{-}1}$ \citep{ValdezGrijalva2018} for the peak responses, respectively.\par
+
+Using the model of \citep{ValdezGrijalva2018} the FORC response of noninteracting ensembles of isolated greigite particles in the size range 30--80$\nm$ is obtained to produce FORC diagrams of mixtures of framboidal greigite and isolated particles in the SD and SV magnetic domain states. FORC diagrams of mixtures of equal mass framboidal and noninteracting SD particles (Fig. \ref{FIG_04}a) and equal mass framboidal and noninteracting SV partices (Fig. \ref{FIG_04}b) are presented. The mixture of framboidal greigite and noninteracting SD particles (Fig. \ref{FIG_04}a) is dominated by the noninteracting SD signal, erasing most of the noisy region while keeping the important framboidal source close to the $B_c=0$ axis.
 \begin{figure}
 \centering
-\includegraphics[width=\textwidth]{research-4/figs/BM16_withFORCS.pdf}
-\caption[FORCs when the field is along a hard axis]{FORCs when the field is along a hard axis.}
+\includegraphics[width=\textwidth]{research-4/figs/forc_mix.pdf}
+\caption[FORCs of a dispersion of framboids and noninteracting SD particles]{FORCs of a dispersion of framboids and noninteracting particles.}
 \label{FIG_04}
 \end{figure}
+\par
 
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/FORC_16_SF4.pdf}
-\caption[FORC diagram when the field is along a hard axis]{FORC diagram (SF=4) when the field is along a hard axis.}
-\label{FIG_05}
-\end{figure}
+When noninteracting SV particles are included (Fig. \ref{FIG_04}b) to the framboid signal, the response is dominated by the SV particles. As with the mixture of SD and framboidal greigite, most of the noisy region disappears on account of it being so faint and there is more complex interactions between the SV and framboidal signals in the region close to the $B_c=0$ axis as this is a region that is also responsive to the SV particles \citep{ValdezGrijalva2018}.\par
 
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/BM14_withFORCS.pdf}
-\caption[FORCs when the field is along a saddle point]{FORCs when the field is along a saddle point.}
-\label{FIG_06}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/FORC_14_SF4.pdf}
-\caption[FORC diagram when the field is along a saddle point]{FORC diagram (SF=4) when the field is along a saddle point.}
-\label{FIG_07}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/BM53_withFORCS.pdf}
-\caption[FORCs when the field is along a direction between easy, hard and saddle directions]{FORCs when the field is along a direction between easy, hard and saddle directions.}
-\label{FIG_08}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/FORC_53_SF4.pdf}
-\caption[FORC diagram when the field is along a direction between easy, hard and saddle directions]{FORC diagram (SF=4) when the field is along a direction between easy, hard and saddle directions.}
-\label{FIG_09}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/BM_fram_avg.pdf}
-\caption[FORCs of the framboid dispersion]{FORCs of the framboid dispersion.}
-\label{FIG_10}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/FORC_framAVG_SF4.pdf}
-\caption[FORC diagram of the framboid dispersion]{FORC diagram (SF=4) of the framboid dispersion.}
-\label{FIG_11}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/FORC_framAVG_SF4_mixed_SD_ratio1.pdf}
-\caption[FORCs of a dispersion of framboids and noninteracting SD particles]{FORCs of a dispersion of framboids and noninteracting particles.}
-\label{FIG_12}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/FORC_framAVG_SF4_mixed_vortex_ratio1.pdf}
-\caption[FORCs of a dispersion of framboids and noninteracting SV particles]{FORCs of a dispersion of framboids and noninteracting SV particles.}
-\label{FIG_13}
-\end{figure}
-
+A scatter plot of the remanence of saturation $M_\text{RS}/M_\text{S}$ against the coercivity of remanence $B_\text{CR}$ to coercivity $B_\text{C}$ ratio, the so-called Day plot \citep{Day1977}, reveals the simulated ensemble of framboidal greigite in a region that is unoccupied by the noninteracting, isolated particles (Fig. \ref{FIG_05}), i.e., a region with a remanence as low as that of ensembles of SV particles $\roughly 80\nm$ but $B_\text{CR}/B_\text{C}$ values that are expected of smaller particles $\roughly 70\nm$ \citep{ValdezGrijalva2018}. Increasing content of SD or SV noninteracting particles have very different effects on the Day plot (Fig. \ref{FIG_05}): increasing the SD content increases the remanence and decreases the $B_\text{CR}/B_\text{C}$ ratio; whereas, increasing the SV content has little effect on the remanence while increasing the $B_\text{CR}/B_\text{C}$ value.\par
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{research-4/figs/DayPlot.pdf}
 \caption[Day plot of framboid and noninteraring particles mixtures]{Day plot of framboid and noninteraring particles mixtures.}
-\label{FIG_14}
+\label{FIG_05}
 \end{figure}
+\par
 
-\subsection{Remanent states}
-The remanent states, micromagnetic solutions and electron holography maps. Explain about the remanent states and how they would appear under electron holography studies. Important to stress how the electron holography maps can be misleading as evidenced by Figs. \ref{FIG_21}, \ref{FIG_22}, \ref{FIG_23}, \ref{FIG_24}, \ref{FIG_25}, \ref{FIG_26} which show either a single-vortex or a two-vortex structure depending on the angle of the beam.\par
+\subsection{Hysteresis of larger particle framboids.}
+Due to memory and time constraints, the FORC response of larger particle framboids was not simulated. However, hysteresis simulations of framboids composed of fifteen, larger $d=76\nm$ particles were carried out for a few selected field orientations. When the applied field is close to the easy axis the main branches remain saturated down to 50$\mT$ (Fig. \ref{FIG_06}), when some particles in the framboid nucleate vortices and change orientation (Fig. \ref{FIG_06}a). The remanent state (Fig. \ref{FIG_06}b) has a super-vortex structure in which most particles are individually in a two-domain state with very clearly defined domain walls (Fig. \ref{FIG_06}b, green). This state is remarkably similar to the easy-aligned SV state exhibited by large >200$\nm$ particles \citep{ValdezGrijalva2017B} with six domains curling around the vortex core. Noninteracting 76$\nm$ particles nucleate vortices \citep{ValdezGrijalva2018}; however, for this field orientation, the innermost particle in the cluster always remains in a SD state due to the internal magnetostatic interactions.
 \begin{figure}
 \centering
-\includegraphics[width=\textwidth]{research-4/figs/fram_i21_f0_-z.png}
-\caption[Remanent state when the field is along an easy axis (view from +Z)]{Remanent state when the field is along an easy axis (view from +Z).}
-\label{FIG_15}
+\includegraphics[width=\textwidth]{research-4/figs/loop21_76nm_annotated.pdf}
+\caption[Hysteresis of a framboid with 76$\nm$ particles]{Hysteresis of a framboid with 76$\nm$ particles.}
+\label{FIG_06}
 \end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/fram_i21_f0_-z_EHC.png}
-\caption[Electron holography map of the remanent state when the field is along an easy axis (view from +Z)]{Electron holography map of the remanent state when the field is along an easy axis (view from +Z).}
-\label{FIG_16}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/fram_i21_f0_-y.png}
-\caption[Remanent state when the field is along an easy axis (view from +Y)]{Remanent state when the field is along an easy axis (view from +Y).}
-\label{FIG_17}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/fram_i21_f0_-y_EHC.png}
-\caption[Electron holography map of the remanent state when the field is along an easy axis (view from +Y)]{Electron holography map of the remanent state when the field is along an easy axis (view from +Y).}
-\label{FIG_18}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/fram_i21_f0_-x.png}
-\caption[Remanent state when the field is along an easy axis (view from +X)]{Remanent state when the field is along an easy axis (view from +X).}
-\label{FIG_19}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/fram_i21_f0_-x_EHC.png}
-\caption[Electron holography map of the remanent state when the field is along an easy axis (view from +X)]{Electron holography map of the remanent state when the field is along an easy axis (view from +X).}
-\label{FIG_20}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/fram_i16_f0_-z.png}
-\caption[Remanent state when the field is along a hard axis (view from +Z)]{Remanent state when the field is along a hard axis (view from +Z).}
-\label{FIG_21}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/fram_i16_f0_-z_EHC.png}
-\caption[Electron holography map of the remanent state when the field is along a hard axis (view from +Z)]{Electron holography map of the remanent state when the field is along a hard axis (view from +Z).}
-\label{FIG_22}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/fram_i16_f0_-y.png}
-\caption[Remanent state when the field is along a hard axis (view from +Y)]{Remanent state when the field is along a hard axis (view from +Y).}
-\label{FIG_23}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/fram_i16_f0_-y_EHC.png}
-\caption[Electron holography map of the remanent state when the field is along a hard axis (view from +Y)]{Electron holography map of the remanent state when the field is along a hard axis (view from +Y).}
-\label{FIG_24}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/fram_i16_f0_-x.png}
-\caption[Remanent state when the field is along a hard axis (view from +X)]{Remanent state when the field is along a hard axis (view from +X).}
-\label{FIG_25}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{research-4/figs/fram_i16_f0_-x_EHC.png}
-\caption[Electron holography map of the remanent state when the field is along a hard axis (view from +X)]{Electron holography map of the remanent state when the field is along a hard axis (view from +X).}
-\label{FIG_26}
-\end{figure}
-
-\subsection{Hysteresis and remanent states of larger particle framboids.}
-I calculated the hysteresis curves of smaller (less particles) framboids with 76$\nm$ particles (which are strictly SV when isolated) for the field directions I showed individual FORC diagrams for earlier in this chapter. I want to show here some of them and the remanent states with electron holography images. I had no time to finish those plots. The particles are not SD anymore, although the innermost particle does seem to remain SD during hysteresis.\par
+\par
 
 \section{Discussion}
 Discussion section...\par
@@ -262,3 +130,92 @@ Conclusion section...\par
 \bibliographystyle{elsarticle-harv}
 \bibliography{references}
 
+%\subsection{Mesh generation}
+%To generate close-packed arrangements of truncated octahedral particles
+%Truncated octahedral geometry 
+%Outline of mesh generation. Explain the algorithm to produce arbitrarily large ordered framboidal meshes.\par
+%\subsection{Remanent states}
+%The remanent states, micromagnetic solutions and electron holography maps. Explain about the remanent states and how they would appear under electron holography studies. Important to stress how the electron holography maps can be misleading as evidenced by Figs. \ref{FIG_21}, \ref{FIG_22}, \ref{FIG_23}, \ref{FIG_24}, \ref{FIG_25}, \ref{FIG_26} which show either a single-vortex or a two-vortex structure depending on the angle of the beam.\par
+%\begin{figure}
+%\centering
+%\includegraphics[width=\textwidth]{research-4/figs/fram_i21_f0_-z.png}
+%\caption[Remanent state when the field is along an easy axis (view from +Z)]{Remanent state when the field is along an easy axis (view from +Z).}
+%\label{FIG_15}
+%\end{figure}
+%
+%\begin{figure}
+%\centering
+%\includegraphics[width=\textwidth]{research-4/figs/fram_i21_f0_-z_EHC.png}
+%\caption[Electron holography map of the remanent state when the field is along an easy axis (view from +Z)]{Electron holography map of the remanent state when the field is along an easy axis (view from +Z).}
+%\label{FIG_16}
+%\end{figure}
+%
+%\begin{figure}
+%\centering
+%\includegraphics[width=\textwidth]{research-4/figs/fram_i21_f0_-y.png}
+%\caption[Remanent state when the field is along an easy axis (view from +Y)]{Remanent state when the field is along an easy axis (view from +Y).}
+%\label{FIG_17}
+%\end{figure}
+%
+%\begin{figure}
+%\centering
+%\includegraphics[width=\textwidth]{research-4/figs/fram_i21_f0_-y_EHC.png}
+%\caption[Electron holography map of the remanent state when the field is along an easy axis (view from +Y)]{Electron holography map of the remanent state when the field is along an easy axis (view from +Y).}
+%\label{FIG_18}
+%\end{figure}
+%
+%\begin{figure}
+%\centering
+%\includegraphics[width=\textwidth]{research-4/figs/fram_i21_f0_-x.png}
+%\caption[Remanent state when the field is along an easy axis (view from +X)]{Remanent state when the field is along an easy axis (view from +X).}
+%\label{FIG_19}
+%\end{figure}
+%
+%\begin{figure}
+%\centering
+%\includegraphics[width=\textwidth]{research-4/figs/fram_i21_f0_-x_EHC.png}
+%\caption[Electron holography map of the remanent state when the field is along an easy axis (view from +X)]{Electron holography map of the remanent state when the field is along an easy axis (view from +X).}
+%\label{FIG_20}
+%\end{figure}
+%
+%\begin{figure}
+%\centering
+%\includegraphics[width=\textwidth]{research-4/figs/fram_i16_f0_-z.png}
+%\caption[Remanent state when the field is along a hard axis (view from +Z)]{Remanent state when the field is along a hard axis (view from +Z).}
+%\label{FIG_21}
+%\end{figure}
+%
+%\begin{figure}
+%\centering
+%\includegraphics[width=\textwidth]{research-4/figs/fram_i16_f0_-z_EHC.png}
+%\caption[Electron holography map of the remanent state when the field is along a hard axis (view from +Z)]{Electron holography map of the remanent state when the field is along a hard axis (view from +Z).}
+%\label{FIG_22}
+%\end{figure}
+%
+%\begin{figure}
+%\centering
+%\includegraphics[width=\textwidth]{research-4/figs/fram_i16_f0_-y.png}
+%\caption[Remanent state when the field is along a hard axis (view from +Y)]{Remanent state when the field is along a hard axis (view from +Y).}
+%\label{FIG_23}
+%\end{figure}
+%
+%\begin{figure}
+%\centering
+%\includegraphics[width=\textwidth]{research-4/figs/fram_i16_f0_-y_EHC.png}
+%\caption[Electron holography map of the remanent state when the field is along a hard axis (view from +Y)]{Electron holography map of the remanent state when the field is along a hard axis (view from +Y).}
+%\label{FIG_24}
+%\end{figure}
+%
+%\begin{figure}
+%\centering
+%\includegraphics[width=\textwidth]{research-4/figs/fram_i16_f0_-x.png}
+%\caption[Remanent state when the field is along a hard axis (view from +X)]{Remanent state when the field is along a hard axis (view from +X).}
+%\label{FIG_25}
+%\end{figure}
+%
+%\begin{figure}
+%\centering
+%\includegraphics[width=\textwidth]{research-4/figs/fram_i16_f0_-x_EHC.png}
+%\caption[Electron holography map of the remanent state when the field is along a hard axis (view from +X)]{Electron holography map of the remanent state when the field is along a hard axis (view from +X).}
+%\label{FIG_26}
+%\end{figure}

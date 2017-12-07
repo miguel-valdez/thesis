@@ -1,4 +1,4 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{22}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -116,6 +116,12 @@ Valdez-Grijalva, M.~A., Muxworthy, A.~R., Williams, W., \'O~Conbhu\'i, P.,
   Nagy, L., Roberts, A.~P., Heslop, D., 2018. Magnetic vortex effects on
   first-order reversal curve ({FORC}) diagrams for greigite dispersions.
   Submitted to Earth Planet. Sc. Lett.
+
+\bibitem[{Valdez-Grijalva et~al.(2017)Valdez-Grijalva, Nagy, Muxworthy,
+  Williams, and Fabian}]{ValdezGrijalva2017B}
+Valdez-Grijalva, M.~A., Nagy, L., Muxworthy, A.~R., Williams, W., Fabian, K.,
+  2017. The magnetic structure and palaeomagnetic recording fidelity of
+  sub-micron greigite ({F}e$_3${S}$_4$). Earth Planet. Sc. Lett, in press.
 
 \bibitem[{Zhao et~al.(2017)Zhao, Roberts, Heslop, Paterson, Li, and
   Li}]{Zhao2017}

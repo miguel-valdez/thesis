@@ -28,6 +28,8 @@
 
   \item [{$d$}]\begingroup Particle size [\si{\metre}]\nomeqref {0}
 		\nompageref{7}
+  \item [{$l_\text{exch}$}]\begingroup Exchange length [\si{\metre}]\nomeqref {0}
+		\nompageref{7}
 
  \nomgroup{D}
 

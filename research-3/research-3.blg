@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: research-3/research-3.aux
 The style file: elsarticle-harv.bst
@@ -8,7 +8,7 @@ Warning--empty journal in ValdezGrijalva2017
 Warning--empty journal in ValdezGrijalva2017B
 You've used 33 entries,
             2821 wiz_defined-function locations,
-            884 strings with 11906 characters,
+            884 strings with 11903 characters,
 and the built_in function-call counts, 17494 in all, are:
 = -- 1746
 > -- 1038
