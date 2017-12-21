@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: research-4/research-4.aux
 The style file: elsarticle-harv.bst
@@ -6,46 +6,45 @@ Database file #1: references.bib
 Warning--empty journal in OConbhui2017
 Warning--empty journal in ValdezGrijalva2017
 Warning--empty journal in ValdezGrijalva2018
-Warning--empty journal in ValdezGrijalva2017B
-You've used 22 entries,
+You've used 29 entries,
             2821 wiz_defined-function locations,
-            798 strings with 9357 characters,
-and the built_in function-call counts, 12000 in all, are:
-= -- 1149
-> -- 808
-< -- 7
-+ -- 305
-- -- 279
-* -- 1161
-:= -- 2211
-add.period$ -- 62
-call.type$ -- 22
-change.case$ -- 205
-chr.to.int$ -- 22
-cite$ -- 26
-duplicate$ -- 388
-empty$ -- 688
-format.name$ -- 351
-if$ -- 2311
-int.to.chr$ -- 1
+            854 strings with 11174 characters,
+and the built_in function-call counts, 15733 in all, are:
+= -- 1527
+> -- 1028
+< -- 9
++ -- 388
+- -- 354
+* -- 1528
+:= -- 2891
+add.period$ -- 84
+call.type$ -- 29
+change.case$ -- 264
+chr.to.int$ -- 28
+cite$ -- 32
+duplicate$ -- 509
+empty$ -- 917
+format.name$ -- 447
+if$ -- 3041
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 24
-newline$ -- 87
-num.names$ -- 88
-pop$ -- 199
+missing$ -- 31
+newline$ -- 116
+num.names$ -- 116
+pop$ -- 248
 preamble$ -- 1
-purify$ -- 181
+purify$ -- 234
 quote$ -- 0
-skip$ -- 286
+skip$ -- 370
 stack$ -- 0
-substring$ -- 552
-swap$ -- 47
+substring$ -- 758
+swap$ -- 63
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 192
-warning$ -- 4
-while$ -- 88
+type$ -- 255
+warning$ -- 3
+while$ -- 119
 width$ -- 0
-write$ -- 254
-(There were 4 warnings)
+write$ -- 340
+(There were 3 warnings)

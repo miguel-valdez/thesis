@@ -1,14 +1,34 @@
 \chapter{Conclusions}
 
-\section{Micromagnetic models and greigite}
+\section{Numerical models and greigite}
+Numerical methods have been employed to answer some open questions about the magnetic properties of rocks containing the ferrimagnetic mineral greigite. Difficulty to produce highly-pure greigite with well-constrained sizes and morphologies as well as its metastability make numerical methods a viable option to study the magnetic properties of this mineral.\par
+
+In this study, the focus has been first on the zero-field magnetic structures and the stability of these against thermal fluctuations (Chapter 2) via micromagnetic methods. This has allowed to determine precisely the SD--PSD threshold for a variety of naturally occurring shapes.\par
+
+A simplified model for hysteresis of SD, coherently rotating particles with cubic MCA has been demonstrated (Chapter 3). This method allows for fast calculations of FORC diagrams for non-interacting ensembles of cubic anisotropic minerals. To the author's knowledge, this simplified model for cubic MCA is the first of type.\par
+
+FORC diagram properties of non-interacting SD and SV particle dispersions have been calculated with a micromagnetic method (Chapter 4). This has allowed for a reinterpretation of the FORC diagram for SV particles. The FORC properties of highly-interacting framboidal greigite dispersions have been calculated with a micromagnetic method (Chapter 5).\par
 
 \subsection{Basic zero-field properties}
+Zero-field structures were found to be highly shape- and size- dependent. The magnetic free-energy of the different domain states like the SD state and the differently aligned SV states was determined as a function of shape and size. A plausible mechanism for a SD--MD transition was identified. This proceeds by the growth of particles in an easy aligned SV state. As the particle grows, the magnetic vortex regions aligned closely with easy axes grow, while the rest of the regions become more domain-wall-like.\par
+
+A nudged elastic-band method was used to determine the energy barriers between the minimal-energy states as a function of particle size and shape. This allowed to determine precisely the SD--PSD threshold $d_0\approx 54 \nm$ and the room-temperature blocking volumes of sub-micron greigite for different shapes. It was found that SD greigite is essentially super-paramagnetic and only larger $d>\roughly$74$\nm$ SV grains can carry stable magnetisations over geological scales.\par
 
 \subsection{Hysteretic and FORC properties}
+The FORC properties of non-interacting dispersions of SD grains with cubic MCA were investigated with a novel algorithm based on energy minimisation of the energy of an idealised SD coherently-rotating particle. The method proposed in this study is fast and as accurate as micromagnetic models of small SD particles for which the effects of non-uniform magnetisations are negligible. Characteristic FORC signals were determined for SD particles with cubic MCA. An tilted, elongated, negative ridge was identified as the magnetic signature of non-interacting SD particles.\par
+
+To go beyond idealised magnetic domain states and reversal mechanisms, a micromagnetic algorithm was used to calculate the FORC properties of non-interacting dispersions of greigite in the SD to SV size range. SV effects and their onset were precisely identified. These are apparent from 50$\nm$, slightly below the zero-field SD--PSD threshold (here calculated to be $d_0\approx 54\nm$) and completely dominant from 76$\nm$. SV particles produce FORC diagrams very different from SD particles. Also, it was shown that the interpretation of the FORC diagram should be domain state-dependent, i.e., FORC diagrams for SD particles provide a coercivity distribution whereas for SV particles, the FORC responses are mostly associated with vortex nucleation and annihilation fields.\par
+
+Since greigite rarely occurs naturally as isolated particles, a micromagnetic algorithm was used to calculate the FORC response of an ensemble of randomly dispersed greigite framboids. The magnetic signature of these framboids was found to be MD-like. Most naturally occurring greigite is found as a fine-grained phase. Therefore, samples known to contain greigite that produce MD-like FORC diagrams should be interpreted as containing framboidal or some other form of strongly interacting greigite.\par
 
 \section{Future work}
+Memory and time constraints imposed by the available computing facilities have restrained some aspects of this investigation. Future studies need to focus on simulations of FORC properties for larger non-interacting grains to determine the onset of MD behaviour. The largest particle size studied here was 80$\nm$. Based on extrapolations, it is possible that already at $\roughly$90$\nm$ the $B_\text{CR}/B_\text{C}$ ratio is as large as 4 and $M_\text{RS}/M_\text{S}$ as low as 0.05; this would be a Day plot region commonly identified as MD (for uniaxial particles). This would lend more credibility to the theory of MD formation elaborated in this study, i.e., SV particles are essentially MD.\par
+
+Larger grains in larger framboids (composed of more particles) also need more investigation. However, it is most likely that their FORC responses will be even more MD-like. If a framboid composed of particles as small as 30$\nm$ produces MD-like signals, it is logical to expect larger grains to produce MD-like signals. Perhaps it will be of greater interest to attempt nudged elastic-band studies of framboidal greigite and determine their ability as a palaeomagnetic recorder. Also, it would be very illuminating to include nudged elastic-band calculations to hysteresis and FORC simulations to obtain temperature-dependent properties.\par
+
+The studies presented here and these further avenues for research could eventually be integrated to magnetic hydrocarbon explorations. Current research suggests that hydrocarbon migration produces more iron sulphides while depleting the iron oxide content of the host rocks. Therefore, a robust proxy for identifying iron sulphides via bulk rock magnetic measurements could prove a very valuable tool in the search for hydrocarbons as this non-renewable source becomes ever scarcer.\par
 
 %----------------------------------
-\renewcommand\bibname{{References}}
-\bibliographystyle{elsarticle-harv}
-\bibliography{references}
+%\renewcommand\bibname{{References}}
+%\bibliographystyle{elsarticle-harv}
+%\bibliography{references}

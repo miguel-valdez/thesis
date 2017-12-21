@@ -47,12 +47,14 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Framboidal mesh and field orientations}}{95}{figure.caption.36}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces FORCs when the field is along an easy and a hard axis}}{96}{figure.caption.37}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces FORCs of the framboid dispersion}}{97}{figure.caption.38}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces FORCs of a dispersion of framboids and noninteracting SD particles}}{98}{figure.caption.39}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Day plot of framboid and noninteraring particles mixtures}}{99}{figure.caption.40}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Hysteresis of a framboid with 76$\nm $ particles}}{100}{figure.caption.41}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces SEM micrographs of framboidal greigite}}{90}{figure.caption.36}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Framboidal mesh and field orientations}}{95}{figure.caption.37}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces FORCs for fields along an easy and a hard axis}}{97}{figure.caption.38}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Framboid remanent super-vortex states}}{98}{figure.caption.39}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces FORCs of the framboid dispersion}}{99}{figure.caption.40}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces FORCs of a dispersion of framboids and non-interacting particles}}{100}{figure.caption.41}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Day plot of framboid and noninteraring particles mixtures}}{101}{figure.caption.42}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Hysteresis of a framboid with 76$\nm $ particles}}{103}{figure.caption.43}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-12}
 \addvspace {10\p@ }

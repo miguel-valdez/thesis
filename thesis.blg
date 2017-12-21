@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: pre/declarations.aux
@@ -37,23 +37,15 @@ Illegal, another \bibdata command---line 84 of file research-3/research-3.aux
  :         {references}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: research-4/research-4.aux
-Illegal, another \bibstyle command---line 53 of file research-4/research-4.aux
+Illegal, another \bibstyle command---line 78 of file research-4/research-4.aux
  : \bibstyle
  :          {elsarticle-harv}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 54 of file research-4/research-4.aux
+Illegal, another \bibdata command---line 79 of file research-4/research-4.aux
  : \bibdata
  :         {references}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: conclusions/conclusions.aux
-Illegal, another \bibstyle command---line 3 of file conclusions/conclusions.aux
- : \bibstyle
- :          {elsarticle-harv}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 4 of file conclusions/conclusions.aux
- : \bibdata
- :         {references}
-I'm skipping whatever remains of this command
 Illegal, another \bibstyle command---line 60 of file thesis.aux
  : \bibstyle
  :          {elsarticle-harv}
@@ -66,46 +58,45 @@ Database file #1: references.bib
 Warning--empty journal in OConbhui2017
 Warning--empty journal in ValdezGrijalva2017
 Warning--empty journal in ValdezGrijalva2018
-Warning--empty journal in ValdezGrijalva2017B
-You've used 76 entries,
+You've used 78 entries,
             2821 wiz_defined-function locations,
-            1209 strings with 22309 characters,
-and the built_in function-call counts, 41113 in all, are:
-= -- 4092
-> -- 2490
+            1223 strings with 22720 characters,
+and the built_in function-call counts, 42240 in all, are:
+= -- 4209
+> -- 2552
 < -- 32
-+ -- 946
-- -- 852
-* -- 3965
-:= -- 7464
-add.period$ -- 226
-call.type$ -- 76
-change.case$ -- 669
-chr.to.int$ -- 76
-cite$ -- 80
-duplicate$ -- 1344
-empty$ -- 2498
-format.name$ -- 1093
-if$ -- 8022
-int.to.chr$ -- 1
++ -- 970
+- -- 873
+* -- 4081
+:= -- 7665
+add.period$ -- 233
+call.type$ -- 78
+change.case$ -- 685
+chr.to.int$ -- 77
+cite$ -- 81
+duplicate$ -- 1379
+empty$ -- 2570
+format.name$ -- 1120
+if$ -- 8244
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 76
-newline$ -- 301
-num.names$ -- 306
-pop$ -- 590
+missing$ -- 78
+newline$ -- 310
+num.names$ -- 314
+pop$ -- 603
 preamble$ -- 1
-purify$ -- 587
+purify$ -- 602
 quote$ -- 0
-skip$ -- 979
+skip$ -- 999
 stack$ -- 0
-substring$ -- 2257
-swap$ -- 170
+substring$ -- 2333
+swap$ -- 176
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 678
-warning$ -- 4
-while$ -- 333
+type$ -- 696
+warning$ -- 3
+while$ -- 343
 width$ -- 0
-write$ -- 902
-(There were 12 error messages)
+write$ -- 928
+(There were 10 error messages)

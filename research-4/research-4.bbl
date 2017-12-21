@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{29}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -40,6 +40,13 @@ Egli, R., Winklhofer, M., 2014. Recent developments on processing and
   interpretation aspects of first-order reversal curves ({FORC}). Proc. Kazan
   U. Nat. Sc. 156~(1).
 
+\bibitem[{Evans et~al.(2006)Evans, Kr{\'a}sa, Williams, and
+  Winklhofer}]{Evans2006}
+Evans, M.~E., Kr{\'a}sa, D., Williams, W., Winklhofer, M., 2006. Magnetostatic
+  interactions a natural magnetite-ulv{\:o}spinel system. J. Geophys. Res.
+  111~(B1 2).
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2006JB004454}
+
 \bibitem[{Fischbacher et~al.(2017)Fischbacher, Kovacs, Oezelt, Schrefl, Exl,
   Fidler, Suess, Sakuma, Yano, Kato, Shoji, and Manabe}]{Fischbacher2017}
 Fischbacher, J., Kovacs, A., Oezelt, H., Schrefl, T., Exl, L., Fidler, J.,
@@ -52,6 +59,13 @@ Fischbacher, J., Kovacs, A., Oezelt, H., Schrefl, T., Exl, L., Fidler, J.,
 Fredkin, D.~R., Koehler, T.~R., 1990. Hybrid method for computing demagnetizing
   fields. IEEE T. Magn. 26~(2), 415--417.
 \newline\urlprefix\url{https://dx.doi.org/10.1109/20.106342}
+
+\bibitem[{Harrison et~al.(2002)Harrison, Dunin-Borkowski, and
+  Putnis}]{Harrison2002}
+Harrison, R.~J., Dunin-Borkowski, R.~E., Putnis, A., 2002. Direct imaging of
+  nanoscale magnetic interactions in minerals. P. Natl. Acad. Sci. USA 99~(26),
+  16556--16561.
+\newline\urlprefix\url{https://dx.doi.org/10.1073/pnas.262514499}
 
 \bibitem[{Landau and Lifshitz(1935)}]{Landau1935}
 Landau, L.~D., Lifshitz, E., 1935. On the theory of the dispersion of magnetic
@@ -99,29 +113,66 @@ Roberts, A.~P., Almeida, T.~P., Church, N.~S., Harrison, R.~J., Helsop, D., Li,
   origin of pseudo-single domain magnetic behavior. J. Geophys. Res.
 \newline\urlprefix\url{https://dx.doi.org/10.1002/2017JB014860}
 
+\bibitem[{Roberts et~al.(2011)Roberts, Chang, Rowan, Horng, and
+  Florindo}]{Roberts2011}
+Roberts, A.~P., Chang, L., Rowan, C.~J., Horng, C.~S., Florindo, F., 2011.
+  Magnetic properties of sedimentary greigite ({F}e$_3${S}$_4$): An update.
+  Rev. Geophys. 49~(1).
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2010RG000336}
+
+\bibitem[{Roberts et~al.(2006)Roberts, Liu, Rowan, Chang, Carvallo, Torrent,
+  and Horng}]{Roberts2006}
+Roberts, A.~P., Liu, Q., Rowan, C.~J., Chang, L., Carvallo, C., Torrent, J.,
+  Horng, C., 2006. Characterization of hematite ($\alpha$-{Fe$_2$O$_3$}),
+  goethite ($\alpha$-{FeOOH}), greigite ({Fe$_3$S$_4$}), and pyrrhotite
+  ({Fe$_7$S$_8$}) using first-order reversal curve diagrams. J. Geophys. Res.
+  111~(B12).
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2006JB004715}
+
 \bibitem[{Roberts et~al.(2000)Roberts, Pike, and Verosub}]{Roberts2000}
 Roberts, A.~P., Pike, C.~R., Verosub, K.~L., 2000. First-order reversal curve
   diagrams: {A} new tool for characterizing the magnetic properties of natural
   samples. J. Geophys. Res. 105~(B12), 28461--28475.
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2000JB900326}
 
+\bibitem[{Rowan and Roberts(2006)}]{Rowan2006}
+Rowan, C.~J., Roberts, A.~P., 2006. Magnetite dissolution, diachronous greigite
+  formation, and secondary magnetizations from pyrite oxidation: {U}nravelling
+  complex magnetizations in {N}eogene marine sediments from {N}ew {Z}ealand.
+  Earth Planet. Sci. Lett. 241~(1), 119--137.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.epsl.2005.10.017}
+
+\bibitem[{Rowan et~al.(2009)Rowan, Roberts, and Broadbent}]{Rowan2009}
+Rowan, C.~J., Roberts, A.~P., Broadbent, T., 2009. Reductive diagenesis,
+  magnetite dissolution, greigite growth and paleomagnetic smoothing in marine
+  sediments: {A} new view. Earth Planet. Sci. Lett. 277~(1), 223--235.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.epsl.2008.10.016}
+
+\bibitem[{Snowball(1997)}]{Snowball1997}
+Snowball, I.~F., 1997. Gyroremanent magnetization and the magnetic properties
+  of greigite-bearing clays in southern {S}weden. Geophys. J. Int. 129~(3),
+  624--636.
+\newline\urlprefix\url{https://dx.doi.org/10.1111/j.1365-246X.1997.tb04498.x}
+
 \bibitem[{Valdez-Grijalva and Muxworthy(2017)}]{ValdezGrijalva2017}
 Valdez-Grijalva, M.~A., Muxworthy, A.~R., 2017. First-order reversal curve
   ({FORC}) diagrams of nanomagnets with cubic magnetocrystalline anisotropy.
   Submitted to J. Magn. Magn. Mater.
 
-\bibitem[{Valdez-Grijalva et~al.(2018)Valdez-Grijalva, Muxworthy, Williams,
-  \'O~Conbhu\'i, Nagy, Roberts, and Heslop}]{ValdezGrijalva2018}
+\bibitem[{Valdez-Grijalva et~al.(2018{\natexlab{a}})Valdez-Grijalva, Muxworthy,
+  Williams, \'O~Conbhu\'i, Nagy, Roberts, and Heslop}]{ValdezGrijalva2018}
 Valdez-Grijalva, M.~A., Muxworthy, A.~R., Williams, W., \'O~Conbhu\'i, P.,
-  Nagy, L., Roberts, A.~P., Heslop, D., 2018. Magnetic vortex effects on
-  first-order reversal curve ({FORC}) diagrams for greigite dispersions.
-  Submitted to Earth Planet. Sc. Lett.
+  Nagy, L., Roberts, A.~P., Heslop, D., 2018{\natexlab{a}}. Magnetic vortex
+  effects on first-order reversal curve ({FORC}) diagrams for greigite
+  dispersions. Submitted to Earth Planet. Sci. Lett.
 
-\bibitem[{Valdez-Grijalva et~al.(2017)Valdez-Grijalva, Nagy, Muxworthy,
-  Williams, and Fabian}]{ValdezGrijalva2017B}
+\bibitem[{Valdez-Grijalva et~al.(2018{\natexlab{b}})Valdez-Grijalva, Nagy,
+  Muxworthy, Williams, and Fabian}]{ValdezGrijalva2017B}
 Valdez-Grijalva, M.~A., Nagy, L., Muxworthy, A.~R., Williams, W., Fabian, K.,
-  2017. The magnetic structure and palaeomagnetic recording fidelity of
-  sub-micron greigite ({F}e$_3${S}$_4$). Earth Planet. Sc. Lett, in press.
+  2018{\natexlab{b}}. The magnetic structure and palaeomagnetic recording
+  fidelity of sub-micron greigite ({F}e$_3${S}$_4$). Earth Planet. Sci. Lett.
+  483, 76--89.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.epsl.2017.12.015}
 
 \bibitem[{Zhao et~al.(2017)Zhao, Roberts, Heslop, Paterson, Li, and
   Li}]{Zhao2017}

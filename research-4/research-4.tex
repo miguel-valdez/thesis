@@ -2,10 +2,22 @@
 \label{ch:res-4}
 
 \section*{Abstract}
-In this chapter...\par
+First-order reversal curve (FORC) diagrams are an increasingly used technique in rock magnetism that has the potential to identify magnetic domain state and magnetostatic inter-particle interactions. The hysteresis and FORC properties of non-interacting dispersions of greigite in the single-domain (SD) to single-vortex (SV) size range is well studied. However, most greigite occurs as highly interacting clusters. In this chapter, a micromagnetic method is used to study the FORC response of a simulated ensemble of highly interacting, close-packed greigite framboids. The magnetic signature of framboidal greigite is found to be very similar to that of multi-domain (MD) particles. Identification of MD-like FORC signals in samples known to contain greigite should be interpreted as produced by framboidal greigite.
 
 \section{Introduction}
-Introduction goes here...\par
+Greigite (Fe$_3$S$_4$) is a ferrimagnetic mineral found with an authigenic origin in sediments \citep{Roberts2011}. It is most commonly found as highly interacting, close-packed clusters called framboids \citep{Rowan2006,Rowan2009,Roberts2011} (Fig. \ref{FIG_00}).
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{research-4/figs/framboids_rowan.pdf}
+\caption[SEM micrographs of framboidal greigite]{SEM micrographs of framboidal greigite (after \citet{Rowan2009}). Greigite grows authigenically in sediments as close-packed clusters (G).}
+\label{FIG_00}
+\end{figure}\par
+
+The zero-field magnetic structure and stability properties of isolated greigite have been the subject of previous numerical studies \citep{ValdezGrijalva2017B}. There have also been numerical simulations of the hysteresis and first-order reversal curve (FORC) properties of isolated single-domain (SD) grain \citep{ValdezGrijalva2017} and single-vortex (SV) grain \citep{ValdezGrijalva2018} dispersions. However, the FORC properties of highly interacting ensembles of greigite is yet poorly understood.\par
+
+In this chapter, a numerical micromagnetic finite element method (FEM) is employed to calculate the FORC response of a simulated ensemble of framboidal greigite composed of highly interacting, close-packed, 30$\nm$ grains. At this size, these grains are SD in the non-interacing case \citep{ValdezGrijalva2017B} and produce FORC signals charactersitic of SD grains with cubic magnetocrystalline anisotropy (MCA) \citep{ValdezGrijalva2017,ValdezGrijalva2018}.\par
+
+Truncated-octahedral particles are chosen as the model geometry because they are a common morphology for authigenic greigite \citep{Snowball1997,Roberts2011}. Also, truncated-octahedral solids can tessellate 3D space (the bitruncated cubic honeycomb) and thus can produce the close-packed geometries observed in framboidal greigite. Touching grains are problematic to model as the exchange forces between particles are not well understood. Framboidal geometries with small gaps between the particles are used, instead. Therefore, these are a model of particles with partially altered surfaces that screen the potential exchange forces between the particles.\par
 
 \section{Methodology}
 \subsection{The micromagnetic method}
@@ -51,28 +63,34 @@ The FORC distribution is an empirical analog of the Preisach weight function whi
 
 Calculation of the FORC distribution (Eqn. \ref{forc distribution}) is performed by least-squares fitting of a second degree polynomial surface $M(B_a,B_b)=a_0 + a_1 B_a + a_2 B_b + a_3 B_a B_b + a_4 B_a^2 + a_5 B_b^2 + e$, where $e$ is a collection of error terms, on a subgrid of the magnetisation function $M(B_a,B_b)$ including ($2\times\text{SF}+1$)$^2$ points in the vicinity of $(B_a, B_b)$ as determined by the smoothing factor SF \citep{Pike1999}. If the magnetisation is approximated in this manner, calculation of Eqn. \ref{forc distribution} yields $\rho=-\mu_0^2 a_3 / 2$. Rotated $B_b,B_a$ axes, the so-called coercive field $B_c = (B_b - B_a)/2$ and interaction field $B_u = (B_a + B_b)/2$, respectively, are used for contour plots to produce FORC diagrams.\par
 
-In an ensemble of randomly oriented particles, there are equal probabilities of finding particles with any orientation within an area element of the unit sphere. To simulate a randomly oriented dispersion of identical particles efficiently, it is necessary to obtain a number of applied field directions (equivalently, particle orientations with respect to the applied field) each of them representative of a given area on the unit sphere; additionally all these areas should span the unit sphere or alternatively, in high symmetry particle scenarios, a section of the sphere which can recreate the particle geometry under rotation operations \citep{ValdezGrijalva2017,ValdezGrijalva2018}. Given the symmetry of the model framboidal cluster geometry (Fig. \ref{FIG_01}) it is sufficient to simulate the effects of field orientations on the spherical triangle delimited by $(1, 0, 0), (a, a, a), (0, 0, 1)$, where $a=1/\sqrt{3}$. Then, the spherical triangle is subdivided into roughly equiareal triangle sub-units to obtain 85 triangular cells. The center of each cell represents a field orientation we obtain the FORC response for here. The average of the FORC response for all these orientations is the approximation to the FORC response of the ensemble of randomly oriented framboidal clusters.\par
-
-Since these calculations are computationally intensive, it is important to reduce further the amount of calculations. For each field orientation, the upper branch of the hysteresis loop is calculated. Most of the curve is traced by the sum of reversible motions of the magnetisations in each of the individual particles in the framboid. Therefore, FORCs need only to be calculated for $B_a$ field values for which at least one particle undergoes an irreversible rotation (switching) \citep{ValdezGrijalva2017,ValdezGrijalva2018}. A saturating field $B_{\text{sat}}=250\mT$ and an external field rate of change of 2$\mT$ is used for all calculations. This means that for each field orientation we calculate 251 FORCs to obtain the FORC signal of a given cluster orientation.\par
+In an ensemble of randomly oriented particles, there are equal probabilities of finding particles with any orientation within an area element of the unit sphere. To simulate a randomly oriented dispersion of identical particles efficiently, it is necessary to obtain a number of applied field directions (equivalently, particle orientations with respect to the applied field) each of them representative of a given area on the unit sphere; additionally all these areas should span the unit sphere or alternatively, in high symmetry particle scenarios, a section of the sphere which can recreate the particle geometry under rotation operations \citep{ValdezGrijalva2017,ValdezGrijalva2018}. Given the symmetry of the model framboidal cluster geometry (Fig. \ref{FIG_01}) it is sufficient to simulate the effects of field orientations on the spherical triangle delimited by $(1, 0, 0), (a, a, a), (0, 0, 1)$, where $a=1/\sqrt{3}$. Then, the spherical triangle is subdivided into roughly equiareal triangle sub-units to obtain 85 triangular cells. The center of each cell represents a field orientation we obtain the FORC response for here. The average of the FORC response for all these orientations is the approximation to the FORC response of the ensemble of randomly oriented framboidal clusters.
 \begin{figure}
 \centering
-\includegraphics[width=\textwidth]{research-4/figs/mesh_orientations_HD.png}
-\caption[Framboidal mesh and field orientations]{Framboidal mesh and field orientations.}
+\includegraphics[width=0.6\textwidth]{research-4/figs/mesh_orientations_HD.png}
+\caption[Framboidal mesh and field orientations]{Framboidal mesh and field orientations. Field orientations are obtained from a triangular mesh over the spherical triangle delimited by $(1, 0, 0), (a, a, a), (0, 0, 1)$, where $a=1/\sqrt{3}$. Given the symmetry of the cluster, this region contains all field orientations of interest. The framboid contains 65 truncated octahedral particles each with size $d=30\nm$. The mall gap between the particles is $\roughly$2$\nm$.}
 \label{FIG_01}
-\end{figure}
+\end{figure}\par
+
+Since these calculations are computationally intensive, it is important to reduce further the amount of calculations. For each field orientation, the upper branch of the hysteresis loop is calculated. Most of the curve is traced by the sum of reversible motions of the magnetisations in each of the individual particles in the framboid. Therefore, FORCs need only to be calculated for $B_a$ field values for which at least one particle undergoes an irreversible rotation (switching) \citep{ValdezGrijalva2017,ValdezGrijalva2018}. A saturating field $B_{\text{sat}}=250\mT$ and an external field rate of change of 2$\mT$ is used for all calculations. This means that for each field orientation we calculate 251 FORCs to obtain the FORC signal of a given cluster orientation.\par
 
 \section{Results}
-\subsection{The FORC diagrams}
-The FORC response is dependent on field orientation with respect to the framboid. When the field is close to the isolated particle easy axis $<$111$>$, the hysteresis response of the framboid is saturated down to $\roughly 50\mT$ (Fig. \ref{FIG_02}a). Complex local interaction fields then cause outer particles to coherently rotate to minimise the stray fields as the field is decreased. All particles in the framboid remain in a SD state throughout the hysteresis and FORCs. The remanent state is a double magnetic super-vortex with a low remanence $\roughly 0.1 \, M_\text{S}$ which is due to the effective magnetic flux-closure brought about by the super-vortex structures.
+\subsection{The FORC response of framboidal greigite}
+The FORC response is dependent on field orientation with respect to the framboid. When the field is close to the isolated particle easy axis $<$111$>$, the hysteresis response of the framboid is saturated down to $\roughly 50\mT$ (Fig. \ref{FIG_02}a). Complex local interaction fields then cause outer particles to coherently rotate to minimise the stray fields as the field is decreased. All particles in the framboid remain in a SD state throughout the hysteresis and FORCs. The remanent state is a double magnetic super-vortex with a low remanence $\roughly 0.1 \, M_\text{S}$ which is due to the effective magnetic flux-closure brought about by the super-vortex \citep{Harrison2002,Evans2006} structures (Fig. \ref{FIG_rem}).
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{research-4/figs/forcs_easy_hard.pdf}
-\caption[FORCs when the field is along an easy and a hard axis]{FORCs when the field is along an easy and a hard axis}.
+\caption[FORCs for fields along an easy and a hard axis]{FORCs for fields along an easy (a, b) and a hard (c, d) axis. When the field is aligned close to an easy axis, there is a peak FORC response on the $B_u=0$ axis at $B_c\approx 80\mT$ (b). For fields close to the hard axis, the FORC response has a peak for $B_c\approx 10\mT$ (d).}
 \label{FIG_02}
 \end{figure}
 \par
 
-The FORC diagram for the easy axis-aligned applied field (Fig. \ref{FIG_02}b) has a positive peak at $B_c\approx 80\mT$ roughly 5$\mT$ above the $B_u=0$ axis. A negative response of comparable magnitude is situated below and to the left of the distribution peak. The positive peak response corresponds to the large upward jumps experienced by the reversal curve starting at the lowest switching field $B_a\approx{-}80\mT$ as it approaches positive saturation (Fig. \ref{FIG_02}a). The negative response is caused by irreversible switching of individual particles in the framboid on FORCs with higher $B_a$ values at $B_b\approx 75 \mT$. Most of the FORC diagram has a noisy appearance due to the complexity of individual particle responses caused by the local interaction fields. However, a large, continuous, positive response close to the $B_c=0$ axis is important as it was found for all field orientations.\par
+The FORC diagram for the easy axis-aligned applied field (Fig. \ref{FIG_02}b) has a positive peak at $B_c\approx 80\mT$ roughly 5$\mT$ above the $B_u=0$ axis. A negative response of comparable magnitude is situated below and to the left of the distribution peak. The positive peak response corresponds to the large upward jumps experienced by the reversal curve starting at the lowest switching field $B_a\approx{-}80\mT$ as it approaches positive saturation (Fig. \ref{FIG_02}a). The negative response is caused by irreversible switching of individual particles in the framboid on FORCs with higher $B_a$ values at $B_b\approx 75 \mT$. Most of the FORC diagram has a noisy appearance due to the complexity of individual particle responses caused by the local interaction fields. However, a large, continuous, positive response close to the $B_c=0$ axis is important as it was found for all field orientations.
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{research-4/figs/remanent_supervortex.pdf}
+\caption[Framboid remanent super-vortex states]{Framboid remanent super-vortex states. Super-vortex structures are the remanent state for all field orientations. Shown here: (a) field close to an easy axis; (b) field close to a hard axis; (c) field close to a saddle point; (d) field close to an intermediate direction between the easy, hard and saddle point directions. The net magnetic moment of the ensemble is $\roughly 12^{\circ}$ from the applied field.}
+\label{FIG_rem}
+\end{figure}\par
 
 When the applied field is close to a hard axis, the hysteresis and FORC response is very different. The hysteresis main branches are much more rounded, desaturating via reversible motion and experiencing the first irreversible switchings at roughly 150$\mT$ (Fig. \ref{FIG_02}c) which are much smaller than the jumps for the easy axis-aligned applied field response (Fig. \ref{FIG_02}a). The FORC diagram (Fig. \ref{FIG_02}d) is dominated by signals close to the $B_c=0$ axis.\par
 
@@ -80,7 +98,7 @@ Averaging the response for all 85 field orientations results in a very smooth se
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{research-4/figs/forc_avg.pdf}
-\caption[FORCs of the framboid dispersion]{FORCs of the framboid dispersion.}
+\caption[FORCs of the framboid dispersion]{FORCs of the framboid dispersion. Averaging over the 85 field directions, the raw hysteresis/FORCs are smooth (a). The FORC response (b) is MD-like.}
 \label{FIG_03}
 \end{figure}
 \par
@@ -93,7 +111,7 @@ Using the model of \citep{ValdezGrijalva2018} the FORC response of noninteractin
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{research-4/figs/forc_mix.pdf}
-\caption[FORCs of a dispersion of framboids and noninteracting SD particles]{FORCs of a dispersion of framboids and noninteracting particles.}
+\caption[FORCs of a dispersion of framboids and non-interacting particles]{FORCs of a dispersion of equal-mass framboids and non-interacting SD (a) and SV (b) particles. The signal is dominated by the non-interacting particles because the framboid signal is weaker per mass. The framboid signal is seen, however, as it occupies regions the non-interacting particles do not.}
 \label{FIG_04}
 \end{figure}
 \par
@@ -103,119 +121,37 @@ When noninteracting SV particles are included (Fig. \ref{FIG_04}b) to the frambo
 A scatter plot of the remanence of saturation $M_\text{RS}/M_\text{S}$ against the coercivity of remanence $B_\text{CR}$ to coercivity $B_\text{C}$ ratio, the so-called Day plot \citep{Day1977}, reveals the simulated ensemble of framboidal greigite in a region that is unoccupied by the noninteracting, isolated particles (Fig. \ref{FIG_05}), i.e., a region with a remanence as low as that of ensembles of SV particles $\roughly 80\nm$ but $B_\text{CR}/B_\text{C}$ values that are expected of smaller particles $\roughly 70\nm$ \citep{ValdezGrijalva2018}. Increasing content of SD or SV noninteracting particles have very different effects on the Day plot (Fig. \ref{FIG_05}): increasing the SD content increases the remanence and decreases the $B_\text{CR}/B_\text{C}$ ratio; whereas, increasing the SV content has little effect on the remanence while increasing the $B_\text{CR}/B_\text{C}$ value.\par
 \begin{figure}
 \centering
-\includegraphics[width=\textwidth]{research-4/figs/DayPlot.pdf}
-\caption[Day plot of framboid and noninteraring particles mixtures]{Day plot of framboid and noninteraring particles mixtures.}
+\includegraphics[width=0.8\textwidth]{research-4/figs/DayPlot.pdf}
+\caption[Day plot of framboid and noninteraring particles mixtures]{Day plot of framboid and noninteraring particles mixtures. The framboidal clusters (square) plots in a region with very low $M_\text{RS}/M_\text{S}\approx 0.1$ and $B_\text{CR}/B_\text{C}\approx 2.2$. Increasing non-interacting SD particles content increases $M_\text{RS}/M_\text{S}$ and reduces $B_\text{CR}/B_\text{C}$. With increasing non-interacting SV particles content, the effect is to increase $B_\text{CR}/B_\text{C}$.}
 \label{FIG_05}
 \end{figure}
 \par
 
-\subsection{Hysteresis of larger particle framboids.}
-Due to memory and time constraints, the FORC response of larger particle framboids was not simulated. However, hysteresis simulations of framboids composed of fifteen, larger $d=76\nm$ particles were carried out for a few selected field orientations. When the applied field is close to the easy axis the main branches remain saturated down to 50$\mT$ (Fig. \ref{FIG_06}), when some particles in the framboid nucleate vortices and change orientation (Fig. \ref{FIG_06}a). The remanent state (Fig. \ref{FIG_06}b) has a super-vortex structure in which most particles are individually in a two-domain state with very clearly defined domain walls (Fig. \ref{FIG_06}b, green). This state is remarkably similar to the easy-aligned SV state exhibited by large >200$\nm$ particles \citep{ValdezGrijalva2017B} with six domains curling around the vortex core. Noninteracting 76$\nm$ particles nucleate vortices \citep{ValdezGrijalva2018}; however, for this field orientation, the innermost particle in the cluster always remains in a SD state due to the internal magnetostatic interactions.
+\subsection{Hysteresis of larger particle framboids}
+Due to memory and time constraints, the FORC response of larger particle framboids was not simulated. However, hysteresis simulations of framboids composed of fifteen, larger $d=76\nm$ particles were carried out for a few selected field orientations. When the applied field is close to the easy axis the main branches remain saturated down to 50$\mT$ (Fig. \ref{FIG_06}), when some particles in the framboid nucleate vortices and change orientation (Fig. \ref{FIG_06}a). The remanent state (Fig. \ref{FIG_06}b) has a super-vortex structure in which most particles are individually in a two-domain state with very clearly defined domain walls (Fig. \ref{FIG_06}b, green). This state is remarkably similar to the easy-aligned SV state exhibited by large $>$200$\nm$ particles \citep{ValdezGrijalva2017B} with six domains curling around the vortex core. Noninteracting 76$\nm$ particles nucleate vortices \citep{ValdezGrijalva2018}; however, for this field orientation, the innermost particle in the cluster always remains in a SD state due to the internal magnetostatic interactions (Fig. \ref{FIG_06}b, grey line).
 \begin{figure}
 \centering
-\includegraphics[width=\textwidth]{research-4/figs/loop21_76nm_annotated.pdf}
-\caption[Hysteresis of a framboid with 76$\nm$ particles]{Hysteresis of a framboid with 76$\nm$ particles.}
+\includegraphics[width=0.9\textwidth]{research-4/figs/loop21_76nm_annotated.pdf}
+\caption[Hysteresis of a framboid with 76$\nm$ particles]{Hysteresis of a framboid with 76$\nm$ particlesfor a field aligned closely with the easy axis. The magnetisation remains saturated down to $\roughly$50$\mT$ when a few particles nucleate vortices (a). The remanent state is a super-vortex structure (b) with most of the particles in a two-domain state. Domain walls are visible as thin, green regions. The net magnetic moment of the innermost particle (grey line) is always close to 1 as it remains in a SD sate throughout hysteresis.}
 \label{FIG_06}
 \end{figure}
 \par
 
 \section{Discussion}
-Discussion section...\par
+The FORC response of a framboidal cluster depends strongly on the orientation of the framboid relative to the applied field. When the field is aligned with an easy axis ($<$111$>$) the signal has its peak on the $B_u=0$ axis at $B_c \approx 80\mT$ (Fig. \ref{FIG_02}b) and a vertical, almost-continuous feature centered on $B_c \approx 10\mT$ from $B_u \approx {-}60\mT$ to $B_u \approx 60\mT$. The latter bears similarities with FORCs calculated by \citet{Pike2001} for one-dimensional domain-wall pinning.\par
+
+Remanent states for all particle-field configurations are super-vortex states (Fig. \ref{FIG_rem}). The magnetic domain state of all individual particles in a framboid is SD. In the remanent state, the SD particles align in super-vortex configurations to create flux-closures, giving each framboid a very low net magnetic moment. This means that inter-framboidal interactions are weak even in cases when there are multiple framboids close to each other. The zero-field net magnetic moment of the simulated ensemble of framboids deviates from the applied field by $\roughly 12^{\circ}$. Thus, it is possible that framboidal greigite can carry potentially meaningful palaeo-directions. Simulations with more framboidal clusters and studies of the stability of the remanence could resolve this.\par
+
+The FORC response of the simulated ensemble of clustered greigite (Fig. \ref{FIG_03}) is very different from that of isolated SD and SV grains \citep{ValdezGrijalva2018}. Isolated SD greigite particles produce FORC signals with a characteristic boomerang shape, strong $B_u=0$ contributions and a tilted negative ridge. SV grains produce a more disjointed pattern. For isolated SD and SV grains the FORC response is dominated by irreversible switching which is evident in the raw hysteresis/FORC data. For framboidal greigite, the ensemble raw data is very smooth, i.e., there are no obvious discontinuities associated with irreversible events. The FORC signal is dominated by slope differences for $B_c \approx 10\mT$. This signal is very similar to MD signals \citep{Pike2001}.\par
+
+Simulated FORC responses for ensembles of framboidal and isolated SD grains (Fig. \ref{FIG_04}a) are very similar to those of framboid-rich samples obtained by \citet{Rowan2009} and to those of MD and SD greigite obtained by \citet{Roberts2006}. These similarities are due to greigite framboids behaving very much like MD grains even in the absence of inter-particle exchange forces, i.e., the magnetostatic interactions between the close-packed grains plays a role very similar to exchange forces.\par
+
+Limited simulations of larger grain (76$\nm$) framboids with 15 particles reveals that, at least for some particle-field configurations, the innermost particle in the clusters behaves as a SD particle with coherent rotations (Fig. \ref{FIG_06}). This means that in framboids with more particles, it can be expected that many of the inner particles will behave as SD particles even for particle sizes for which they would be SV in the non-interacting case and so their FORC response is likely similar to that calculated here.\par
 
 \section{Conclusions}
-Conclusion section...\par
+The FORC response of a simulated ensemble of framboidal greigite has been calculated with a micromagnetic algorithm. Observed trends support the similarity between the FORC response of framboidal greigite clusters and that of MD grains. Naturally occurring greigite in sediments is usually authigenic in origin and its growth and possible transformation to pyrite is controlled by a delicate balance between sulfate and iron availability \citep{Roberts2011}. Commonly, greigite is found with other iron sulfides like pyrite as the finest-grained phase \citep{Rowan2006,Rowan2009} so it is uncommon to find large, MD greigite grains. This means that if a sample is known to contain greigite (for example, by identifying a high gyro-magnetic remanent magnetisation \citep{Snowball1997}), MD-like FORC signals should be interpreted as caused by framboidal or some other form of strongly interacting greigite. Even though the FORC response has been calculated for framboids with SD 30$\nm$ particles, these observations are likely to hold for framboids composed of larger grains as it is logical these will produce more MD-like FORC signals.
 
 %----------------------------------
 \renewcommand\bibname{{References}}
 \bibliographystyle{elsarticle-harv}
 \bibliography{references}
-
-%\subsection{Mesh generation}
-%To generate close-packed arrangements of truncated octahedral particles
-%Truncated octahedral geometry 
-%Outline of mesh generation. Explain the algorithm to produce arbitrarily large ordered framboidal meshes.\par
-%\subsection{Remanent states}
-%The remanent states, micromagnetic solutions and electron holography maps. Explain about the remanent states and how they would appear under electron holography studies. Important to stress how the electron holography maps can be misleading as evidenced by Figs. \ref{FIG_21}, \ref{FIG_22}, \ref{FIG_23}, \ref{FIG_24}, \ref{FIG_25}, \ref{FIG_26} which show either a single-vortex or a two-vortex structure depending on the angle of the beam.\par
-%\begin{figure}
-%\centering
-%\includegraphics[width=\textwidth]{research-4/figs/fram_i21_f0_-z.png}
-%\caption[Remanent state when the field is along an easy axis (view from +Z)]{Remanent state when the field is along an easy axis (view from +Z).}
-%\label{FIG_15}
-%\end{figure}
-%
-%\begin{figure}
-%\centering
-%\includegraphics[width=\textwidth]{research-4/figs/fram_i21_f0_-z_EHC.png}
-%\caption[Electron holography map of the remanent state when the field is along an easy axis (view from +Z)]{Electron holography map of the remanent state when the field is along an easy axis (view from +Z).}
-%\label{FIG_16}
-%\end{figure}
-%
-%\begin{figure}
-%\centering
-%\includegraphics[width=\textwidth]{research-4/figs/fram_i21_f0_-y.png}
-%\caption[Remanent state when the field is along an easy axis (view from +Y)]{Remanent state when the field is along an easy axis (view from +Y).}
-%\label{FIG_17}
-%\end{figure}
-%
-%\begin{figure}
-%\centering
-%\includegraphics[width=\textwidth]{research-4/figs/fram_i21_f0_-y_EHC.png}
-%\caption[Electron holography map of the remanent state when the field is along an easy axis (view from +Y)]{Electron holography map of the remanent state when the field is along an easy axis (view from +Y).}
-%\label{FIG_18}
-%\end{figure}
-%
-%\begin{figure}
-%\centering
-%\includegraphics[width=\textwidth]{research-4/figs/fram_i21_f0_-x.png}
-%\caption[Remanent state when the field is along an easy axis (view from +X)]{Remanent state when the field is along an easy axis (view from +X).}
-%\label{FIG_19}
-%\end{figure}
-%
-%\begin{figure}
-%\centering
-%\includegraphics[width=\textwidth]{research-4/figs/fram_i21_f0_-x_EHC.png}
-%\caption[Electron holography map of the remanent state when the field is along an easy axis (view from +X)]{Electron holography map of the remanent state when the field is along an easy axis (view from +X).}
-%\label{FIG_20}
-%\end{figure}
-%
-%\begin{figure}
-%\centering
-%\includegraphics[width=\textwidth]{research-4/figs/fram_i16_f0_-z.png}
-%\caption[Remanent state when the field is along a hard axis (view from +Z)]{Remanent state when the field is along a hard axis (view from +Z).}
-%\label{FIG_21}
-%\end{figure}
-%
-%\begin{figure}
-%\centering
-%\includegraphics[width=\textwidth]{research-4/figs/fram_i16_f0_-z_EHC.png}
-%\caption[Electron holography map of the remanent state when the field is along a hard axis (view from +Z)]{Electron holography map of the remanent state when the field is along a hard axis (view from +Z).}
-%\label{FIG_22}
-%\end{figure}
-%
-%\begin{figure}
-%\centering
-%\includegraphics[width=\textwidth]{research-4/figs/fram_i16_f0_-y.png}
-%\caption[Remanent state when the field is along a hard axis (view from +Y)]{Remanent state when the field is along a hard axis (view from +Y).}
-%\label{FIG_23}
-%\end{figure}
-%
-%\begin{figure}
-%\centering
-%\includegraphics[width=\textwidth]{research-4/figs/fram_i16_f0_-y_EHC.png}
-%\caption[Electron holography map of the remanent state when the field is along a hard axis (view from +Y)]{Electron holography map of the remanent state when the field is along a hard axis (view from +Y).}
-%\label{FIG_24}
-%\end{figure}
-%
-%\begin{figure}
-%\centering
-%\includegraphics[width=\textwidth]{research-4/figs/fram_i16_f0_-x.png}
-%\caption[Remanent state when the field is along a hard axis (view from +X)]{Remanent state when the field is along a hard axis (view from +X).}
-%\label{FIG_25}
-%\end{figure}
-%
-%\begin{figure}
-%\centering
-%\includegraphics[width=\textwidth]{research-4/figs/fram_i16_f0_-x_EHC.png}
-%\caption[Electron holography map of the remanent state when the field is along a hard axis (view from +X)]{Electron holography map of the remanent state when the field is along a hard axis (view from +X).}
-%\label{FIG_26}
-%\end{figure}
