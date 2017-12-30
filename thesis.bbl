@@ -1,4 +1,4 @@
-\begin{thebibliography}{78}
+\begin{thebibliography}{99}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -18,6 +18,13 @@ Acton, G., Yin, Q.~Z., Verosub, K.~L., Jovane, L., Roth, A., Jacobsen, B.,
   chondrules with implications for paleointensities of the early solar system.
   J. Geophys. Res. 112~(B3).
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2006JB004655}
+
+\bibitem[{Aldana et~al.(1999)Aldana, Constanzo-Alvarez, Vitiello, Colmenares,
+  and G\'{o}mez}]{Aldana1999}
+Aldana, M., Constanzo-Alvarez, V., Vitiello, D., Colmenares, L., G\'{o}mez, G.,
+  1999. Framboidal magnetic minerals and their possible association to
+  hydrocarbons: {L}a {V}ictoria oil field, southwestern {V}enezuela.
+  Geof\'{i}s. Int. 38~(3), 137--152.
 
 \bibitem[{Armijo(1966)}]{Armijo1966}
 Armijo, L., 1966. Minimization of functions having {L}ipschitz continuous first
@@ -43,8 +50,13 @@ Berner, R.~A., 1984. Sedimentary pyrite formation: {A}n update. Geochim.
   Cosmochim. Ac. 48~(4), 605--615.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/0016-7037(84)90089-9}
 
-\bibitem[{Brown~Jr.(1963)}]{Brown}
-Brown~Jr., W.~F., 1963. Micromagnetics. Interscience, New York.
+\bibitem[{Brown(1963)}]{Brown}
+Brown, W.~F., 1963. Micromagnetics. Interscience, New York.
+
+\bibitem[{Carlson(1975)}]{Carlson1975}
+Carlson, J.~B., 1975. Lodestone compass: {C}hinese or {O}lmec primacy? Science
+  189~(4205), 753--760.
+\newline\urlprefix\url{https://dx.doi.org/10.1126/science.189.4205.753}
 
 \bibitem[{Carvallo et~al.(2006)Carvallo, Muxworthy, and Dunlop}]{Carvallo2006}
 Carvallo, C., Muxworthy, A.~R., Dunlop, D.~J., 2006. First-order reversal curve
@@ -75,6 +87,21 @@ Chang, L., Roberts, A.~P., Tang, Y., Rainford, B.~D., Muxworthy, A.~R., Chen,
   ({F}e$_3${S}$_4$). J. Geophys. Res. 113~(B6).
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2007JB005502}
 
+\bibitem[{Costanzo-Alvarez et~al.(2012)Costanzo-Alvarez, Aldana, Bayona,
+  L{\'o}pez-Rodr{\'i}guez, and Blanco}]{Costanzo2012}
+Costanzo-Alvarez, V., Aldana, M., Bayona, G., L{\'o}pez-Rodr{\'i}guez, D.,
+  Blanco, J.~M., 2012. Rock magnetic characterization of early and late
+  diagenesis in a stratigraphic well from the {L}lanos foreland basin ({E}aster
+  {C}olombia). Geol. Soc. Spec. Publ. 371, 199--216.
+\newline\urlprefix\url{https://dx.doi.org/10.1144/SP371.13}
+
+\bibitem[{Costanzo-Alvarez et~al.(2006)Costanzo-Alvarez, Aldana, D\'{i}az,
+  Bayona, and Ayala}]{Costanzo2006}
+Costanzo-Alvarez, V., Aldana, M., D\'{i}az, M., Bayona, G., Ayala, C., 2006.
+  Hydrocarbon-induced magnetic contrasts in some {V}enezuelan and {C}olombian
+  oil wells. Earth Planets Space 58, 1401--1410.
+\newline\urlprefix\url{https://dx.doi.org/10.1186/BF03352636}
+
 \bibitem[{Day et~al.(1977)Day, Fuller, and Schmidt}]{Day1977}
 Day, R., Fuller, M., Schmidt, V.~A., 1977. Hysteresis properties of
   titanomagnetites: {G}rain-size and compositional dependence. Phys. Earth
@@ -86,6 +113,13 @@ De~Biasi, E., Curiale, J., Zysler, R.~D., 2016. Quantitative study of {FORC}
   diagrams in thermally corrected {Stoner--Wohlfarth} nanoparticles systems. J.
   Magn. Magn. Mater. 419, 580--587.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/j.jmmm.2016.06.075}
+
+\bibitem[{D\'{i}az et~al.(2000)D\'{i}az, Aldana, Constanzo-Alvarez, Silva, and
+  P\'{e}rez}]{Diaz2000}
+D\'{i}az, M., Aldana, M., Constanzo-Alvarez, V., Silva, P., P\'{e}rez, A.,
+  2000. E{PR} and magnetic susceptibility studies in well samples from some
+  {V}enezuelan oil fields. Phys. Chem. Earth Pt. A 25~(5), 447--453.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/S1464-1895(00)00069-7}
 
 \bibitem[{Diaz-Ricci and Kirschvink(1992)}]{Diaz-Ricci1992}
 Diaz-Ricci, J.~C., Kirschvink, J.~L., 1992. Magnetic domain state and
@@ -101,6 +135,11 @@ Dittrich, R., Schrefl, T., Suess, D., Scholz, W., Forster, H., Fidler, J.,
   complex micromagnetic systems. J. Magn. Magn. Mater. 250, 12--19.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/S0304-8853(02)00388-8}
 
+\bibitem[{Donovan et~al.(1979)Donovan, Forgey, and Roberts}]{Donovan1979}
+Donovan, T.~J., Forgey, R.~L., Roberts, A.~A., 1979. Aeromagnetic detection of
+  diagenetic magnetite over oil fields. AAPG Bull.~(2), 245--248.
+\newline\urlprefix\url{https://dx.doi.org/10.1190/1.1443076}
+
 \bibitem[{Donovan et~al.(1984)Donovan, Hendricks, Roberts, and
   Eliason}]{Donovan1984}
 Donovan, T.~J., Hendricks, J.~D., Roberts, A.~A., Eliason, P.~T., 1984.
@@ -114,7 +153,7 @@ Dumas, R.~K., Li, C.~P., Roshchin, I.~V., Schuller, I.~K., Liu, K., 2007.
 \newline\urlprefix\url{https://dx.doi.org/10.1103/PhysRevB.75.134405}
 
 \bibitem[{Dunlop and {\"O}zdemir(1997)}]{Dunlop}
-Dunlop, D.~J., {\"O}zdemir, {\"O}., 1997. Rock Magnetism. Cambridge University
+Dunlop, D.~J., {\"O}zdemir, {\"O}., 1997. Rock magnetism. Cambridge University
   Press, Cambridge.
 
 \bibitem[{Egli et~al.(2010)Egli, Chen, Winklhofer, Kodama, and
@@ -129,10 +168,41 @@ Egli, R., Winklhofer, M., 2014. Recent developments on processing and
   interpretation aspects of first-order reversal curves ({FORC}). Proc. Kazan
   U. Nat. Sc. 156~(1).
 
+\bibitem[{Elmore et~al.(1993)Elmore, Imbus, Engel, and Fruit}]{Elmore1993}
+Elmore, R.~D., Imbus, S.~W., Engel, M.~H., Fruit, D., September 1993.
+  Hydrocarbons and magnetizations in magnetite. In: A{\"i}ssaoui, D.~M.,
+  McNeill, D.~F., Hurley, N.~F. (Eds.), Applications of Paleomagnetism to
+  Sedimentary Geology. No.~49 in SEPM Special Publication. SEPM (Society for
+  Sedimentary Geology), SEPM (Society for Sedimentary Geology), Tulsa,
+  Oklahoma, U.S.A., pp. 167--179.
+
+\bibitem[{Emmerton et~al.(2013{\natexlab{a}})Emmerton, Muxworthy, and
+  Sephton}]{Emmerton2013B}
+Emmerton, S., Muxworthy, A.~R., Sephton, M.~A., 2013{\natexlab{a}}. A magnetic
+  solution to the mupe bay mystery. Mar. Petrol. Geol. 46, 165--172.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.marpetgeo.2013.06.014}
+
+\bibitem[{Emmerton et~al.(2013{\natexlab{b}})Emmerton, Muxworthy, Sephton,
+  Aldana, Costanzo-Alvarez, Bayona, and Williams}]{Emmerton2013}
+Emmerton, S., Muxworthy, A.~R., Sephton, M.~A., Aldana, M., Costanzo-Alvarez,
+  V., Bayona, G., Williams, W., 2013{\natexlab{b}}. Correlating biodegradation
+  to magnetization in oil bearing sedimentary rocks. Geochim. Cosmochim. Ac.
+  112, 146--165.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.gca.2013.03.008}
+
 \bibitem[{Enkin and Williams(1994)}]{Enkin1994}
 Enkin, R.~J., Williams, W., 1994. Three-dimensional micromagnetic analysis of
   stability in fine magnetic grains. J. Geophys. Res. 99~(B1), 611--618.
 \newline\urlprefix\url{https://dx.doi.org/10.1029/93JB02637}
+
+\bibitem[{Evans(1977)}]{Evans1977}
+Evans, B., 1977. Magnetism and archaeology: Magnetic oxides in the first
+  american civilization. Physica B {\&} C 86, 1091--1099.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/0378-4363(77)90804-X}
+
+\bibitem[{Evans and Heller(2003)}]{Evans}
+Evans, M.~E., Heller, F., 2003. Environmental magnetism. Academic Press,
+  Amsterdam.
 
 \bibitem[{Evans et~al.(2006)Evans, Kr{\'a}sa, Williams, and
   Winklhofer}]{Evans2006}
@@ -165,10 +235,24 @@ Gilbert, T.~L., 2004. A phenomenological theory of damping in ferromagnetic
   materials. IEEE T. Magn. 6, 3443--3449.
 \newline\urlprefix\url{https://dx.doi.org/10.1109/TMAG.2004.836740}
 
+\bibitem[{Gonz\'{a}lez et~al.(2002)Gonz\'{a}lez, Aldana, Constanzo-Alvarez,
+  D\'{i}az, and Romero}]{Gonzalez2002}
+Gonz\'{a}lez, F., Aldana, M., Constanzo-Alvarez, V., D\'{i}az, M., Romero, I.,
+  2002. An integrated rock magnetic and {EPR} study in soil samples from a
+  hydrocarbon prospective area. Phys. Chem. Earth 27~(25), 1311--1317.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/S1474-7065(02)00125-0}
+
 \bibitem[{Graham~Jr.(1958)}]{Graham1958}
 Graham~Jr., C.~D., 1958. Magnetocrystalline anisotropy constants of iron at
   room temperature and below. Phys. Rev. 112~(4), 1117.
-\newline\urlprefix\url{https://doi.org/10.1103/PhysRev.112.1117}
+\newline\urlprefix\url{https://dx.doi.org/10.1103/PhysRev.112.1117}
+
+\bibitem[{Guzm\'{a}n et~al.(2011)Guzm\'{a}n, Costanzo-Alvarez, Aldana, and
+  D\'{i}az}]{Guzman2011}
+Guzm\'{a}n, O., Costanzo-Alvarez, V., Aldana, M., D\'{i}az, M., 2011. Study of
+  magnetic constrasts applied to hydrocarbon exploration in the {M}atur\'{i}n
+  sub-basin (eastern {V}enezuela). Stud. Geophys. Geod. 55~(2), 359--376.
+\newline\urlprefix\url{https://dx.doi.org/10.1007/s11200-011-0020-7}
 
 \bibitem[{Harrison et~al.(2002)Harrison, Dunin-Borkowski, and
   Putnis}]{Harrison2002}
@@ -194,6 +278,11 @@ Imhoff, J.~F., Meunler, G., Brunotte, X., Sabonnadi{\`e}re, J.~C., 1990. An
   original solution for unbounded electromagnetic 2{D}- and 3{D}-problems
   throughout the finite element method. IEEE T. Magn. 26~(5), 1659--1661.
 \newline\urlprefix\url{https://dx.doi.org/10.1109/20.104482}
+
+\bibitem[{Koenigsberger(1938)}]{Koenigsberger1938}
+Koenigsberger, J.~G., 1938. Natural residual magnetism of eruptive rocks. J.
+  Geophys. Res. 43~(3), 299--320.
+\newline\urlprefix\url{https://dx.doi.org/10.1029/TE043i003p00299}
 
 \bibitem[{Kr{\'a}sa et~al.(2011)Kr{\'a}sa, Muxworthy, and Williams}]{Krasa2011}
 Kr{\'a}sa, D., Muxworthy, A.~R., Williams, W., 2011. Room- and low-temperature
@@ -222,6 +311,31 @@ Li, G., Zhang, B., Yu, F., Novakova, A.~A., Krivenkov, M.~S., Kiseleva, T.~Y.,
   26~(20), 5821--5829.
 \newline\urlprefix\url{https://dx.doi.org/10.1021/cm501493m}
 
+\bibitem[{Liu et~al.(2004)Liu, Chan, Liu, Li, Wang, Zhang, Xia, and
+  Cheng}]{Liu2004}
+Liu, Q., Chan, L., Liu, Q., Li, H., Wang, F., Zhang, S., Xia, X., Cheng, T.,
+  2004. A study of relationship between magnetic, geochemical and mineralogical
+  anomalies and hydrocarbon microseepage above oil and gas fields, {O}rdos
+  {B}asin in {C}hina. AAPG Bull. 88~(2), 241--251.
+
+\bibitem[{Liu et~al.(2006)Liu, Liu, Chan, Yang, Xia, and Cheng}]{Liu2006}
+Liu, Q., Liu, Q., Chan, L., Yang, T., Xia, X., Cheng, T., 2006. Magnetic
+  enhancement caused by hydrocarbon migration in the {M}awangmiao oil field,
+  {J}ianghan basin, {C}hina. J. Petrol. Sci. Eng. 53~(1), 25--33.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.petrol.2006.01.010}
+
+\bibitem[{Liu and Liu(1999)}]{Liu1999}
+Liu, Q., Liu, S., 1999. Magnetic and mineralogical characteristics of reservoir
+  rocks in the {Y}akela oil field, northern {T}arim {B}asin and their
+  implications for magnetic detection of oil and gas accumulations. Chin. Sci.
+  Bull. 4~(2), 174--177.
+
+\bibitem[{Machel and Burton(1991)}]{Machel1991}
+Machel, H.~G., Burton, E.~A., 1991. Chemical and microbial processes causing
+  anomalous magnetization in environments affected by hydrocarbon seepage.
+  Geophysics 56~(5), 598--605.
+\newline\urlprefix\url{https://dx.doi.org/10.1190/1.1443076}
+
 \bibitem[{Mann et~al.(1990)Mann, Sparks, Frankel, Bazylinski, and
   Jannasch}]{Mann1990}
 Mann, S., Sparks, N. H.~C., Frankel, R.~B., Bazylinski, D.~A., Jannasch, H.~W.,
@@ -229,6 +343,11 @@ Mann, S., Sparks, N. H.~C., Frankel, R.~B., Bazylinski, D.~A., Jannasch, H.~W.,
   pyrite ({F}e{S}$_2$) in a magnetotactic bacterium. Nature 343~(6255),
   258--261.
 \newline\urlprefix\url{https://dx.doi.org/10.1038/343258a0}
+
+\bibitem[{May(1981)}]{May1981}
+May, W.~E., 1981. Were compasses used in antiquity? J. Navigation 34~(3),
+  414–--423.
+\newline\urlprefix\url{https://dx.doi.org/10.1017/S0373463300048037}
 
 \bibitem[{Mayergoyz(1986)}]{Mayergoyz1986}
 Mayergoyz, I., 1986. Mathematical models of hysteresis. IEEE T. Magn. 22~(5),
@@ -272,6 +391,10 @@ Muxworthy, A.~R., Williams, W., Roberts, A.~P., Winklhofer, M., Chang, L.,
   interacting greigite particles: {I}mplications for magnetosome crystals.
   Geochem. Geophys. Geosyst. 14~(2), 5430--5441.
 \newline\urlprefix\url{https://dx.doi.org/10.1002/2013GC004973}
+
+\bibitem[{Nagata et~al.(1943)Nagata, Harada, and Hirao}]{Nagata1943}
+Nagata, T., Harada, Y., Hirao, K., 1943. The natural remanent magnetization of
+  sedimentary rocks. Bull. Earthquake Res. Inst. Tokyo Univ. 31, 276--296.
 
 \bibitem[{Nagy(2016)}]{Nagy2016}
 Nagy, L., 2016. Parallelisation of micromagnetic simulations. Ph.D. thesis,
@@ -429,6 +552,10 @@ Stoner, E.~C., Wohlfarth, E.~P., 1948. A mechanism of magnetic hysteresis in
   heterogeneous alloys. Philos. T. R. Soc. A. 240~(826), 599--642.
 \newline\urlprefix\url{https://www.jstor.org/stable/91421}
 
+\bibitem[{Thellier(1938)}]{Thellier1938}
+Thellier, E., 1938. Sur l'aimantation des terres cuites et ses applications
+  g{\'e}ophysique. Ann. Inst. Phys. Globe Univ. Paris 16, 157--302.
+
 \bibitem[{Usov and Peschany(1997)}]{Usov1997}
 Usov, N.~A., Peschany, S.~E., 1997. Theoretical hysteresis loops for
   single-domain particles with cubic anisotropy. J. Magn. Magn. Mat. 174~(3),
@@ -467,7 +594,7 @@ Vasiliev, I., Franke, C., Meeldijk, J.~D., Dekkers, M.~J., Langereis, C.~G.,
 Walker, M., Mayo, P.~I., O'Grady, K., Charles, S.~W., Chantrell, R.~W., 1993.
   The magnetic properties of single-domain particles with cubic anisotropy.
   {I}. {H}ysteresis loops. J. Phys.: Condens. Matter 5~(17), 2779.
-\newline\urlprefix\url{https://doi.org/10.1088/0953-8984/5/17/012}
+\newline\urlprefix\url{https://dx.doi.org/10.1088/0953-8984/5/17/012}
 
 \bibitem[{Williams et~al.(2006)Williams, Muxworthy, and
   Patterson}]{Williams2006}

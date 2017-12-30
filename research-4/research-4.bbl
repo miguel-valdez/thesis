@@ -4,8 +4,8 @@
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 
-\bibitem[{Brown~Jr.(1963)}]{Brown}
-Brown~Jr., W.~F., 1963. Micromagnetics. Interscience, New York.
+\bibitem[{Brown(1963)}]{Brown}
+Brown, W.~F., 1963. Micromagnetics. Interscience, New York.
 
 \bibitem[{Day et~al.(1977)Day, Fuller, and Schmidt}]{Day1977}
 Day, R., Fuller, M., Schmidt, V.~A., 1977. Hysteresis properties of
@@ -25,7 +25,7 @@ Dumas, R.~K., Li, C.~P., Roshchin, I.~V., Schuller, I.~K., Liu, K., 2007.
 \newline\urlprefix\url{https://dx.doi.org/10.1103/PhysRevB.75.134405}
 
 \bibitem[{Dunlop and {\"O}zdemir(1997)}]{Dunlop}
-Dunlop, D.~J., {\"O}zdemir, {\"O}., 1997. Rock Magnetism. Cambridge University
+Dunlop, D.~J., {\"O}zdemir, {\"O}., 1997. Rock magnetism. Cambridge University
   Press, Cambridge.
 
 \bibitem[{Egli et~al.(2010)Egli, Chen, Winklhofer, Kodama, and

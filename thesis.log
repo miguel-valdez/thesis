@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  21 DEC 2017 23:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  30 DEC 2017 20:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1309,19 +1309,29 @@ Package pdftex.def Info: pre/figs/CC-BY-NC-ND.pdf used on input line 15.
 
 (./intro/intro.tex
 Chapter 1.
-(./intro/intro.bbl
-
-Package natbib Warning: Empty `thebibliography' environment on input line 7.
-
-)) [13
+[13
 
 
 
 
-]
+] [14]
+<intro/figs/greigite_framboids.pdf, id=608, 1412.27625pt x 1405.25pt>
+File: intro/figs/greigite_framboids.pdf Graphic file (type pdf)
+
+<use intro/figs/greigite_framboids.pdf>
+Package pdftex.def Info: intro/figs/greigite_framboids.pdf used on input line 2
+2.
+(pdftex.def)             Requested size: 483.69687pt x 481.29523pt.
+ [15] [16 <./intro/figs/greigite_framboids.pdf>] (./intro/intro.bbl [17] [18] [
+19] [20]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [21])) [22]
 \openout2 = `research-1/research-1.aux'.
 
- (./research-1/research-1.tex
+
+(./research-1/research-1.tex
 Chapter 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1347,915 +1357,310 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-[14
+[23
 
 
 
 
-]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[15]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[16]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[17]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[18] <research-1/figs/Figure_01.pdf, id=643, 540.45389pt x 355.54906pt>
+] [24] [25] [26] [27]
+<research-1/figs/Figure_01.pdf, id=856, 540.45389pt x 355.54906pt>
 File: research-1/figs/Figure_01.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_01.pdf>
-Package pdftex.def Info: research-1/figs/Figure_01.pdf used on input line 71.
+Package pdftex.def Info: research-1/figs/Figure_01.pdf used on input line 75.
 (pdftex.def)             Requested size: 483.69687pt x 318.21713pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[19]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[20 <./research-1/figs/Figure_01.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[21]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[22] <research-1/figs/Figure_02.pdf, id=713, 539.85693pt x 582.4962pt>
+ [28] [29 <./research-1/figs/Figure_01.pdf>] [30] [31] <research-1/figs/Figure_
+02.pdf, id=925, 539.85693pt x 582.4962pt>
 File: research-1/figs/Figure_02.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_02.pdf>
-Package pdftex.def Info: research-1/figs/Figure_02.pdf used on input line 108.
+Package pdftex.def Info: research-1/figs/Figure_02.pdf used on input line 112.
 (pdftex.def)             Requested size: 483.69687pt x 521.90416pt.
 
 
-LaTeX Warning: Float too large for page by 17.62106pt on input line 111.
+LaTeX Warning: Float too large for page by 17.62106pt on input line 115.
 
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[23]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[24 <./research-1/figs/Figure_02.pdf>]
-<research-1/figs/Figure_03.pdf, id=742, 540.43507pt x 494.18225pt>
+[32] [33 <./research-1/figs/Figure_02.pdf>]
+<research-1/figs/Figure_03.pdf, id=955, 540.43507pt x 494.18225pt>
 File: research-1/figs/Figure_03.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_03.pdf>
-Package pdftex.def Info: research-1/figs/Figure_03.pdf used on input line 131.
+Package pdftex.def Info: research-1/figs/Figure_03.pdf used on input line 135.
 (pdftex.def)             Requested size: 483.69687pt x 442.31676pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[25]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[26 <./research-1/figs/Figure_03.pdf>]
-<research-1/figs/Figure_04.pdf, id=796, 540.5796pt x 432.8973pt>
+ [34] [35 <./research-1/figs/Figure_03.pdf>] <research-1/figs/Figure_04.pdf, id
+=1008, 540.5796pt x 432.8973pt>
 File: research-1/figs/Figure_04.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_04.pdf>
-Package pdftex.def Info: research-1/figs/Figure_04.pdf used on input line 190.
+Package pdftex.def Info: research-1/figs/Figure_04.pdf used on input line 194.
 (pdftex.def)             Requested size: 483.69687pt x 387.3515pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[27]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[28 <./research-1/figs/Figure_04.pdf>]
-<research-1/figs/Figure_05.pdf, id=830, 540.5796pt x 402.54391pt>
+ [36] [37 <./research-1/figs/Figure_04.pdf>] <research-1/figs/Figure_05.pdf, id
+=1043, 540.5796pt x 402.54391pt>
 File: research-1/figs/Figure_05.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_05.pdf>
-Package pdftex.def Info: research-1/figs/Figure_05.pdf used on input line 220.
+Package pdftex.def Info: research-1/figs/Figure_05.pdf used on input line 224.
 (pdftex.def)             Requested size: 483.69687pt x 360.19164pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[29]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[30 <./research-1/figs/Figure_05.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[31]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[32] <research-1/figs/Figure_06.pdf, id=901, 540.93002pt x 518.30002pt>
+ [38] [39 <./research-1/figs/Figure_05.pdf>] [40] [41] <research-1/figs/Figure_
+06.pdf, id=1113, 540.93002pt x 518.30002pt>
 File: research-1/figs/Figure_06.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_06.pdf>
-Package pdftex.def Info: research-1/figs/Figure_06.pdf used on input line 266.
+Package pdftex.def Info: research-1/figs/Figure_06.pdf used on input line 270.
 (pdftex.def)             Requested size: 483.69687pt x 463.47626pt.
 
 
-LaTeX Warning: Float too large for page by 2.69316pt on input line 269.
+LaTeX Warning: Float too large for page by 2.69316pt on input line 273.
 
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[33]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[34 <./research-1/figs/Figure_06.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[35] <research-1/figs/Figure_07.pdf, id=938, 540.5796pt x 501.55379pt>
+[42] [43 <./research-1/figs/Figure_06.pdf>] [44]
+<research-1/figs/Figure_07.pdf, id=1151, 540.5796pt x 501.55379pt>
 File: research-1/figs/Figure_07.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_07.pdf>
-Package pdftex.def Info: research-1/figs/Figure_07.pdf used on input line 288.
+Package pdftex.def Info: research-1/figs/Figure_07.pdf used on input line 292.
 (pdftex.def)             Requested size: 483.69687pt x 448.78455pt.
 
 
-LaTeX Warning: Float too large for page by 2.50145pt on input line 291.
+LaTeX Warning: Float too large for page by 2.50145pt on input line 295.
 
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[36] <research-1/figs/Figure_08.pdf, id=953, 540.93002pt x 499.32pt>
+[45] <research-1/figs/Figure_08.pdf, id=1166, 540.93002pt x 499.32pt>
 File: research-1/figs/Figure_08.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_08.pdf>
-Package pdftex.def Info: research-1/figs/Figure_08.pdf used on input line 300.
+Package pdftex.def Info: research-1/figs/Figure_08.pdf used on input line 304.
 (pdftex.def)             Requested size: 483.69687pt x 446.50388pt.
 
-<research-1/figs/Figure_09.pdf, id=956, 578.16pt x 433.62pt>
+<research-1/figs/Figure_09.pdf, id=1169, 578.16pt x 433.62pt>
 File: research-1/figs/Figure_09.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_09.pdf>
-Package pdftex.def Info: research-1/figs/Figure_09.pdf used on input line 310.
+Package pdftex.def Info: research-1/figs/Figure_09.pdf used on input line 314.
 (pdftex.def)             Requested size: 483.69687pt x 362.76945pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[37]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[38 <./research-1/figs/Figure_07.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[39 <./research-1/figs/Figure_08.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[40]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[41 <./research-1/figs/Figure_09.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[42] (./research-1/research-1.bbl
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[43]
+ [46] [47 <./research-1/figs/Figure_07.pdf>] [48 <./research-1/figs/Figure_08.p
+df>] [49] [50 <./research-1/figs/Figure_09.pdf>] [51] (./research-1/research-1.
+bbl [52]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[44]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[45]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[46]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[47]))
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[48]
+ [53] [54] [55] [56])) [57]
 \openout2 = `research-2/research-2.aux'.
 
- (./research-2/research-2.tex
+
+(./research-2/research-2.tex
 Chapter 3.
-[49
+[58
 
 
 
 
-]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.85004pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[50]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.85004pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[51]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.85004pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[52] <research-2/figs/FIG01.pdf, id=1244, 578.16pt x 578.16pt>
+] [59] [60] [61] <research-2/figs/FIG01.pdf, id=1456, 578.16pt x 578.16pt>
 File: research-2/figs/FIG01.pdf Graphic file (type pdf)
 
 <use research-2/figs/FIG01.pdf>
-Package pdftex.def Info: research-2/figs/FIG01.pdf used on input line 56.
+Package pdftex.def Info: research-2/figs/FIG01.pdf used on input line 60.
 (pdftex.def)             Requested size: 483.69687pt x 483.6926pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.85004pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[53]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.85004pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[54 <./research-2/figs/FIG01.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.85004pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[55] <research-2/figs/FIG02.pdf, id=1279, 578.16pt x 289.08pt>
+ [62] [63 <./research-2/figs/FIG01.pdf>]
+[64] <research-2/figs/FIG02.pdf, id=1490, 578.16pt x 289.08pt>
 File: research-2/figs/FIG02.pdf Graphic file (type pdf)
 
 <use research-2/figs/FIG02.pdf>
-Package pdftex.def Info: research-2/figs/FIG02.pdf used on input line 101.
+Package pdftex.def Info: research-2/figs/FIG02.pdf used on input line 105.
 (pdftex.def)             Requested size: 483.69687pt x 241.8463pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.85004pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[56] <research-2/figs/FIG03.pdf, id=1302, 558.88799pt x 350.26859pt>
+ [65]
+<research-2/figs/FIG03.pdf, id=1513, 558.88799pt x 350.26859pt>
 File: research-2/figs/FIG03.pdf Graphic file (type pdf)
 
 <use research-2/figs/FIG03.pdf>
-Package pdftex.def Info: research-2/figs/FIG03.pdf used on input line 114.
+Package pdftex.def Info: research-2/figs/FIG03.pdf used on input line 118.
 (pdftex.def)             Requested size: 483.69687pt x 303.14919pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.85004pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[57 <./research-2/figs/FIG02.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.85004pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[58 <./research-2/figs/FIG03.pdf>]
-<research-2/figs/FIG04.pdf, id=1329, 768.95282pt x 329.55121pt>
+ [66 <./research-2/figs/FIG02.pdf>] [67 <./research-2/figs/FIG03.pdf>]
+<research-2/figs/FIG04.pdf, id=1541, 768.95282pt x 329.55121pt>
 File: research-2/figs/FIG04.pdf Graphic file (type pdf)
 
 <use research-2/figs/FIG04.pdf>
-Package pdftex.def Info: research-2/figs/FIG04.pdf used on input line 123.
+Package pdftex.def Info: research-2/figs/FIG04.pdf used on input line 127.
 (pdftex.def)             Requested size: 483.69687pt x 207.30154pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.85004pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[59 <./research-2/figs/FIG04.pdf>] (./research-2/research-2.bbl
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.85004pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[60]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.85004pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[61]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.85004pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[62]))
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.85004pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[63]
+ [68 <./research-2/figs/FIG04.pdf>]
+(./research-2/research-2.bbl [69] [70] [71])) [72]
 \openout2 = `research-3/research-3.aux'.
 
  (./research-3/research-3.tex
 Chapter 4.
-[64
+[73
 
 
 
 
-]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[65]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[66]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[67]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[68] <research-3/figs/FIG_01.pdf, id=1539, 963.6pt x 963.6pt>
+] [74] [75] [76] [77]
+<research-3/figs/FIG_01.pdf, id=1750, 963.6pt x 963.6pt>
 File: research-3/figs/FIG_01.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_01.pdf>
-Package pdftex.def Info: research-3/figs/FIG_01.pdf used on input line 71.
+Package pdftex.def Info: research-3/figs/FIG_01.pdf used on input line 75.
 (pdftex.def)             Requested size: 483.69687pt x 483.69556pt.
 
-<research-3/figs/FIG_02.pdf, id=1555, 771.26541pt x 329.55121pt>
+<research-3/figs/FIG_02.pdf, id=1766, 771.26541pt x 329.55121pt>
 File: research-3/figs/FIG_02.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_02.pdf>
-Package pdftex.def Info: research-3/figs/FIG_02.pdf used on input line 83.
+Package pdftex.def Info: research-3/figs/FIG_02.pdf used on input line 87.
 (pdftex.def)             Requested size: 483.69687pt x 206.67801pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[69]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[70 <./research-3/figs/FIG_01.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[71 <./research-3/figs/FIG_02.pdf>]
-<research-3/figs/FIG_03.pdf, id=1598, 767.94104pt x 664.59492pt>
+ [78] [79 <./research-3/figs/FIG_01.pdf>]
+[80 <./research-3/figs/FIG_02.pdf>]
+<research-3/figs/FIG_03.pdf, id=1810, 767.94104pt x 664.59492pt>
 File: research-3/figs/FIG_03.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_03.pdf>
-Package pdftex.def Info: research-3/figs/FIG_03.pdf used on input line 94.
+Package pdftex.def Info: research-3/figs/FIG_03.pdf used on input line 98.
 (pdftex.def)             Requested size: 483.69687pt x 418.59561pt.
 
-<research-3/figs/FIG_04.pdf, id=1606, 445.18408pt x 607.79195pt>
+<research-3/figs/FIG_04.pdf, id=1818, 445.18408pt x 607.79195pt>
 File: research-3/figs/FIG_04.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_04.pdf>
-Package pdftex.def Info: research-3/figs/FIG_04.pdf used on input line 101.
+Package pdftex.def Info: research-3/figs/FIG_04.pdf used on input line 105.
 (pdftex.def)             Requested size: 483.69687pt x 660.40268pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[72]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[73 <./research-3/figs/FIG_03.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[74 <./research-3/figs/FIG_04.pdf>]
-<research-3/figs/FIG_05.pdf, id=1638, 925.05597pt x 346.89601pt>
+ [81] [82 <./research-3/figs/FIG_03.pdf>]
+[83 <./research-3/figs/FIG_04.pdf>]
+<research-3/figs/FIG_05.pdf, id=1849, 925.05597pt x 346.89601pt>
 File: research-3/figs/FIG_05.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_05.pdf>
-Package pdftex.def Info: research-3/figs/FIG_05.pdf used on input line 108.
+Package pdftex.def Info: research-3/figs/FIG_05.pdf used on input line 112.
 (pdftex.def)             Requested size: 483.69687pt x 181.38737pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[75 <./research-3/figs/FIG_05.pdf>]
-<research-3/figs/FIG_06.pdf, id=1663, 445.18411pt x 610.68275pt>
+ [84 <./research-3/figs/FIG_05.pdf>]
+<research-3/figs/FIG_06.pdf, id=1874, 445.18411pt x 610.68275pt>
 File: research-3/figs/FIG_06.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_06.pdf>
-Package pdftex.def Info: research-3/figs/FIG_06.pdf used on input line 117.
+Package pdftex.def Info: research-3/figs/FIG_06.pdf used on input line 121.
 (pdftex.def)             Requested size: 483.69687pt x 663.54372pt.
 
-<research-3/figs/FIG_07.pdf, id=1672, 442.43694pt x 605.33354pt>
+<research-3/figs/FIG_07.pdf, id=1883, 442.43694pt x 605.33354pt>
 File: research-3/figs/FIG_07.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_07.pdf>
-Package pdftex.def Info: research-3/figs/FIG_07.pdf used on input line 126.
+Package pdftex.def Info: research-3/figs/FIG_07.pdf used on input line 130.
 (pdftex.def)             Requested size: 483.69687pt x 661.8233pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[76]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[77 <./research-3/figs/FIG_06.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[78 <./research-3/figs/FIG_07.pdf>]
-<research-3/figs/FIG_08.pdf, id=1710, 925.05597pt x 346.89601pt>
+ [85] [86 <./research-3/figs/FIG_06.pdf>]
+[87 <./research-3/figs/FIG_07.pdf>]
+<research-3/figs/FIG_08.pdf, id=1922, 925.05597pt x 346.89601pt>
 File: research-3/figs/FIG_08.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_08.pdf>
-Package pdftex.def Info: research-3/figs/FIG_08.pdf used on input line 137.
+Package pdftex.def Info: research-3/figs/FIG_08.pdf used on input line 141.
 (pdftex.def)             Requested size: 483.69687pt x 181.38737pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[79]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[80 <./research-3/figs/FIG_08.pdf>]
-<research-3/figs/FIG_09.pdf, id=1760, 909.44565pt x 674.13458pt>
+ [88] [89 <./research-3/figs/FIG_08.pdf>]
+<research-3/figs/FIG_09.pdf, id=1971, 909.44565pt x 674.13458pt>
 File: research-3/figs/FIG_09.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_09.pdf>
-Package pdftex.def Info: research-3/figs/FIG_09.pdf used on input line 158.
+Package pdftex.def Info: research-3/figs/FIG_09.pdf used on input line 162.
 (pdftex.def)             Requested size: 483.69687pt x 358.54457pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[81]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[82 <./research-3/figs/FIG_09.pdf>] (./research-3/research-3.bbl
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[83]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[84]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[85]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[86]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[87]))
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[88]
+ [90] [91 <./research-3/figs/FIG_09.pdf>]
+(./research-3/research-3.bbl [92] [93] [94] [95] [96])) [97]
 \openout2 = `research-4/research-4.aux'.
 
- (./research-4/research-4.tex
+
+(./research-4/research-4.tex
 Chapter 5.
-<research-4/figs/framboids_rowan.pdf, id=1849, 1272.755pt x 1391.1975pt>
+<research-4/figs/framboids_rowan.pdf, id=2061, 1272.755pt x 1391.1975pt>
 File: research-4/figs/framboids_rowan.pdf Graphic file (type pdf)
 
 <use research-4/figs/framboids_rowan.pdf>
 Package pdftex.def Info: research-4/figs/framboids_rowan.pdf used on input line
- 11.
+ 15.
 (pdftex.def)             Requested size: 241.84843pt x 264.3515pt.
- [89
+ [98
 
 
 
 
-]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[90 <./research-4/figs/framboids_rowan.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[91]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[92]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[93] <research-4/figs/mesh_orientations_HD.png, id=1982, 4015.0pt x 4015.0pt>
+] [99 <./research-4/figs/framboids_rowan.pdf>] [100] [101] [102]
+<research-4/figs/mesh_orientations_HD.png, id=2193, 4015.0pt x 4015.0pt>
 File: research-4/figs/mesh_orientations_HD.png Graphic file (type png)
 
 <use research-4/figs/mesh_orientations_HD.png>
 Package pdftex.def Info: research-4/figs/mesh_orientations_HD.png used on input
- line 69.
+ line 73.
 (pdftex.def)             Requested size: 290.22107pt x 290.20703pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[94]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[95 <./research-4/figs/mesh_orientations_HD.png (PNG copy)>]
-<research-4/figs/forcs_easy_hard.pdf, id=2012, 852.78598pt x 693.792pt>
+ [103] [104 <./research-4/figs/mesh_orientations_HD.png (PNG copy)>]
+<research-4/figs/forcs_easy_hard.pdf, id=2224, 852.78598pt x 693.792pt>
 File: research-4/figs/forcs_easy_hard.pdf Graphic file (type pdf)
 
 <use research-4/figs/forcs_easy_hard.pdf>
 Package pdftex.def Info: research-4/figs/forcs_easy_hard.pdf used on input line
- 81.
+ 85.
 (pdftex.def)             Requested size: 483.69687pt x 393.50706pt.
 
-<research-4/figs/remanent_supervortex.pdf, id=2015, 6022.5pt x 4015.0pt>
+<research-4/figs/remanent_supervortex.pdf, id=2227, 6022.5pt x 4015.0pt>
 File: research-4/figs/remanent_supervortex.pdf Graphic file (type pdf)
 
 <use research-4/figs/remanent_supervortex.pdf>
 Package pdftex.def Info: research-4/figs/remanent_supervortex.pdf used on input
- line 90.
+ line 94.
 (pdftex.def)             Requested size: 483.69687pt x 322.43184pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[96]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[97 <./research-4/figs/forcs_easy_hard.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[98 <./research-4/figs/remanent_supervortex.pdf>]
-<research-4/figs/forc_avg.pdf, id=2053, 852.78598pt x 346.89601pt>
+ [105] [106 <./research-4/figs/forcs_easy_hard.pdf>] [107 <./research-4/figs/re
+manent_supervortex.pdf>]
+<research-4/figs/forc_avg.pdf, id=2264, 852.78598pt x 346.89601pt>
 File: research-4/figs/forc_avg.pdf Graphic file (type pdf)
 
 <use research-4/figs/forc_avg.pdf>
-Package pdftex.def Info: research-4/figs/forc_avg.pdf used on input line 100.
+Package pdftex.def Info: research-4/figs/forc_avg.pdf used on input line 104.
 (pdftex.def)             Requested size: 483.69687pt x 196.75352pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[99 <./research-4/figs/forc_avg.pdf>]
-<research-4/figs/forc_mix.pdf, id=2074, 780.51598pt x 346.89601pt>
+ [108 <./research-4/figs/forc_avg.pdf>]
+<research-4/figs/forc_mix.pdf, id=2285, 780.51598pt x 346.89601pt>
 File: research-4/figs/forc_mix.pdf Graphic file (type pdf)
 
 <use research-4/figs/forc_mix.pdf>
-Package pdftex.def Info: research-4/figs/forc_mix.pdf used on input line 113.
+Package pdftex.def Info: research-4/figs/forc_mix.pdf used on input line 117.
 (pdftex.def)             Requested size: 483.69687pt x 214.97801pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[100 <./research-4/figs/forc_mix.pdf>]
-<research-4/figs/DayPlot.pdf, id=2095, 462.52798pt x 346.89601pt>
+ [109 <./research-4/figs/forc_mix.pdf>]
+<research-4/figs/DayPlot.pdf, id=2307, 462.52798pt x 346.89601pt>
 File: research-4/figs/DayPlot.pdf Graphic file (type pdf)
 
 <use research-4/figs/DayPlot.pdf>
-Package pdftex.def Info: research-4/figs/DayPlot.pdf used on input line 124.
+Package pdftex.def Info: research-4/figs/DayPlot.pdf used on input line 128.
 (pdftex.def)             Requested size: 386.95897pt x 290.23145pt.
 
-<research-4/figs/loop21_76nm_annotated.pdf, id=2105, 462.52798pt x 346.89601pt>
+<research-4/figs/loop21_76nm_annotated.pdf, id=2317, 462.52798pt x 346.89601pt>
 File: research-4/figs/loop21_76nm_annotated.pdf Graphic file (type pdf)
 <use research-4/figs/loop21_76nm_annotated.pdf>
 Package pdftex.def Info: research-4/figs/loop21_76nm_annotated.pdf used on inpu
-t line 134.
+t line 138.
 (pdftex.def)             Requested size: 435.32422pt x 326.51103pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[101 <./research-4/figs/DayPlot.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[102]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[103 <./research-4/figs/loop21_76nm_annotated.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[104] (./research-4/research-4.bbl
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[105]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[106]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[107]))
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 27.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[108]
+ [110 <./research-4/figs/DayPlot.pdf>] [111] [112 <./research-4/figs/loop21_76n
+m_annotated.pdf>] [113]
+(./research-4/research-4.bbl [114] [115] [116])) [117]
 \openout2 = `conclusions/conclusions.aux'.
 
- (./conclusions/conclusions.tex
+
+(./conclusions/conclusions.tex
 Chapter 6.
-[109
+[118
 
 
 
 
-] [110] [111]) [112] (./thesis.bbl [113
+] [119] [120] (./conclusions/conclusions.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 7.
+
+)) [121] (./thesis.bbl [122
 
 
-]
+] [123]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [114] [115] [116] [117] [118]
-[119] [120] [121] [122])
+ [124] [125] [126] [127] [128]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [129] [130]
+[131] [132] [133])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
- [123]
+ [134]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
  (./thesis.aux (./pre/declarations.aux)
 (./pre/abstract.aux) (./pre/acknowledgements.aux) (./pre/dedication.aux)
@@ -2266,7 +1671,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 20AB2472E972D9B2343404DA7E121C1C;3676.
+(rerunfilecheck)             Checksum: 31112DB6B8A87F9FBBBBECA598843C3E;3656.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2274,13 +1679,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  ) 
 Here is how much of TeX's memory you used:
- 25085 strings out of 494953
- 464751 string characters out of 6180977
- 670872 words of memory out of 5000000
- 27293 multiletter control sequences out of 15000+600000
+ 25295 strings out of 494953
+ 468271 string characters out of 6180977
+ 674578 words of memory out of 5000000
+ 27431 multiletter control sequences out of 15000+600000
  37580 words of font info for 187 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 46i,13n,46p,10428b,1013s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,13n,46p,10428b,1049s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
@@ -2297,10 +1702,10 @@ mss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx1
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (123 pages, 69212738 bytes).
+Output written on thesis.pdf (134 pages, 72576055 bytes).
 PDF statistics:
- 2617 PDF objects out of 2984 (max. 8388607)
- 2262 compressed objects within 23 object streams
- 486 named destinations out of 1000 (max. 500000)
- 41539 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 2888 PDF objects out of 2984 (max. 8388607)
+ 2514 compressed objects within 26 object streams
+ 554 named destinations out of 1000 (max. 500000)
+ 41544 words of extra memory for PDF output out of 42996 (max. 10000000)
 

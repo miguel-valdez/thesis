@@ -10,11 +10,11 @@ A level-1 auxiliary file: pre/nomenclature.aux
 A level-1 auxiliary file: intro/intro.aux
 The style file: elsarticle-harv.bst
 A level-1 auxiliary file: research-1/research-1.aux
-Illegal, another \bibstyle command---line 118 of file research-1/research-1.aux
+Illegal, another \bibstyle command---line 117 of file research-1/research-1.aux
  : \bibstyle
  :          {elsarticle-harv}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 119 of file research-1/research-1.aux
+Illegal, another \bibdata command---line 118 of file research-1/research-1.aux
  : \bibdata
  :         {references}
 I'm skipping whatever remains of this command
@@ -46,6 +46,14 @@ Illegal, another \bibdata command---line 79 of file research-4/research-4.aux
  :         {references}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: conclusions/conclusions.aux
+Illegal, another \bibstyle command---line 11 of file conclusions/conclusions.aux
+ : \bibstyle
+ :          {elsarticle-harv}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 12 of file conclusions/conclusions.aux
+ : \bibdata
+ :         {references}
+I'm skipping whatever remains of this command
 Illegal, another \bibstyle command---line 60 of file thesis.aux
  : \bibstyle
  :          {elsarticle-harv}
@@ -55,48 +63,49 @@ Illegal, another \bibdata command---line 61 of file thesis.aux
  :         {references}
 I'm skipping whatever remains of this command
 Database file #1: references.bib
+Warning--there's a number but no volume in Donovan1979
 Warning--empty journal in OConbhui2017
 Warning--empty journal in ValdezGrijalva2017
 Warning--empty journal in ValdezGrijalva2018
-You've used 78 entries,
+You've used 99 entries,
             2821 wiz_defined-function locations,
-            1223 strings with 22720 characters,
-and the built_in function-call counts, 42240 in all, are:
-= -- 4209
-> -- 2552
-< -- 32
-+ -- 970
-- -- 873
-* -- 4081
-:= -- 7665
-add.period$ -- 233
-call.type$ -- 78
-change.case$ -- 685
-chr.to.int$ -- 77
-cite$ -- 81
-duplicate$ -- 1379
-empty$ -- 2570
-format.name$ -- 1120
-if$ -- 8244
-int.to.chr$ -- 2
+            1378 strings with 27192 characters,
+and the built_in function-call counts, 53973 in all, are:
+= -- 5403
+> -- 3212
+< -- 42
++ -- 1225
+- -- 1098
+* -- 5192
+:= -- 9758
+add.period$ -- 298
+call.type$ -- 99
+change.case$ -- 867
+chr.to.int$ -- 97
+cite$ -- 103
+duplicate$ -- 1762
+empty$ -- 3322
+format.name$ -- 1405
+if$ -- 10567
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 78
-newline$ -- 310
-num.names$ -- 314
-pop$ -- 603
+missing$ -- 100
+newline$ -- 387
+num.names$ -- 400
+pop$ -- 761
 preamble$ -- 1
-purify$ -- 602
+purify$ -- 760
 quote$ -- 0
-skip$ -- 999
+skip$ -- 1272
 stack$ -- 0
-substring$ -- 2333
-swap$ -- 176
-text.length$ -- 2
+substring$ -- 3096
+swap$ -- 230
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 696
-warning$ -- 3
-while$ -- 343
+type$ -- 882
+warning$ -- 4
+while$ -- 447
 width$ -- 0
-write$ -- 928
-(There were 10 error messages)
+write$ -- 1175
+(There were 12 error messages)

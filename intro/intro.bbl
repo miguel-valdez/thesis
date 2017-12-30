@@ -1,7 +1,216 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{34}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Abubakar et~al.(2015)Abubakar, Muxworthy, Sephton, Southern, Watson,
+  Fraser, and Almeida}]{Abubakar2015}
+Abubakar, R., Muxworthy, A.~R., Sephton, M.~A., Southern, P., Watson, J.~S.,
+  Fraser, A.~J., Almeida, T.~P., 2015. Formation of magnetic minerals in
+  hydrocarbon-generation conditions. Mar. Petrol. Geol. 68, 509--519.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.marpetgeo.2015.10.003}
+
+\bibitem[{Aldana et~al.(1999)Aldana, Constanzo-Alvarez, Vitiello, Colmenares,
+  and G\'{o}mez}]{Aldana1999}
+Aldana, M., Constanzo-Alvarez, V., Vitiello, D., Colmenares, L., G\'{o}mez, G.,
+  1999. Framboidal magnetic minerals and their possible association to
+  hydrocarbons: {L}a {V}ictoria oil field, southwestern {V}enezuela.
+  Geof\'{i}s. Int. 38~(3), 137--152.
+
+\bibitem[{Berner(1984)}]{Berner1984}
+Berner, R.~A., 1984. Sedimentary pyrite formation: {A}n update. Geochim.
+  Cosmochim. Ac. 48~(4), 605--615.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/0016-7037(84)90089-9}
+
+\bibitem[{Carlson(1975)}]{Carlson1975}
+Carlson, J.~B., 1975. Lodestone compass: {C}hinese or {O}lmec primacy? Science
+  189~(4205), 753--760.
+\newline\urlprefix\url{https://dx.doi.org/10.1126/science.189.4205.753}
+
+\bibitem[{Chang et~al.(2008)Chang, Roberts, Tang, Rainford, Muxworthy, and
+  Chen}]{Chang2008}
+Chang, L., Roberts, A.~P., Tang, Y., Rainford, B.~D., Muxworthy, A.~R., Chen,
+  Q., 2008. Fundamental magnetic parameters from pure synthetic greigite
+  ({F}e$_3${S}$_4$). J. Geophys. Res. 113~(B6).
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2007JB005502}
+
+\bibitem[{Costanzo-Alvarez et~al.(2012)Costanzo-Alvarez, Aldana, Bayona,
+  L{\'o}pez-Rodr{\'i}guez, and Blanco}]{Costanzo2012}
+Costanzo-Alvarez, V., Aldana, M., Bayona, G., L{\'o}pez-Rodr{\'i}guez, D.,
+  Blanco, J.~M., 2012. Rock magnetic characterization of early and late
+  diagenesis in a stratigraphic well from the {L}lanos foreland basin ({E}aster
+  {C}olombia). Geol. Soc. Spec. Publ. 371, 199--216.
+\newline\urlprefix\url{https://dx.doi.org/10.1144/SP371.13}
+
+\bibitem[{Costanzo-Alvarez et~al.(2006)Costanzo-Alvarez, Aldana, D\'{i}az,
+  Bayona, and Ayala}]{Costanzo2006}
+Costanzo-Alvarez, V., Aldana, M., D\'{i}az, M., Bayona, G., Ayala, C., 2006.
+  Hydrocarbon-induced magnetic contrasts in some {V}enezuelan and {C}olombian
+  oil wells. Earth Planets Space 58, 1401--1410.
+\newline\urlprefix\url{https://dx.doi.org/10.1186/BF03352636}
+
+\bibitem[{D\'{i}az et~al.(2000)D\'{i}az, Aldana, Constanzo-Alvarez, Silva, and
+  P\'{e}rez}]{Diaz2000}
+D\'{i}az, M., Aldana, M., Constanzo-Alvarez, V., Silva, P., P\'{e}rez, A.,
+  2000. E{PR} and magnetic susceptibility studies in well samples from some
+  {V}enezuelan oil fields. Phys. Chem. Earth Pt. A 25~(5), 447--453.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/S1464-1895(00)00069-7}
+
+\bibitem[{Donovan et~al.(1979)Donovan, Forgey, and Roberts}]{Donovan1979}
+Donovan, T.~J., Forgey, R.~L., Roberts, A.~A., 1979. Aeromagnetic detection of
+  diagenetic magnetite over oil fields. AAPG Bull.~(2), 245--248.
+\newline\urlprefix\url{https://dx.doi.org/10.1190/1.1443076}
+
+\bibitem[{Donovan et~al.(1984)Donovan, Hendricks, Roberts, and
+  Eliason}]{Donovan1984}
+Donovan, T.~J., Hendricks, J.~D., Roberts, A.~A., Eliason, P.~T., 1984.
+  Low-altitude aeromagnetic reconaissance for petroleum in the {A}rctic
+  {N}ational {W}ildlife {R}efuge, {A}laska. Geophysics 49~(8), 1338--1353.
+\newline\urlprefix\url{https://dx.doi.org/10.1190/1.1441760}
+
+\bibitem[{Dunlop and {\"O}zdemir(1997)}]{Dunlop}
+Dunlop, D.~J., {\"O}zdemir, {\"O}., 1997. Rock magnetism. Cambridge University
+  Press, Cambridge.
+
+\bibitem[{Elmore et~al.(1993)Elmore, Imbus, Engel, and Fruit}]{Elmore1993}
+Elmore, R.~D., Imbus, S.~W., Engel, M.~H., Fruit, D., September 1993.
+  Hydrocarbons and magnetizations in magnetite. In: A{\"i}ssaoui, D.~M.,
+  McNeill, D.~F., Hurley, N.~F. (Eds.), Applications of Paleomagnetism to
+  Sedimentary Geology. No.~49 in SEPM Special Publication. SEPM (Society for
+  Sedimentary Geology), SEPM (Society for Sedimentary Geology), Tulsa,
+  Oklahoma, U.S.A., pp. 167--179.
+
+\bibitem[{Emmerton et~al.(2013{\natexlab{a}})Emmerton, Muxworthy, and
+  Sephton}]{Emmerton2013B}
+Emmerton, S., Muxworthy, A.~R., Sephton, M.~A., 2013{\natexlab{a}}. A magnetic
+  solution to the mupe bay mystery. Mar. Petrol. Geol. 46, 165--172.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.marpetgeo.2013.06.014}
+
+\bibitem[{Emmerton et~al.(2013{\natexlab{b}})Emmerton, Muxworthy, Sephton,
+  Aldana, Costanzo-Alvarez, Bayona, and Williams}]{Emmerton2013}
+Emmerton, S., Muxworthy, A.~R., Sephton, M.~A., Aldana, M., Costanzo-Alvarez,
+  V., Bayona, G., Williams, W., 2013{\natexlab{b}}. Correlating biodegradation
+  to magnetization in oil bearing sedimentary rocks. Geochim. Cosmochim. Ac.
+  112, 146--165.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.gca.2013.03.008}
+
+\bibitem[{Evans(1977)}]{Evans1977}
+Evans, B., 1977. Magnetism and archaeology: Magnetic oxides in the first
+  american civilization. Physica B {\&} C 86, 1091--1099.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/0378-4363(77)90804-X}
+
+\bibitem[{Evans and Heller(2003)}]{Evans}
+Evans, M.~E., Heller, F., 2003. Environmental magnetism. Academic Press,
+  Amsterdam.
+
+\bibitem[{Gonz\'{a}lez et~al.(2002)Gonz\'{a}lez, Aldana, Constanzo-Alvarez,
+  D\'{i}az, and Romero}]{Gonzalez2002}
+Gonz\'{a}lez, F., Aldana, M., Constanzo-Alvarez, V., D\'{i}az, M., Romero, I.,
+  2002. An integrated rock magnetic and {EPR} study in soil samples from a
+  hydrocarbon prospective area. Phys. Chem. Earth 27~(25), 1311--1317.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/S1474-7065(02)00125-0}
+
+\bibitem[{Guzm\'{a}n et~al.(2011)Guzm\'{a}n, Costanzo-Alvarez, Aldana, and
+  D\'{i}az}]{Guzman2011}
+Guzm\'{a}n, O., Costanzo-Alvarez, V., Aldana, M., D\'{i}az, M., 2011. Study of
+  magnetic constrasts applied to hydrocarbon exploration in the {M}atur\'{i}n
+  sub-basin (eastern {V}enezuela). Stud. Geophys. Geod. 55~(2), 359--376.
+\newline\urlprefix\url{https://dx.doi.org/10.1007/s11200-011-0020-7}
+
+\bibitem[{Hunger and Benning(2007)}]{Hunger2007}
+Hunger, S., Benning, L.~G., 2007. Greigite: a true intermediate on the
+  polysulfide pathway to pyrite. Geochem. T. 8~(1), 605--615.
+\newline\urlprefix\url{https://dx.doi.org/10.1186/1467-4866-8-1}
+
+\bibitem[{Koenigsberger(1938)}]{Koenigsberger1938}
+Koenigsberger, J.~G., 1938. Natural residual magnetism of eruptive rocks. J.
+  Geophys. Res. 43~(3), 299--320.
+\newline\urlprefix\url{https://dx.doi.org/10.1029/TE043i003p00299}
+
+\bibitem[{Li et~al.(2014)Li, Zhang, Yu, Novakova, Krivenkov, Kiseleva, Chang,
+  Rao, Polyakov, Blake, de~Groot, and Palstra}]{Li2014}
+Li, G., Zhang, B., Yu, F., Novakova, A.~A., Krivenkov, M.~S., Kiseleva, T.~Y.,
+  Chang, L., Rao, J., Polyakov, A.~O., Blake, G.~R., de~Groot, R.~A., Palstra,
+  T. T.~M., 2014. High-purity {F}e$_\text{3}${S}$_\text{4}$ greigite
+  microcrystals for magnetic and electrochemical performance. Chem. Mater.
+  26~(20), 5821--5829.
+\newline\urlprefix\url{https://dx.doi.org/10.1021/cm501493m}
+
+\bibitem[{Liu et~al.(2004)Liu, Chan, Liu, Li, Wang, Zhang, Xia, and
+  Cheng}]{Liu2004}
+Liu, Q., Chan, L., Liu, Q., Li, H., Wang, F., Zhang, S., Xia, X., Cheng, T.,
+  2004. A study of relationship between magnetic, geochemical and mineralogical
+  anomalies and hydrocarbon microseepage above oil and gas fields, {O}rdos
+  {B}asin in {C}hina. AAPG Bull. 88~(2), 241--251.
+
+\bibitem[{Liu et~al.(2006)Liu, Liu, Chan, Yang, Xia, and Cheng}]{Liu2006}
+Liu, Q., Liu, Q., Chan, L., Yang, T., Xia, X., Cheng, T., 2006. Magnetic
+  enhancement caused by hydrocarbon migration in the {M}awangmiao oil field,
+  {J}ianghan basin, {C}hina. J. Petrol. Sci. Eng. 53~(1), 25--33.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.petrol.2006.01.010}
+
+\bibitem[{Liu and Liu(1999)}]{Liu1999}
+Liu, Q., Liu, S., 1999. Magnetic and mineralogical characteristics of reservoir
+  rocks in the {Y}akela oil field, northern {T}arim {B}asin and their
+  implications for magnetic detection of oil and gas accumulations. Chin. Sci.
+  Bull. 4~(2), 174--177.
+
+\bibitem[{Machel and Burton(1991)}]{Machel1991}
+Machel, H.~G., Burton, E.~A., 1991. Chemical and microbial processes causing
+  anomalous magnetization in environments affected by hydrocarbon seepage.
+  Geophysics 56~(5), 598--605.
+\newline\urlprefix\url{https://dx.doi.org/10.1190/1.1443076}
+
+\bibitem[{May(1981)}]{May1981}
+May, W.~E., 1981. Were compasses used in antiquity? J. Navigation 34~(3),
+  414–--423.
+\newline\urlprefix\url{https://dx.doi.org/10.1017/S0373463300048037}
+
+\bibitem[{Nagata et~al.(1943)Nagata, Harada, and Hirao}]{Nagata1943}
+Nagata, T., Harada, Y., Hirao, K., 1943. The natural remanent magnetization of
+  sedimentary rocks. Bull. Earthquake Res. Inst. Tokyo Univ. 31, 276--296.
+
+\bibitem[{Reynolds et~al.(1993)Reynolds, Goldhaber, and Tuttle}]{Reynolds1993}
+Reynolds, R.~L., Goldhaber, M.~B., Tuttle, M.~L., September 1993. Sulfidization
+  and magnetization above hydrocarbon reservoirs. In: A{\"i}ssaoui, D.~M.,
+  McNeill, D.~F., Hurley, N.~F. (Eds.), Applications of Paleomagnetism to
+  Sedimentary Geology. No.~49 in SEPM Special Publication. SEPM (Society for
+  Sedimentary Geology), SEPM (Society for Sedimentary Geology), Tulsa,
+  Oklahoma, U.S.A., pp. 167--179.
+
+\bibitem[{Roberts(2015)}]{Roberts2015}
+Roberts, A.~P., 2015. Magnetic mineral diagenesis. Earth Sci. Rev. 151, 1--47.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.earscirev.2015.09.010}
+
+\bibitem[{Roberts et~al.(2011)Roberts, Chang, Rowan, Horng, and
+  Florindo}]{Roberts2011}
+Roberts, A.~P., Chang, L., Rowan, C.~J., Horng, C.~S., Florindo, F., 2011.
+  Magnetic properties of sedimentary greigite ({F}e$_3${S}$_4$): An update.
+  Rev. Geophys. 49~(1).
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2010RG000336}
+
+\bibitem[{Rowan and Roberts(2006)}]{Rowan2006}
+Rowan, C.~J., Roberts, A.~P., 2006. Magnetite dissolution, diachronous greigite
+  formation, and secondary magnetizations from pyrite oxidation: {U}nravelling
+  complex magnetizations in {N}eogene marine sediments from {N}ew {Z}ealand.
+  Earth Planet. Sci. Lett. 241~(1), 119--137.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.epsl.2005.10.017}
+
+\bibitem[{Snowball(1997)}]{Snowball1997}
+Snowball, I.~F., 1997. Gyroremanent magnetization and the magnetic properties
+  of greigite-bearing clays in southern {S}weden. Geophys. J. Int. 129~(3),
+  624--636.
+\newline\urlprefix\url{https://dx.doi.org/10.1111/j.1365-246X.1997.tb04498.x}
+
+\bibitem[{Thellier(1938)}]{Thellier1938}
+Thellier, E., 1938. Sur l'aimantation des terres cuites et ses applications
+  g{\'e}ophysique. Ann. Inst. Phys. Globe Univ. Paris 16, 157--302.
+
+\bibitem[{Winklhofer et~al.(2014)Winklhofer, Chang, and Eder}]{Winklhofer2014}
+Winklhofer, M., Chang, L., Eder, S. H.~K., 2014. On the magnetocrystalline
+  anisotropy of greigite ({F}e$_3${S}$_4$). Geochem. Geophys. Geosyst. 15~(4),
+  1558--1579.
+\newline\urlprefix\url{https://dx.doi.org/10.1002/2013GC005121}
 
 \end{thebibliography}
