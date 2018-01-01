@@ -1,4 +1,4 @@
-\begin{thebibliography}{34}
+\begin{thebibliography}{63}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -18,10 +18,24 @@ Aldana, M., Constanzo-Alvarez, V., Vitiello, D., Colmenares, L., G\'{o}mez, G.,
   hydrocarbons: {L}a {V}ictoria oil field, southwestern {V}enezuela.
   Geof\'{i}s. Int. 38~(3), 137--152.
 
+\bibitem[{Ariztegui and Dobson(1996)}]{Ariztegui1996}
+Ariztegui, D., Dobson, J., 1996. Magnetic investigations of framboidal greigite
+  formation: a record of anthropogenic environmental changes in eutrophic
+  {L}ake {S}t. {M}oritz, {S}witzerland. Holocene 6~(2), 235--241.
+\newline\urlprefix\url{https://dx.doi.org/10.1177/095968369600600209}
+
 \bibitem[{Berner(1984)}]{Berner1984}
 Berner, R.~A., 1984. Sedimentary pyrite formation: {A}n update. Geochim.
   Cosmochim. Ac. 48~(4), 605--615.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/0016-7037(84)90089-9}
+
+\bibitem[{Brown(1940)}]{Brown1940}
+Brown, W.~F., 1940. Theory of the approach to magnetic saturation. Phys. Rev.
+  58~(8), 736.
+\newline\urlprefix\url{https://dx.doi.org/10.1103/PhysRev.58.736}
+
+\bibitem[{Brown(1963)}]{Brown}
+Brown, W.~F., 1963. Micromagnetics. Interscience, New York.
 
 \bibitem[{Carlson(1975)}]{Carlson1975}
 Carlson, J.~B., 1975. Lodestone compass: {C}hinese or {O}lmec primacy? Science
@@ -39,8 +53,8 @@ Chang, L., Roberts, A.~P., Tang, Y., Rainford, B.~D., Muxworthy, A.~R., Chen,
   L{\'o}pez-Rodr{\'i}guez, and Blanco}]{Costanzo2012}
 Costanzo-Alvarez, V., Aldana, M., Bayona, G., L{\'o}pez-Rodr{\'i}guez, D.,
   Blanco, J.~M., 2012. Rock magnetic characterization of early and late
-  diagenesis in a stratigraphic well from the {L}lanos foreland basin ({E}aster
-  {C}olombia). Geol. Soc. Spec. Publ. 371, 199--216.
+  diagenesis in a stratigraphic well from the {L}lanos foreland basin
+  ({E}astern {C}olombia). Geol. Soc. Spec. Publ. 371, 199--216.
 \newline\urlprefix\url{https://dx.doi.org/10.1144/SP371.13}
 
 \bibitem[{Costanzo-Alvarez et~al.(2006)Costanzo-Alvarez, Aldana, D\'{i}az,
@@ -104,6 +118,35 @@ Evans, B., 1977. Magnetism and archaeology: Magnetic oxides in the first
 Evans, M.~E., Heller, F., 2003. Environmental magnetism. Academic Press,
   Amsterdam.
 
+\bibitem[{Fabian et~al.(1996)Fabian, Kirchner, Williams, Heider, Leibl, and
+  Huber}]{Fabian1996}
+Fabian, K., Kirchner, A., Williams, W., Heider, F., Leibl, T., Huber, A., 1996.
+  Three-dimensional micromagnetic calculations for magnetite using {FFT}.
+  Geophys. J. Int. 124~(1), 89--104.
+\newline\urlprefix\url{https://dx.doi.org/10.1111/j.1365-246X.1996.tb06354.x}
+
+\bibitem[{Feynman et~al.(1964)Feynman, Leighton, and Sands}]{Feynman}
+Feynman, R.~P., Leighton, R.~B., Sands, M.~L., 1964. The {F}eynman lectures on
+  physics. Addison-Wesley, Reading, Massachusetts, USA.
+
+\bibitem[{Fischbacher et~al.(2017)Fischbacher, Kovacs, Oezelt, Schrefl, Exl,
+  Fidler, Suess, Sakuma, Yano, Kato, Shoji, and Manabe}]{Fischbacher2017}
+Fischbacher, J., Kovacs, A., Oezelt, H., Schrefl, T., Exl, L., Fidler, J.,
+  Suess, D., Sakuma, N., Yano, M., Kato, A., Shoji, T., Manabe, A., 2017.
+  Nonlinear conjugate gradient methods in micromagnetics. AIP Adv. 7~(4),
+  045310.
+\newline\urlprefix\url{https://dx.doi.org/10.1063/1.4981902}
+
+\bibitem[{Fredkin and Koehler(1990)}]{Fredkin1990}
+Fredkin, D.~R., Koehler, T.~R., 1990. Hybrid method for computing demagnetizing
+  fields. IEEE T. Magn. 26~(2), 415--417.
+\newline\urlprefix\url{https://dx.doi.org/10.1109/20.106342}
+
+\bibitem[{Gilbert(2004)}]{Gilbert2004}
+Gilbert, T.~L., 2004. A phenomenological theory of damping in ferromagnetic
+  materials. IEEE T. Magn. 6, 3443--3449.
+\newline\urlprefix\url{https://dx.doi.org/10.1109/TMAG.2004.836740}
+
 \bibitem[{Gonz\'{a}lez et~al.(2002)Gonz\'{a}lez, Aldana, Constanzo-Alvarez,
   D\'{i}az, and Romero}]{Gonzalez2002}
 Gonz\'{a}lez, F., Aldana, M., Constanzo-Alvarez, V., D\'{i}az, M., Romero, I.,
@@ -123,10 +166,21 @@ Hunger, S., Benning, L.~G., 2007. Greigite: a true intermediate on the
   polysulfide pathway to pyrite. Geochem. T. 8~(1), 605--615.
 \newline\urlprefix\url{https://dx.doi.org/10.1186/1467-4866-8-1}
 
+\bibitem[{Imhoff et~al.(1990)Imhoff, Meunler, Brunotte, and
+  Sabonnadi{\`e}re}]{Imhoff1990}
+Imhoff, J.~F., Meunler, G., Brunotte, X., Sabonnadi{\`e}re, J.~C., 1990. An
+  original solution for unbounded electromagnetic 2{D}- and 3{D}-problems
+  throughout the finite element method. IEEE T. Magn. 26~(5), 1659--1661.
+\newline\urlprefix\url{https://dx.doi.org/10.1109/20.104482}
+
 \bibitem[{Koenigsberger(1938)}]{Koenigsberger1938}
 Koenigsberger, J.~G., 1938. Natural residual magnetism of eruptive rocks. J.
   Geophys. Res. 43~(3), 299--320.
 \newline\urlprefix\url{https://dx.doi.org/10.1029/TE043i003p00299}
+
+\bibitem[{Landau and Lifshitz(1935)}]{Landau1935}
+Landau, L.~D., Lifshitz, E., 1935. On the theory of the dispersion of magnetic
+  permeability in ferromagnetic bodies. Phys. Z. Sowjetunion 8~(153), 101--114.
 
 \bibitem[{Li et~al.(2014)Li, Zhang, Yu, Novakova, Krivenkov, Kiseleva, Chang,
   Rao, Polyakov, Blake, de~Groot, and Palstra}]{Li2014}
@@ -167,9 +221,43 @@ May, W.~E., 1981. Were compasses used in antiquity? J. Navigation 34~(3),
   414–--423.
 \newline\urlprefix\url{https://dx.doi.org/10.1017/S0373463300048037}
 
+\bibitem[{Muxworthy et~al.(2004)Muxworthy, Heslop, and
+  Williams}]{Muxworthy2004}
+Muxworthy, A.~R., Heslop, D., Williams, W., 2004. Influence of magnetostatic
+  interactions on first-order-reversal-curve ({FORC}) diagrams: a micromagnetic
+  approach. Geophys. J. Int. 158~(3), 888--897.
+\newline\urlprefix\url{https://dx.doi.org/10.1111/j.1365-246X.2004.02358.x}
+
+\bibitem[{Muxworthy and Williams(2006)}]{Muxworthy2006}
+Muxworthy, A.~R., Williams, W., 2006. Critical single-domain/multidomain grain
+  sizes in noninteracting and interacting elongated magnetite particles:
+  {I}mplications for magnetosomes. J. Geophys. Res. 111~(B12).
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2006JB004588}
+
+\bibitem[{Muxworthy et~al.(2013)Muxworthy, Williams, Roberts, Winklhofer,
+  Chang, and P{\'o}sfai}]{Muxworthy2013}
+Muxworthy, A.~R., Williams, W., Roberts, A.~P., Winklhofer, M., Chang, L.,
+  P{\'o}sfai, M., 2013. Critical single domain grain sizes in chains of
+  interacting greigite particles: {I}mplications for magnetosome crystals.
+  Geochem. Geophys. Geosyst. 14~(2), 5430--5441.
+\newline\urlprefix\url{https://dx.doi.org/10.1002/2013GC004973}
+
+\bibitem[{Muxworthy et~al.(2003)Muxworthy, Williams, and
+  Virdee}]{Muxworthy2003}
+Muxworthy, A.~R., Williams, W., Virdee, D., 2003. Effect of magnetostatic
+  interactions on the hysteresis parameters of single-domain and
+  pseudo-single-domain grains. J. Geophys. Res 108~(B11).
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2003JB002588}
+
 \bibitem[{Nagata et~al.(1943)Nagata, Harada, and Hirao}]{Nagata1943}
 Nagata, T., Harada, Y., Hirao, K., 1943. The natural remanent magnetization of
   sedimentary rocks. Bull. Earthquake Res. Inst. Tokyo Univ. 31, 276--296.
+
+\bibitem[{\'O~Conbhu\'i et~al.(2017)\'O~Conbhu\'i, Williams, Fabian, Ridley,
+  Nagy, and Muxworthy}]{OConbhui2017}
+\'O~Conbhu\'i, P., Williams, W., Fabian, K., Ridley, P., Nagy, L., Muxworthy,
+  A.~R., 2017. {MERRILL: Micromagnetic Earth Related Robust Interpreted
+  Language Laboratory}. Submitted to Geochem. Geophys. Geosyst.
 
 \bibitem[{Reynolds et~al.(1993)Reynolds, Goldhaber, and Tuttle}]{Reynolds1993}
 Reynolds, R.~L., Goldhaber, M.~B., Tuttle, M.~L., September 1993. Sulfidization
@@ -179,9 +267,28 @@ Reynolds, R.~L., Goldhaber, M.~B., Tuttle, M.~L., September 1993. Sulfidization
   Sedimentary Geology), SEPM (Society for Sedimentary Geology), Tulsa,
   Oklahoma, U.S.A., pp. 167--179.
 
+\bibitem[{Reynolds et~al.(1999)Reynolds, Rosenbaum, van Metre, Tuttle,
+  Callender, and Goldin}]{Reynolds1999}
+Reynolds, R.~L., Rosenbaum, J.~G., van Metre, P., Tuttle, M.~L., Callender, E.,
+  Goldin, A., 1999. Greigite ({F}e3{S}4) as an indicator of drought--{T}he
+  1912--1994 sediment magnetic record from {W}hite {R}ock {L}ake, {D}allas,
+  {T}exas, {USA}. J. Paleolimnol. 21~(2), 193--206.
+\newline\urlprefix\url{https://dx.doi.org/10.1023/A:1008027815203}
+
+\bibitem[{Rhodes and Rowlands(1954)}]{Rhodes1954}
+Rhodes, P., Rowlands, G., 1954. Demagnetising energies of uniformly magnetised
+  rectangular blocks. Proc. Leeds Phil. Lit. Soc., Sci. Sect. 6, 191--210.
+
 \bibitem[{Roberts(2015)}]{Roberts2015}
 Roberts, A.~P., 2015. Magnetic mineral diagenesis. Earth Sci. Rev. 151, 1--47.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/j.earscirev.2015.09.010}
+
+\bibitem[{Roberts et~al.(2017)Roberts, Almeida, Church, Harrison, Helsop, Li,
+  Li, Muxworthy, Williams, and Zhao}]{Roberts2017}
+Roberts, A.~P., Almeida, T.~P., Church, N.~S., Harrison, R.~J., Helsop, D., Li,
+  Y., Li, J., Muxworthy, A.~R., Williams, W., Zhao, X., 2017. Resolving the
+  origin of pseudo-single domain magnetic behavior. J. Geophys. Res.
+\newline\urlprefix\url{https://dx.doi.org/10.1002/2017JB014860}
 
 \bibitem[{Roberts et~al.(2011)Roberts, Chang, Rowan, Horng, and
   Florindo}]{Roberts2011}
@@ -190,6 +297,34 @@ Roberts, A.~P., Chang, L., Rowan, C.~J., Horng, C.~S., Florindo, F., 2011.
   Rev. Geophys. 49~(1).
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2010RG000336}
 
+\bibitem[{Roberts et~al.(2010)Roberts, Florindo, Larrasoa{\~n}a, O'Regan, and
+  Zhao}]{Roberts2010}
+Roberts, A.~P., Florindo, F., Larrasoa{\~n}a, J.~C., O'Regan, M.~A., Zhao, X.,
+  2010. Complex polarity pattern at the former {P}lio--{P}leistocene global
+  stratotype section at {V}rica ({I}taly): {R}emagnetization by magnetic iron
+  sulphides. Earth Planet. Sci. Lett. 292~(1), 98--111.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.epsl.2010.01.025}
+
+\bibitem[{Roberts et~al.(2000)Roberts, Pike, and Verosub}]{Roberts2000}
+Roberts, A.~P., Pike, C.~R., Verosub, K.~L., 2000. First-order reversal curve
+  diagrams: {A} new tool for characterizing the magnetic properties of natural
+  samples. J. Geophys. Res. 105~(B12), 28461--28475.
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2000JB900326}
+
+\bibitem[{Roberts and Weaver(2005)}]{Roberts2005}
+Roberts, A.~P., Weaver, R., 2005. Multiple mechanisms of remagnetization
+  involving sedimentary greigite ({F}e$_3${S}$_4$). Earth Planet. Sci. Lett.
+  231~(3), 263--277.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.epsl.2004.11.024}
+
+\bibitem[{Ron et~al.(2007)Ron, Nowaczyk, Frank, Schwab, Naumann, Striewski, and
+  Agnon}]{Ron2007}
+Ron, H., Nowaczyk, N.~R., Frank, U., Schwab, M.~J., Naumann, R., Striewski, B.,
+  Agnon, A., 2007. Greigite detected as dominating remanence carrier in {L}ate
+  {P}leistocene sediments, {L}isan formation, from {L}ake {K}inneret ({S}ea of
+  {G}alilee), {I}srael. Geophys. J. Int. 170~(1), 117--131.
+\newline\urlprefix\url{https://dx.doi.org/10.1111/j.1365-246X.2007.03425.x}
+
 \bibitem[{Rowan and Roberts(2006)}]{Rowan2006}
 Rowan, C.~J., Roberts, A.~P., 2006. Magnetite dissolution, diachronous greigite
   formation, and secondary magnetizations from pyrite oxidation: {U}nravelling
@@ -197,20 +332,58 @@ Rowan, C.~J., Roberts, A.~P., 2006. Magnetite dissolution, diachronous greigite
   Earth Planet. Sci. Lett. 241~(1), 119--137.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/j.epsl.2005.10.017}
 
+\bibitem[{Rowan et~al.(2009)Rowan, Roberts, and Broadbent}]{Rowan2009}
+Rowan, C.~J., Roberts, A.~P., Broadbent, T., 2009. Reductive diagenesis,
+  magnetite dissolution, greigite growth and paleomagnetic smoothing in marine
+  sediments: {A} new view. Earth Planet. Sci. Lett. 277~(1), 223--235.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.epsl.2008.10.016}
+
 \bibitem[{Snowball(1997)}]{Snowball1997}
 Snowball, I.~F., 1997. Gyroremanent magnetization and the magnetic properties
   of greigite-bearing clays in southern {S}weden. Geophys. J. Int. 129~(3),
   624--636.
 \newline\urlprefix\url{https://dx.doi.org/10.1111/j.1365-246X.1997.tb04498.x}
 
+\bibitem[{Sweeney and Kaplan(1973)}]{Sweeney1973}
+Sweeney, R.~E., Kaplan, I.~R., 1973. Pyrite framboid formation; laboratory
+  synthesis and marine sediments. Econ. Geol. 68~(5), 618--634.
+\newline\urlprefix\url{https://dx.doi.org/10.2113/gsecongeo.68.5.618}
+
 \bibitem[{Thellier(1938)}]{Thellier1938}
 Thellier, E., 1938. Sur l'aimantation des terres cuites et ses applications
   g{\'e}ophysique. Ann. Inst. Phys. Globe Univ. Paris 16, 157--302.
+
+\bibitem[{Wilkin and Barnes(1996)}]{Wilkin1996}
+Wilkin, R.~T., Barnes, H.~L., 1996. Pyrite formation by reactions of iron
+  monosulfides with dissolved inorganic and organic sulfur species. Geochim.
+  Cosmochim. Ac. 60~(21), 4167--4179.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/S0016-7037(97)81466-4}
+
+\bibitem[{Wilkin and Barnes(1997)}]{Wilkin1997}
+Wilkin, R.~T., Barnes, H.~L., 1997. Formation processes of framboidal pyrite.
+  Geochim. Cosmochim. Ac. 61~(2), 323--339.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/S0016-7037(96)00320-1}
+
+\bibitem[{Williams and Dunlop(1989)}]{Williams1989}
+Williams, W., Dunlop, D.~J., 1989. Three-dimensional micromagnetic modelling of
+  ferromagnetic domain structure. Nature 337~(6208), 634--637.
+\newline\urlprefix\url{https://dx.doi.org/10.1038/337634a0}
+
+\bibitem[{Williams et~al.(2010)Williams, Evans, and Kr\'{a}sa}]{Williams2010}
+Williams, W., Evans, M.~E., Kr\'{a}sa, D., 2010. Micromagnetics of
+  paleomagnetically significant mineral grains with complex morphology.
+  Geochem. Geophys. Geosyst. 11~(2).
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2009GC002828}
 
 \bibitem[{Winklhofer et~al.(2014)Winklhofer, Chang, and Eder}]{Winklhofer2014}
 Winklhofer, M., Chang, L., Eder, S. H.~K., 2014. On the magnetocrystalline
   anisotropy of greigite ({F}e$_3${S}$_4$). Geochem. Geophys. Geosyst. 15~(4),
   1558--1579.
 \newline\urlprefix\url{https://dx.doi.org/10.1002/2013GC005121}
+
+\bibitem[{Wright et~al.(1997)Wright, Williams, and Dunlop}]{Wright1997}
+Wright, T.~M., Williams, W., Dunlop, D.~J., 1997. An improved algorithm for
+  micromagnetics. J. Geophys. Res. 102~(B6), 12085--12094.
+\newline\urlprefix\url{https://dx.doi.org/10.1029/96JB03628}
 
 \end{thebibliography}

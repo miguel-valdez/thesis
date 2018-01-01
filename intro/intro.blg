@@ -3,46 +3,57 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: intro/intro.aux
 The style file: elsarticle-harv.bst
 Database file #1: references.bib
+I was expecting a `,' or a `}'---line 1261 of file references.bib
+ : 
+ : //publisher={Elsevier},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1519 of file references.bib
+ : 
+ : //publisher = {Elsevier},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--there's a number but no volume in Donovan1979
-You've used 34 entries,
+Warning--empty journal in OConbhui2017
+You've used 63 entries,
             2821 wiz_defined-function locations,
-            907 strings with 12229 characters,
-and the built_in function-call counts, 19069 in all, are:
-= -- 1923
-> -- 1098
-< -- 18
-+ -- 418
-- -- 375
-* -- 1814
-:= -- 3412
-add.period$ -- 106
-call.type$ -- 34
-change.case$ -- 299
-chr.to.int$ -- 33
-cite$ -- 35
-duplicate$ -- 624
-empty$ -- 1208
-format.name$ -- 475
-if$ -- 3769
+            1117 strings with 18592 characters,
+and the built_in function-call counts, 34767 in all, are:
+= -- 3495
+> -- 2030
+< -- 31
++ -- 773
+- -- 693
+* -- 3329
+:= -- 6243
+add.period$ -- 192
+call.type$ -- 63
+change.case$ -- 549
+chr.to.int$ -- 62
+cite$ -- 65
+duplicate$ -- 1136
+empty$ -- 2177
+format.name$ -- 894
+if$ -- 6841
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 36
-newline$ -- 134
-num.names$ -- 140
-pop$ -- 262
+missing$ -- 67
+newline$ -- 245
+num.names$ -- 256
+pop$ -- 492
 preamble$ -- 1
-purify$ -- 259
+purify$ -- 481
 quote$ -- 0
-skip$ -- 450
+skip$ -- 819
 stack$ -- 0
-substring$ -- 1172
-swap$ -- 92
+substring$ -- 2070
+swap$ -- 157
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 300
-warning$ -- 1
-while$ -- 165
+type$ -- 555
+warning$ -- 2
+while$ -- 294
 width$ -- 0
-write$ -- 409
-(There was 1 warning)
+write$ -- 748
+(There were 2 error messages)

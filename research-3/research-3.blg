@@ -3,6 +3,16 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: research-3/research-3.aux
 The style file: elsarticle-harv.bst
 Database file #1: references.bib
+I was expecting a `,' or a `}'---line 1261 of file references.bib
+ : 
+ : //publisher={Elsevier},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1519 of file references.bib
+ : 
+ : //publisher = {Elsevier},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--empty journal in OConbhui2017
 Warning--empty journal in ValdezGrijalva2017
 You've used 33 entries,
@@ -46,4 +56,4 @@ warning$ -- 2
 while$ -- 143
 width$ -- 0
 write$ -- 393
-(There were 2 warnings)
+(There were 2 error messages)

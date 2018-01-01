@@ -1,4 +1,4 @@
-\begin{thebibliography}{99}
+\begin{thebibliography}{113}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -26,6 +26,12 @@ Aldana, M., Constanzo-Alvarez, V., Vitiello, D., Colmenares, L., G\'{o}mez, G.,
   hydrocarbons: {L}a {V}ictoria oil field, southwestern {V}enezuela.
   Geof\'{i}s. Int. 38~(3), 137--152.
 
+\bibitem[{Ariztegui and Dobson(1996)}]{Ariztegui1996}
+Ariztegui, D., Dobson, J., 1996. Magnetic investigations of framboidal greigite
+  formation: a record of anthropogenic environmental changes in eutrophic
+  {L}ake {S}t. {M}oritz, {S}witzerland. Holocene 6~(2), 235--241.
+\newline\urlprefix\url{https://dx.doi.org/10.1177/095968369600600209}
+
 \bibitem[{Armijo(1966)}]{Armijo1966}
 Armijo, L., 1966. Minimization of functions having {L}ipschitz continuous first
   partial derivatives. Pac. J. Math. 16~(1), 1--3.
@@ -49,6 +55,11 @@ Berkov, D.~V., 1998. Numerical calculation of the energy barrier distribution
 Berner, R.~A., 1984. Sedimentary pyrite formation: {A}n update. Geochim.
   Cosmochim. Ac. 48~(4), 605--615.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/0016-7037(84)90089-9}
+
+\bibitem[{Brown(1940)}]{Brown1940}
+Brown, W.~F., 1940. Theory of the approach to magnetic saturation. Phys. Rev.
+  58~(8), 736.
+\newline\urlprefix\url{https://dx.doi.org/10.1103/PhysRev.58.736}
 
 \bibitem[{Brown(1963)}]{Brown}
 Brown, W.~F., 1963. Micromagnetics. Interscience, New York.
@@ -91,8 +102,8 @@ Chang, L., Roberts, A.~P., Tang, Y., Rainford, B.~D., Muxworthy, A.~R., Chen,
   L{\'o}pez-Rodr{\'i}guez, and Blanco}]{Costanzo2012}
 Costanzo-Alvarez, V., Aldana, M., Bayona, G., L{\'o}pez-Rodr{\'i}guez, D.,
   Blanco, J.~M., 2012. Rock magnetic characterization of early and late
-  diagenesis in a stratigraphic well from the {L}lanos foreland basin ({E}aster
-  {C}olombia). Geol. Soc. Spec. Publ. 371, 199--216.
+  diagenesis in a stratigraphic well from the {L}lanos foreland basin
+  ({E}astern {C}olombia). Geol. Soc. Spec. Publ. 371, 199--216.
 \newline\urlprefix\url{https://dx.doi.org/10.1144/SP371.13}
 
 \bibitem[{Costanzo-Alvarez et~al.(2006)Costanzo-Alvarez, Aldana, D\'{i}az,
@@ -211,11 +222,22 @@ Evans, M.~E., Kr{\'a}sa, D., Williams, W., Winklhofer, M., 2006. Magnetostatic
   111~(B1 2).
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2006JB004454}
 
+\bibitem[{Fabian et~al.(1996)Fabian, Kirchner, Williams, Heider, Leibl, and
+  Huber}]{Fabian1996}
+Fabian, K., Kirchner, A., Williams, W., Heider, F., Leibl, T., Huber, A., 1996.
+  Three-dimensional micromagnetic calculations for magnetite using {FFT}.
+  Geophys. J. Int. 124~(1), 89--104.
+\newline\urlprefix\url{https://dx.doi.org/10.1111/j.1365-246X.1996.tb06354.x}
+
 \bibitem[{Fabian and Shcherbakov(2017)}]{Fabian2017}
 Fabian, K., Shcherbakov, V.~P., 2017. Energy barriers in three-dimensional
   micromagnetic models and the physics of thermo-viscous magnetization in
   multidomain particles. {a}rXiv:1702.00070 [physics.geo-ph].
 \newline\urlprefix\url{https://arxiv.org/abs/1702.00070}
+
+\bibitem[{Feynman et~al.(1964)Feynman, Leighton, and Sands}]{Feynman}
+Feynman, R.~P., Leighton, R.~B., Sands, M.~L., 1964. The {F}eynman lectures on
+  physics. Addison-Wesley, Reading, Massachusetts, USA.
 
 \bibitem[{Fischbacher et~al.(2017)Fischbacher, Kovacs, Oezelt, Schrefl, Exl,
   Fidler, Suess, Sakuma, Yano, Kato, Shoji, and Manabe}]{Fischbacher2017}
@@ -392,6 +414,13 @@ Muxworthy, A.~R., Williams, W., Roberts, A.~P., Winklhofer, M., Chang, L.,
   Geochem. Geophys. Geosyst. 14~(2), 5430--5441.
 \newline\urlprefix\url{https://dx.doi.org/10.1002/2013GC004973}
 
+\bibitem[{Muxworthy et~al.(2003)Muxworthy, Williams, and
+  Virdee}]{Muxworthy2003}
+Muxworthy, A.~R., Williams, W., Virdee, D., 2003. Effect of magnetostatic
+  interactions on the hysteresis parameters of single-domain and
+  pseudo-single-domain grains. J. Geophys. Res 108~(B11).
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2003JB002588}
+
 \bibitem[{Nagata et~al.(1943)Nagata, Harada, and Hirao}]{Nagata1943}
 Nagata, T., Harada, Y., Hirao, K., 1943. The natural remanent magnetization of
   sedimentary rocks. Bull. Earthquake Res. Inst. Tokyo Univ. 31, 276--296.
@@ -469,6 +498,18 @@ Reynolds, R.~L., Goldhaber, M.~B., Tuttle, M.~L., September 1993. Sulfidization
   Sedimentary Geology), SEPM (Society for Sedimentary Geology), Tulsa,
   Oklahoma, U.S.A., pp. 167--179.
 
+\bibitem[{Reynolds et~al.(1999)Reynolds, Rosenbaum, van Metre, Tuttle,
+  Callender, and Goldin}]{Reynolds1999}
+Reynolds, R.~L., Rosenbaum, J.~G., van Metre, P., Tuttle, M.~L., Callender, E.,
+  Goldin, A., 1999. Greigite ({F}e3{S}4) as an indicator of drought--{T}he
+  1912--1994 sediment magnetic record from {W}hite {R}ock {L}ake, {D}allas,
+  {T}exas, {USA}. J. Paleolimnol. 21~(2), 193--206.
+\newline\urlprefix\url{https://dx.doi.org/10.1023/A:1008027815203}
+
+\bibitem[{Rhodes and Rowlands(1954)}]{Rhodes1954}
+Rhodes, P., Rowlands, G., 1954. Demagnetising energies of uniformly magnetised
+  rectangular blocks. Proc. Leeds Phil. Lit. Soc., Sci. Sect. 6, 191--210.
+
 \bibitem[{Roberts(2015)}]{Roberts2015}
 Roberts, A.~P., 2015. Magnetic mineral diagenesis. Earth Sci. Rev. 151, 1--47.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/j.earscirev.2015.09.010}
@@ -486,6 +527,14 @@ Roberts, A.~P., Chang, L., Rowan, C.~J., Horng, C.~S., Florindo, F., 2011.
   Magnetic properties of sedimentary greigite ({F}e$_3${S}$_4$): An update.
   Rev. Geophys. 49~(1).
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2010RG000336}
+
+\bibitem[{Roberts et~al.(2010)Roberts, Florindo, Larrasoa{\~n}a, O'Regan, and
+  Zhao}]{Roberts2010}
+Roberts, A.~P., Florindo, F., Larrasoa{\~n}a, J.~C., O'Regan, M.~A., Zhao, X.,
+  2010. Complex polarity pattern at the former {P}lio--{P}leistocene global
+  stratotype section at {V}rica ({I}taly): {R}emagnetization by magnetic iron
+  sulphides. Earth Planet. Sci. Lett. 292~(1), 98--111.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/j.epsl.2010.01.025}
 
 \bibitem[{Roberts et~al.(2014)Roberts, Heslop, Zhao, and Pike}]{Roberts2014}
 Roberts, A.~P., Heslop, D., Zhao, X., Pike, C.~R., 2014. Understanding fine
@@ -552,6 +601,11 @@ Stoner, E.~C., Wohlfarth, E.~P., 1948. A mechanism of magnetic hysteresis in
   heterogeneous alloys. Philos. T. R. Soc. A. 240~(826), 599--642.
 \newline\urlprefix\url{https://www.jstor.org/stable/91421}
 
+\bibitem[{Sweeney and Kaplan(1973)}]{Sweeney1973}
+Sweeney, R.~E., Kaplan, I.~R., 1973. Pyrite framboid formation; laboratory
+  synthesis and marine sediments. Econ. Geol. 68~(5), 618--634.
+\newline\urlprefix\url{https://dx.doi.org/10.2113/gsecongeo.68.5.618}
+
 \bibitem[{Thellier(1938)}]{Thellier1938}
 Thellier, E., 1938. Sur l'aimantation des terres cuites et ses applications
   g{\'e}ophysique. Ann. Inst. Phys. Globe Univ. Paris 16, 157--302.
@@ -596,6 +650,28 @@ Walker, M., Mayo, P.~I., O'Grady, K., Charles, S.~W., Chantrell, R.~W., 1993.
   {I}. {H}ysteresis loops. J. Phys.: Condens. Matter 5~(17), 2779.
 \newline\urlprefix\url{https://dx.doi.org/10.1088/0953-8984/5/17/012}
 
+\bibitem[{Wilkin and Barnes(1996)}]{Wilkin1996}
+Wilkin, R.~T., Barnes, H.~L., 1996. Pyrite formation by reactions of iron
+  monosulfides with dissolved inorganic and organic sulfur species. Geochim.
+  Cosmochim. Ac. 60~(21), 4167--4179.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/S0016-7037(97)81466-4}
+
+\bibitem[{Wilkin and Barnes(1997)}]{Wilkin1997}
+Wilkin, R.~T., Barnes, H.~L., 1997. Formation processes of framboidal pyrite.
+  Geochim. Cosmochim. Ac. 61~(2), 323--339.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/S0016-7037(96)00320-1}
+
+\bibitem[{Williams and Dunlop(1989)}]{Williams1989}
+Williams, W., Dunlop, D.~J., 1989. Three-dimensional micromagnetic modelling of
+  ferromagnetic domain structure. Nature 337~(6208), 634--637.
+\newline\urlprefix\url{https://dx.doi.org/10.1038/337634a0}
+
+\bibitem[{Williams et~al.(2010)Williams, Evans, and Kr\'{a}sa}]{Williams2010}
+Williams, W., Evans, M.~E., Kr\'{a}sa, D., 2010. Micromagnetics of
+  paleomagnetically significant mineral grains with complex morphology.
+  Geochem. Geophys. Geosyst. 11~(2).
+\newline\urlprefix\url{https://dx.doi.org/10.1029/2009GC002828}
+
 \bibitem[{Williams et~al.(2006)Williams, Muxworthy, and
   Patterson}]{Williams2006}
 Williams, W., Muxworthy, A.~R., Patterson, G.~A., 2006. Configurational
@@ -614,6 +690,11 @@ Witt, A., Fabian, K., Bleil, U., 2005. Three-dimensional micromagnetic
   calculations for naturally shaped magnetite: octahedra and magnetosomes.
   Earth Planet. Sci. Lett. 233~(3), 311--324.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/j.epsl.2005.01.043}
+
+\bibitem[{Wright et~al.(1997)Wright, Williams, and Dunlop}]{Wright1997}
+Wright, T.~M., Williams, W., Dunlop, D.~J., 1997. An improved algorithm for
+  micromagnetics. J. Geophys. Res. 102~(B6), 12085--12094.
+\newline\urlprefix\url{https://dx.doi.org/10.1029/96JB03628}
 
 \bibitem[{Zhao et~al.(2017)Zhao, Roberts, Heslop, Paterson, Li, and
   Li}]{Zhao2017}
