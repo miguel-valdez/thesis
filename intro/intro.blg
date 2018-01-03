@@ -3,12 +3,12 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: intro/intro.aux
 The style file: elsarticle-harv.bst
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 1261 of file references.bib
+I was expecting a `,' or a `}'---line 1273 of file references.bib
  : 
  : //publisher={Elsevier},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1519 of file references.bib
+I was expecting a `,' or a `}'---line 1531 of file references.bib
  : 
  : //publisher = {Elsevier},
 (Error may have been on previous line)
@@ -17,7 +17,7 @@ Warning--there's a number but no volume in Donovan1979
 Warning--empty journal in OConbhui2017
 You've used 63 entries,
             2821 wiz_defined-function locations,
-            1117 strings with 18592 characters,
+            1118 strings with 18597 characters,
 and the built_in function-call counts, 34767 in all, are:
 = -- 3495
 > -- 2030

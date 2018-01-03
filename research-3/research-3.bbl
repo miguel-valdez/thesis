@@ -1,8 +1,16 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{37}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Almeida et~al.(2014)Almeida, Kasama, Muxworthy, Williams, Nagy, and
+  Dunin-Borkowski}]{Almeida2014}
+Almeida, T.~P., Kasama, T., Muxworthy, A.~R., Williams, W., Nagy, L.,
+  Dunin-Borkowski, R.~E., 2014. Observing thermomagnetic stability of nonideal
+  magnetite particles: good paleomagnetic recorders? Geophys. Res. Lett.
+  41~(20), 7041--7047.
+\newline\urlprefix\url{https://dx.doi.org/10.1002/2014GL061432}
 
 \bibitem[{Brown(1963)}]{Brown}
 Brown, W.~F., 1963. Micromagnetics. Interscience, New York.
@@ -117,10 +125,10 @@ Newell, A.~J., 2005. A high-precision model of first-order reversal curve
   Geochem. Geophys. Geosyst. 6~(5).
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2004GC000877}
 
-\bibitem[{\'O~Conbhu\'i et~al.(2017)\'O~Conbhu\'i, Williams, Fabian, Ridley,
+\bibitem[{\'O~Conbhu\'i et~al.(2018)\'O~Conbhu\'i, Williams, Fabian, Ridley,
   Nagy, and Muxworthy}]{OConbhui2017}
 \'O~Conbhu\'i, P., Williams, W., Fabian, K., Ridley, P., Nagy, L., Muxworthy,
-  A.~R., 2017. {MERRILL: Micromagnetic Earth Related Robust Interpreted
+  A.~R., 2018. {MERRILL: Micromagnetic Earth Related Robust Interpreted
   Language Laboratory}. Submitted to Geochem. Geophys. Geosyst.
 
 \bibitem[{Pike and Fernandez(1999)}]{Pike1999B}
@@ -128,6 +136,12 @@ Pike, C., Fernandez, A., 1999. An investigation of magnetic reversal in
   submicron-scale {Co} dots using first order reversal curve diagrams. J. Appl.
   Phys. 85~(9), 6668--6676.
 \newline\urlprefix\url{https://dx.doi.org/10.1063/1.370177}
+
+\bibitem[{Pike et~al.(2001)Pike, Roberts, Dekkers, and Verosub}]{Pike2001}
+Pike, C.~R., Roberts, A.~P., Dekkers, M.~J., Verosub, K.~L., 2001. An
+  investigation of multi-domain hysteresis mechanisms using {FORC} diagrams.
+  Phys. Earth Planet. Inter. 126~(1), 11--25.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/S0031-9201(01)00241-2}
 
 \bibitem[{Pike et~al.(1999)Pike, Roberts, and Verosub}]{Pike1999}
 Pike, C.~R., Roberts, A.~P., Verosub, K.~L., 1999. Characterizing interactions
@@ -143,6 +157,13 @@ Rave, W., Ramst{\"o}ck, K., Hubert, A., 1998. Corners and nucleation in
 \bibitem[{Roberts(2015)}]{Roberts2015}
 Roberts, A.~P., 2015. Magnetic mineral diagenesis. Earth Sci. Rev. 151, 1--47.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/j.earscirev.2015.09.010}
+
+\bibitem[{Roberts et~al.(2017)Roberts, Almeida, Church, Harrison, Helsop, Li,
+  Li, Muxworthy, Williams, and Zhao}]{Roberts2017}
+Roberts, A.~P., Almeida, T.~P., Church, N.~S., Harrison, R.~J., Helsop, D., Li,
+  Y., Li, J., Muxworthy, A.~R., Williams, W., Zhao, X., 2017. Resolving the
+  origin of pseudo-single domain magnetic behavior. J. Geophys. Res.
+\newline\urlprefix\url{https://dx.doi.org/10.1002/2017JB014860}
 
 \bibitem[{Roberts et~al.(2011)Roberts, Chang, Rowan, Horng, and
   Florindo}]{Roberts2011}
@@ -202,5 +223,12 @@ Winklhofer, M., Chang, L., Eder, S. H.~K., 2014. On the magnetocrystalline
   anisotropy of greigite ({F}e$_3${S}$_4$). Geochem. Geophys. Geosyst. 15~(4),
   1558--1579.
 \newline\urlprefix\url{https://dx.doi.org/10.1002/2013GC005121}
+
+\bibitem[{Zhao et~al.(2017)Zhao, Roberts, Heslop, Paterson, Li, and
+  Li}]{Zhao2017}
+Zhao, X., Roberts, A.~P., Heslop, D., Paterson, G.~A., Li, Y., Li, J., 2017.
+  Magnetic domain state diagnosis using hysteresis reversal curves. J. Geophys.
+  Res.
+\newline\urlprefix\url{https://dx.doi.org/10.1002/2016JB013683}
 
 \end{thebibliography}

@@ -3,58 +3,56 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: research-4/research-4.aux
 The style file: elsarticle-harv.bst
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 1261 of file references.bib
+I was expecting a `,' or a `}'---line 1273 of file references.bib
  : 
  : //publisher={Elsevier},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1519 of file references.bib
+I was expecting a `,' or a `}'---line 1531 of file references.bib
  : 
  : //publisher = {Elsevier},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--empty journal in OConbhui2017
-Warning--empty journal in ValdezGrijalva2017
-Warning--empty journal in ValdezGrijalva2018
-You've used 29 entries,
+You've used 28 entries,
             2821 wiz_defined-function locations,
-            854 strings with 11170 characters,
-and the built_in function-call counts, 15733 in all, are:
-= -- 1527
-> -- 1028
+            854 strings with 10953 characters,
+and the built_in function-call counts, 15279 in all, are:
+= -- 1493
+> -- 977
 < -- 9
-+ -- 388
-- -- 354
-* -- 1528
-:= -- 2891
-add.period$ -- 84
-call.type$ -- 29
-change.case$ -- 264
++ -- 366
+- -- 336
+* -- 1487
+:= -- 2796
+add.period$ -- 83
+call.type$ -- 28
+change.case$ -- 251
 chr.to.int$ -- 28
-cite$ -- 32
-duplicate$ -- 509
-empty$ -- 917
-format.name$ -- 447
-if$ -- 3041
-int.to.chr$ -- 2
+cite$ -- 29
+duplicate$ -- 491
+empty$ -- 907
+format.name$ -- 426
+if$ -- 2964
+int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 31
-newline$ -- 116
-num.names$ -- 116
-pop$ -- 248
+missing$ -- 30
+newline$ -- 114
+num.names$ -- 112
+pop$ -- 234
 preamble$ -- 1
-purify$ -- 234
+purify$ -- 224
 quote$ -- 0
-skip$ -- 370
+skip$ -- 357
 stack$ -- 0
-substring$ -- 758
-swap$ -- 63
+substring$ -- 778
+swap$ -- 59
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 255
-warning$ -- 3
-while$ -- 119
+type$ -- 246
+warning$ -- 1
+while$ -- 118
 width$ -- 0
-write$ -- 340
+write$ -- 332
 (There were 2 error messages)

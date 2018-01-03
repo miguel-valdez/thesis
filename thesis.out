@@ -14,7 +14,7 @@
 \BOOKMARK [2][-]{subsection.1.4.1}{Magnetic Gibbs free energy}{section.1.4}% 14
 \BOOKMARK [2][-]{subsection.1.4.2}{The Landau-Lifshitz-Gilbert equation}{section.1.4}% 15
 \BOOKMARK [2][-]{subsection.1.4.3}{Micromagnetic modelling}{section.1.4}% 16
-\BOOKMARK [1][-]{section.1.5}{Brief introduction to the Thesis}{chapter.1}% 17
+\BOOKMARK [1][-]{section.1.5}{Brief introduction to the thesis}{chapter.1}% 17
 \BOOKMARK [0][-]{chapter.2}{The magnetic structure and palaeomagnetic recording fidelity of sub-micron greigite \(Fe3S4\)}{}% 18
 \BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 19
 \BOOKMARK [1][-]{section.2.2}{Methodology}{chapter.2}% 20
@@ -34,9 +34,9 @@
 \BOOKMARK [2][-]{subsection.3.2.2}{Backtracking line-search gradient-descent method}{section.3.2}% 34
 \BOOKMARK [1][-]{section.3.3}{Results and Discussion}{chapter.3}% 35
 \BOOKMARK [1][-]{section.3.4}{Conclusion}{chapter.3}% 36
-\BOOKMARK [0][-]{chapter.4}{Magnetic vortex effects on the first-order reversal curve \(FORC\) diagram of greigite dispersions}{}% 37
+\BOOKMARK [0][-]{chapter.4}{Magnetic vortex effects on first-order reversal curve \(FORC\) diagrams for greigite dispersions}{}% 37
 \BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 38
-\BOOKMARK [1][-]{section.4.2}{Methodology}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.2}{Methods}{chapter.4}% 39
 \BOOKMARK [2][-]{subsection.4.2.1}{The micromagnetic algorithm}{section.4.2}% 40
 \BOOKMARK [2][-]{subsection.4.2.2}{The FORC model}{section.4.2}% 41
 \BOOKMARK [1][-]{section.4.3}{Results}{chapter.4}% 42
@@ -48,7 +48,7 @@
 \BOOKMARK [2][-]{subsection.5.2.1}{The micromagnetic method}{section.5.2}% 48
 \BOOKMARK [2][-]{subsection.5.2.2}{The FORC model}{section.5.2}% 49
 \BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 50
-\BOOKMARK [2][-]{subsection.5.3.1}{The FORC response of framboidal greigite}{section.5.3}% 51
+\BOOKMARK [2][-]{subsection.5.3.1}{The hysteresis and FORC response of framboidal greigite}{section.5.3}% 51
 \BOOKMARK [2][-]{subsection.5.3.2}{Hysteresis of larger particle framboids}{section.5.3}% 52
 \BOOKMARK [1][-]{section.5.4}{Discussion}{chapter.5}% 53
 \BOOKMARK [1][-]{section.5.5}{Conclusions}{chapter.5}% 54
@@ -58,3 +58,4 @@
 \BOOKMARK [2][-]{subsection.6.1.2}{Hysteretic and FORC properties}{section.6.1}% 58
 \BOOKMARK [1][-]{section.6.2}{Future work}{chapter.6}% 59
 \BOOKMARK [0][-]{chapter*.47}{References}{}% 60
+\BOOKMARK [0][-]{appendix.A}{Ideal particle hysteresis code}{}% 61

@@ -1,8 +1,14 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{28}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Ariztegui and Dobson(1996)}]{Ariztegui1996}
+Ariztegui, D., Dobson, J., 1996. Magnetic investigations of framboidal greigite
+  formation: a record of anthropogenic environmental changes in eutrophic
+  {L}ake {S}t. {M}oritz, {S}witzerland. Holocene 6~(2), 235--241.
+\newline\urlprefix\url{https://dx.doi.org/10.1177/095968369600600209}
 
 \bibitem[{Brown(1963)}]{Brown}
 Brown, W.~F., 1963. Micromagnetics. Interscience, New York.
@@ -76,10 +82,18 @@ Mayergoyz, I., 1986. Mathematical models of hysteresis. IEEE T. Magn. 22~(5),
   603--608.
 \newline\urlprefix\url{https://dx.doi.org/10.1109/TMAG.1986.1064347}
 
-\bibitem[{\'O~Conbhu\'i et~al.(2017)\'O~Conbhu\'i, Williams, Fabian, Ridley,
+\bibitem[{Muxworthy et~al.(2013)Muxworthy, Williams, Roberts, Winklhofer,
+  Chang, and P{\'o}sfai}]{Muxworthy2013}
+Muxworthy, A.~R., Williams, W., Roberts, A.~P., Winklhofer, M., Chang, L.,
+  P{\'o}sfai, M., 2013. Critical single domain grain sizes in chains of
+  interacting greigite particles: {I}mplications for magnetosome crystals.
+  Geochem. Geophys. Geosyst. 14~(2), 5430--5441.
+\newline\urlprefix\url{https://dx.doi.org/10.1002/2013GC004973}
+
+\bibitem[{\'O~Conbhu\'i et~al.(2018)\'O~Conbhu\'i, Williams, Fabian, Ridley,
   Nagy, and Muxworthy}]{OConbhui2017}
 \'O~Conbhu\'i, P., Williams, W., Fabian, K., Ridley, P., Nagy, L., Muxworthy,
-  A.~R., 2017. {MERRILL: Micromagnetic Earth Related Robust Interpreted
+  A.~R., 2018. {MERRILL: Micromagnetic Earth Related Robust Interpreted
   Language Laboratory}. Submitted to Geochem. Geophys. Geosyst.
 
 \bibitem[{Pike et~al.(2001)Pike, Roberts, Dekkers, and Verosub}]{Pike2001}
@@ -153,26 +167,6 @@ Snowball, I.~F., 1997. Gyroremanent magnetization and the magnetic properties
   of greigite-bearing clays in southern {S}weden. Geophys. J. Int. 129~(3),
   624--636.
 \newline\urlprefix\url{https://dx.doi.org/10.1111/j.1365-246X.1997.tb04498.x}
-
-\bibitem[{Valdez-Grijalva and Muxworthy(2017)}]{ValdezGrijalva2017}
-Valdez-Grijalva, M.~A., Muxworthy, A.~R., 2017. First-order reversal curve
-  ({FORC}) diagrams of nanomagnets with cubic magnetocrystalline anisotropy.
-  Submitted to J. Magn. Magn. Mater.
-
-\bibitem[{Valdez-Grijalva et~al.(2018{\natexlab{a}})Valdez-Grijalva, Muxworthy,
-  Williams, \'O~Conbhu\'i, Nagy, Roberts, and Heslop}]{ValdezGrijalva2018}
-Valdez-Grijalva, M.~A., Muxworthy, A.~R., Williams, W., \'O~Conbhu\'i, P.,
-  Nagy, L., Roberts, A.~P., Heslop, D., 2018{\natexlab{a}}. Magnetic vortex
-  effects on first-order reversal curve ({FORC}) diagrams for greigite
-  dispersions. Submitted to Earth Planet. Sci. Lett.
-
-\bibitem[{Valdez-Grijalva et~al.(2018{\natexlab{b}})Valdez-Grijalva, Nagy,
-  Muxworthy, Williams, and Fabian}]{ValdezGrijalva2017B}
-Valdez-Grijalva, M.~A., Nagy, L., Muxworthy, A.~R., Williams, W., Fabian, K.,
-  2018{\natexlab{b}}. The magnetic structure and palaeomagnetic recording
-  fidelity of sub-micron greigite ({F}e$_3${S}$_4$). Earth Planet. Sci. Lett.
-  483, 76--89.
-\newline\urlprefix\url{https://dx.doi.org/10.1016/j.epsl.2017.12.015}
 
 \bibitem[{Zhao et~al.(2017)Zhao, Roberts, Heslop, Paterson, Li, and
   Li}]{Zhao2017}

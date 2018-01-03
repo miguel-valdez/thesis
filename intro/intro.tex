@@ -176,13 +176,13 @@ Solving this sytem for $\varphi$ is sufficient to calculate the stray field from
 \end{equation}
 One of the difficulties in solving the system \ref{potential} is the boundary conditions \ref{boundary}. In a numerical calculation it is impossible to formally evaluate the potential at infinity, so a mathematical strategy has to be adopted. \citet{Imhoff1990} proposes a transformation method that requires space surrounding the ferromagnetic body to be meshed into two concentric shells. The potential is mapped on the outer shell to infinity. A hybrid finite-element method (FEM) and boundary-element method (BEM) formulation \citep{Fredkin1990} does not require free space to be meshed, at the cost of the mathematical complexity involved in the hybrid scheme. The magnetostatic self-energy creates a demagnetising effect, that is, an internal field $\boldsymbol{B}_{\text{stray}}$ produced by the magnetisation distribution that opposes the magnetisation. It is also the phenomenon that has the biggest role in the domain structure of large particles. When this demagnetising field is calculated, the magnetostatic self-energy can be expressed as:
 \begin{equation}
-\phi_{\text{stray}} = -\boldsymbol{M}\cdot\boldsymbol{B}_{\text{stray}}.
+\phi_{\text{stray}} = -\frac{1}{2}\boldsymbol{M}\cdot\boldsymbol{B}_{\text{stray}}.
 \end{equation}\par
 
 Eq. (\ref{gibbs0}) can now be rewritten as:
 \begin{multline}
 E_{\text{G}} = \int_{\Omega} \left( A| \nabla \boldsymbol{m} |^2  + K_1(m_x^2m_y^2+m_y^2m_z^2+m_z^2m_x^2) + K_2m_x^2m_y^2m_z^2 \right. \\
-\left. - \boldsymbol{M} \cdot \boldsymbol{B}_{\text{external}} - \boldsymbol{M}\cdot\boldsymbol{B}_{\text{stray}} \right) \, \text{d}^3\boldsymbol{r}.
+\left. - \boldsymbol{M} \cdot \boldsymbol{B}_{\text{external}} - -\frac{1}{2}\boldsymbol{M}\cdot\boldsymbol{B}_{\text{stray}} \right) \, \text{d}^3\boldsymbol{r}.
 \end{multline}
 A system out of equilibrium is spontaneously driven to diminish its free energy. The aim of a micromagnetic algorithm is to obtain a distribution of the magnetisation in equilibrum. \citet{Fischbacher2017} describes energy minimisation algorithms for the micromagnetic energy functional. \citet{Brown} proposed a variational method based on the variational derivative of the total energy with respect to the magnetisation. In equilibrium, the variation of the free energy vanishes
 \begin{equation}
@@ -205,7 +205,7 @@ Finding an equilibrium magnetisation via minimisation of equation (\ref{gibbs0})
 \end{equation}
 where $\gamma = 2.210173 \times 10^5 \frac{\text{m}}{\text{A}\cdot\text{s}}$ is the gyromagnetic ratio and $\alpha$ a phenomenological damping parameter, characteristic of the material \citep{Gilbert2004}. An equivalent formulation is the LLG equation:
 \begin{equation}
-\frac{\partial\boldsymbol{M}}{\partial t} = -\gamma^{'} \boldsymbol{M}\times\boldsymbol{H}_\text{eff} - \alpha\gamma^{'} \boldsymbol{M}\times(\boldsymbol{M}\times\boldsymbol{H}_\text{eff}) \, ,
+\frac{\partial\boldsymbol{M}}{\partial t} = -\gamma^{'} \boldsymbol{M}\times\boldsymbol{H}_\text{eff} - \frac{\alpha\gamma^{'}}{M_\text{S}} \boldsymbol{M}\times(\boldsymbol{M}\times\boldsymbol{H}_\text{eff}) \, ,
 \end{equation}
 with $\gamma^{'} = \gamma / (1+\alpha^2)$.
 
@@ -221,7 +221,7 @@ Finite element methods (FEMs) have the advantage of being more flexible in the g
 
 The capabilities of today's computers allows to simulate not only single grains but clusters of them that interact magnetostatically with each other. This once untractable problem has been proved to be crucial and influence the critical sizes of single domain grains. \citet{Muxworthy2003,Muxworthy2004,Muxworthy2006} used a finite difference method and investigated the effect of magnetostatic interactions between magnetite grains on the hysteresis parameters. \citet{Muxworthy2013} used the more recently measured \citep{Chang2008} magnetic parameters of highly pure greigite to investigate the intergrain influence in chains of greigite and its implications for magnetosome crystals. However, newer, more accurate values of the magnetic parameters of greigite \citep{Li2014} have since become available. These investigations can be furthered by FEM by modelling more realistic geometries. The hysteresis properties of greigite are poorly understood. Numerical methods of hysteresis of greigite particles is another research direction that can benefit from computational power.\par
 
-\section{Brief introduction to the Thesis}
+\section{Brief introduction to the thesis}
 In Chapter \ref{ch:res-1}, the zero-field size dependence of the magnetic structure of greigite is investigated for a variety of naturally occurring shapes via a micromagnetic finite element method (FEM). A nudged elastic-band (NEB) method is used to calculate minimal action paths between minimal energy states for a variety of shapes and sizes. This allows calculation of the stability of a magnetisation, with implications for palaeomagnetic studies.\par
 
 A simplified numerical model is developed in Chapter \ref{ch:res-2} to study the hysteresis of small greigite grains in a SD state. A spherical magnetic particle is essentially treated as a magnetic dipole; a gradient method is used to find the energy minimum in an applied field. This model is used to study the first-order reversal curve (FORC) diagrams produced by randomly oriented dispersions of non-interacting SD greigite (and iron as another interesting application).\par

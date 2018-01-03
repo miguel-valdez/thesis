@@ -28,29 +28,29 @@ Illegal, another \bibdata command---line 47 of file research-2/research-2.aux
  :         {references}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: research-3/research-3.aux
-Illegal, another \bibstyle command---line 83 of file research-3/research-3.aux
+Illegal, another \bibstyle command---line 92 of file research-3/research-3.aux
  : \bibstyle
  :          {elsarticle-harv}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 84 of file research-3/research-3.aux
+Illegal, another \bibdata command---line 93 of file research-3/research-3.aux
  : \bibdata
  :         {references}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: research-4/research-4.aux
-Illegal, another \bibstyle command---line 78 of file research-4/research-4.aux
+Illegal, another \bibstyle command---line 66 of file research-4/research-4.aux
  : \bibstyle
  :          {elsarticle-harv}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 79 of file research-4/research-4.aux
+Illegal, another \bibdata command---line 67 of file research-4/research-4.aux
  : \bibdata
  :         {references}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: conclusions/conclusions.aux
-Illegal, another \bibstyle command---line 11 of file conclusions/conclusions.aux
+Illegal, another \bibstyle command---line 16 of file conclusions/conclusions.aux
  : \bibstyle
  :          {elsarticle-harv}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 12 of file conclusions/conclusions.aux
+Illegal, another \bibdata command---line 17 of file conclusions/conclusions.aux
  : \bibdata
  :         {references}
 I'm skipping whatever remains of this command
@@ -62,13 +62,14 @@ Illegal, another \bibdata command---line 61 of file thesis.aux
  : \bibdata
  :         {references}
 I'm skipping whatever remains of this command
+A level-1 auxiliary file: appendix/appendix.aux
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 1261 of file references.bib
+I was expecting a `,' or a `}'---line 1273 of file references.bib
  : 
  : //publisher={Elsevier},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1519 of file references.bib
+I was expecting a `,' or a `}'---line 1531 of file references.bib
  : 
  : //publisher = {Elsevier},
 (Error may have been on previous line)
@@ -76,46 +77,45 @@ I'm skipping whatever remains of this entry
 Warning--there's a number but no volume in Donovan1979
 Warning--empty journal in OConbhui2017
 Warning--empty journal in ValdezGrijalva2017
-Warning--empty journal in ValdezGrijalva2018
-You've used 113 entries,
+You've used 114 entries,
             2821 wiz_defined-function locations,
-            1478 strings with 30089 characters,
-and the built_in function-call counts, 61167 in all, are:
-= -- 6148
-> -- 3589
+            1490 strings with 30505 characters,
+and the built_in function-call counts, 62082 in all, are:
+= -- 6232
+> -- 3664
 < -- 49
-+ -- 1369
-- -- 1224
-* -- 5874
-:= -- 11043
-add.period$ -- 340
-call.type$ -- 113
-change.case$ -- 978
-chr.to.int$ -- 111
++ -- 1396
+- -- 1251
+* -- 5975
+:= -- 11206
+add.period$ -- 344
+call.type$ -- 114
+change.case$ -- 991
+chr.to.int$ -- 113
 cite$ -- 117
-duplicate$ -- 2010
-empty$ -- 3790
-format.name$ -- 1583
-if$ -- 11991
-int.to.chr$ -- 3
+duplicate$ -- 2028
+empty$ -- 3839
+format.name$ -- 1613
+if$ -- 12166
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 115
-newline$ -- 441
-num.names$ -- 456
-pop$ -- 862
+missing$ -- 116
+newline$ -- 446
+num.names$ -- 460
+pop$ -- 873
 preamble$ -- 1
-purify$ -- 858
+purify$ -- 871
 quote$ -- 0
-skip$ -- 1450
+skip$ -- 1463
 stack$ -- 0
-substring$ -- 3525
+substring$ -- 3596
 swap$ -- 263
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1005
-warning$ -- 4
-while$ -- 510
+type$ -- 1014
+warning$ -- 3
+while$ -- 517
 width$ -- 0
-write$ -- 1340
+write$ -- 1354
 (There were 14 error messages)

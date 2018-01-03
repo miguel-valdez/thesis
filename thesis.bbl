@@ -1,4 +1,4 @@
-\begin{thebibliography}{113}
+\begin{thebibliography}{114}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -25,6 +25,14 @@ Aldana, M., Constanzo-Alvarez, V., Vitiello, D., Colmenares, L., G\'{o}mez, G.,
   1999. Framboidal magnetic minerals and their possible association to
   hydrocarbons: {L}a {V}ictoria oil field, southwestern {V}enezuela.
   Geof\'{i}s. Int. 38~(3), 137--152.
+
+\bibitem[{Almeida et~al.(2014)Almeida, Kasama, Muxworthy, Williams, Nagy, and
+  Dunin-Borkowski}]{Almeida2014}
+Almeida, T.~P., Kasama, T., Muxworthy, A.~R., Williams, W., Nagy, L.,
+  Dunin-Borkowski, R.~E., 2014. Observing thermomagnetic stability of nonideal
+  magnetite particles: good paleomagnetic recorders? Geophys. Res. Lett.
+  41~(20), 7041--7047.
+\newline\urlprefix\url{https://dx.doi.org/10.1002/2014GL061432}
 
 \bibitem[{Ariztegui and Dobson(1996)}]{Ariztegui1996}
 Ariztegui, D., Dobson, J., 1996. Magnetic investigations of framboidal greigite
@@ -154,7 +162,7 @@ Donovan, T.~J., Forgey, R.~L., Roberts, A.~A., 1979. Aeromagnetic detection of
 \bibitem[{Donovan et~al.(1984)Donovan, Hendricks, Roberts, and
   Eliason}]{Donovan1984}
 Donovan, T.~J., Hendricks, J.~D., Roberts, A.~A., Eliason, P.~T., 1984.
-  Low-altitude aeromagnetic reconaissance for petroleum in the {A}rctic
+  Low-altitude aeromagnetic reconnaissance for petroleum in the {A}rctic
   {N}ational {W}ildlife {R}efuge, {A}laska. Geophysics 49~(8), 1338--1353.
 \newline\urlprefix\url{https://dx.doi.org/10.1190/1.1441760}
 
@@ -178,6 +186,15 @@ Egli, R., Chen, A.~P., Winklhofer, M., Kodama, K.~P., Horng, C., 2010.
 Egli, R., Winklhofer, M., 2014. Recent developments on processing and
   interpretation aspects of first-order reversal curves ({FORC}). Proc. Kazan
   U. Nat. Sc. 156~(1).
+
+\bibitem[{Einsle et~al.(2016)Einsle, Harrison, Kasama, \'O~Conbhu\'i, Fabian,
+  Williams, Woodland, Fu, Weiss, and Midgley}]{Einsle2016}
+Einsle, J.~F., Harrison, R.~J., Kasama, T., \'O~Conbhu\'i, P., Fabian, K.,
+  Williams, W., Woodland, L., Fu, R.~R., Weiss, B.~P., Midgley, P.~A., 2016.
+  Multi-scale three-dimensional characterization of iron particles in dusty
+  olivine: {I}mplications for paleomagnetism of chondritic meteorites. Am.
+  Mineral. 101~(9), 2070--2084.
+\newline\urlprefix\url{https://dx.doi.org/10.2138/am-2016-5738CCBY}
 
 \bibitem[{Elmore et~al.(1993)Elmore, Imbus, Engel, and Fruit}]{Elmore1993}
 Elmore, R.~D., Imbus, S.~W., Engel, M.~H., Fruit, D., September 1993.
@@ -448,10 +465,10 @@ Newell, A.~J., 2005. A high-precision model of first-order reversal curve
   Geochem. Geophys. Geosyst. 6~(5).
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2004GC000877}
 
-\bibitem[{\'O~Conbhu\'i et~al.(2017)\'O~Conbhu\'i, Williams, Fabian, Ridley,
+\bibitem[{\'O~Conbhu\'i et~al.(2018)\'O~Conbhu\'i, Williams, Fabian, Ridley,
   Nagy, and Muxworthy}]{OConbhui2017}
 \'O~Conbhu\'i, P., Williams, W., Fabian, K., Ridley, P., Nagy, L., Muxworthy,
-  A.~R., 2017. {MERRILL: Micromagnetic Earth Related Robust Interpreted
+  A.~R., 2018. {MERRILL: Micromagnetic Earth Related Robust Interpreted
   Language Laboratory}. Submitted to Geochem. Geophys. Geosyst.
 
 \bibitem[{Pike and Fernandez(1999)}]{Pike1999B}
@@ -621,19 +638,11 @@ Valdez-Grijalva, M.~A., Muxworthy, A.~R., 2017. First-order reversal curve
   ({FORC}) diagrams of nanomagnets with cubic magnetocrystalline anisotropy.
   Submitted to J. Magn. Magn. Mater.
 
-\bibitem[{Valdez-Grijalva et~al.(2018{\natexlab{a}})Valdez-Grijalva, Muxworthy,
-  Williams, \'O~Conbhu\'i, Nagy, Roberts, and Heslop}]{ValdezGrijalva2018}
-Valdez-Grijalva, M.~A., Muxworthy, A.~R., Williams, W., \'O~Conbhu\'i, P.,
-  Nagy, L., Roberts, A.~P., Heslop, D., 2018{\natexlab{a}}. Magnetic vortex
-  effects on first-order reversal curve ({FORC}) diagrams for greigite
-  dispersions. Submitted to Earth Planet. Sci. Lett.
-
-\bibitem[{Valdez-Grijalva et~al.(2018{\natexlab{b}})Valdez-Grijalva, Nagy,
-  Muxworthy, Williams, and Fabian}]{ValdezGrijalva2017B}
+\bibitem[{Valdez-Grijalva et~al.(2018)Valdez-Grijalva, Nagy, Muxworthy,
+  Williams, and Fabian}]{ValdezGrijalva2017B}
 Valdez-Grijalva, M.~A., Nagy, L., Muxworthy, A.~R., Williams, W., Fabian, K.,
-  2018{\natexlab{b}}. The magnetic structure and palaeomagnetic recording
-  fidelity of sub-micron greigite ({F}e$_3${S}$_4$). Earth Planet. Sci. Lett.
-  483, 76--89.
+  2018. The magnetic structure and palaeomagnetic recording fidelity of
+  sub-micron greigite ({F}e$_3${S}$_4$). Earth Planet. Sci. Lett. 483, 76--89.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/j.epsl.2017.12.015}
 
 \bibitem[{Vasiliev et~al.(2008)Vasiliev, Franke, Meeldijk, Dekkers, Langereis,
