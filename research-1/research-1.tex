@@ -69,19 +69,20 @@ where $\alpha$ is a phenomenological damping constant, and $\gamma^{'} = \gamma 
 FEMs allow for an unstructured discretisation of the spatial domain which in our case is decomposed into tetrahedral elements. In the treatment of the micromagnetic theory of \citet{Brown} there are some linearisations, which means that there should not be large variations in the direction of $\boldsymbol{m}$ between neighbouring nodes in the FE mesh. To model nonuniform structures it is sufficient that the spatial discretisation in the model be smaller than the exchange length $l_\text{exch} = \sqrt{2A/\mu_0M_\text{S}^2}$ \citep{Rave1998}, which for greigite is $l_\text{exch} \approx 6.6\, \text{nm}$; a maximum element size of 5$\nm$ has been chosen for all the models. The non-local problem of calculating the stray field is handled via a transformation method \citep{Imhoff1990} in \textit{DUNLOP} and by a hybrid finite-element/boundary-element formulation \citep{Fredkin1990} in \textit{MERRILL}.\par
 
 \subsection{Choice of morphologies}
-Based on scanning electron microscopy (SEM) and transmission electron microscopy (TEM) micrographs of synthetic greigite samples \citep{Chang2008, Li2014} and of naturally occurring samples \citep{Snowball1997, Vasiliev2008}, five octahedral shapes have been chosen with increasing degrees of truncation of their corners: from no truncation at all (octahedron) to a `completely' truncated shape (cuboctahedron) and three truncated octahedral shapes in-between to which we further refer to as minimally truncated octahedron, truncated octahedron (the regular case), and maximally truncated octahedron (Fig. \ref{fig1}). This series of shapes models the influence of the ratio of $\{001\}$ to $\{111\}$ faces, which increases with truncation. Furthermore, spherical shapes which, although unrealistic, serve as `control subjects' that do not exhibit configurational anisotropy \citep{Williams2006} and cubic shapes which have been modelled before by \citet{Muxworthy2013} and represent the case of only $\{001\}$ faces. All the volumes are normalised to cubes, i.e., a particle sized 120$\nm$ has a volume of (120$\nm$)$^3$.
-\begin{figure}
-\centering
-%\includegraphics[width=\textwidth]{Figure_01_HR.pdf}
-\includegraphics[width=\textwidth]{research-1/figs/Figure_01.pdf}
-\caption[FE meshes of the model euhedral geometries]{FE meshes of the model euhedral geometries. From a) a regular octahedron, the rest are obtained by increasingly cutting more off the corners such that the edges of the octahedron are: b) halved (min. t. octahedron); c) reduced to a third (regular t. octahedron); d) reduced to a quarter (max. t. octahedron). e) A regular cuboctahedron is obtained by truncating to the point where the octahedron edges disappear entirely. The easy axes of magnetisation are the $<$111$>$ and the hard are the $<$001$>$, which are normal to the hexagonal $\{111\}$ and square $\{001\}$ faces, respectively, of the truncated octahedra. For a sense of scale, f) three nested regular truncated octahedra are shown with sizes 30$\nm$ (red), 120$\nm$ (blue) and 300$\nm$ (black).}
-\label{fig1}
-\end{figure}
+Based on scanning electron microscopy (SEM) and transmission electron microscopy (TEM) micrographs of synthetic greigite samples \citep{Chang2008, Li2014} and of naturally occurring samples \citep{Snowball1997, Vasiliev2008}, five octahedral shapes have been chosen with increasing degrees of truncation of their corners: from no truncation at all (octahedron) to a `completely' truncated shape (cuboctahedron) and three truncated octahedral shapes in-between to which we further refer to as minimally truncated octahedron, truncated octahedron (the regular case), and maximally truncated octahedron (Fig. \ref{fig1}). This series of shapes models the influence of the ratio of $\{001\}$ to $\{111\}$ faces, which increases with truncation. Furthermore, spherical shapes which, although unrealistic, serve as `control subjects' that do not exhibit configurational anisotropy \citep{Williams2006} and cubic shapes which have been modelled before by \citet{Muxworthy2013} and represent the case of only $\{001\}$ faces. All the volumes are normalised to cubes, i.e., a particle sized 120$\nm$ has a volume of (120$\nm$)$^3$.\par
 
 \subsection{Crystal growth model}
 The magnetic domain structure of a ferromagnetic nanoparticle obtained by a micromagnetic algorithm is not only a function of its mineralogy, size and shape, but also of its history. In particular, it is known that a SD particle can grow and remain SD up to a threshold size $\dmax$ after which it will become PSD \citep{Enkin1994}. (In this study we are concerned with the zero-field microstructure and properties; in this context, the onset of PSD behaviour is marked by the formation of a single-vortex structure). If the particle then decreases its volume it will remain PSD down to a threshold $\dmin$ ($< \dmax$) below which it will become SD again. This defines a size range in which a ferromagnetic grain can be either SD or PSD dependent on its history \citep{Muxworthy2006}. This phenomenon has been modelled for the seven morphologies (Fig. \ref{fig1}) in the 30$\nm$ to 300$\nm$ size range.\par
 
-Starting from a 30$\nm$ particle, we obtain the micromagnetic solution and extrapolate it to a larger grain. This becomes the new initial condition for which we solve and repeat, growing the particle in steps of 2$\nm$. Since a very fine incremental size step is used, much smaller than the exchange length, we can be certain that we are not missing any features from one step to the next. This process accurately models grain growth.\par
+Starting from a 30$\nm$ particle, we obtain the micromagnetic solution and extrapolate it to a larger grain. This becomes the new initial condition for which we solve and repeat, growing the particle in steps of 2$\nm$. Since a very fine incremental size step is used, much smaller than the exchange length, we can be certain that we are not missing any features from one step to the next. This process accurately models grain growth.
+\begin{figure}
+\centering
+%\includegraphics[width=\textwidth]{Figure_01_HR_HR.pdf}
+\includegraphics[width=0.6\textwidth]{research-1/figs/Figure_01_HR.pdf}
+\caption[FE meshes of the model euhedral geometries]{FE meshes of the model euhedral geometries. From a) a regular octahedron, the rest are obtained by increasingly cutting more off the corners such that the edges of the octahedron are: b) halved (min. t. octahedron); c) reduced to a third (regular t. octahedron); d) reduced to a quarter (max. t. octahedron). e) A regular cuboctahedron is obtained by truncating to the point where the octahedron edges disappear entirely. The easy axes of magnetisation are the $<$111$>$ and the hard are the $<$001$>$, which are normal to the hexagonal $\{111\}$ and square $\{001\}$ faces, respectively, of the truncated octahedra. For a sense of scale, f) three nested regular truncated octahedra are shown with sizes 30$\nm$ (red), 120$\nm$ (blue) and 300$\nm$ (black).}
+\label{fig1}
+\end{figure}
+\par
 
 Once the particles have grown to 120$\nm$, the procedure is then reversed in decreasing steps of 2$\nm$ until the initial size of 30$\nm$ is reached. Since chemical alteration usually proceeds by alteration of the surfaces, the volume decreasing process can be thought of as a model for chemical alteration to a non-magnetic phase. This growth from 30$\nm$ to 120$\nm$ followed by the reverse process is referred to as the \textit{main loop} (ML).\par
 
@@ -109,8 +110,8 @@ Starting at 30$\nm$ from a randomised initial condition, all shapes relax to a S
 with $30\,\text{nm}<\dmin<d_{\text{EH}}<\dmax<120\,\text{nm}$.\par
 \begin{figure}
 \centering
-%\includegraphics[width=\textwidth]{Figure_02_HR.pdf}
-\includegraphics[width=\textwidth]{research-1/figs/Figure_02.pdf}
+%\includegraphics[width=\textwidth]{Figure_02_HR_HR.pdf}
+\includegraphics[width=\textwidth]{research-1/figs/Figure_02_HR.pdf}
 \caption[Micromagnetic structures of spheres and intermediate-aligned vortex states]{Micromagnetic structures of spheres and intermediate-aligned vortex states. Reduced magnetisation (a) and energy density (b) against size. The SD [$\bar{1}\bar{1}\bar{1}$] state is numerically stable up to $\dmax=92\,\text{nm}$ (c). Growing this solution to a 94$\nm$ grain it is found to relax to a [$\bar{1}\bar{1}\bar{1}$] EAV (d), stable up to 120$\nm$. The EAV is then interpolated into smaller grains, stable down to $d_\text{EH}=54\,\text{nm}$ (a). At 52$\nm$ the EAV goes to a [00$\bar{1}$] HAV (e), stable down to $\dmin=40\,\text{nm}$. At 38$\nm$, the solution relaxes to the original SD state (a). This sequence is referred to as a Type 1 \textit{main loop} (ML). Growth of the HAV from 52$\nm$ forms the Type A \textit{secondary loop} (SL): the HAV is found to be stable up to $d_{\text{HE}}=68\,\text{nm}$ (a) and to realign with the easy direction at 70$\nm$. Vortex states can not only be easy or hard-aligned, but also $<$011$>$ intermediate-aligned vortices (IAVs) (f) and distorted IAV configurations (dIAV) (g). MLs in which IAVs are found are referred to as Type 2. Colour represents the MCA energy normalised by $|K_1|$. The vortex cores are highlighted by obtaining a helicity ($K=\boldsymbol{m}\cdot\nabla\times\boldsymbol{m}$) isosurface and reducing the opacity of the rest of the arrows.}
 \label{fig2}
 \end{figure}
@@ -133,8 +134,8 @@ There is also the possibility that the HAV/IAV is stable up to 120$\nm$. This SL
 \end{equation}
 \begin{figure}
 \centering
-%\includegraphics[width=\textwidth]{Figure_03_HR.pdf}
-\includegraphics[width=\textwidth]{research-1/figs/Figure_03.pdf}
+%\includegraphics[width=\textwidth]{Figure_03_HR_HR.pdf}
+\includegraphics[width=\textwidth]{research-1/figs/Figure_03_HR.pdf}
 \caption[Domain states and energies in the SD--PSD transition regime]{Domain states and energies in the SD--PSD transition regime. Reduced magnetisation (a, c, e, g, i, k) and energy density (b, d, f, h, j, l) against size. All shapes relax to an easy aligned SD state at 30 nm from a randomised initial condition. The SD state is numerically stable up to $\dmax$ (black lines). Growth beyond $\dmax$ results in the magnetisation relaxing to an EAV, stable up to 120$\nm$ (red lines). The solution is then interpolated into smaller grains. This forms the \textit{main loop} (ML) (opaque lines). The EAV is stable down to a threshold beyond which a HAV is nucleated on the size-descending curve. The HAV is stable down to $\dmin$, below which it relaxes to a SD state. This is a Type 1 ML (a, e, g, k). When the EAV goes through an IAV (green lines) before going to the HAV configuration the ML is Type 2 (c, i). Growth of the HAVs and IAVs found on the size-descending curve forms the \textit{secondary loop} (SL) (translucent lines). When these realign with the EAV or with the vortex state they nucleated from the SL is Type A (c, e, g, i (translucent blue line)). When they are stable up to 120$\nm$ the SL is Type B (a, i (translucent green line), k).}
 \label{fig3}
 \end{figure}
@@ -192,8 +193,8 @@ and
 \end{equation}
 \begin{figure}
 \centering
-%\includegraphics[width=\textwidth]{Figure_04_HR.pdf}
-\includegraphics[width=\textwidth]{research-1/figs/Figure_04.pdf}
+%\includegraphics[width=\textwidth]{Figure_04_HR_HR.pdf}
+\includegraphics[width=\textwidth]{research-1/figs/Figure_04_HR.pdf}
 \caption[Micromagnetic structures of octahedra, minimally truncated octahedra and regular truncated octahedra]{Micromagnetic structures of octahedra, minimally truncated octahedra and regular truncated octahedra. Left column (a, d, g) shows the largest SD solutions at $\dmax$, obtained by interpolating from solutions for smaller grains starting at 30$\nm$. On interpolating to a grain 2$\nm$ larger, the structure relaxes to an EAV (b, e, h), stable up to 120$\nm$. From 120$\nm$ interpolation is carried out into smaller grains. Eventually the vortex aligns with a hard direction (c, f, i) which is stable down to $\dmin$ after which the solution becomes SD again down to 30$\nm$. Top row (a, b, c) shows the structures for the octahedra; centre row (d, e, f) for the minimally truncated octahedra and bottom row (g, h, i) for the regular truncated octahedra. Colour represents the MCA energy normalised by $|K_1|$.}
 \label{fig4}
 \end{figure}
@@ -222,8 +223,8 @@ The SD state at $\dmax=80\,\text{nm}$ is largely flowered (Fig. \ref{fig5}g). Th
 \end{equation}
 \begin{figure}
 \centering
-%\includegraphics[width=\textwidth]{Figure_05_HR.pdf}
-\includegraphics[width=\textwidth]{research-1/figs/Figure_05.pdf}
+%\includegraphics[width=\textwidth]{Figure_05_HR_HR.pdf}
+\includegraphics[width=\textwidth]{research-1/figs/Figure_05_HR.pdf}
 \caption[Micromagnetic structures of maximally truncated octahedra, cuboctahedra and cubes]{Micromagnetic structures of maximally truncated octahedra, cuboctahedra and cubes. Left column (a, d, g) shows the largest SD solutions at $\dmax$, obtained by interpolating from solutions for smaller grains starting at 30$\nm$. On interpolating to a grain 2$\nm$ larger, the structures relax to an EAV (b, e) or a distorted EAV (h) which are stable up to 120$\nm$. From 120$\nm$ interpolation is carried out into smaller grains. Eventually the vortex aligns with a hard direction (c, f, i), stable down to $\dmin$ after which the solution becomes SD again down to 30$\nm$. Top row (a, b, c) shows the structures for the maximally truncated octahedra; centre row (d, e, f) for the cuboctahedra and bottom row (g, h, i) for the cubes. Colour represents the MCA energy normalised by $|K_1|$.}
 \label{fig5}
 \end{figure}
@@ -268,8 +269,8 @@ The octahedron EAV (Fig. \ref{fig4}b) was found to remain stable up to 300$\nm${
 At 300$\nm$, the regular truncated octahedron shows the same basic structure as the 300$\nm$ octahedron except for the widening of the domain walls as they approach the square $\{$001$\}$ faces (Figs. \ref{fig6}c--d). Completely truncated, the cuboctahedra have a somewhat different structure. In the 300$\nm$ cuboctahedron solution the domain walls have become so wide as they draw closer to the square faces that they engulf three of the magnetic domains (Fig. \ref{fig6}e), and hard-aligned N\'eel walls appear which are visible as blue streaks on the square faces (Fig. \ref{fig6}f).
 \begin{figure}
 \centering
-%\includegraphics[width=\textwidth]{Figure_06_HR.pdf}
-\includegraphics[width=\textwidth]{research-1/figs/Figure_06.pdf}
+%\includegraphics[width=\textwidth]{Figure_06_HR_HR.pdf}
+\includegraphics[width=\textwidth]{research-1/figs/Figure_06_HR.pdf}
 \caption[MD formation by easy aligned vortices]{MD formation by easy aligned vortices. From the solutions obtained by growing the 120$\nm$ EAVs up to 300$\nm$, the mesh nodes with MCA energy $<$-0.28 (normalised by $|K_1|$) are shown in the left column (a, c, e). These are regions which deviate from an easy axis alignment by less than $\roughly$15$^{\circ}$. The complement is shown in the right column: the regions with moderate to high ($>$-0.28) MCA energy (b, d, f). In the octahedron, there form six large magnetic domains filling up most of the volume (a) and narrow, flat regions acting as domain walls and small wedge-like regions formed along the edges interpreted as closure domains (b). The regular truncated octahedron EAV grown up to 300$\nm$ shows the same pattern: large magnetic domains with low MCA energy occupy most of the volume (c); the effect of truncation (and consequent creation of $\{001\}$ surfaces) is to widen the domain walls as they approach the surfaces as this reduces the stray field energy (d). Closure domains along the edges are still pronounced (d). Fully truncated, the effect on the structure of the cuboctahedron EAV grown to 300$\nm$ is to reduce the proportion of the volume occupied by magnetic domains (e). The domain walls are so wide close to the surfaces that they engulf three of the domains, while also hard-aligned N\'eel walls are formed as seen from the blue streaks on the surface (f). Colour represents the MCA energy normalised by $|K_1|$.}
 \label{fig6}
 \end{figure}
@@ -290,8 +291,8 @@ Fig. \ref{fig7} shows three examples of transitions for the regular truncated oc
 Once the GEM is an EAV, the transitions are between isochiral EAVs directed towards contiguous $\{$111$\}$ faces (Fig. \ref{fig7}, right column). The transition is a structured rotation of the vortex, through an IAV (Fig. \ref{fig7}i), which maintains its overall shape along the path. The energy along such paths is a double-bump where the IAV sits in a shallow local energy minimum (LEM). This means that the energy barrier is not the difference between the EAV and IAV energies. Rather, it is given by the barrier separating the EAV from the IAV. However, with increasing size the IAV LEM becomes more shallow and thus the energy barrier is better approximated by the difference between the EAV and IAV energies{\textemdash}at 64$\nm$ the IAV LEM is so shallow that the double-bump feature becomes flattened (Fig. \ref{fig7}c). In general, the PSD to PSD transitions are very similar to coherent rotations between SD states in that they are structured rotations of the vortex core.
 \begin{figure}
 \centering
-%\includegraphics[width=\textwidth]{Figure_07_HR.pdf}
-\includegraphics[width=\textwidth]{research-1/figs/Figure_07.pdf}
+%\includegraphics[width=\textwidth]{Figure_07_HR_HR.pdf}
+\includegraphics[width=\textwidth]{research-1/figs/Figure_07_HR.pdf}
 \caption[Typical action-minimising paths]{Typical action-minimising paths. The regular truncated octahedra illustrate the typical AMPs found for all the (truncated) octahedral shapes. Well below the SD--PSD threshold the AMP between SD configurations is a coherent rotation (left column). The energy along the AMP is a single bump (a) and the energy barrier is an intermediate-aligned SD state (d). At sizes just below the SD--PSD threshold the AMP is still between SD states, but via a curling mode (vortex nucleation) (centre column). Starting from SD (e), a vortex is nucleated (h) then unwinds to an intermediate-aligned SD state which has the highest energy along the AMP (not shown). Then, the final SD state (k) is reached via coherent rotation. This makes the energy along the AMP more complex and asymmetric (b). Well above the SD--PSD threshold, once the EAV has the lowest energy, the AMP is via a structured rotation of the vortex core (right column). The transition is between two EAVs with the same chirality (f, l) as a change of chirality produces prohibitively large energy barriers. In the AMP there is an IAV sitting in its own shallow LEM (i). The energy barrier is the one that separates the EAVs from the IAV. However, as the grain grows, the IAV LEM becomes more shallow and the energy along the AMP flattens (c). Colour represents the MCA energy normalised by $|K_1|$. The energies along the AMPs are plotted in units of $K_\text{B}T$, with $T=300\,\text{K}$.}
 \label{fig7}
 \end{figure}
@@ -302,8 +303,8 @@ The cuboctahedra show a very different behaviour. Their relaxation times increas
 The relaxation times for this type of transitions plateau at a few microseconds up to 74$\nm$. In Fig. \ref{fig3}j the energies of the dIAV and the EAV intersect at roughly 90$\nm$ and are very close up to 120$\nm$. Since the transition between two EAVs is likely to go through a dIAV, it is not expected that the relaxation time for EAV to EAV transitions will rapidly increase until sizes much larger than 90$\nm$. Indeed, we find that only for the particles larger than 110$\,$nm the relaxation times start to grow exponentially{\textemdash}though at a rate slower than for (truncated) octahedra transitions{\textemdash}surpassing 4 billion years at roughly 134$\nm$ (Fig. \ref{fig9}c). A typical transition of this type at 132$\nm$ is shown on the right column of Fig. \ref{fig8} between [111]- and [11$\bar{1}$]-aligned vortices via vortex distortion (not shown). The highest energy state along the path is a straight IAV (Fig. \ref{fig8}i).
 \begin{figure}
 \centering
-%\includegraphics[width=\textwidth]{Figure_08_HR.pdf}
-\includegraphics[width=\textwidth]{research-1/figs/Figure_08.pdf}
+%\includegraphics[width=\textwidth]{Figure_08_HR_HR.pdf}
+\includegraphics[width=\textwidth]{research-1/figs/Figure_08_HR.pdf}
 \caption[Action-minimising paths for the cuboctahedra]{Action-minimising paths for the cuboctahedra. The cuboctahedra showed different AMPs above the SD--PSD threshold from the rest of the shapes. Above the SD--PSD threshold, and up to 66$\nm$, the lowest energy state for the cuboctahedron is a HAV. Transitions between HAVs (left column) occur via a distortion (g) and structured rotation (j) of the vortex core. The energy barrier is an IAV (j). The dIAV along the AMP (g) sits in its own LEM, forming a three-bump energy barrier (a). The dIAV becomes the lowest energy from 66$\nm$. Transitions between dIAVs (centre column) form a single bump energy barrier (b). The transition is a structured rotation of the distorted vortex, keeping attached to the same surface (e, h, k). Once the lowest energy is an EAV, transitions between these (right column) occur via a distortion and structured rotation of the vortex core. The energy barrier is an IAV (i). Colour represents the MCA energy normalised by $|K_1|$. The energies along the AMPs are plotted in units of $K_\text{B}T$, with $T=300\,\text{K}$.}
 \label{fig8}
 \end{figure}
@@ -312,8 +313,8 @@ The relaxation times for this type of transitions plateau at a few microseconds 
 Fig. \ref{fig9} summarizes the results of the relaxation times obtained for the five (truncated) octahedral shapes in the 30$\nm$ to 74$\nm$ range and the relaxation times for the cuboctahedra in the 120$\nm$ to 134$\nm$ range (Fig. \ref{fig9}, inset). For all shapes, except the cuboctahedral, the general behaviour is an exponential increase of the relaxation times for the SD to SD transitions from a few tens of microseconds to a few seconds for the regular truncated octahedra and up to 12 days for the octahedra, followed by a sharp drop at 46$\nm$ (for the regular truncated octahedra) to 50$\nm$ (for the octahedra). This drop in the relaxation times marks the SD--PSD threshold. Then, the PSD to PSD transitions have increasingly lower relaxation times until reaching a global minimum at $\roughly$50$\nm$ to $\roughly$54$\nm$. Once the GEM is the EAV the relaxation time shoots up exponentially with crystal growth, surpassing 4 billion years at $\roughly$68$\nm$ to $\roughly$72$\nm$.
 \begin{figure}
 \centering
-%\includegraphics[width=\textwidth]{Figure_09_HR.pdf}
-\includegraphics[width=\textwidth]{research-1/figs/Figure_09.pdf}
+%\includegraphics[width=\textwidth]{Figure_09_HR_HR.pdf}
+\includegraphics[width=\textwidth]{research-1/figs/Figure_09_HR.pdf}
 \caption[Relaxation times for the euhedral shapes]{Relaxation times for the euhedral shapes. The relaxation times are calculated with $\tau_0=1\,\text{ns}$, $T=300\,\text{K}$. $\tau$ increases exponentially for the SD--SD transitions, but reaches only laboratory scale stabilities before the SD--PSD threshold. The (truncated) octahedral shapes show a dip in the stability in the lower end of the PSD range for HAV--HAV and IAV--IAV transitions, reaching a minimum at $\roughly$52$\nm$. Once the EAVs have the lowest energies, the relaxation times grow exponentially with size, reaching four billion years from $\roughly$70$\nm$. The cuboctahedra, however, show a different behaviour: they do not show a dip in the stability for the first HAV--HAV transitions, but with increasing size they produce lower relaxation times as the energy of the dIAV gets closer. The relaxation times for the transitions between dIAVs plateau up to 74$\nm$. Exponential growth of the relaxation times occurs from $\roughly$110$\nm$ (inset), surpassing four billion years from $\roughly$134$\nm$.}
 \label{fig9}
 \end{figure}
@@ -334,7 +335,7 @@ We found that the transitions between PSD states occur via well-defined states b
 
 Although in this study we have disregarded the effects of particle elongations, which are sure to effect the blocking volumes \citep{Muxworthy2013}, our results are representative of widespread authigenic greigite grains of abiotic origin. The effects of grain--grain magnetostatic interactions have also been excluded from this study. Isolated greigite grains are not very common, rather, natural samples show that greigite is more commonly aggregated in tight clusters. However, this study provides a stepping-stone towards understanding the more complex greigite clusters.\par
 %-----------------------------------------------------
-\renewcommand\bibname{{References}}
-\bibliographystyle{elsarticle-harv}
-\bibliography{references}
-%-----------------------------------------------------
+%\renewcommand\bibname{{References}}
+%\bibliographystyle{elsarticle-harv}
+%\bibliography{references}
+

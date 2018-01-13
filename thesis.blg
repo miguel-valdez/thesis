@@ -7,115 +7,60 @@ A level-1 auxiliary file: pre/acknowledgements.aux
 A level-1 auxiliary file: pre/dedication.aux
 A level-1 auxiliary file: pre/quote.aux
 A level-1 auxiliary file: pre/nomenclature.aux
-A level-1 auxiliary file: intro/intro.aux
 The style file: elsarticle-harv.bst
-A level-1 auxiliary file: research-1/research-1.aux
-Illegal, another \bibstyle command---line 117 of file research-1/research-1.aux
- : \bibstyle
- :          {elsarticle-harv}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 118 of file research-1/research-1.aux
- : \bibdata
- :         {references}
-I'm skipping whatever remains of this command
-A level-1 auxiliary file: research-2/research-2.aux
-Illegal, another \bibstyle command---line 46 of file research-2/research-2.aux
- : \bibstyle
- :          {elsarticle-harv}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 47 of file research-2/research-2.aux
- : \bibdata
- :         {references}
-I'm skipping whatever remains of this command
-A level-1 auxiliary file: research-3/research-3.aux
-Illegal, another \bibstyle command---line 92 of file research-3/research-3.aux
- : \bibstyle
- :          {elsarticle-harv}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 93 of file research-3/research-3.aux
- : \bibdata
- :         {references}
-I'm skipping whatever remains of this command
-A level-1 auxiliary file: research-4/research-4.aux
-Illegal, another \bibstyle command---line 66 of file research-4/research-4.aux
- : \bibstyle
- :          {elsarticle-harv}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 67 of file research-4/research-4.aux
- : \bibdata
- :         {references}
-I'm skipping whatever remains of this command
-A level-1 auxiliary file: conclusions/conclusions.aux
-Illegal, another \bibstyle command---line 16 of file conclusions/conclusions.aux
- : \bibstyle
- :          {elsarticle-harv}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 17 of file conclusions/conclusions.aux
- : \bibdata
- :         {references}
-I'm skipping whatever remains of this command
-Illegal, another \bibstyle command---line 60 of file thesis.aux
- : \bibstyle
- :          {elsarticle-harv}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 61 of file thesis.aux
- : \bibdata
- :         {references}
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: appendix/appendix.aux
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 1273 of file references.bib
- : 
- : //publisher={Elsevier},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1531 of file references.bib
+I was expecting a `,' or a `}'---line 1042 of file references.bib
  : 
  : //publisher = {Elsevier},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--there's a number but no volume in Donovan1979
+I was expecting a `,' or a `}'---line 1877 of file references.bib
+ : 
+ : //publisher = {AIP},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--empty journal in OConbhui2017
 Warning--empty journal in ValdezGrijalva2017
-You've used 114 entries,
+You've used 133 entries,
             2821 wiz_defined-function locations,
-            1490 strings with 30505 characters,
-and the built_in function-call counts, 62082 in all, are:
-= -- 6232
-> -- 3664
-< -- 49
-+ -- 1396
-- -- 1251
-* -- 5975
-:= -- 11206
-add.period$ -- 344
-call.type$ -- 114
-change.case$ -- 991
-chr.to.int$ -- 113
-cite$ -- 117
-duplicate$ -- 2028
-empty$ -- 3839
-format.name$ -- 1613
-if$ -- 12166
+            1626 strings with 34014 characters,
+and the built_in function-call counts, 72028 in all, are:
+= -- 7288
+> -- 4115
+< -- 65
++ -- 1571
+- -- 1401
+* -- 6883
+:= -- 12951
+add.period$ -- 403
+call.type$ -- 133
+change.case$ -- 1138
+chr.to.int$ -- 132
+cite$ -- 135
+duplicate$ -- 2369
+empty$ -- 4532
+format.name$ -- 1824
+if$ -- 14169
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 116
-newline$ -- 446
-num.names$ -- 460
-pop$ -- 873
+missing$ -- 135
+newline$ -- 519
+num.names$ -- 536
+pop$ -- 990
 preamble$ -- 1
-purify$ -- 871
+purify$ -- 997
 quote$ -- 0
-skip$ -- 1463
+skip$ -- 1720
 stack$ -- 0
-substring$ -- 3596
-swap$ -- 263
-text.length$ -- 4
+substring$ -- 4322
+swap$ -- 311
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1014
-warning$ -- 3
-while$ -- 517
+type$ -- 1185
+warning$ -- 2
+while$ -- 611
 width$ -- 0
-write$ -- 1354
-(There were 14 error messages)
+write$ -- 1581
+(There were 2 error messages)

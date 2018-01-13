@@ -1,11 +1,11 @@
-\chapter{First-Order Reversal Curve (FORC) Diagrams of Nanomagnets with Cubic Magnetocrystalline Anisotropy}
+\chapter{First-order reversal curve (FORC) diagrams of nanomagnets with cubic magnetocrystalline anisotropy}
 \label{ch:res-2}
 \fancyhead[L]{Chapter 3. Single-domain FORC diagrams}
 \fancyhead[C]{}
 \fancyhead[R]{}
 \fancyfoot[C]{\thepage}
 
-This Chapter is submitted for publication as Valdez-Grijalva, M. A., Muxworthy, A. R., 2018. First-Order Reversal Curve (FORC) Diagrams of Nanomagnets with Cubic Magnetocrystalline Anisotropy. Submitted to J. Magn. Magn. Mater.
+This Chapter is submitted for publication as Valdez-Grijalva, M. A., Muxworthy, A. R., 2018. First-order reversal curve (FORC) diagrams of nanomagnets with cubic magnetocrystalline Anisotropy. J. Magn. Magn. Mater., in review.
 
 \section*{Abstract}
 First-order reversal curve (FORC) diagrams are increasingly used as a material's magnetic domain state fingerprint. FORC diagrams of noninteracting dispersions of single-domain (SD) particles with uniaxial magnetocrystalline anisotropy (MCA) are well studied. However, a large class of materials possess a cubic MCA, for which the FORC diagram properties of noninteracting SD particle dispersions are less understood. A coherent rotation model was implemented to study the FORC diagram properties of noninteracting ensembles of SD greigite (Fe$_3$S$_4$), and iron (Fe). FORC diagrams contain mixed information of irreversible and reversible rotations of the magnetisations. The pattern formation mechanism is identified and related to the irreversible events the individual particles undergo. The purely reversible signal is determined based on the FORC diagram properties of the individual particles. Our results support the utility of FORC diagrams for the identification of noninteracting to weakly-interacting SD particles with cubic MCA.\par
@@ -102,7 +102,7 @@ where
 ( E_z )_\phi &= -M_s B\sin\theta \left( - \chi\sin\phi + \psi\cos\phi \right).
 \end{align}
 \par
-A backtracking line-search gradient-descent method \citep{Armijo1966} was implemented to simulate hysteresis loops and first-order reversal curves of nanomagnets with cubic MCA. The Armijo-Goldstein control parameters $c=1\times10^-4$, $\tau=1/2$ were used in this study. These ensure that the minimiser follows the gradient-descent direction very closely (Fig. \ref{FIG_E02}).
+A backtracking line-search gradient-descent method \citep{Armijo1966} was implemented to simulate hysteresis loops and first-order reversal curves of nanomagnets with cubic MCA. The Armijo-Goldstein control parameters $c=1\times10^-4$, $\tau=1/2$ were used in this study. These ensure that the minimiser follows the gradient-descent direction very closely (Fig. \ref{FIG_E02}). An example of the code can be consulted in Appendix A.
 \begin{figure}
 \includegraphics[width=\textwidth]{research-2/figs/FIG02.pdf}
 \caption[The behaviour of the minimiser during irreversible motion]{The behaviour of the minimiser during irreversible motion along the main branch of the FORCs shown in Fig. \ref{FIG_E01}(b). a) When the field is -30$\,$mT the magnetisation irreversibly rotates from its position in the positive octant ($x,y,z>0$) (grey dot) to the one with $z<0$, where a local energy minimum is found (black dot). As the field strength is further increased the local energy minimum becomes more shallow until b) at -39$\,$mT an energy gradient causes the irreversible motion to the negative octant ($x,y,z<0$) where saturation occurs.}
@@ -145,7 +145,7 @@ The mechanism behind the pattern formation on the FORC diagram of dilute dispers
 The elongated negative ridge can possibly be interpreted as the FORC signal unique to noninteracting to weakly-interacting SD cubic MCA particles. Identification of this signal should be straightforward since its noninteracting nature means that it is essentially additive. Experimental work with dilute dispersions of fine particles of greigite, iron, magnetite or other magnetic minerals with a cubic MCA can provide answers to some of these open questions.\par
 
 %%%% REFERENCES
-\renewcommand\bibname{{References}}
-\bibliographystyle{elsarticle-harv}
-\bibliography{references}
+%\renewcommand\bibname{{References}}
+%\bibliographystyle{elsarticle-harv}
+%\bibliography{references}
 

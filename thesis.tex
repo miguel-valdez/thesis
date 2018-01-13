@@ -4,7 +4,8 @@
 \include{preamble}
 
 \title{\LARGE {A numerical investigation of hydrocarbon related magnetic signatures}\\
- \vspace*{6mm}}
+\vspace*{6mm}
+}
 
 \author{Miguel A. Valdez Grijalva}
 
@@ -25,10 +26,27 @@
 \include{pre/nomenclature}
 \pagestyle{plain}
 
+%\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Contents}
 \tableofcontents
 \newpage
-\listoftables
+%\listoftables
+
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Figures}
 \listoffigures
+
+\newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Publications}
+\chapter*{List of Publications}
+Valdez-Grijalva, M. A., Nagy, L., Muxworthy, A. R., Williams, W., Fabian, K., 2018. The magnetic structure and palaeomagnetic recording fidelity of sub-micron greigite (Fe$_3$S$_4$). Earth Planet. Sci. Lett. 483, 76--89.\par
+\bigskip
+\noindent Valdez-Grijalva, M. A., Muxworthy, A. R., 2018. First-order reversal curve (FORC) diagrams of nanomagnets with cubic magnetocrystalline anisotropy. J. Magn. Magn. Mater., in review.\par
+\bigskip
+\noindent Valdez-Grijalva, M. A., Muxworthy, A. R., Williams, W., \'O Conbhu\'i, P., Nagy, L., Roberts, A. P., Heslop, D., 2018. Magnetic vortex effects on first-order reversal curve (FORC) diagrams for greigite dispersions. Earth Planet. Sci. Lett., in review.\par
+
 \printnomenclature
 
 \fancyhead[L]{\leftmark}
@@ -45,12 +63,19 @@
 %\setcounter{page}{1}
 %\pagenumbering{arabic}
 
-\include{intro/intro}
-\include{research-1/research-1}
-\include{research-2/research-2}
-\include{research-3/research-3}
-\include{research-4/research-4}
-\include{conclusions/conclusions}
+%\include{intro/intro}
+%\include{research-1/research-1}
+%\include{research-2/research-2}
+%\include{research-3/research-3}
+%\include{research-4/research-4}
+%\include{conclusions/conclusions}
+
+\input{intro/intro}
+\input{research-1/research-1}
+\input{research-2/research-2}
+\input{research-3/research-3}
+\input{research-4/research-4}
+\input{conclusions/conclusions}
 
 
 %\newpage
