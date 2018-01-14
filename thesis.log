@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  13 JAN 2018 01:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  14 JAN 2018 19:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1526,7 +1526,7 @@ File: research-4/figs/forcs_easy_hard.pdf Graphic file (type pdf)
 <use research-4/figs/forcs_easy_hard.pdf>
 Package pdftex.def Info: research-4/figs/forcs_easy_hard.pdf used on input line
  92.
-(pdftex.def)             Requested size: 386.95897pt x 310.86206pt.
+(pdftex.def)             Requested size: 483.69687pt x 388.58533pt.
  [102] [103 <./research-4/figs/forcs_easy_hard.pdf>]
 <research-4/figs/remanent_supervortex.pdf, id=2467, 5845.84pt x 3970.835pt>
 File: research-4/figs/remanent_supervortex.pdf Graphic file (type pdf)
@@ -1597,24 +1597,25 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 
 
 ] [133]
-[134] [135] [136]
-LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 200
+[134] [135] [136] [137]
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 206
 .
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-[137] [138] [139] [140] [141] [142] [143] [144] [145] [146]) [147]
+ [138] [139] [140]
+[141] [142] [143] [144] [145] [146] [147] [148]) [149]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
-
-(./thesis.aux (./pre/declarations.aux) (./pre/abstract.aux)
-(./pre/acknowledgements.aux) (./pre/dedication.aux) (./pre/quote.aux)
-(./pre/nomenclature.aux) (./appendix/appendix.aux))
+ (./thesis.aux
+(./pre/declarations.aux) (./pre/abstract.aux) (./pre/acknowledgements.aux)
+(./pre/dedication.aux) (./pre/quote.aux) (./pre/nomenclature.aux)
+(./appendix/appendix.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
@@ -1622,13 +1623,13 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
- 25806 strings out of 494953
- 474173 string characters out of 6180977
+ 25874 strings out of 494953
+ 475245 string characters out of 6180977
  717482 words of memory out of 5000000
  27597 multiletter control sequences out of 15000+600000
  38277 words of font info for 191 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 46i,16n,45p,10428b,2273s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,16n,45p,10428b,2309s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/miguel/.texmf-var/fonts/pk/ljfour/jknappen/ec/tctt1095.600pk> </home/
 miguel/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/tex
@@ -1647,10 +1648,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (147 pages, 92233151 bytes).
+Output written on thesis.pdf (149 pages, 92237084 bytes).
 PDF statistics:
- 3624 PDF objects out of 4296 (max. 8388607)
- 3228 compressed objects within 33 object streams
- 922 named destinations out of 1000 (max. 500000)
+ 3712 PDF objects out of 4296 (max. 8388607)
+ 3313 compressed objects within 34 object streams
+ 990 named destinations out of 1000 (max. 500000)
  42675 words of extra memory for PDF output out of 42996 (max. 10000000)
 

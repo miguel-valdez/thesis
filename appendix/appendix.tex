@@ -18,15 +18,18 @@
   basicstyle={\small\ttfamily},
   numbers=none,
   numberstyle=\tiny\color{gray},
-  keywordstyle=\color{blue},
-  commentstyle=\color{dkgreen},
-  stringstyle=\color{mauve},
+%  keywordstyle=\color{blue},
+%  commentstyle=\color{dkgreen},
+%  stringstyle=\color{mauve},
+  keywordstyle=\color{gray},
+  commentstyle=\color{gray},
+  stringstyle=\color{gray},
   breaklines=true,
   breakatwhitespace=true,
   tabsize=3
 }
 
-For Chapter \ref{ch:res-2}, a conjugate gradient numerical method with line search was developed in the language Python. A minimal working example follows. This code can be run as:
+For Chapter \ref{ch:res-2}, a gradient-descent method with line search was developed. Numerical implementation was done in the Python language. A minimal working example follows. This code can be run as:
 \begin{verbatim}
 python -i SWCAFORC.py -m greigite --applied_field 0.247 0.474 0.845 -f 1
 \end{verbatim}
@@ -46,10 +49,10 @@ from matplotlib.cm import RdBu_r as cmap
 from matplotlib.colors import LinearSegmentedColormap
 
 def main():
-  # Parse args.
+  # Parse arguments
   ap = ArgumentParser(
       description=(
-      'A simple Stoner-Wohlfarth model with cubic anisotropy. '         +\
+      'A simple StonerWohlfarth-like model with cubic anisotropy. '     +\
       'Perform a hysteresis loop with saturation field strength 250 mT.'+\
       'Followed by the necessary FORCs.')
       )
@@ -75,8 +78,8 @@ def main():
   field = args.applied_field
   SF = args.factor
 
-  #Magnetic parameters.
-  params = {'greigite' : {'K1': -1.7e4, 'Ms': 2.702e5, 'K2': 0.},
+  #Magnetic parameters for different materials
+  params = {'greigite' : {'K1': -1.7e4, 'Ms': 2.702e5 , 'K2': 0.},
             'magnetite': {'K1': -1.2e4, 'Ms': 4.8e5   , 'K2': 0.},
             'iron'     : {'K1':  4.8e4, 'Ms': 1.715e6 , 'K2': 0.},
             }
@@ -84,24 +87,24 @@ def main():
   Ms = params[material]['Ms']
   K2 = params[material]['K2']
 
-  # Normalise the field direction.
+  # Normalise the field direction
   field = array(field)
   field = field/sqrt(dot(field, field))
 
-  # Applied Field. In Tesla.
+  # Applied Field. In Tesla
   start =  0.25
   end   = -1.*start
   applied = concatenate((linspace(start,     end,   501),
                             linspace(end+0.001, start, 500))
   )
 
-  # Initial guess. A random point from a uniform distribution over the sphere.
+  # Initial guess. A random point from a uniform distribution over the sphere
   u     = uniform(0., 1.)
   v     = uniform(0., 1.)
   phi   = 2.*pi*u
   theta = arccos(2.*v - 1.)
 
-  # The gradient at the initial guess.
+  # The gradient at the initial guess
   g = grad(theta,
            phi,
            field,
@@ -111,7 +114,7 @@ def main():
            Ms=Ms
   )
 
-  # The energy of the initial guess.
+  # The energy of the initial guess
   nrg = energy(theta,
                phi,
                field,
@@ -121,13 +124,13 @@ def main():
                Ms=Ms
   )
 
-  # Energy tolerance.
+  # Energy tolerance
   etol = 1e-12
 
-  # Gradient tolerance.
+  # Gradient tolerance
   gtol = 1e-12
 
-  # Armijo-Goldstein parameters.
+  # Armijo-Goldstein parameters
   tau = 1./2.
   c = 1e-4
 
@@ -135,7 +138,7 @@ def main():
   path     = zeros((1001,2))
   mag      = zeros(1001)
 
-  # Main branch hysteresis:
+  # Main branch hysteresis
   print 'Calculating hysteresis loop'
   for i, B in enumerate(applied):
     theta, phi, nrg = minimise(theta,
@@ -156,12 +159,15 @@ def main():
     mag[i]        = m_along_field
     print 'Field=%5.1f mT, m=%9.6f' % (B*1e3, m_along_field)
 
-  # Find the discontinuities to calculate the necessary FORCs:
-  discontinuities = [array((applied[i], i)) for i in range(500) if angle(mvectors[i], mvectors[i+1]) > 5.*pi/180.]
+  # Find the discontinuities to calculate the necessary FORCs
+  discontinuities = [array((applied[i], i)) for i in range(500) if (
+    angle(mvectors[i], mvectors[i+1]) > 5.*pi/180.)
+  ]
   discontinuities = array(discontinuities)
 
   mFORCs = []
   BFORCs = []
+  # Solution loop for the necessary FORCs
   for fieldvalue, index in discontinuities[1:]:
     print 'Calculating FORC starting at Ba=%5.1f mT' % (fieldvalue*1e3)
     magF = []
@@ -201,37 +207,39 @@ def main():
   plt.ylabel(r'$m$')
   plt.show(block=False)
 
-  # Calculate the FORC distribution.
-  # First, put all the FORC and hysteresis data into one 1D array.
+  print 'FORCs calculated. Calculating the FORC distribution:'
+
+  # Put all the FORC and hysteresis data into a 1D array
   mFORC = zeros(sum(range(501+1)))
 
-  # First part, using the first discontinuity.
+  # First part, using the first discontinuity
   for i in range(int(discontinuities[0][1]+1)):
     mFORC[FORCcounter(i)] += mag[i]
     for j in range(i):
       mFORC[FORCcounter(i)+j+1] += mag[i-j-1]
 
-  # Using the rest of the discontinuities.
+  # Using the rest of the discontinuities (if any)
   for i in range(len(discontinuities[1:])):
     for j in range(int(discontinuities[i][1])+1, int(discontinuities[i+1][1])+1):
       mFORC[FORCcounter(j)] += mFORCs[i][int(discontinuities[i+1][1])-j]
       for k in range(j):
         mFORC[FORCcounter(j)+k+1] += mFORCs[i][int(discontinuities[i+1][1]-j)+k+1]
 
-  # Using the lower main branch.
+  # Using the lower main branch
   for i in range(int(discontinuities[-1][1])+1, 501):
     mFORC[FORCcounter(i)] += mag[500:][501-i-1]
     for j in range(i):
       mFORC[FORCcounter(i)+j+1] += mag[500:][501-i+j]
 
-  # Rearrange the hysteresis and FORC data onto a 2D array.
+  # Rearrange the hysteresis and FORC data onto a 2D array
   Bb, Ba = meshgrid(linspace(-250., 250., 501), linspace(250., -250., 501))
   m = zeros_like(Bb)
   for i in xrange(501):
     for j, k in enumerate(xrange(sum(range(i)), sum(range(i+1)))):
       m[i][500-i+j] = mFORC[sum(range(i))+j]
 
-  # Calculate the forc-distribution.
+  # Calculate the FORC distribution
+  # using numpy to calculate least-square fitting
   rho = zeros_like(m)
   for i in xrange(501):
     for j in xrange(500-i, 501):
@@ -249,14 +257,14 @@ def main():
       C,_,_,_ = lstsq(A, data[:,2])
       rho[i][j] += -C[3]/2.
 
-  # Normalise the forc distribution.
+  # Normalise the FORC distribution
   rhomax = max(rho)
   rho /= rhomax
   rhomin = min(rho)
   rhomax = max(rho)
   shiftedCMap = shiftedColorMap(cmap, midpoint=(1. - rhomax/(rhomax + abs(rhomin))))
 
-  # A simple plot, no contours.
+  # A simple plot, no contours
   fig, ax = plt.subplots()
   plt.pcolor(Bb, Ba, rho, cmap=shiftedCMap)
   plt.plot([   0., 250.], [   0., -250.], color= 'black', linestyle='--')
@@ -267,8 +275,14 @@ def main():
   plt.ylabel(r'$B_a\,(\mathrm{mT})$')
   plt.show(block=False)
 
+  print 'FORC distribution calculated'
+
 
 def FORCcounter(x):
+  '''
+  Utility for calculating the index of each FORC
+  in a 1D array
+  '''
   if x == 0:
     return 0
   else:
@@ -276,6 +290,9 @@ def FORCcounter(x):
 
 
 def in_grid(i, j, sf=1):
+  '''
+  Utility for smoothing factor-related calculation
+  '''
   grid = []
   for k in range(i-sf, i+sf+1):
     for l in range(j-sf, j+sf+1):
@@ -285,10 +302,16 @@ def in_grid(i, j, sf=1):
 
 
 def in_triangle(i, j):
+  '''
+  Utility for smoothing factor-related calculation
+  '''
   return (True if j >= (500-i) else False)
 
 
 def in_square(i, j):
+  '''
+  Utility for smoothing factor-related calculation
+  '''
   return (True if (i<=500 and j<=500) else False)
 
 
@@ -300,6 +323,9 @@ def energy(theta,
            K2= 0.,
            Ms=2.2706e5
            ):
+  '''
+  Calculate the energy
+  '''
   xi, psi, omega = field
   return ((K1/Ms)*power(sin(theta), 2)*(
           power(cos(theta), 2)+power(sin(theta)*cos(phi)*sin(phi), 2)) +
@@ -317,14 +343,21 @@ def grad(theta,
          K2= 0.,
          Ms=2.2706e5
          ):
+  '''
+  Compute the gradient
+  '''
   xi, psi, omega = field
+
+  # The gradient component on theta-axis
   ehat_theta = (2.*(K1/Ms)*sin(theta)*cos(theta)*(
                 2.*power(sin(theta)*sin(phi)*cos(phi), 2) -
                 power(sin(theta), 2)+power(cos(theta), 2)) +
                 2.*(K2/Ms)*sin(theta)*cos(theta)*(
-                power(sin(phi)*cos(phi), 2)*(2.*power(sin(theta)*cos(theta), 2)- power(sin(theta), 4))) -
+                power(sin(phi)*cos(phi), 2)*(2.*power(sin(theta)*cos(theta), 2) -
+                power(sin(theta), 4))) -
                 B*(xi*cos(theta)*cos(phi)+psi*cos(theta)*sin(phi)-omega*sin(theta))
                 )
+  # The gradient component on phi-axis
   ehat_phi = (2.*(K1/Ms)*power(sin(theta), 4)*sin(phi)*cos(phi)*(
               power(cos(phi), 2)-power(sin(phi), 2)) +
               2.*(K2/Ms)*power(sin(theta), 4)*sin(phi)*cos(phi)*(
@@ -346,10 +379,21 @@ def linesearch(f,
                tau=0.5,
                c=1e-4,
                ):
+  '''
+  The line-search algorithm:
+  decrease the value of gamma until the Armijo-Goldstein is met
+  '''
   xi, psi, omega = field
+
+  # Starting gamma value
   gamma = 1.
-  while f(theta-gamma*g[0], phi-gamma*g[1], field, B=B, K1=K1, K2=K2, Ms=Ms) > f(theta, phi, field, B=B, K1=K1, K2=K2, Ms=Ms) - c*gamma*dot(g, g):
+
+  # Calculate optimal gamma
+  while ( f(theta-gamma*g[0], phi-gamma*g[1], field, B=B, K1=K1, K2=K2, Ms=Ms) >
+          f(theta, phi, field, B=B, K1=K1, K2=K2, Ms=Ms) - c*gamma*dot(g, g)
+  ):
     gamma *= tau
+
   return gamma
 
 
@@ -365,11 +409,21 @@ def minimise(theta,
              gtol=1e-12,
              etol=1e-12,
              ):
+  '''
+  Minimiser function, a gradient descent method
+  with line-search
+  '''
+  # Compute the gradient and energy of starting point
   g = grad(theta, phi, field, B=B, K1=K1, K2=K2, Ms=Ms)
   nrg = energy(theta, phi, field, B=B, K1=K1, K2=K2, Ms=Ms)
-  
-  nrg_old = 1e10  
+
+  # Dummy value for initial energy to get the algorithm started
+  nrg_old = 1e10
+
+  # Minimisation loop
   while (dot(g, g) > gtol or Ms*abs(nrg_old-nrg) > etol):
+    # Compute gamma, the constant scaling the size of the
+    # step along the gradient descent direction
     gamma = linesearch(energy,
                        g,
                        theta,
@@ -383,9 +437,12 @@ def minimise(theta,
                        tau=tau,
     )
     theta_old, phi_old = theta, phi
+
+    # Move along the gradient descent direction
     theta += -gamma*g[0]
     phi += -gamma*g[1]
 
+    # Compute energies and gradient to keep going
     nrg_old = energy(theta_old,
                      phi_old,
                      field,
@@ -410,69 +467,81 @@ def minimise(theta,
              K2=K2,
              Ms=Ms
     )
+
+  # Return final value after while loop is finished
   return (theta, phi, nrg)
 
 
 def to_cartesian(theta, phi):
+  '''
+  Transform from (theta,phi) spherical coordinates (r=1)
+  to cartesian coordinates
+  '''
   return array((sin(theta)*cos(phi), sin(theta)*sin(phi), cos(theta)))
 
 
 def angle(u, v):
-    return arccos(dot(u, v))
+  '''
+  Compute the angle between vectors u, v;
+  result in radians
+  '''
+  return arccos(dot(u, v))
 
 
 def shiftedColorMap(cmap, start=0, midpoint=0.5, stop=1.0, name='shiftedcmap'):
-    '''
-    Function to offset the "center" of a colormap. Useful for
-    data with a negative min and positive max and you want the
-    middle of the colormap's dynamic range to be at zero
+  '''
+  Function to offset the "center" of a colormap. Useful for
+  data with a negative min and positive max and you want the
+  middle of the colormap's dynamic range to be at zero
 
-    Input
-    -----
-      cmap : The matplotlib colormap to be altered
-      start : Offset from lowest point in the colormap's range.
-          Defaults to 0.0 (no lower ofset). Should be between
-          0.0 and `midpoint`.
-      midpoint : The new center of the colormap. Defaults to 
-          0.5 (no shift). Should be between 0.0 and 1.0. In
-          general, this should be  1 - vmax/(vmax + abs(vmin))
-          For example if your data range from -15.0 to +5.0 and
-          you want the center of the colormap at 0.0, `midpoint`
-          should be set to  1 - 5/(5 + 15)) or 0.75
-      stop : Offset from highets point in the colormap's range.
-          Defaults to 1.0 (no upper ofset). Should be between
-          `midpoint` and 1.0.
-    '''
-    cdict = {
-        'red': [],
-        'green': [],
-        'blue': [],
-        'alpha': []
-    }
+  Input
+  -----
+    cmap     : The matplotlib colormap to be altered
+    start    : Offset from lowest point in the colormap's range.
+        Defaults to 0.0 (no lower ofset).
+        Should be between 0.0 and `midpoint`.
+    midpoint : The new center of the colormap. Defaults to 
+        0.5 (no shift). Should be between 0.0 and 1.0. In
+        general, this should be  1 - vmax/(vmax + abs(vmin))
+        For example if your data range from -15.0 to +5.0 and
+        you want the center of the colormap at 0.0, `midpoint`
+        should be set to  1 - 5/(5 + 15)) or 0.75
+    stop    : Offset from highets point in the colormap's range.
+        Defaults to 1.0 (no upper ofset). Should be between
+        `midpoint` and 1.0.
+  '''
+  cdict = {
+      'red':   [],
+      'green': [],
+      'blue':  [],
+      'alpha': []
+  }
 
-    # regular index to compute the colors
-    reg_index = linspace(start, stop, 257)
+  # Regular index to compute the colors
+  reg_index = linspace(start, stop, 257)
 
-    # shifted index to match the data
-    shift_index = hstack([
-        linspace(0.0, midpoint, 128, endpoint=False), 
-        linspace(midpoint, 1.0, 129, endpoint=True)
-    ])
+  # Shifted index to match the data
+  shift_index = hstack([
+      linspace(0.0, midpoint, 128, endpoint=False), 
+      linspace(midpoint, 1.0, 129, endpoint=True)
+  ])
 
-    for ri, si in zip(reg_index, shift_index):
-        r, g, b, a = cmap(ri)
+  # Fill cdict with rgb values
+  for ri, si in zip(reg_index, shift_index):
+    r, g, b, a = cmap(ri)
 
-        cdict['red'].append((si, r, r))
-        cdict['green'].append((si, g, g))
-        cdict['blue'].append((si, b, b))
-        cdict['alpha'].append((si, a, a))
+    cdict['red'].append  ((si, r, r))
+    cdict['green'].append((si, g, g))
+    cdict['blue'].append ((si, b, b))
+    cdict['alpha'].append((si, a, a))
 
-    newcmap = LinearSegmentedColormap(name, cdict)
-    plt.register_cmap(cmap=newcmap)
+  newcmap = LinearSegmentedColormap(name, cdict)
+  plt.register_cmap(cmap=newcmap)
 
-    return newcmap
+  return newcmap
 
 
+# Program entry-point
 if __name__ == '__main__':
   main()
 \end{lstlisting}
