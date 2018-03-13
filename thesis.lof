@@ -13,40 +13,41 @@
 \gdef \the@ipfilectr {}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Domain state schematic}}{14}{figure.caption.10}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces SEM images of framboidal greigite}}{17}{figure.caption.11}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Greigite associated to hydrocarbon related magnetic contrasts}}{16}{figure.caption.11}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces SEM images of framboidal greigite}}{18}{figure.caption.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces FE meshes of the model euhedral geometries}}{38}{figure.caption.13}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Micromagnetic structures of spheres and intermediate-aligned vortex states}}{41}{figure.caption.14}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Domain states and energies in the SD--PSD transition regime}}{43}{figure.caption.15}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Micromagnetic structures of octahedra, minimally truncated octahedra and regular truncated octahedra}}{46}{figure.caption.16}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Micromagnetic structures of maximally truncated octahedra, cuboctahedra and cubes}}{48}{figure.caption.17}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces MD formation by easy aligned vortices}}{52}{figure.caption.18}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Typical action-minimising paths}}{55}{figure.caption.19}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Action-minimising paths for the cuboctahedra}}{57}{figure.caption.20}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Relaxation times for the euhedral shapes}}{58}{figure.caption.21}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces FE meshes of the model euhedral geometries}}{39}{figure.caption.14}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Micromagnetic structures of spheres and intermediate-aligned vortex states}}{42}{figure.caption.15}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Domain states and energies in the SD--PSD transition regime}}{44}{figure.caption.16}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Micromagnetic structures of octahedra, minimally truncated octahedra and regular truncated octahedra}}{47}{figure.caption.17}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Micromagnetic structures of maximally truncated octahedra, cuboctahedra and cubes}}{49}{figure.caption.18}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces MD formation by easy aligned vortices}}{53}{figure.caption.19}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Typical action-minimising paths}}{56}{figure.caption.20}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Action-minimising paths for the cuboctahedra}}{58}{figure.caption.21}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Relaxation times for the euhedral shapes}}{59}{figure.caption.22}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Basic FORC modelling concepts}}{66}{figure.caption.23}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The behaviour of the minimiser during irreversible motion}}{69}{figure.caption.24}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces FORC distribution heat maps (dipolar model)}}{70}{figure.caption.25}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces FORC diagrams (dipolar model)}}{71}{figure.caption.26}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Basic FORC modelling concepts}}{67}{figure.caption.24}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The behaviour of the minimiser during irreversible motion}}{70}{figure.caption.25}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces FORC distribution heat maps (dipolar model)}}{71}{figure.caption.26}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces FORC diagrams (dipolar model)}}{72}{figure.caption.27}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Model geometry and field orientations}}{80}{figure.caption.28}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison between dipole and micromagnetic model}}{81}{figure.caption.29}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces FORC diagrams with increasing vortex effects}}{83}{figure.caption.30}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces FORC diagram and hysteresis curves of 54$\nm $-sized particles}}{85}{figure.caption.31}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Day plot and remanence/coercivity against size}}{86}{figure.caption.32}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces FORC diagram and hysteresis curves of 62$\nm $-sized particles}}{87}{figure.caption.33}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces FORC diagram and hysteresis curves of 80$\nm $-sized particles}}{88}{figure.caption.34}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Vortex nucleation/annihilation fields}}{90}{figure.caption.35}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Averaged-over-size FORC diagrams and raw hysteresis curves}}{92}{figure.caption.36}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Model geometry and field orientations}}{81}{figure.caption.29}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison between dipole and micromagnetic model}}{82}{figure.caption.30}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces FORC diagrams with increasing vortex effects}}{84}{figure.caption.31}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces FORC diagram and hysteresis curves of 54$\nm $-sized particles}}{86}{figure.caption.32}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Day plot and remanence/coercivity against size}}{87}{figure.caption.33}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces FORC diagram and hysteresis curves of 62$\nm $-sized particles}}{88}{figure.caption.34}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces FORC diagram and hysteresis curves of 80$\nm $-sized particles}}{89}{figure.caption.35}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Vortex nucleation/annihilation fields}}{91}{figure.caption.36}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Averaged-over-size FORC diagrams and raw hysteresis curves}}{93}{figure.caption.37}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Framboidal mesh and field orientations}}{101}{figure.caption.38}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces FORCs for fields along an easy and a hard axis}}{103}{figure.caption.39}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Framboid remanent super-vortex states}}{105}{figure.caption.40}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces FORCs of the framboid dispersion}}{105}{figure.caption.41}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces FORCs of a dispersion of framboids and non-interacting particles}}{106}{figure.caption.42}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Day plot of framboid and noninteraring particles mixtures}}{107}{figure.caption.43}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Hysteresis of a framboid with 76$\nm $ particles}}{109}{figure.caption.44}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Framboidal mesh and field orientations}}{102}{figure.caption.39}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces FORCs for fields along an easy and a hard axis}}{104}{figure.caption.40}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Framboid remanent super-vortex states}}{106}{figure.caption.41}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces FORCs of the framboid dispersion}}{106}{figure.caption.42}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces FORCs of a dispersion of framboids and non-interacting particles}}{107}{figure.caption.43}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Day plot of framboid and noninteraring particles mixtures}}{108}{figure.caption.44}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Hysteresis of a framboid with 76$\nm $ particles}}{110}{figure.caption.45}
 \addvspace {10\p@ }
 \gdef \the@ipfilectr {@-7}
 \addvspace {10\p@ }

@@ -3,78 +3,78 @@
  \nomgroup{A}
 
   \item [{$\boldsymbol{B}$}]\begingroup Magnetic induction field [\si{\tesla}]\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{$\boldsymbol{H}$}]\begingroup Magnetic field [\si{\ampere \per \metre}]\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{$\boldsymbol{M}$}]\begingroup Magnetisation [\si{\ampere \per \metre}]\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
 
  \nomgroup{B}
 
   \item [{$M_\text{S}$}]\begingroup Saturation magnetisation [\si{\ampere \per \metre}]\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{$A$}]\begingroup Exchange stiffness constant [\si{\joule \per \metre}]\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{$K_1$}]\begingroup First magnetocrystalline anisotropy constant [\si{\joule \per \metre^3}]\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{$K_2$}]\begingroup Second magnetocrystalline anisotropy constant [\si{\joule \per \metre^3}]\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{$E_\text{G}$}]\begingroup Magnetic Gibbs free-energy [\si{\joule}]\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{$K_\text{B}$}]\begingroup Boltzmann's constant [\si{\joule \per \kelvin}]\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
 
  \nomgroup{C}
 
   \item [{$d$}]\begingroup Particle size [\si{\metre}]\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{$l_\text{exch}$}]\begingroup Exchange length [\si{\metre}]\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
 
  \nomgroup{D}
 
-  \item [{ }]\begingroup  \nomeqref {0}\nompageref{8}
+  \item [{ }]\begingroup  \nomeqref {0}\nompageref{7}
   \item [{\textbf{Greek Symbols}}]\begingroup  \nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{$\mu_0$}]\begingroup Magnetic constant (vacuum permeability)\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{$\mu_\text{B}$}]\begingroup Bohr magneton\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{$\gamma$}]\begingroup Gyromagnetic ratio\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{$\alpha$}]\begingroup Damping constant\nomeqref {0}
-		\nompageref{8}
-  \item [{ }]\begingroup  \nomeqref {0}\nompageref{8}
+		\nompageref{7}
+  \item [{ }]\begingroup  \nomeqref {0}\nompageref{7}
 
  \nomgroup{E}
 
   \item [{\textbf{List of Abbreviations}}]\begingroup  \nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{NRM}]\begingroup Natural remanent magnetisation\nomeqref {0}
-		\nompageref{8}
-  \item [{SD}]\begingroup Single-domain\nomeqref {0}\nompageref{8}
+		\nompageref{7}
+  \item [{SD}]\begingroup Single-domain\nomeqref {0}\nompageref{7}
   \item [{SSD}]\begingroup Stable single-domain\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{PSD}]\begingroup Pseudo single-domain\nomeqref {0}
-		\nompageref{8}
-  \item [{MD}]\begingroup Multi-domain\nomeqref {0}\nompageref{8}
-  \item [{SV}]\begingroup Single vortex\nomeqref {0}\nompageref{8}
+		\nompageref{7}
+  \item [{MD}]\begingroup Multi-domain\nomeqref {0}\nompageref{7}
+  \item [{SV}]\begingroup Single vortex\nomeqref {0}\nompageref{7}
   \item [{EAV}]\begingroup Easy aligned vortex\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{HAV}]\begingroup Hard-aligned vortex\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{IAV}]\begingroup Intermediate-aligned vortex\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{BEM}]\begingroup Boundary-element method\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{FEM}]\begingroup Finite-element method\nomeqref {0}
-		\nompageref{8}
-  \item [{FD}]\begingroup Finite difference\nomeqref {0}\nompageref{8}
+		\nompageref{7}
+  \item [{FD}]\begingroup Finite difference\nomeqref {0}\nompageref{7}
   \item [{AMP}]\begingroup Action-minimising path\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{NEB}]\begingroup Nudged elastic-band (method)\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
   \item [{FORC}]\begingroup First-order reversal curve\nomeqref {0}
-		\nompageref{8}
+		\nompageref{7}
 
 \end{thenomenclature}
