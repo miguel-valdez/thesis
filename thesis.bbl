@@ -1,4 +1,4 @@
-\begin{thebibliography}{133}
+\begin{thebibliography}{139}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -40,6 +40,11 @@ Almeida, T.~P., Kasama, T., Muxworthy, A.~R., Williams, W., Nagy, L.,
   41~(20), 7041--7047.
 \newline\urlprefix\url{https://dx.doi.org/10.1002/2014GL061432}
 
+\bibitem[{Arag\'on(1992)}]{Aragon1992}
+Arag\'on, R., 1992. Magnetization and exchange in nonstoichiometric magnetite.
+  Phys. Rev. B 46~(9), 5328--5333.
+\newline\urlprefix\url{https://dx.doi.org/10.1103/PhysRevB.46.5328}
+
 \bibitem[{Ariztegui and Dobson(1996)}]{Ariztegui1996}
 Ariztegui, D., Dobson, J., 1996. Magnetic investigations of framboidal greigite
   formation: a record of anthropogenic environmental changes in eutrophic
@@ -76,6 +81,11 @@ Berkov, D.~V., 1998. Numerical calculation of the energy barrier distribution
 Berner, R.~A., 1984. Sedimentary pyrite formation: {A}n update. Geochim.
   Cosmochim. Ac. 48~(4), 605--615.
 \newline\urlprefix\url{https://dx.doi.org/10.1016/0016-7037(84)90089-9}
+
+\bibitem[{Bloch(1932)}]{Bloch1932}
+Bloch, F., 1932. Zur theorie des austauschproblems und der remanenzerscheinung
+  der ferromagnetika. In: Zur Theorie des Austauschproblems und der
+  Remanenzerscheinung der Ferromagnetika. pp. 295--335.
 
 \bibitem[{Brown(1940)}]{Brown1940}
 Brown, W.~F., 1940. Theory of the approach to magnetic saturation. Phys. Rev.
@@ -123,6 +133,11 @@ Chang, L., Roberts, A.~P., Tang, Y., Rainford, B.~D., Muxworthy, A.~R., Chen,
   Q., 2008. Fundamental magnetic parameters from pure synthetic greigite
   ({F}e$_3${S}$_4$). J. Geophys. Res. 113~(B6).
 \newline\urlprefix\url{https://dx.doi.org/10.1029/2007JB005502}
+
+\bibitem[{Coey et~al.(1970)Coey, Spender, and Morrish}]{Coey1970}
+Coey, J. M.~D., Spender, M.~R., Morrish, A.~H., 1970. The magnetic structure of
+  the spinel {F}e$_3${S}$_4$. Solid State Commun. 8~(20), 1605--1608.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/0038-1098(70)90473-4}
 
 \bibitem[{Costanzo-Alvarez et~al.(2012)Costanzo-Alvarez, Aldana, Bayona,
   L{\'o}pez-Rodr{\'i}guez, and Blanco}]{Costanzo2012}
@@ -353,6 +368,11 @@ Imhoff, J.~F., Meunler, G., Brunotte, X., Sabonnadi{\`e}re, J.~C., 1990. An
   throughout the finite element method. IEEE T. Magn. 26~(5), 1659--1661.
 \newline\urlprefix\url{https://dx.doi.org/10.1109/20.104482}
 
+\bibitem[{Kenan et~al.(1963)Kenan, Glasser, and Milford}]{Kenan1963}
+Kenan, R.~P., Glasser, M.~L., Milford, F.~J., 1963. Spin-wave contribution to
+  the heat capacity of magnetite. Phys. Rev. 132~(1), 47.
+\newline\urlprefix\url{https://dx.doi.org/10.1103/PhysRev.132.47}
+
 \bibitem[{Kimura et~al.(2013)Kimura, Sato, Nakamura, Nozawa, Nakamura,
   Tsukamoto, and Yamamoto}]{Kimura2013}
 Kimura, Y., Sato, T., Nakamura, N., Nozawa, J., Nakamura, T., Tsukamoto, K.,
@@ -369,6 +389,11 @@ Kittel, C., 1949. Physical theory of ferromagnetic domains. Rev. Mod. Phys.
 Koenigsberger, J.~G., 1938. Natural residual magnetism of eruptive rocks. J.
   Geophys. Res. 43~(3), 299--320.
 \newline\urlprefix\url{https://dx.doi.org/10.1029/TE043i003p00299}
+
+\bibitem[{Kouvel(1956)}]{Kouvel1956}
+Kouvel, J.~S., 1956. Specific heat of a magnetite crystal at liquid helium
+  temperatures. Phys. Rev. 102~(6), 1489.
+\newline\urlprefix\url{https://dx.doi.org/10.1103/PhysRev.102.1489}
 
 \bibitem[{Kr{\'a}sa et~al.(2011)Kr{\'a}sa, Muxworthy, and Williams}]{Krasa2011}
 Kr{\'a}sa, D., Muxworthy, A.~R., Williams, W., 2011. Room- and low-temperature
@@ -719,6 +744,11 @@ Sweeney, R.~E., Kaplan, I.~R., 1973. Pyrite framboid formation; laboratory
 \bibitem[{Thellier(1938)}]{Thellier1938}
 Thellier, E., 1938. Sur l'aimantation des terres cuites et ses applications
   g{\'e}ophysique. Ann. Inst. Phys. Globe Univ. Paris 16, 157--302.
+
+\bibitem[{Torrie(1967)}]{Torrie1967}
+Torrie, B.~H., 1967. Spin waves in magnetite at a temperature below the
+  electronic ordering transition. Solid State Commun. 5~(9), 715--717.
+\newline\urlprefix\url{https://dx.doi.org/10.1016/0038-1098(67)90356-0}
 
 \bibitem[{Usov and Peschany(1997)}]{Usov1997}
 Usov, N.~A., Peschany, S.~E., 1997. Theoretical hysteresis loops for
