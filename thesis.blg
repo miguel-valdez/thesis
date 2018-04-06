@@ -10,58 +10,65 @@ A level-1 auxiliary file: pre/nomenclature.aux
 The style file: elsarticle-harv.bst
 A level-1 auxiliary file: appendix/appendix.aux
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 1104 of file references.bib
+I was expecting a `,' or a `}'---line 839 of file references.bib
+ : 
+ : year      = {2017},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1161 of file references.bib
  : 
  : //publisher = {Elsevier},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1973 of file references.bib
+I was expecting a `,' or a `}'---line 2055 of file references.bib
  : 
  : //publisher = {AIP},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--empty publisher in Bloch1932
+Warning--empty year in Harrison2017; set to ????
+Warning--empty note in Harrison2017
 Warning--empty journal in OConbhui2017
 Warning--empty journal in ValdezGrijalva2017
 You've used 139 entries,
             2821 wiz_defined-function locations,
-            1668 strings with 35048 characters,
-and the built_in function-call counts, 74863 in all, are:
-= -- 7596
-> -- 4209
-< -- 70
-+ -- 1609
-- -- 1431
-* -- 7112
-:= -- 13446
-add.period$ -- 422
+            1666 strings with 34489 characters,
+and the built_in function-call counts, 74536 in all, are:
+= -- 7572
+> -- 4160
+< -- 71
++ -- 1591
+- -- 1413
+* -- 7067
+:= -- 13386
+add.period$ -- 421
 call.type$ -- 139
-change.case$ -- 1180
+change.case$ -- 1174
 chr.to.int$ -- 138
-cite$ -- 142
-duplicate$ -- 2483
-empty$ -- 4755
-format.name$ -- 1864
-if$ -- 14760
+cite$ -- 144
+duplicate$ -- 2479
+empty$ -- 4749
+format.name$ -- 1844
+if$ -- 14699
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 141
-newline$ -- 542
+missing$ -- 140
+newline$ -- 541
 num.names$ -- 560
-pop$ -- 1022
+pop$ -- 1017
 preamble$ -- 1
-purify$ -- 1031
+purify$ -- 1025
 quote$ -- 0
-skip$ -- 1811
+skip$ -- 1808
 stack$ -- 0
 substring$ -- 4527
-swap$ -- 328
+swap$ -- 327
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1239
-warning$ -- 3
+warning$ -- 5
 while$ -- 640
 width$ -- 0
-write$ -- 1652
-(There were 2 error messages)
+write$ -- 1649
+(There were 3 error messages)

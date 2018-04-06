@@ -15,76 +15,76 @@
 \gdef \the@ipfilectr {}
 \contentsline {chapter}{Contents}{7}{section*.3}
 \contentsline {chapter}{List of Figures}{9}{section*.5}
-\contentsline {chapter}{List of Publications}{10}{section*.7}
-\contentsline {chapter}{Nomenclature}{11}{chapter*.9}
-\contentsline {chapter}{\numberline {1}Introduction}{13}{chapter.1}
-\contentsline {section}{\numberline {1.1}Motivation}{13}{section.1.1}
-\contentsline {section}{\numberline {1.2}The iron sulphide greigite}{18}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Greigite occurrence in sediments}{18}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Greigite textures: framboidal clusters}{19}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Fundamental magnetic parameters of greigite}{20}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}Magnetism and matter}{22}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Fundamentals of magnetism}{22}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Diamagnetism and paramagnetism}{24}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Ferromagnetism}{24}{subsection.1.3.3}
-\contentsline {section}{\numberline {1.4}Micromagnetics}{26}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Magnetic Gibbs free energy}{26}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}The Landau-Lifshitz-Gilbert equation}{31}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}Micromagnetic modelling}{32}{subsection.1.4.3}
-\contentsline {section}{\numberline {1.5}Brief introduction to the thesis}{34}{section.1.5}
-\contentsline {chapter}{\numberline {2}The magnetic structure and palaeomagnetic recording fidelity of sub-micron greigite (Fe$_3$S$_4$)}{36}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{37}{section.2.1}
-\contentsline {section}{\numberline {2.2}Methodology}{39}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}The micromagnetic algorithm}{39}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Choice of morphologies}{41}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Crystal growth model}{41}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Relaxation times}{43}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}Results and Discussion}{44}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Magnetic structure in the SD--PSD regime}{44}{subsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.1.1}Spheres}{46}{subsubsection.2.3.1.1}
-\contentsline {subsubsection}{\numberline {2.3.1.2}Octahedra and truncated octahedra}{48}{subsubsection.2.3.1.2}
-\contentsline {subsubsection}{\numberline {2.3.1.3}Cuboctahedra}{49}{subsubsection.2.3.1.3}
-\contentsline {subsubsection}{\numberline {2.3.1.4}Cubes}{51}{subsubsection.2.3.1.4}
-\contentsline {subsubsection}{\numberline {2.3.1.5}Discussion}{51}{subsubsection.2.3.1.5}
-\contentsline {subsection}{\numberline {2.3.2}Identifying the PSD--MD transition}{54}{subsection.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.2.1}Growth of EAVs}{54}{subsubsection.2.3.2.1}
-\contentsline {subsubsection}{\numberline {2.3.2.2}Discussion}{55}{subsubsection.2.3.2.2}
-\contentsline {subsection}{\numberline {2.3.3}Energy barriers and blocking volumes}{57}{subsection.2.3.3}
-\contentsline {subsubsection}{\numberline {2.3.3.1}Octahedra and truncated octahedra}{57}{subsubsection.2.3.3.1}
-\contentsline {subsubsection}{\numberline {2.3.3.2}Cuboctahedra}{58}{subsubsection.2.3.3.2}
-\contentsline {subsubsection}{\numberline {2.3.3.3}Discussion}{60}{subsubsection.2.3.3.3}
-\contentsline {section}{\numberline {2.4}Conclusion}{64}{section.2.4}
-\contentsline {chapter}{\numberline {3}First-order reversal curve (FORC) diagrams of nanomagnets with cubic magnetocrystalline anisotropy}{65}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{66}{section.3.1}
-\contentsline {section}{\numberline {3.2}Method}{67}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}The FORC model}{67}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Backtracking line-search gradient-descent method}{71}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Results and Discussion}{72}{section.3.3}
-\contentsline {section}{\numberline {3.4}Conclusion}{76}{section.3.4}
-\contentsline {chapter}{\numberline {4}Magnetic vortex effects on first-order reversal curve (FORC) diagrams for greigite dispersions}{78}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{79}{section.4.1}
-\contentsline {section}{\numberline {4.2}Methods}{81}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}The micromagnetic algorithm}{81}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}The FORC model}{82}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Results}{85}{section.4.3}
-\contentsline {section}{\numberline {4.4}Discussion}{94}{section.4.4}
-\contentsline {section}{\numberline {4.5}Conclusion}{97}{section.4.5}
-\contentsline {chapter}{\numberline {5}First-order reversal curve diagram modelling of framboidal greigite}{99}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{99}{section.5.1}
-\contentsline {section}{\numberline {5.2}Methodology}{101}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}The micromagnetic method}{101}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}The FORC model}{103}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Results}{106}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}The hysteresis and FORC response of framboidal greigite}{106}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Hysteresis of larger particle framboids}{110}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Discussion}{112}{section.5.4}
-\contentsline {section}{\numberline {5.5}Conclusions}{114}{section.5.5}
-\contentsline {chapter}{\numberline {6}Conclusions}{115}{chapter.6}
-\contentsline {section}{\numberline {6.1}Numerical models and greigite}{115}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Basic zero-field properties}{116}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Hysteretic and FORC properties}{116}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}Future work}{117}{section.6.2}
-\contentsline {chapter}{References}{119}{chapter*.46}
+\contentsline {chapter}{List of Publications}{11}{section*.7}
+\contentsline {chapter}{Nomenclature}{12}{chapter*.9}
+\contentsline {chapter}{\numberline {1}Introduction}{14}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{14}{section.1.1}
+\contentsline {section}{\numberline {1.2}The iron sulphide greigite}{19}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Greigite occurrence in sediments}{19}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Greigite textures: framboidal clusters}{20}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Fundamental magnetic parameters of greigite}{21}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}Magnetism and matter}{23}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Fundamentals of magnetism}{23}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Diamagnetism and paramagnetism}{25}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Ferromagnetism}{25}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Micromagnetics}{27}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Magnetic Gibbs free energy}{27}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}The Landau-Lifshitz-Gilbert equation}{32}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Micromagnetic modelling}{33}{subsection.1.4.3}
+\contentsline {section}{\numberline {1.5}Brief introduction to the thesis}{35}{section.1.5}
+\contentsline {chapter}{\numberline {2}The magnetic structure and palaeomagnetic recording fidelity of sub-micron greigite (Fe$_3$S$_4$)}{37}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{38}{section.2.1}
+\contentsline {section}{\numberline {2.2}Methodology}{40}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}The micromagnetic algorithm}{40}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Choice of morphologies}{42}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Crystal growth model}{42}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Relaxation times}{44}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Results and Discussion}{45}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Magnetic structure in the SD--PSD regime}{45}{subsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.1.1}Spheres}{49}{subsubsection.2.3.1.1}
+\contentsline {subsubsection}{\numberline {2.3.1.2}Octahedra and truncated octahedra}{49}{subsubsection.2.3.1.2}
+\contentsline {subsubsection}{\numberline {2.3.1.3}Cuboctahedra}{50}{subsubsection.2.3.1.3}
+\contentsline {subsubsection}{\numberline {2.3.1.4}Cubes}{52}{subsubsection.2.3.1.4}
+\contentsline {subsubsection}{\numberline {2.3.1.5}Discussion}{52}{subsubsection.2.3.1.5}
+\contentsline {subsection}{\numberline {2.3.2}Identifying the PSD--MD transition}{55}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Growth of EAVs}{55}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}Discussion}{56}{subsubsection.2.3.2.2}
+\contentsline {subsection}{\numberline {2.3.3}Energy barriers and blocking volumes}{58}{subsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.3.1}Octahedra and truncated octahedra}{59}{subsubsection.2.3.3.1}
+\contentsline {subsubsection}{\numberline {2.3.3.2}Cuboctahedra}{59}{subsubsection.2.3.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3.3}Discussion}{61}{subsubsection.2.3.3.3}
+\contentsline {section}{\numberline {2.4}Conclusion}{65}{section.2.4}
+\contentsline {chapter}{\numberline {3}First-order reversal curve (FORC) diagrams of nanomagnets with cubic magnetocrystalline anisotropy}{67}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{68}{section.3.1}
+\contentsline {section}{\numberline {3.2}Method}{69}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}The FORC model}{69}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Backtracking line-search gradient-descent method}{73}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Results and Discussion}{74}{section.3.3}
+\contentsline {section}{\numberline {3.4}Conclusion}{79}{section.3.4}
+\contentsline {chapter}{\numberline {4}Magnetic vortex effects on first-order reversal curve (FORC) diagrams for greigite dispersions}{81}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{82}{section.4.1}
+\contentsline {section}{\numberline {4.2}Methods}{84}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}The micromagnetic algorithm}{84}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}The FORC model}{85}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Results}{88}{section.4.3}
+\contentsline {section}{\numberline {4.4}Discussion}{98}{section.4.4}
+\contentsline {section}{\numberline {4.5}Conclusion}{101}{section.4.5}
+\contentsline {chapter}{\numberline {5}First-order reversal curve diagram modelling of framboidal greigite}{104}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{104}{section.5.1}
+\contentsline {section}{\numberline {5.2}Methodology}{106}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}The micromagnetic method}{106}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}The FORC model}{108}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Results}{111}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}The hysteresis and FORC response of framboidal greigite}{111}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Hysteresis of larger particle framboids}{115}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Discussion}{117}{section.5.4}
+\contentsline {section}{\numberline {5.5}Conclusions}{119}{section.5.5}
+\contentsline {chapter}{\numberline {6}Conclusions}{120}{chapter.6}
+\contentsline {section}{\numberline {6.1}Numerical models and greigite}{120}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Basic zero-field properties}{121}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Hysteretic and FORC properties}{121}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Future work}{122}{section.6.2}
+\contentsline {chapter}{References}{124}{chapter*.51}
 \gdef \the@ipfilectr {@-7}
-\contentsline {chapter}{\numberline {A}Ideal particle hysteresis code}{137}{appendix.A}
+\contentsline {chapter}{\numberline {A}Ideal particle hysteresis code}{142}{appendix.A}
 \gdef \the@ipfilectr {}
