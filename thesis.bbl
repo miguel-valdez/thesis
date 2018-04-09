@@ -1,4 +1,4 @@
-\begin{thebibliography}{139}
+\begin{thebibliography}{142}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -126,6 +126,15 @@ Chang, L., Roberts, A.~P., Tang, Y., Rainford, B.~D., Muxworthy, A.~R., Chen,
   ({F}e$_3${S}$_4$). J. Geophys. Res. 113~(B6).
 \newline\urlprefix\url{https://doi.org/10.1029/2007JB005502}
 
+\bibitem[{Chou et~al.(2012)Chou, Song, Aubourg, Song, Boullier, Lee, Evans,
+  Yeh, and Chen}]{Chou2012}
+Chou, Y.~M., Song, S.~R., Aubourg, C., Song, Y.~F., Boullier, A.~M., Lee,
+  T.~Q., Evans, M., Yeh, E.~C., Chen, Y.~M., 2012. Pyrite alteration and
+  neoformed magnetic minerals in the fault zone of the {C}hi-{C}hi earthquake
+  ({M}w7. 6, 1999): {E}vidence for frictional heating and co-seismic fluids.
+  Geochem. Geophys. Geosyst. 13~(8).
+\newline\urlprefix\url{https://doi.org/10.1029/2012GC004120}
+
 \bibitem[{Coey et~al.(1970)Coey, Spender, and Morrish}]{Coey1970}
 Coey, J. M.~D., Spender, M.~R., Morrish, A.~H., 1970. The magnetic structure of
   the spinel {F}e$_3${S}$_4$. Solid State Commun. 8~(20), 1605--1608.
@@ -199,6 +208,13 @@ Dumas, R.~K., Li, C.~P., Roshchin, I.~V., Schuller, I.~K., Liu, K., 2007.
 \bibitem[{Dunlop and {\"O}zdemir(1997)}]{Dunlop}
 Dunlop, D.~J., {\"O}zdemir, {\"O}., 1997. Rock magnetism. Cambridge University
   Press, Cambridge.
+
+\bibitem[{Ebert et~al.(2018)Ebert, Shaar, Emmanuel, Nowaczyk, and
+  Stein}]{Ebert2018}
+Ebert, Y., Shaar, R., Emmanuel, S., Nowaczyk, N., Stein, M., 2018. Overwriting
+  of sedimentary magnetism by bacterially mediated mineral alteration. Geology
+  46~(4), 291--294.
+\newline\urlprefix\url{https://doi.org/10.1130/G39706.1}
 
 \bibitem[{Egli et~al.(2010)Egli, Chen, Winklhofer, Kodama, and
   Horng}]{Egli2010}
@@ -329,8 +345,10 @@ Guzm\'{a}n, O., Costanzo-Alvarez, V., Aldana, M., D\'{i}az, M., 2011. Study of
   sub-basin (eastern {V}enezuela). Stud. Geophys. Geod. 55~(2), 359--376.
 \newline\urlprefix\url{https://doi.org/10.1007/s11200-011-0020-7}
 
-\bibitem[{Harrison(????)}]{Harrison2017}
-Harrison, R.~J., ???? Why do hematite {FORC}s look weird?
+\bibitem[{Harrison(2017)}]{Harrison2017}
+Harrison, R.~J., 2017. Why do hematite {FORC}s look weird?, {AGU} {F}all
+  {M}eeting.
+\newline\urlprefix\url{http://adsabs.harvard.edu/abs/2017AGUFMGP23B0924H}
 
 \bibitem[{Harrison et~al.(2002)Harrison, Dunin-Borkowski, and
   Putnis}]{Harrison2002}
@@ -400,6 +418,10 @@ Kr{\'a}sa, D., Muxworthy, A.~R., Williams, W., 2011. Room- and low-temperature
 LaBonte, A.~E., 1969. Two-dimensional {B}loch-type domain walls in
   ferromagnetic films. J. Appl. Phys. 40~(6), 2450--2458.
 \newline\urlprefix\url{https://doi.org/10.1063/1.1658014}
+
+\bibitem[{Laird(2017)}]{Laird2017}
+Laird, M., 2017. Magnetic petrophysics of the {V}ulcan iron formation
+  ({M}ichigan, {USA}). Ph.D. thesis, Michigan Technological University.
 
 \bibitem[{Landau and Lifshitz(1935)}]{Landau1935}
 Landau, L.~D., Lifshitz, E., 1935. On the theory of the dispersion of magnetic

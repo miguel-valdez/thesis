@@ -10,65 +10,58 @@ A level-1 auxiliary file: pre/nomenclature.aux
 The style file: elsarticle-harv.bst
 A level-1 auxiliary file: appendix/appendix.aux
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 839 of file references.bib
- : 
- : year      = {2017},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1161 of file references.bib
+I was expecting a `,' or a `}'---line 1172 of file references.bib
  : 
  : //publisher = {Elsevier},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2055 of file references.bib
+I was expecting a `,' or a `}'---line 2066 of file references.bib
  : 
  : //publisher = {AIP},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--empty publisher in Bloch1932
-Warning--empty year in Harrison2017; set to ????
-Warning--empty note in Harrison2017
 Warning--empty journal in OConbhui2017
 Warning--empty journal in ValdezGrijalva2017
-You've used 139 entries,
+You've used 142 entries,
             2821 wiz_defined-function locations,
-            1666 strings with 34489 characters,
-and the built_in function-call counts, 74536 in all, are:
-= -- 7572
-> -- 4160
-< -- 71
-+ -- 1591
-- -- 1413
-* -- 7067
-:= -- 13386
-add.period$ -- 421
-call.type$ -- 139
-change.case$ -- 1174
-chr.to.int$ -- 138
-cite$ -- 144
-duplicate$ -- 2479
-empty$ -- 4749
-format.name$ -- 1844
-if$ -- 14699
+            1685 strings with 35268 characters,
+and the built_in function-call counts, 76189 in all, are:
+= -- 7726
+> -- 4288
+< -- 72
++ -- 1639
+- -- 1458
+* -- 7226
+:= -- 13703
+add.period$ -- 430
+call.type$ -- 142
+change.case$ -- 1204
+chr.to.int$ -- 141
+cite$ -- 145
+duplicate$ -- 2530
+empty$ -- 4833
+format.name$ -- 1896
+if$ -- 15012
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 140
-newline$ -- 541
-num.names$ -- 560
-pop$ -- 1017
+missing$ -- 142
+newline$ -- 553
+num.names$ -- 572
+pop$ -- 1039
 preamble$ -- 1
-purify$ -- 1025
+purify$ -- 1052
 quote$ -- 0
-skip$ -- 1808
+skip$ -- 1850
 stack$ -- 0
-substring$ -- 4527
-swap$ -- 327
+substring$ -- 4587
+swap$ -- 332
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1239
-warning$ -- 5
-while$ -- 640
+type$ -- 1266
+warning$ -- 3
+while$ -- 651
 width$ -- 0
-write$ -- 1649
-(There were 3 error messages)
+write$ -- 1686
+(There were 2 error messages)
