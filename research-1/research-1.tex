@@ -5,7 +5,9 @@
 \fancyhead[R]{}
 \fancyfoot[C]{\thepage}
 
-This Chapter is published as Valdez-Grijalva, M. A., Nagy, L., Muxworthy, A. R., Williams, W., Fabian, K., 2018. The magnetic structure and palaeomagnetic recording fidelity of sub-micron greigite (Fe$_3$S$_4$). Earth Planet. Sci. Lett. 483, 76--89.
+This Chapter is published as Valdez-Grijalva, M. A., Nagy, L., Muxworthy, A. R., Williams, W., Fabian, K., 2018. The magnetic structure and palaeomagnetic recording fidelity of sub-micron greigite (Fe$_3$S$_4$). Earth Planet. Sci. Lett. 483, 76--89.\par
+
+M.\,V.\,G. performed the simulations and wrote the article. M.\,V.\,G. and A.\,M. designed the experiment and analysed the results. W.\,W. and L.\,N. developed the code. W.\,W. and K.\,F. developed the nudged elastic-band method algorithm.\par
 
 \section*{Abstract}
 We present the results of a finite-element micromagnetic model of 30$\nm$ to 300$\nm$ greigite (Fe$_3$S$_4$) grains with a variety of equant morphologies. This grain size range covers the magnetic single-domain (SD) to pseudo single-domain (PSD) transition, and possibly also the PSD to multi-domain (MD) transition. The SD--PSD threshold $d_0$ is determined to be 50$\nm$ $\leq d_0 \leq$ 56$\nm$ depending on grain shape. The nudged elastic-band method was used to determine the room temperature energy barriers between stable states and thus the blocking volumes. It is found that, in the absence of interparticle magnetostatic interactions, the magnetisation of equant SD greigite is not stable on a geological scale and only PSD grains $\geq 70\,\text{nm}$ can be expected to carry a stable magnetisation over billion-year timescales, i.e., all non-interacting SD particles are essentially superparamagnetic. We further identify a mechanism for the PSD to multi-domain (MD) transition, which is of a continuous nature from PSD nucleation up to 300$\nm$, when structures typical of MD behaviour like closure domains begin to form.
@@ -24,49 +26,51 @@ The grain size of a magnetic mineral strongly affects its magnetic behaviour and
 
 \section{Methodology}
 \subsection{The micromagnetic algorithm}
-For a ferromagnetic (in the broad sense, i.e., ferro- or ferri-) material{\textemdash}neglecting external fields, thermal and magnetostrictive effects{\textemdash}the Gibbs free-energy functional can be written as \citep{Brown}
-\begin{equation}
-E_\text{G} = \int_{\Omega} (\phi_{\text{exchange}} + \phi_{\text{anisotropy}} + \phi_{\text{stray}})\,\text{d}^3 \boldsymbol{r},
-\end{equation}
-with $\Omega$ the ferromagnetic volume. Here,
-\begin{equation}
-\phi_{\text{exchange}}=A|\nabla\boldsymbol{m}|^2,
-\end{equation}
- with the reduced (unitary) magnetisation vector $\boldsymbol{m}$, is the expression for the continuum approximation of the energy density due to the quantum-mechanical exchange forces \citep{Landau1935}.
-\begin{equation}
-\phi_{\text{anisotropy}}=\frac{K_1}{2}\sum_{i\neq j}\gamma_i^2\gamma_j^2 + K_2\prod_i\gamma_i^2,
-\end{equation}
-with $\gamma_i$ the direction cosines, is the MCA energy density in the cubic anisotropy system. In the Cartesian system this has the form:
-\begin{equation}
-\phi_{\text{anisotropy}}=K_1(m_x^2m_y^2+m_y^2m_z^2+m_z^2m_x^2),
-\end{equation}
-where $K_2$ has been neglected since in the cubic anisotropy system we are assuming, $K_1$ is the dominant term at room temperature. Finally,
-\begin{equation}
-\phi_{\text{stray}}=-\frac{\mu_0M_\text{S}}{2}\boldsymbol{m}\cdot\boldsymbol{H}_{\text{stray}}
-\end{equation}
-is the magnetostatic self-energy density, with $\boldsymbol{H}_{\text{stray}}$ the stray field produced by the ferromagnetic body. It is known from thermodynamics that under isothermal and isobaric conditions a system will spontaneously evolve towards an equilibrium state with minimal Gibbs free-energy. It is the aim of a micromagnetic algorithm to find the equilibrium magnetisation $\boldsymbol{m}$.\par
+%For a ferromagnetic (in the broad sense, i.e., ferro- or ferri-) material{\textemdash}neglecting external fields, thermal and magnetostrictive effects{\textemdash}the Gibbs free-energy functional can be written as \citep{Brown}
+%\begin{equation}
+%E_\text{G} = \int_{\Omega} (\phi_{\text{exchange}} + \phi_{\text{anisotropy}} + \phi_{\text{stray}})\,\text{d}^3 \boldsymbol{r},
+%\end{equation}
+%with $\Omega$ the ferromagnetic volume. Here,
+%\begin{equation}
+%\phi_{\text{exchange}}=A|\nabla\boldsymbol{m}|^2,
+%\end{equation}
+% with the reduced (unitary) magnetisation vector $\boldsymbol{m}$, is the expression for the continuum approximation of the energy density due to the quantum-mechanical exchange forces \citep{Landau1935}.
+%\begin{equation}
+%\phi_{\text{anisotropy}}=\frac{K_1}{2}\sum_{i\neq j}\gamma_i^2\gamma_j^2 + K_2\prod_i\gamma_i^2,
+%\end{equation}
+%with $\gamma_i$ the direction cosines, is the MCA energy density in the cubic anisotropy system. In the Cartesian system this has the form:
+%\begin{equation}
+%\phi_{\text{anisotropy}}=K_1(m_x^2m_y^2+m_y^2m_z^2+m_z^2m_x^2),
+%\end{equation}
+%where $K_2$ has been neglected since in the cubic anisotropy system we are assuming, $K_1$ is the dominant term at room temperature. Finally,
+%\begin{equation}
+%\phi_{\text{stray}}=-\frac{\mu_0M_\text{S}}{2}\boldsymbol{m}\cdot\boldsymbol{H}_{\text{stray}}
+%\end{equation}
+%is the magnetostatic self-energy density, with $\boldsymbol{H}_{\text{stray}}$ the stray field produced by the ferromagnetic body. It is known from thermodynamics that under isothermal and isobaric conditions a system will spontaneously evolve towards an equilibrium state with minimal Gibbs free-energy. It is the aim of a micromagnetic algorithm to find the equilibrium magnetisation $\boldsymbol{m}$.\par
 
-The variational principle proposed by \citet{Brown} $\delta E_\text{G} / \delta \boldsymbol{m}=0$ leads to `Brown's equations'
-\begin{equation}
-\boldsymbol{m}\times \left( \boldsymbol{H}_\text{exchange} + \boldsymbol{H}_\text{anisotropy} + \boldsymbol{H}_\text{stray}\right) = 0,
-\end{equation}
-with
-\begin{equation}
-\boldsymbol{H}_\text{exchange} = \frac{2A}{\mu_0M_\text{S}} \nabla^2\boldsymbol{m}
-\end{equation}
-and
-\begin{equation}
-\boldsymbol{H}_\text{anisotropy} = \frac{2K_1}{\mu_0M_\text{S}}[m_x(1-m_x^2)\ihat + m_y(1-m_y^2)\jhat + m_z(1-m_z^2)\boldsymbol{\hat{k}}].
-\end{equation}
-Therefore, in equilibrium the magnetisation is parallel to an \emph{effective} field $\boldsymbol{H}_\text{eff.} = \boldsymbol{H}_\text{exchange} + \boldsymbol{H}_\text{anis} + \boldsymbol{H}_\text{stray}$, while $\mu_0M_\text{S}\boldsymbol{m}\times\boldsymbol{H}_\text{eff.}$ is the local torque produced on the magnetisation by the effective field at each magnetic site, so we have equilibrium via the vanishing of the torque \citep{Brown}.\par
+%The variational principle proposed by \citet{Brown} $\delta E_\text{G} / \delta \boldsymbol{m}=0$ leads to `Brown's equations'
+%\begin{equation}
+%\boldsymbol{m}\times \left( \boldsymbol{H}_\text{exchange} + \boldsymbol{H}_\text{anisotropy} + \boldsymbol{H}_\text{stray}\right) = 0,
+%\end{equation}
+%with
+%\begin{equation}
+%\boldsymbol{H}_\text{exchange} = \frac{2A}{\mu_0M_\text{S}} \nabla^2\boldsymbol{m}
+%\end{equation}
+%and
+%\begin{equation}
+%\boldsymbol{H}_\text{anisotropy} = \frac{2K_1}{\mu_0M_\text{S}}[m_x(1-m_x^2)\ihat + m_y(1-m_y^2)\jhat + m_z(1-m_z^2)\boldsymbol{\hat{k}}].
+%\end{equation}
+%Therefore, in equilibrium the magnetisation is parallel to an \emph{effective} field $\boldsymbol{H}_\text{eff.} = \boldsymbol{H}_\text{exchange} + \boldsymbol{H}_\text{anis} + \boldsymbol{H}_\text{stray}$, while $\mu_0M_\text{S}\boldsymbol{m}\times\boldsymbol{H}_\text{eff.}$ is the local torque produced on the magnetisation by the effective field at each magnetic site, so we have equilibrium via the vanishing of the torque \citep{Brown}.\par
 
-We thus have the two main approaches towards finding a micromagnetic solution, i.e., the minimisation of the Gibbs free-energy functional, which is faster though prone to false minima, and the vanishing of the torque, which is slower but more robust and physically meaningful \citep{Gilbert2004}. The former is usually achieved with a variety of gradient descent methods \citep{Fischbacher2017} while the latter by numerical integration of the Landau-Lifshitz-Gilbert (LLG) equation \citep{Gilbert2004}
-\begin{equation}\label{llg}
-\frac{\partial \boldsymbol{m}}{\partial t} = -\gamma^{'} \boldsymbol{m}\times\boldsymbol{H}_{\text{eff}} - \alpha\gamma^{'}\boldsymbol{m}\times(\boldsymbol{m}\times\boldsymbol{H}_{\text{eff}}) \, ,
-\end{equation}
-where $\alpha$ is a phenomenological damping constant, and $\gamma^{'} = \gamma /(1+\alpha^2)$ with $\gamma$ the gyromagnetic ratio.\par
+%We thus have the two main approaches towards finding a micromagnetic solution, i.e., the minimisation of the Gibbs free-energy functional, which is faster though prone to false minima, and the vanishing of the torque, which is slower but more robust and physically meaningful \citep{Gilbert2004}. The former is usually achieved with a variety of gradient descent methods \citep{Fischbacher2017} while the latter by numerical integration of the Landau-Lifshitz-Gilbert (LLG) equation \citep{Gilbert2004}
+%\begin{equation}\label{llg}
+%\frac{\partial \boldsymbol{m}}{\partial t} = -\gamma^{'} \boldsymbol{m}\times\boldsymbol{H}_{\text{eff}} - \alpha\gamma^{'}\boldsymbol{m}\times(\boldsymbol{m}\times\boldsymbol{H}_{\text{eff}}) \, ,
+%\end{equation}
+%where $\alpha$ is a phenomenological damping constant, and $\gamma^{'} = \gamma /(1+\alpha^2)$ with $\gamma$ the gyromagnetic ratio.\par
 
-FEMs allow for an unstructured discretisation of the spatial domain which in our case is decomposed into tetrahedral elements. In the treatment of the micromagnetic theory of \citet{Brown} there are some linearisations, which means that there should not be large variations in the direction of $\boldsymbol{m}$ between neighbouring nodes in the FE mesh. To model nonuniform structures it is sufficient that the spatial discretisation in the model be smaller than the exchange length $l_\text{exch} = \sqrt{2A/\mu_0M_\text{S}^2}$ \citep{Rave1998}, which for greigite is $l_\text{exch} \approx 6.6\, \text{nm}$; a maximum element size of 5$\nm$ has been chosen for all the models. The non-local problem of calculating the stray field is handled via a transformation method \citep{Imhoff1990} in \textit{DUNLOP} and by a hybrid finite-element/boundary-element formulation \citep{Fredkin1990} in \textit{MERRILL}.\par
+A numerical micromagnetic FEM has been implemented \citep{OConbhui2017} to study the magnetic domain structure and stability of sub-micron equidimensional greigite. For details on the micromagnetic method see Section \ref{mmsection}.\par
+
+FEMs allow for an unstructured discretisation of the spatial domain which in our case is decomposed into tetrahedral elements. In the treatment of the micromagnetic theory of \citet{Brown} there are some linearisations, which means that there should not be large variations in the direction of $\boldsymbol{m}$ between neighbouring nodes in the FE mesh. To model nonuniform structures it is sufficient that the spatial discretisation in the model be smaller than the exchange length $l_\text{exch} = \sqrt{2A/\mu_0M_\text{S}^2}$ \citep{Rave1998}, which for greigite is $l_\text{exch} \approx 6.6\, \text{nm}$; a maximum element size of 5$\nm$ has been chosen for all the models.\par
 
 \subsection{Choice of morphologies}
 Based on scanning electron microscopy (SEM) and transmission electron microscopy (TEM) micrographs of synthetic greigite samples \citep{Chang2008, Li2014} and of naturally occurring samples \citep{Snowball1997, Vasiliev2008}, five octahedral shapes have been chosen with increasing degrees of truncation of their corners: from no truncation at all (octahedron) to a `completely' truncated shape (cuboctahedron) and three truncated octahedral shapes in-between to which we further refer to as minimally truncated octahedron, truncated octahedron (the regular case), and maximally truncated octahedron (Fig. \ref{fig1}). This series of shapes models the influence of the ratio of $\{001\}$ to $\{111\}$ faces, which increases with truncation. Furthermore, spherical shapes which, although unrealistic, serve as `control subjects' that do not exhibit configurational anisotropy \citep{Williams2006} and cubic shapes which have been modelled before by \citet{Muxworthy2013} and represent the case of only $\{001\}$ faces. All the volumes are normalised to cubes, i.e., a particle sized 120$\nm$ has a volume of (120$\nm$)$^3$.\par

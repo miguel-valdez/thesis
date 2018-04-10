@@ -38,7 +38,6 @@ for an interactive Python session that will produce two plots: (1) the hysteresi
 \begin{lstlisting}
 #!/usr/bin/env python
 
-from argparse import ArgumentParser
 from numpy import sin, cos, power, sqrt, dot, meshgrid, min, max
 from numpy import array, linspace, arange, arccos, pi, c_, hstack
 from numpy import zeros, zeros_like, ones, prod, concatenate
@@ -47,13 +46,14 @@ from scipy.linalg import lstsq
 import matplotlib.pyplot as plt
 from matplotlib.cm import RdBu_r as cmap
 from matplotlib.colors import LinearSegmentedColormap
+from argparse import ArgumentParser
 
 def main():
   # Parse arguments
   ap = ArgumentParser(
       description=(
-      'A simple StonerWohlfarth-like model with cubic anisotropy. '     +\
-      'Perform a hysteresis loop with saturation field strength 250 mT.'+\
+      'A simple StonerWohlfarth-like model with cubic anisotropy. '          +\
+      'Perform a hysteresis half-loop with saturation field strength 250 mT.'+\
       'Followed by the necessary FORCs.')
       )
   ap.add_argument('-m', '--material',
@@ -65,7 +65,7 @@ def main():
   ap.add_argument('-a', '--applied_field',
                   nargs= 3,
                   type= float,
-                  help= 'A vector in the direction of the field.',
+                  help= 'A vector in the direction of the applied field.',
                   )
   ap.add_argument('-f', '--factor',
                    type= int,
@@ -93,10 +93,11 @@ def main():
 
   # Applied Field. In Tesla
   start =  0.25
-  end   = -1.*start
-  applied = concatenate((linspace(start,     end,   501),
-                            linspace(end+0.001, start, 500))
-  )
+  end   = -0.25
+  step  =  0.001
+  n = int(round((start-end)/step)) + 1
+
+  applied = linspace(start, end, n)
 
   # Initial guess. A random point from a uniform distribution over the sphere
   u     = uniform(0., 1.)
@@ -134,9 +135,9 @@ def main():
   tau = 1./2.
   c = 1e-4
 
-  mvectors = zeros((1001,3))
-  path     = zeros((1001,2))
-  mag      = zeros(1001)
+  mag      = zeros(n)
+  mvectors = zeros((n,3))
+  path     = zeros((n,2))
 
   # Main branch hysteresis
   print 'Calculating hysteresis loop'
@@ -157,23 +158,23 @@ def main():
     mvectors[i]   = m
     m_along_field = dot(m, field)
     mag[i]        = m_along_field
+    path[i]       = theta, phi
     print 'Field=%5.1f mT, m=%9.6f' % (B*1e3, m_along_field)
 
   # Find the discontinuities to calculate the necessary FORCs
-  discontinuities = [array((applied[i], i)) for i in range(500) if (
+  discontinuities = [array((applied[i+1], i+1)) for i in range(n-1) if (
     angle(mvectors[i], mvectors[i+1]) > 5.*pi/180.)
   ]
   discontinuities = array(discontinuities)
 
   mFORCs = []
-  BFORCs = []
   # Solution loop for the necessary FORCs
-  for fieldvalue, index in discontinuities[1:]:
+  for fieldvalue, index in discontinuities:
     print 'Calculating FORC starting at Ba=%5.1f mT' % (fieldvalue*1e3)
-    magF = []
-    BF   = []
-    theta_old, phi_old = path[int(index)]
-    for B in arange(fieldvalue, start+0.001, 0.001):
+    theta, phi = path[int(round(index))]
+    magF = zeros_like(arange(fieldvalue, start+step, step))
+    magF[0] = dot(to_cartesian(theta, phi), field)
+    for i, B in enumerate(arange(fieldvalue+step, start+step, step)):
       theta, phi, nrg = minimise(theta,
                                  phi,
                                  field,
@@ -187,21 +188,19 @@ def main():
                                  etol=etol,
       )
       m_along_field = dot(to_cartesian(theta, phi), field)
-      magF.append(m_along_field)
-      BF.append(B)
+      magF[i+1] = m_along_field
       print 'Ba=%5.1f, Bb=%5.1f mT, m=%9.6f' % (fieldvalue*1e3, B*1e3, m_along_field)
 
-    mFORCs.append(array(magF))
-    BFORCs.append(array(BF))
+    mFORCs.append(magF)
 
   mFORCs = array(mFORCs)
-  BFORCs = array(BFORCs)
 
   # Plot the hysteresis loop and FORCs
   fig, ax = plt.subplots()
   plt.plot(applied*1e3, mag)
-  for mforc, bforc in zip(mFORCs, BFORCs):
-    plt.plot(bforc*1e3, mforc)
+
+  for forc in mFORCs:
+    plt.plot(applied[:len(forc)][::-1]*1e3, forc)
 
   plt.xlabel(r'$B\,(\mathrm{mT})$')
   plt.ylabel(r'$m$')
@@ -209,46 +208,22 @@ def main():
 
   print 'FORCs calculated. Calculating the FORC distribution:'
 
-  # Put all the FORC and hysteresis data into a 1D array
-  mFORC = zeros(sum(range(501+1)))
+  # Produce the m=m(Bb,Ba) 2D array
+  m = forcdata(mag, mFORCs)
 
-  # First part, using the first discontinuity
-  for i in range(int(discontinuities[0][1]+1)):
-    mFORC[FORCcounter(i)] += mag[i]
-    for j in range(i):
-      mFORC[FORCcounter(i)+j+1] += mag[i-j-1]
-
-  # Using the rest of the discontinuities (if any)
-  for i in range(len(discontinuities[1:])):
-    for j in range(int(discontinuities[i][1])+1, int(discontinuities[i+1][1])+1):
-      mFORC[FORCcounter(j)] += mFORCs[i][int(discontinuities[i+1][1])-j]
-      for k in range(j):
-        mFORC[FORCcounter(j)+k+1] += mFORCs[i][int(discontinuities[i+1][1]-j)+k+1]
-
-  # Using the lower main branch
-  for i in range(int(discontinuities[-1][1])+1, 501):
-    mFORC[FORCcounter(i)] += mag[500:][501-i-1]
-    for j in range(i):
-      mFORC[FORCcounter(i)+j+1] += mag[500:][501-i+j]
-
-  # Rearrange the hysteresis and FORC data onto a 2D array
-  Bb, Ba = meshgrid(linspace(-250., 250., 501), linspace(250., -250., 501))
-  m = zeros_like(Bb)
-  for i in xrange(501):
-    for j, k in enumerate(xrange(sum(range(i)), sum(range(i+1)))):
-      m[i][500-i+j] = mFORC[sum(range(i))+j]
+  Bb, Ba = meshgrid(linspace(end, start, n), linspace(start, end, n))
 
   # Calculate the FORC distribution
   # using numpy to calculate least-square fitting
   rho = zeros_like(m)
-  for i in xrange(501):
-    for j in xrange(500-i, 501):
+  for i in xrange(n):
+    for j in xrange(n-1-i, n):
       grid = in_grid(i, j, SF)
       data = []
       for indices in grid:
         points = (Bb[indices[0]][indices[1]],
                   Ba[indices[0]][indices[1]],
-                  m[indices[0]][indices[1]],
+                   m[indices[0]][indices[1]],
                   )
         points = array(points)
         data.append(points)
@@ -261,14 +236,15 @@ def main():
   rhomax = max(rho)
   rho /= rhomax
   rhomin = min(rho)
-  rhomax = max(rho)
-  shiftedCMap = shiftedColorMap(cmap, midpoint=(1. - rhomax/(rhomax + abs(rhomin))))
+  shiftedCMap = shiftedColorMap(cmap, midpoint=(1. - 1./(1. + abs(rhomin))))
 
   # A simple plot, no contours
   fig, ax = plt.subplots()
-  plt.pcolor(Bb, Ba, rho, cmap=shiftedCMap)
-  plt.plot([   0., 250.], [   0., -250.], color= 'black', linestyle='--')
-  plt.plot([-250., 250.], [-250.,  250.], color= 'black')
+  plt.pcolor(Bb*1e3, Ba*1e3, rho, cmap=shiftedCMap)
+  plt.xlim(-100., 100.)
+  plt.ylim(-100., 100.)
+  plt.plot([   0., 100.], [   0., -100.], color= 'black', ls='--', lw=0.25)
+  plt.plot([-100., 100.], [-100.,  100.], color= 'black', lw=0.25)
   clb = plt.colorbar()
   clb.ax.set_title(r'$\rho^{*}$')
   plt.xlabel(r'$B_b\,(\mathrm{mT})$')
@@ -276,17 +252,6 @@ def main():
   plt.show(block=False)
 
   print 'FORC distribution calculated'
-
-
-def FORCcounter(x):
-  '''
-  Utility for calculating the index of each FORC
-  in a 1D array
-  '''
-  if x == 0:
-    return 0
-  else:
-    return x + FORCcounter(x-1)
 
 
 def in_grid(i, j, sf=1):
@@ -488,6 +453,40 @@ def angle(u, v):
   return arccos(dot(u, v))
 
 
+def forcdata(mainbranch, forcs):
+    # the main branch
+    mb = mainbranch
+
+    # the mFORC array
+    m = zeros((len(mb), len(mb)))
+
+    # main branch to diagonal
+    for i in xrange(len(mb)):
+        m[i, len(mb)-1-i] = mb[i]
+
+    # forcs to rows
+    for forc in forcs:
+        m[len(forc)-1, len(mb)-len(forc):][:] = forc[:]
+
+    # fill array
+    row_indices = zeros(len(forcs), dtype=int)
+    for i, forc in enumerate(forcs):
+        row_indices[i] = len(forc)
+
+    start = 1
+    for index in row_indices:
+        for i in xrange(start, index-1):
+            for j in xrange(len(mb)-i, len(mb)):
+                m[i, j] = m[i-1, j]
+        start = index
+
+    for i in xrange(start, len(mb)):
+        for j in xrange(len(mb)-i, len(mb)):
+            m[i, j] = m[i-1, j]
+
+    return m
+
+
 def shiftedColorMap(cmap, start=0, midpoint=0.5, stop=1.0, name='shiftedcmap'):
   '''
   Function to offset the "center" of a colormap. Useful for
@@ -544,4 +543,5 @@ def shiftedColorMap(cmap, start=0, midpoint=0.5, stop=1.0, name='shiftedcmap'):
 # Program entry-point
 if __name__ == '__main__':
   main()
+
 \end{lstlisting}

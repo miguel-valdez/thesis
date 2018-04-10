@@ -13,7 +13,7 @@ Greigite (Fe$_3$S$_4$) is a ferrimagnetic mineral often of authigenic origin in 
 
 The zero-field magnetic structure and stability properties of isolated greigite have been the subject of previous numerical studies (Chapter \ref{ch:res-1}; \citet{Muxworthy2013}). There have also been numerical simulations of the hysteresis and first-order reversal curve (FORC) properties of ideal single-domain (SD) grain (Chapter \ref{ch:res-2}) and single-vortex (SV) and SD grain (\ref{ch:res-3}) dispersions. However, the FORC properties of highly interacting ensembles of greigite is yet poorly understood.\par
 
-In this chapter, a numerical micromagnetic finite element method (FEM) is employed to calculate the FORC response of a simulated ensemble of framboidal greigite composed of highly interacting, close-packed 30$\nm$ grains. At this size, these grains are SD in the non-interacing case (Chapter \ref{ch:res-3}) and produce FORC signals charactersitic of SD grains with cubic magnetocrystalline anisotropy (MCA) (Chapters \ref{ch:res-2},\ref{ch:res-3}).\par
+In this chapter, a numerical micromagnetic finite element method (FEM) is employed to calculate the FORC response of a simulated ensemble of framboidal greigite composed of highly interacting, close-packed 30$\nm$ grains. At this size, these grains are SD in the non-interacting case (Chapter \ref{ch:res-3}) and produce FORC signals charactersitic of SD grains with cubic magnetocrystalline anisotropy (MCA) (Chapters \ref{ch:res-2}, \ref{ch:res-3}).\par
 
 Here, truncated-octahedral particles are chosen as the model geometry, because they are a common morphology for authigenic greigite \citep{Snowball1997,Roberts2011}. Also, truncated-octahedral solids can efficiently tessellate 3D space (the bitruncated cubic honeycomb) and thus produce the close-packed geometries observed in framboidal greigite.\par
 
@@ -25,34 +25,35 @@ A scatter plot of the ratio $M_{\text{RS}}/M_{\text{S}}$ against $B_{\text{CR}}/
 
 \section{Methodology}
 \subsection{The micromagnetic method}
-A ferromagnetic (in the broad sense, i.e., including ferrimagnetic behaviour) material has a Gibbs free-energy functional (excluding the effects of thermal fluctuations and magnetostriction) which can be written as \citep{Brown}:
-\begin{equation}
-E_\text{G} = \int_{\Omega} (\phi_{\text{exchange}} + \phi_{\text{anisotropy}} + \phi_{\text{stray}} + \phi_{\text{external}})\,\text{d}^3 \boldsymbol{r},
-\end{equation}
-where $\Omega$ is the ferromagnetic volume and $\text{d}^3 \boldsymbol{r}$ the volume differential, so integration is carried out over the ferromagnetic body. Here,
-\begin{equation}
-\phi_{\text{exchange}}=A|\nabla\boldsymbol{m}|^2,
-\end{equation}
-where $\boldsymbol{m}$ is the reduced (unitary) magnetisation vector and $A$ the exchange stiffness constant, is an expression providing a continuum approximation of the energy density due to quantum-mechanical exchange forces between atomic spins \citep{Landau1935}.
-\begin{equation}
-\phi_{\text{anisotropy}}=\frac{K_1}{2}\sum_{i\neq j}\gamma_i^2\gamma_j^2 + K_2\prod_i\gamma_i^2,
-\end{equation}
-where $\gamma_i$ denote the direction cosines and $K_1,K_2$ the first and second magnetocrystalline (MCA) anisotropy constants, respectively, is the MCA energy density for cubic-anisotropic ferromagnets. In terms of the reduced magnetisation vector components this has the form:
-\begin{equation}
-\phi_{\text{anisotropy}}=K_1(m_x^2m_y^2+m_y^2m_z^2+m_z^2m_x^2),
-\end{equation}
-where $K_2$ has been neglected since in the cubic anisotropy system we are assuming, $K_1$ is the dominant term at room temperature. The magnetic Gibbs free-energy associated with the magnetostatic self-interaction of the ferromagnetic body and the stray magnetic field $\boldsymbol{H}_{\text{stray}}$ it produces is given by \citep{Brown}:
-\begin{equation}
-\phi_{\text{stray}}=-\frac{\mu_0M_\text{S}}{2} \boldsymbol{m} \cdot \boldsymbol{H}_{\text{stray}}
-\end{equation}
-where $M_\text{S}$ is the saturation magnetisation and $\mu_0=4\pi \times 10^{{-}7}\,\text{T}\text{m}/\text{A}$ is the magnetic constant or vacuum permeability. Finally, the energy density due to the magnetostatic interaction of the ferromagnetic body and an external field $\boldsymbol{H}_{\text{external}}$ is:
-\begin{equation}
-\phi_{\text{external}}=-\mu_0 M_{\text{S}} \boldsymbol{m} \cdot \boldsymbol{H}_{\text{external}}.
-\end{equation}
+A numerical micromagnetic FEM \citep{OConbhui2017} has been implemented to study the FORC properties of strongly interacting clusters of SD greigite. For details on the method see Section \ref{mmsection}.\par
+%A ferromagnetic (in the broad sense, i.e., including ferrimagnetic behaviour) material has a Gibbs free-energy functional (excluding the effects of thermal fluctuations and magnetostriction) which can be written as \citep{Brown}:
+%\begin{equation}
+%E_\text{G} = \int_{\Omega} (\phi_{\text{exchange}} + \phi_{\text{anisotropy}} + \phi_{\text{stray}} + \phi_{\text{external}})\,\text{d}^3 \boldsymbol{r},
+%\end{equation}
+%where $\Omega$ is the ferromagnetic volume and $\text{d}^3 \boldsymbol{r}$ the volume differential, so integration is carried out over the ferromagnetic body. Here,
+%\begin{equation}
+%\phi_{\text{exchange}}=A|\nabla\boldsymbol{m}|^2,
+%\end{equation}
+%where $\boldsymbol{m}$ is the reduced (unitary) magnetisation vector and $A$ the exchange stiffness constant, is an expression providing a continuum approximation of the energy density due to quantum-mechanical exchange forces between atomic spins \citep{Landau1935}.
+%\begin{equation}
+%\phi_{\text{anisotropy}}=\frac{K_1}{2}\sum_{i\neq j}\gamma_i^2\gamma_j^2 + K_2\prod_i\gamma_i^2,
+%\end{equation}
+%where $\gamma_i$ denote the direction cosines and $K_1,K_2$ the first and second magnetocrystalline (MCA) anisotropy constants, respectively, is the MCA energy density for cubic-anisotropic ferromagnets. In terms of the reduced magnetisation vector components this has the form:
+%\begin{equation}
+%\phi_{\text{anisotropy}}=K_1(m_x^2m_y^2+m_y^2m_z^2+m_z^2m_x^2),
+%\end{equation}
+%where $K_2$ has been neglected since in the cubic anisotropy system we are assuming, $K_1$ is the dominant term at room temperature. The magnetic Gibbs free-energy associated with the magnetostatic self-interaction of the ferromagnetic body and the stray magnetic field $\boldsymbol{H}_{\text{stray}}$ it produces is given by \citep{Brown}:
+%\begin{equation}
+%\phi_{\text{stray}}=-\frac{\mu_0M_\text{S}}{2} \boldsymbol{m} \cdot \boldsymbol{H}_{\text{stray}}
+%\end{equation}
+%where $M_\text{S}$ is the saturation magnetisation and $\mu_0=4\pi \times 10^{{-}7}\,\text{T}\text{m}/\text{A}$ is the magnetic constant or vacuum permeability. Finally, the energy density due to the magnetostatic interaction of the ferromagnetic body and an external field $\boldsymbol{H}_{\text{external}}$ is:
+%\begin{equation}
+%\phi_{\text{external}}=-\mu_0 M_{\text{S}} \boldsymbol{m} \cdot \boldsymbol{H}_{\text{external}}.
+%\end{equation}
 
-From thermodynamics, it is well known that under isothermal and isobaric conditions a system will be driven spontanteously toward an equilibrium state with locally minimal Gibbs free-energy. Micromagnetic algorithms aim to find the equilibrium magnetisation $\boldsymbol{m}$ by minimising the Gibbs free-energy functional \citep{Fischbacher2017}. Here, a modified gradient-descent method \citep{OConbhui2017} is used.\par
+%From thermodynamics, it is well known that under isothermal and isobaric conditions a system will be driven spontanteously toward an equilibrium state with locally minimal Gibbs free-energy. Micromagnetic algorithms aim to find the equilibrium magnetisation $\boldsymbol{m}$ by minimising the Gibbs free-energy functional \citep{Fischbacher2017}. Here, a modified gradient-descent method \citep{OConbhui2017} is used.\par
 
-Numerical solutions require a discretisation of the spatial domain into a grid or mesh with a finite number of points on which numerical solutions are calculated. In FEMs, three-dimensional space is decomposed into tetrahedral pieces called finite elements with the vertices of these elements called the nodes. On each of the mesh nodes, a unit vector is initially defined to create an initial guess; the micromagnetic algorithm then attempts to minimise the magnetic Gibbs free-energy by variating the orientation of each of these vectors while ensuring they remain unitary. In micromagnetic theory \citep{Brown} there are some linearisations, which means that there should not be large variations in the direction of $\boldsymbol{m}$ between neigbouring nodes. For unconstrained micromagnetic models it is expected that the microstructure will contain nouniform structures at least to some degree. To model nonuniform structures it is sufficient that the spatial discretisation in the model is always smaller than the exchange length $l_\text{exch} = \sqrt{2A/\mu_0M_\text{S}^2}$ \citep{Rave1998}, which for greigite is $l_\text{exch} \approx 6.6\, \text{nm}$; a maximum element size of 5$\nm$ has been chosen for all the meshes. The non-local problem of calculating the stray field is handled via a hybrid finite-element/boundary-element formulation \citep{Fredkin1990}.\par
+%Numerical solutions require a discretisation of the spatial domain into a grid or mesh with a finite number of points on which numerical solutions are calculated. In FEMs, three-dimensional space is decomposed into tetrahedral pieces called finite elements with the vertices of these elements called the nodes. On each of the mesh nodes, a unit vector is initially defined to create an initial guess; the micromagnetic algorithm then attempts to minimise the magnetic Gibbs free-energy by variating the orientation of each of these vectors while ensuring they remain unitary. In micromagnetic theory \citep{Brown} there are some linearisations, which means that there should not be large variations in the direction of $\boldsymbol{m}$ between neigbouring nodes. For unconstrained micromagnetic models it is expected that the microstructure will contain nouniform structures at least to some degree. To model nonuniform structures it is sufficient that the spatial discretisation in the model is always smaller than the exchange length $l_\text{exch} = \sqrt{2A/\mu_0M_\text{S}^2}$ \citep{Rave1998}, which for greigite is $l_\text{exch} \approx 6.6\, \text{nm}$; a maximum element size of 5$\nm$ has been chosen for all the meshes. The non-local problem of calculating the stray field is handled via a hybrid finite-element/boundary-element formulation \citep{Fredkin1990}.\par
 
 \subsection{The FORC model}
 First-order reversal curves are a set of partial hysteresis curves obtained from magnetisation states on the upper branch of the hysteresis loop for different field values $B_a$ \citep{Mayergoyz1986}. For a given $B_a$ and $M(B_a)$, the field $B=B_b$ is increased to positive saturation to trace a magnetisation curve. This proceedure for a number of $B_a$ values creates a magnetisation function on two variables $M=M(B_a,B_b)$ for $B_b \geq B_a$. The FORC distribution $\rho$ is then defined as \citep{Roberts2000}:
@@ -96,7 +97,7 @@ When the applied field is close to a hard axis, the hysteresis and FORC response
 
 Averaging the response for all 85 field orientations results in a very smooth set of FORCs (Fig. \ref{FIG_F03}a). The remanence of the framboid ensemble is $M_\text{RS}/M_\text{S}\approx 0.1$ and the hysteretic coercivity $B_\text{C}\approx 5\mT$; compare this to the remanence and coercivity of a noninteracting ensemble of isolated SD greigite particles of the same size, $M_\text{RS}/M_\text{S}\approx 0.86$ and $B_\text{C}\approx 24\mT$, respectively (Chapter \ref{ch:res-3}). The magnetostatic interactions between the particles in the framboids cause large decreases in the remanence and coercivity. The saturating field for the framboid ensemble is roughly 150$\mT$.\par
 
-The FORC diagram of the simulated ensemble of framboidal clusters (Fig. \ref{FIG_F03}b) is dominated by a large response roughly centered at ($B_c=10\mT,B_u=0$) and two lobes roughly at ($B_c=10\mT,B_u=\pm 40\mT$). These sources are part of a larger, continuous signal roughly in the rectangle defined by coordinates ($B_c=0,B_u={-}60\mT$), ($B_c=20\mT,B_u={-}60\mT$), ($B_c=20\mT,B_u=100\mT$), ($B_c=0,B_u=100\mT$). This is because the set of averaged FORCs are very smooth and do not experience sharp discontinuities on the path tho positive saturation; therefore, the signal is dominated by the differences in magnetisation values along the upper branch that serve as starting points for the FORCs.\par
+The FORC diagram of the simulated ensemble of framboidal clusters (Fig. \ref{FIG_F03}b) is dominated by a large response roughly centered at ($B_c=10\mT,B_u=0$) and two lobes roughly at ($B_c=10\mT,B_u=\pm 40\mT$). These sources are part of a larger, continuous signal roughly in the rectangle defined by coordinates ($B_c=0,B_u={-}60\mT$), ($B_c=20\mT,B_u={-}60\mT$), ($B_c=20\mT,B_u=100\mT$), ($B_c=0,B_u=100\mT$). This is because the set of averaged FORCs are very smooth and do not experience sharp discontinuities on the path to positive saturation; therefore, the signal is dominated by the differences in magnetisation values along the upper branch that serve as starting points for the FORCs.\par
 
 The negative and smaller positive responses form a noisy region to the right of this rectangle. However, these are only $\roughly 20 {\%}$ the magnitude of the peak response at maximum on some very small regions, and most of it is less than $\roughly 10 {\%}$. The simulated FORC response of an ensemble of randomly aligned greigite framboids (composed of 30$\nm$ particles) is much lower per mass than the response of noninteracting, isolated 30$\nm$ grains: 25.6$\times 10^{{-}9}\,\text{m}^4\text{A}^{{-}1}\text{kg}^{{-}1}$ and 531.6$\times 10^{{-}9}\,\text{m}^4\text{A}^{{-}1}\text{kg}^{{-}1}$ (Chapter \ref{ch:res-3}) for the peak responses, respectively.
 \begin{figure}
@@ -146,30 +147,31 @@ Simulated FORC responses for ensembles of framboidal and isolated SD grains (Fig
 \begin{figure}
 \centering
 \includegraphics[width=0.5\textwidth]{research-4/figs/Chou2012.pdf}
-\caption[FORC diagram of greigite-rich samples from Taiwan]{FORC diagrams of greigite-rich samples from Taiwan. Interpreted to contain weakly interacting SD and SP particles. According to this study, these could be explained by strongly interacting SD greigite. (Reproduced from \citet{Chou2012}, with permission from the author).}
+\caption[FORC diagram of greigite-rich samples from Taiwan]{FORC diagrams of greigite-rich samples from Taiwan. Interpreted as containing weakly interacting SD and SP particles. (From \citet{Chou2012}, reproduced with permission from the author).}
 \label{FIG_F06_Chou2012}
 \end{figure}
 
 \begin{figure}
 \centering
 \includegraphics[width=0.9\textwidth]{research-4/figs/Rowan2006.pdf}
-\caption[FORC diagrams and SEM images of greigite-rich samples from New Zealand]{FORC diagrams and SEM images of greigite-rich samples from New Zealand. Concentrinc contours with vertical spread (a, g) produced by weakly interacting SD greigite. SP patterns (d, m). (Reproduced from \citet{Rowan2006}, with permission from the author).}
+\caption[FORC diagrams and SEM images of greigite-rich samples from New Zealand]{FORC diagrams and SEM images of greigite-rich samples from New Zealand. Concentrinc contours with vertical spread (a, g) produced by interacting SD greigite. SP patterns (d, m). (From \citet{Rowan2006}, reproduced with permission from the author).}
 \label{FIG_F06_Rowan2006}
 \end{figure}\par
 
+The similarities between MD FORC patterns and FORC patterns of framboidal clusters are due to greigite framboids behaving very much like MD grains even in the absence of inter-particle exchange forces, i.e., the magnetostatic interactions between the close-packed grains play a role similar to the combination of exchange forces and internal magnetostatic energies in MD grains.\par
 
-These similarities are due to greigite framboids behaving very much like MD grains even in the absence of inter-particle exchange forces, i.e., the magnetostatic interactions between the close-packed grains play a role similar to the combination of exchange forces and internal magnetostatic energies in MD grains.
+Limited simulations of larger grain (76$\nm$) framboids with 15 particles reveals that, at least for some particle-field configurations, the innermost particle in these small clusters behaves as a SD particle with coherent rotations (Fig. \ref{FIG_F06}). It is very likely that in framboids with many more particles many of the inner particles will behave as SD particles even for particle sizes which are SV when isolated and their FORC response is likely similar to that calculated here, i.e., for framboids formed by 30$\nm$ crystals.
 \begin{figure}
 \centering
 \includegraphics[width=0.9\textwidth]{research-4/figs/loop21_76nm_annotated.pdf}
-\caption[Hysteresis of a framboid with 76$\nm$ particles]{Hysteresis of a framboid with 76$\nm$ particlesfor a field aligned closely with the easy axis. The magnetisation remains saturated down to $\roughly$50$\mT$ when a few particles nucleate vortices (a). The remanent state is a super-vortex structure (b) with most of the particles in a two-domain state. Domain walls are visible as thin, green regions. The net magnetic moment of the innermost particle (grey line) is always close to one as it remains in a SD sate throughout hysteresis.}
+\caption[Hysteresis of a framboid with 76$\nm$ particles]{Hysteresis of a framboid with 76$\nm$ particles for a field aligned closely with the easy axis. The magnetisation remains saturated down to $\roughly$50$\mT$ when a few particles nucleate vortices (a). The remanent state is a super-vortex structure (b) with most of the particles in a two-domain state. Domain walls are visible as thin, green regions. The net magnetic moment of the innermost particle (grey line) is always close to one as it remains in a SD sate throughout hysteresis.}
 \label{FIG_F06}
 \end{figure}\par
 
-Limited simulations of larger grain (76$\nm$) framboids with 15 particles reveals that, at least for some particle-field configurations, the innermost particle in these small clusters behaves as a SD particle with coherent rotations (Fig. \ref{FIG_F06}). It is very likely that in framboids with many more particles many of the inner particles will behave as SD particles even for particle sizes which are SV when isolated and their FORC response is likely similar to that calculated here, i.e., for framboids formed by 30$\nm$ crystals.\par
-
 \section{Conclusions}
-The FORC response of a simulated ensemble of framboidal greigite has been calculated with a micromagnetic algorithm. Observed trends support the similarity between the FORC response of framboidal greigite clusters and that of MD grains. Naturally occurring greigite in sediments is usually authigenic in origin and its growth and possible transformation to pyrite is controlled by a delicate balance between sulfate and iron availability \citep{Roberts2011}. Commonly, greigite is found with other iron sulfides like pyrite as the finest-grained phase \citep{Rowan2006,Rowan2009} so it is uncommon to find large, MD greigite grains. This means that if a sample is known to contain greigite (for example, by identifying a high gyro-magnetic remanent magnetisation \citep{Snowball1997} or by the chemical alteration it experiences at high temperatures), MD-like FORC signals should be interpreted as caused by framboidal or some other form of strongly interacting greigite. Even though the FORC response has been calculated for framboids with SD 30$\nm$ particles, these observations are likely to hold for framboids composed of larger grains as it is logical these will produce more MD-like FORC signals.
+The FORC response of a simulated ensemble of framboidal greigite has been calculated with a micromagnetic algorithm. Observed trends support the similarity between the FORC response of framboidal greigite clusters and that of MD grains. Naturally occurring greigite in sediments is usually authigenic in origin and its growth and possible transformation to pyrite is controlled by a delicate balance between sulfate and iron availability \citep{Roberts2011}. Commonly, greigite is found with other iron sulfides like pyrite as the finest-grained phase \citep{Rowan2006,Rowan2009} so it is uncommon to find large, MD greigite grains. This means that if a sample is known to contain greigite (for example, by identifying a high gyro-magnetic remanent magnetisation \citep{Snowball1997} or by the chemical alteration it experiences at high temperatures), MD-like FORC signals should be interpreted as caused by framboidal or some other form of strongly interacting greigite. Even though the FORC response has been calculated for framboids with SD 30$\nm$ particles, these observations are likely to hold for framboids composed of larger grains as it is logical these will produce more MD-like FORC signals.\par
+
+The apparent disconnect between authigenic greigite FORC responses of concentric contours with vertical spreading (Fig. \ref{FIG_F06_Rowan2006}) and the simulated response obtained here could be explained by the greigite being partially chemically altered; if the surfaces are altered to a non-magnetic phase (e.g., pyrite) this would increase the effective distance between the magnetic greigite particles even when the grains are touching. Weaker interactions would then cause the FORC response to spread vertically while retaining high coercivities. Pyritisation of greigite framboids, manifested as greigite inclusions inside pyrite framboids, has been observed \citep{Ebert2018} and this could explain the weak magnetic moments associated with pyrites in magnetic extracts. FORC diagrams of very stable greigites in Taiwan (Fig. \ref{FIG_F06_Chou2012}) are very similar to the simulated signals obtained here. In environments where the greigite is stable it is less likely that the greigite surfaces are pyritised and therefore the strong interparticle interactions are in full effect, giving rise to a signal more similar to MD. This means that FORC diagrams could potentially hold information about the degree of pyritisation of a greigite-rich sample but this needs further research.
 
 %----------------------------------
 %\renewcommand\bibname{{References}}

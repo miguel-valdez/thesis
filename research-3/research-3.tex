@@ -5,7 +5,9 @@
 \fancyhead[R]{}
 \fancyfoot[C]{\thepage}
 
-This Chapter is submitted for publication as Valdez-Grijalva, M. A., Muxworthy, A. R., Williams, W., \'O Conbhu\'i, P., Nagy, L., Roberts, A. P., Heslop, D., 2018. Magnetic vortex effects on first-order reversal curve (FORC) diagrams for greigite dispersions. Earth Planet. Sci. Lett., in review.
+This Chapter is submitted for publication as Valdez-Grijalva, M. A., Muxworthy, A. R., Williams, W., \'O Conbhu\'i, P., Nagy, L., Roberts, A. P., Heslop, D., 2018. Magnetic vortex effects on first-order reversal curve (FORC) diagrams for greigite dispersions. Earth Planet. Sci. Lett., in review.\par
+
+M.\,V.\,G. designed the experiment, performed the simulations and wrote the article. W.\,W., P.\,C. and L.\,N. wrote the micromagnetic code. M.\,V.\,G., A.\,M., A.\,R. and D.\,H. analysed the results.\par
 
 \section*{Abstract}
 First-order reversal curve (FORC) diagrams are used increasingly in geophysics for magnetic domain state identification. The domain state of a magnetic particle is highly sensitive to particle size, so FORC diagrams provide a measure of magnetic particles size distributions. However, the FORC signal of particles with nonuniform magnetisations, which are the main carrier of natural remanent magnetisations in many systems, is still poorly understood. In this study, the properties of non-interacting, randomly oriented dispersions of greigite (Fe$_3$S$_4$) in the uniform single-domain (SD) to non-uniform single-vortex (SV) size range are investigated via micromagnetic calculations. Signals for SD particles ($<50\nm$) are found to be in excellent agreement with previous SD coherent-rotation studies. A transitional range from $\roughly$50$\nm$ to $\roughly$70$\nm$ is identified for which a mixture of SD and SV behaviour produces complex FORC diagrams. Particles $> \roughly 70\nm$ have purely SV behaviour with the remanent state for all particles in the ensemble represented by the vortex state. It is found that for SV ensembles the FORC diagram provides a map of vortex nucleation and annihilation fields and that the FORC distribution peak should not be interpreted simply as the coercivity of the sample, but as a vortex annihilation field on the path to saturation.\par
@@ -22,32 +24,34 @@ In this study, we employ a micromagnetic finite element method (FEM) to obtain F
 
 \section{Methods}
 \subsection{The micromagnetic algorithm}
-A ferromagnetic material{\textemdash}neglecting thermal and magnetostrictive effects{\textemdash}has a Gibbs free-energy functional given by \citep{Brown}:
-\begin{equation}
-E_\text{G} = \int_{\Omega} (\phi_{\text{exchange}} + \phi_{\text{anisotropy}} + \phi_{\text{stray}} + \phi_{\text{external}})\,\text{d}^3 \boldsymbol{r},
-\end{equation}
-where $\Omega$ is the ferromagnetic volume. Here,
-\begin{equation}
-\phi_{\text{exchange}}=A|\nabla\boldsymbol{m}|^2,
-\end{equation}
-where $\boldsymbol{m}$ is the reduced magnetisation vector and $A$ the exchange stiffness constant, provides an expression for the energy density due to quantum-mechanical exchange forces \citep{Landau1935}.\par
-\begin{equation}
-\phi_{\text{anisotropy}}=\frac{K_1}{2}\sum_{i\neq j}\gamma_i^2\gamma_j^2 + K_2\prod_i\gamma_i^2,
-\end{equation}
-where $\gamma_i$ represent the direction cosines and $K_1$ and $K_2$ the first and second magnetocrystalline anisotropy (MCA) constants, is the MCA energy density in the cubic anisotropy system. In terms of the reduced magnetisation vector components, this becomes:
-\begin{equation}
-\phi_{\text{anisotropy}}=K_1(m_x^2m_y^2+m_y^2m_z^2+m_z^2m_x^2),
-\end{equation}
-where $K_2$ is neglected because $K_1$ is the dominant term at room temperature. The magnetostatic self-energy density is given by:
-\begin{equation}
-\phi_{\text{stray}}=-\frac{\mu_0M_\text{S}}{2}\boldsymbol{m}\cdot\boldsymbol{H}_{\text{stray}},
-\end{equation}
-where $\boldsymbol{H}_{\text{stray}}$ is the stray field produced by the ferromagnetic body and $M_\text{S}$ is the saturation magnetisation. Finally, the energy density due to an external magnetic field $\boldsymbol{H}_{\text{external}}$ is:
-\begin{equation}
-\phi_{\text{external}}=-\mu_0M_\text{S}\boldsymbol{m}\cdot\boldsymbol{H}_{\text{external}}.
-\end{equation}\par
+%A ferromagnetic material{\textemdash}neglecting thermal and magnetostrictive effects{\textemdash}has a Gibbs free-energy functional given by \citep{Brown}:
+%\begin{equation}
+%E_\text{G} = \int_{\Omega} (\phi_{\text{exchange}} + \phi_{\text{anisotropy}} + \phi_{\text{stray}} + \phi_{\text{external}})\,\text{d}^3 \boldsymbol{r},
+%\end{equation}
+%where $\Omega$ is the ferromagnetic volume. Here,
+%\begin{equation}
+%\phi_{\text{exchange}}=A|\nabla\boldsymbol{m}|^2,
+%\end{equation}
+%where $\boldsymbol{m}$ is the reduced magnetisation vector and $A$ the exchange stiffness constant, provides an expression for the energy density due to quantum-mechanical exchange forces \citep{Landau1935}.\par
+%\begin{equation}
+%\phi_{\text{anisotropy}}=\frac{K_1}{2}\sum_{i\neq j}\gamma_i^2\gamma_j^2 + K_2\prod_i\gamma_i^2,
+%\end{equation}
+%where $\gamma_i$ represent the direction cosines and $K_1$ and $K_2$ the first and second magnetocrystalline anisotropy (MCA) constants, is the MCA energy density in the cubic anisotropy system. In terms of the reduced magnetisation vector components, this becomes:
+%\begin{equation}
+%\phi_{\text{anisotropy}}=K_1(m_x^2m_y^2+m_y^2m_z^2+m_z^2m_x^2),
+%\end{equation}
+%where $K_2$ is neglected because $K_1$ is the dominant term at room temperature. The magnetostatic self-energy density is given by:
+%\begin{equation}
+%\phi_{\text{stray}}=-\frac{\mu_0M_\text{S}}{2}\boldsymbol{m}\cdot\boldsymbol{H}_{\text{stray}},
+%\end{equation}
+%where $\boldsymbol{H}_{\text{stray}}$ is the stray field produced by the ferromagnetic body and $M_\text{S}$ is the saturation magnetisation. Finally, the energy density due to an external magnetic field $\boldsymbol{H}_{\text{external}}$ is:
+%\begin{equation}
+%\phi_{\text{external}}=-\mu_0M_\text{S}\boldsymbol{m}\cdot\boldsymbol{H}_{\text{external}}.
+%\end{equation}\par
 
-Such magnetic particle systems will be driven spontaneously toward an equilibrium state with a locally minimal magnetic Gibbs free-energy \citep{Brown}. In this study we utilise a modified gradient descent method to find the equilibrium magnetisation \citep{OConbhui2017}.\par
+%Such magnetic particle systems will be driven spontaneously toward an equilibrium state with a locally minimal magnetic Gibbs free-energy \citep{Brown}. In this study we utilise a modified gradient descent method to find the equilibrium magnetisation \citep{OConbhui2017}.\par
+
+A numerical micromagnetic FEM \citep{OConbhui2017} has been implemented to study the FORC properties of truncated octahedral greigite particles in the SD--SV size range. For details on the micromagnetic method see Section \ref{mmsection}.\par
 
 Discretisation of the spatial domain is achieved by decomposing the volume into tetrahedral elements. This allows modelling of particles with arbitrary geometries. To model accurately nonuniform magnetisations, spatial discretisation in the model should be smaller than the exchange length $l_\text{exch.} = \sqrt{2A/\mu_0M_\text{S}^2}$ \citep{Rave1998}, which for greigite is $l_\text{exch.} \approx 6.6\, \text{nm}$; a maximum element size of 5$\nm$ was used for all simulations. The non-local problem of calculating the stray field is resolved by a hybrid finite-element/boundary-element method (BEM) formulation \citep{Fredkin1990}.\par
 
@@ -154,7 +158,7 @@ Comparison of results for micromagnetic simulations presented here with the cohe
 \begin{figure}
 \centering
 \includegraphics[width=0.6\textwidth]{research-3/figs/Laird2017_thesis.pdf}
-\caption[FORC diagram of a SD magnetite and hematite sample]{FORC diagram (SF=6) of a SD magnetite and hematite dominated sample from the Vulcan iron formation (Michigan, USA). (Reproduced from \citet{Laird2017}, with permission from the author).}
+\caption[FORC diagram of a SD magnetite and hematite sample]{FORC diagram (SF=6) of a SD magnetite- and hematite-dominated sample from the Vulcan iron formation (Michigan, USA). (From \citet{Laird2017}, reproduced with permission from the author).}
 \label{FIG_C4_Laird2017}
 \end{figure}\par
 
@@ -164,7 +168,7 @@ Whereas the pure SD signal produces a tight, boomerang-shaped FORC distribution 
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{research-3/figs/Dumas2007_edit.pdf}
-\caption[FORC diagram of a synthetic Fe dot array]{FORC diagrams for a weakly interacting 2D array of Fe dots fabricated using a nanoporous alumina shadow mask technique in conjuction with electron beam evaporation. a) The array with the smallest (52$\nm$) particles shows SD properties. b) The array with 58$\nm$ particles shows SD and PSD properties. c) The array with the largest particles (67$\nm$) shows purely PSD properties. (Reproduced from \citet{Dumas2007}, with permission from the author).}
+\caption[FORC diagram of a synthetic Fe dot array]{FORC diagrams for a weakly interacting 2D array of Fe dots fabricated using a nanoporous alumina shadow mask technique in conjuction with electron beam evaporation. a) The array with the smallest (52$\nm$) particles shows SD properties. b) The array with 58$\nm$ particles shows SD and PSD properties. c) The array with the largest particles (67$\nm$) shows purely PSD properties. (From \citet{Dumas2007}, reproduced with permission from the author).}
 \label{FIG_C4_Dumas2007}
 \end{figure}\par
 
@@ -172,7 +176,7 @@ Fragmentation of the FORC diagram for non-uniformly magnetised particles has bee
 \begin{figure}
 \centering
 \includegraphics[width=0.4\textwidth]{research-3/figs/Muxworthy2006B.pdf}
-\caption[FORC diagram of a synthetic magnetite 2D array]{FORC diagram (SF=4) for a weakly interacting 2D array of synthetic magnetite produced by electron beam lithography. Applied field along the elongation of the grains. (Reproduced from \citet{Muxworthy2006B}, with permission from the author).}
+\caption[FORC diagram of a synthetic magnetite 2D array]{FORC diagram (SF=4) for a weakly interacting 2D array of synthetic magnetite produced by electron beam lithography. Applied field along the elongation of the grains. (From \citet{Muxworthy2006B}, reproduced with permission from the author).}
 \label{FIG_C4_Muxworthy2006B}
 \end{figure}\par
 
@@ -180,7 +184,7 @@ Fragmentation of the FORC diagram for non-uniformly magnetised particles has bee
 \begin{figure}
 \centering
 \includegraphics[width=0.4\textwidth]{research-3/figs/Roberts2011_edit.pdf}
-\caption[FORC diagram of a synthetic coarse-grained greigite sample]{FORC diagram (SF=3) for a synthetic coarse-grained greigite sample of predominantly PSD particles. (Reproduced from \citet{Roberts2011}, with permission from the author).}
+\caption[FORC diagram of a synthetic coarse-grained greigite sample]{FORC diagram (SF=3) for a synthetic coarse-grained greigite sample of predominantly PSD particles. (From \citet{Roberts2011}, reproduced with permission from the author).}
 \label{FIG_C4_Roberts2011}
 \end{figure}\par
 
