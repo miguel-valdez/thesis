@@ -1,4 +1,4 @@
-\begin{thebibliography}{142}
+\begin{thebibliography}{143}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -733,6 +733,16 @@ Rowan, C.~J., Roberts, A.~P., Broadbent, T., 2009. Reductive diagenesis,
   magnetite dissolution, greigite growth and paleomagnetic smoothing in marine
   sediments: {A} new view. Earth Planet. Sci. Lett. 277~(1), 223--235.
 \newline\urlprefix\url{https://doi.org/10.1016/j.epsl.2008.10.016}
+
+\bibitem[{Shah et~al.(2018)Shah, Williams, Almeida, Nagy, Muxworthy,
+  Kov{\'a}cs, Valdez-Grijalva, Fabian, Russell, Genge, and
+  Dunin-Borkowski}]{Shah2018}
+Shah, J., Williams, W., Almeida, T.~P., Nagy, L., Muxworthy, A.~R., Kov{\'a}cs,
+  A., Valdez-Grijalva, M.~A., Fabian, K., Russell, S.~S., Genge, M.~J.,
+  Dunin-Borkowski, R.~E., 2018. The oldest magnetic record in our solar system
+  identified using nanometric imaging and numerical modeling. Nat. Commun.
+  9~(1), 1173.
+\newline\urlprefix\url{https://doi.org/10.1038/s41467-018-03613-1}
 
 \bibitem[{Skinner et~al.(1964)Skinner, Erd, and Grimaldi}]{Skinner1964}
 Skinner, B.~J., Erd, R.~C., Grimaldi, F.~S., 1964. Greigite, the thio-spinel of

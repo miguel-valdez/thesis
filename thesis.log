@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.1)  10 APR 2018 16:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.1)  11 APR 2018 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1331,7 +1331,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [37
 
 ] [38] [39] [40]
-<research-1/figs/Figure_01_HR.pdf, id=1324, 540.5043pt x 355.55681pt>
+<research-1/figs/Figure_01_HR.pdf, id=1325, 540.5043pt x 355.55681pt>
 File: research-1/figs/Figure_01_HR.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_01_HR.pdf>
@@ -1343,7 +1343,7 @@ Package pdftex.def Info: research-1/figs/Figure_01_HR.pdf used on input line 85
 LaTeX Warning: Reference `llg' on page 42 undefined on input line 93.
 
 [42 <./research-1/figs/Figure_01_HR.pdf>] [43]
-<research-1/figs/Figure_02_HR.pdf, id=1378, 540.5796pt x 582.4962pt>
+<research-1/figs/Figure_02_HR.pdf, id=1379, 540.5796pt x 582.4962pt>
 File: research-1/figs/Figure_02_HR.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_02_HR.pdf>
@@ -1355,7 +1355,7 @@ Package pdftex.def Info: research-1/figs/Figure_02_HR.pdf used on input line 11
 LaTeX Warning: Float too large for page by 16.92778pt on input line 121.
 
 [44] [45 <./research-1/figs/Figure_02_HR.pdf>]
-<research-1/figs/Figure_03_HR.pdf, id=1405, 540.43507pt x 494.18225pt>
+<research-1/figs/Figure_03_HR.pdf, id=1406, 540.43507pt x 494.18225pt>
 File: research-1/figs/Figure_03_HR.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_03_HR.pdf>
@@ -1363,7 +1363,7 @@ Package pdftex.def Info: research-1/figs/Figure_03_HR.pdf used on input line 14
 2.
 (pdftex.def)             Requested size: 483.69687pt x 442.31676pt.
  [46] [47 <./research-1/figs/Figure_03_HR.pdf>] [48]
-<research-1/figs/Figure_04_HR.pdf, id=1469, 540.5796pt x 433.13818pt>
+<research-1/figs/Figure_04_HR.pdf, id=1470, 540.5796pt x 433.13818pt>
 File: research-1/figs/Figure_04_HR.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_04_HR.pdf>
@@ -1371,7 +1371,7 @@ Package pdftex.def Info: research-1/figs/Figure_04_HR.pdf used on input line 20
 1.
 (pdftex.def)             Requested size: 483.69687pt x 387.56705pt.
  [49] [50 <./research-1/figs/Figure_04_HR.pdf>] <research-1/figs/Figure_05_HR.p
-df, id=1504, 540.5796pt x 402.7848pt>
+df, id=1505, 540.5796pt x 402.7848pt>
 File: research-1/figs/Figure_05_HR.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_05_HR.pdf>
@@ -1379,7 +1379,7 @@ Package pdftex.def Info: research-1/figs/Figure_05_HR.pdf used on input line 23
 1.
 (pdftex.def)             Requested size: 483.69687pt x 360.40718pt.
  [51] [52 <./research-1/figs/Figure_05_HR.pdf>] [53]
-<research-1/figs/Figure_06_HR.pdf, id=1565, 541.179pt x 518.45868pt>
+<research-1/figs/Figure_06_HR.pdf, id=1567, 541.179pt x 518.45868pt>
 File: research-1/figs/Figure_06_HR.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_06_HR.pdf>
@@ -1391,7 +1391,7 @@ Package pdftex.def Info: research-1/figs/Figure_06_HR.pdf used on input line 27
 LaTeX Warning: Float too large for page by 2.62143pt on input line 280.
 
 [54] [55 <./research-1/figs/Figure_06_HR.pdf>] [56]
-<research-1/figs/Figure_07_HR.pdf, id=1604, 540.45389pt x 502.0227pt>
+<research-1/figs/Figure_07_HR.pdf, id=1605, 540.45389pt x 502.0227pt>
 File: research-1/figs/Figure_07_HR.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_07_HR.pdf>
@@ -1399,7 +1399,7 @@ Package pdftex.def Info: research-1/figs/Figure_07_HR.pdf used on input line 29
 9.
 (pdftex.def)             Requested size: 483.69687pt x 449.31136pt.
  [57]
-<research-1/figs/Figure_08_HR.pdf, id=1618, 541.06137pt x 499.6266pt>
+<research-1/figs/Figure_08_HR.pdf, id=1619, 541.06137pt x 499.6266pt>
 File: research-1/figs/Figure_08_HR.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_08_HR.pdf>
@@ -1407,7 +1407,7 @@ Package pdftex.def Info: research-1/figs/Figure_08_HR.pdf used on input line 31
 1.
 (pdftex.def)             Requested size: 483.69687pt x 446.67131pt.
  [58] [59 <./research-1/figs/Figure_07_HR.pdf>] <research-1/figs/Figure_09_HR.p
-df, id=1637, 578.16pt x 433.62pt>
+df, id=1638, 578.16pt x 433.62pt>
 File: research-1/figs/Figure_09_HR.pdf Graphic file (type pdf)
 
 <use research-1/figs/Figure_09_HR.pdf>
@@ -1420,21 +1420,21 @@ Package pdftex.def Info: research-1/figs/Figure_09_HR.pdf used on input line 32
 Chapter 3.
 [65
 
-] [66] [67] [68] <research-2/figs/FIG01.pdf, id=1848, 578.16pt x 578.16pt>
+] [66] [67] [68] <research-2/figs/FIG01.pdf, id=1849, 578.16pt x 578.16pt>
 File: research-2/figs/FIG01.pdf Graphic file (type pdf)
 
 <use research-2/figs/FIG01.pdf>
 Package pdftex.def Info: research-2/figs/FIG01.pdf used on input line 62.
 (pdftex.def)             Requested size: 483.69687pt x 483.6926pt.
  [69] [70 <./research-2/figs/FIG01.pdf>]
-[71] <research-2/figs/FIG02.pdf, id=1883, 578.16pt x 289.08pt>
+[71] <research-2/figs/FIG02.pdf, id=1884, 578.16pt x 289.08pt>
 File: research-2/figs/FIG02.pdf Graphic file (type pdf)
 
 <use research-2/figs/FIG02.pdf>
 Package pdftex.def Info: research-2/figs/FIG02.pdf used on input line 108.
 (pdftex.def)             Requested size: 483.69687pt x 241.8463pt.
 
-<research-2/figs/rePLOT_FIG03.pdf, id=1893, 578.16pt x 375.804pt>
+<research-2/figs/rePLOT_FIG03.pdf, id=1894, 578.16pt x 375.804pt>
 File: research-2/figs/rePLOT_FIG03.pdf Graphic file (type pdf)
 
 <use research-2/figs/rePLOT_FIG03.pdf>
@@ -1443,7 +1443,7 @@ Package pdftex.def Info: research-2/figs/rePLOT_FIG03.pdf used on input line 11
 (pdftex.def)             Requested size: 483.69687pt x 314.40019pt.
  [72] [73 <./research-2/figs/FIG02.pdf>]
 [74 <./research-2/figs/rePLOT_FIG03.pdf>]
-<research-2/figs/rePLOT_FIG04.pdf, id=1932, 850.76242pt x 329.55121pt>
+<research-2/figs/rePLOT_FIG04.pdf, id=1933, 850.76242pt x 329.55121pt>
 File: research-2/figs/rePLOT_FIG04.pdf Graphic file (type pdf)
 
 <use research-2/figs/rePLOT_FIG04.pdf>
@@ -1451,7 +1451,7 @@ Package pdftex.def Info: research-2/figs/rePLOT_FIG04.pdf used on input line 13
 1.
 (pdftex.def)             Requested size: 483.69687pt x 187.36339pt.
  [75]
-<research-2/figs/Harrison2014.pdf, id=1946, 465.74pt x 401.5pt>
+<research-2/figs/Harrison2014.pdf, id=1947, 465.74pt x 401.5pt>
 File: research-2/figs/Harrison2014.pdf Graphic file (type pdf)
 
 <use research-2/figs/Harrison2014.pdf>
@@ -1464,110 +1464,110 @@ pdf>]) (./research-3/research-3.tex
 Chapter 4.
 [79
 
-] [80] [81] [82] <research-3/figs/FIG_01.pdf, id=2108, 963.6pt x 963.6pt>
+] [80] [81] <research-3/figs/FIG_01.pdf, id=2099, 963.6pt x 963.6pt>
 File: research-3/figs/FIG_01.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_01.pdf>
-Package pdftex.def Info: research-3/figs/FIG_01.pdf used on input line 73.
+Package pdftex.def Info: research-3/figs/FIG_01.pdf used on input line 71.
 (pdftex.def)             Requested size: 483.69687pt x 483.69556pt.
-
-<research-3/figs/FIG_02.pdf, id=2124, 771.26541pt x 329.55121pt>
+ [82]
+<research-3/figs/FIG_02.pdf, id=2122, 771.26541pt x 329.55121pt>
 File: research-3/figs/FIG_02.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_02.pdf>
-Package pdftex.def Info: research-3/figs/FIG_02.pdf used on input line 86.
+Package pdftex.def Info: research-3/figs/FIG_02.pdf used on input line 84.
 (pdftex.def)             Requested size: 483.69687pt x 206.67801pt.
  [83] [84 <./research-3/figs/FIG_01.pdf>]
 [85 <./research-3/figs/FIG_02.pdf>]
-<research-3/figs/FIG_03.pdf, id=2168, 767.94104pt x 664.59492pt>
+<research-3/figs/FIG_03.pdf, id=2165, 767.94104pt x 664.59492pt>
 File: research-3/figs/FIG_03.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_03.pdf>
-Package pdftex.def Info: research-3/figs/FIG_03.pdf used on input line 98.
+Package pdftex.def Info: research-3/figs/FIG_03.pdf used on input line 96.
 (pdftex.def)             Requested size: 483.69687pt x 418.59561pt.
- [86]
-<research-3/figs/FIG_04.pdf, id=2182, 445.18411pt x 628.75024pt>
+
+<research-3/figs/FIG_04.pdf, id=2175, 445.18411pt x 628.75024pt>
 File: research-3/figs/FIG_04.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_04.pdf>
-Package pdftex.def Info: research-3/figs/FIG_04.pdf used on input line 106.
+Package pdftex.def Info: research-3/figs/FIG_04.pdf used on input line 104.
 (pdftex.def)             Requested size: 435.32422pt x 614.85666pt.
- [87 <./research-3/figs/FIG_03.pdf>]
-<research-3/figs/FIG_05.pdf, id=2200, 925.05597pt x 346.89601pt>
+ [86] [87 <./research-3/figs/FIG_03.pdf>]
+<research-3/figs/FIG_05.pdf, id=2197, 925.05597pt x 346.89601pt>
 File: research-3/figs/FIG_05.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_05.pdf>
-Package pdftex.def Info: research-3/figs/FIG_05.pdf used on input line 114.
+Package pdftex.def Info: research-3/figs/FIG_05.pdf used on input line 112.
 (pdftex.def)             Requested size: 483.69687pt x 181.38737pt.
 
-<research-3/figs/FIG_06.pdf, id=2216, 445.18411pt x 628.75024pt>
+<research-3/figs/FIG_06.pdf, id=2213, 445.18411pt x 628.75024pt>
 File: research-3/figs/FIG_06.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_06.pdf>
-Package pdftex.def Info: research-3/figs/FIG_06.pdf used on input line 122.
+Package pdftex.def Info: research-3/figs/FIG_06.pdf used on input line 120.
 (pdftex.def)             Requested size: 435.32422pt x 614.85666pt.
  [88] [89 <./research-3/figs/FIG_04.pdf>]
-<research-3/figs/FIG_07.pdf, id=2244, 445.18318pt x 628.74902pt>
+<research-3/figs/FIG_07.pdf, id=2241, 445.18318pt x 628.74902pt>
 File: research-3/figs/FIG_07.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_07.pdf>
-Package pdftex.def Info: research-3/figs/FIG_07.pdf used on input line 130.
+Package pdftex.def Info: research-3/figs/FIG_07.pdf used on input line 128.
 (pdftex.def)             Requested size: 435.32422pt x 614.85547pt.
 
-<research-3/figs/BMforcs_080nm_015_edit.pdf, id=2249, 462.52798pt x 346.89601pt
+<research-3/figs/BMforcs_080nm_015_edit.pdf, id=2246, 462.52798pt x 346.89601pt
 >
 File: research-3/figs/BMforcs_080nm_015_edit.pdf Graphic file (type pdf)
  <use research-3/figs/BMforcs_080nm_015_edit.pdf>
 Package pdftex.def Info: research-3/figs/BMforcs_080nm_015_edit.pdf used on inp
-ut line 138.
+ut line 136.
 (pdftex.def)             Requested size: 483.69687pt x 362.79063pt.
  [90 <./research-3/figs/FIG_05.pdf>] [91 <./research-3/figs/FIG_06.pdf>] [92 <.
 /research-3/figs/FIG_07.pdf>] [93 <./research-3/figs/BMforcs_080nm_015_edit.pdf
 >]
-<research-3/figs/FIG_08.pdf, id=2410, 925.05597pt x 346.89601pt>
+<research-3/figs/FIG_08.pdf, id=2407, 925.05597pt x 346.89601pt>
 File: research-3/figs/FIG_08.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_08.pdf>
-Package pdftex.def Info: research-3/figs/FIG_08.pdf used on input line 148.
+Package pdftex.def Info: research-3/figs/FIG_08.pdf used on input line 146.
 (pdftex.def)             Requested size: 483.69687pt x 181.38737pt.
 
-<research-3/figs/Laird2017_thesis.pdf, id=2426, 694.595pt x 684.5575pt>
+<research-3/figs/Laird2017_thesis.pdf, id=2423, 694.595pt x 684.5575pt>
 File: research-3/figs/Laird2017_thesis.pdf Graphic file (type pdf)
 
 <use research-3/figs/Laird2017_thesis.pdf>
 Package pdftex.def Info: research-3/figs/Laird2017_thesis.pdf used on input lin
-e 160.
+e 158.
 (pdftex.def)             Requested size: 290.22107pt x 286.03937pt.
  [94] [95 <./research-3/figs/FIG_08.pdf>] <research-3/figs/Dumas2007_edit.pdf, 
-id=2455, 879.40569pt x 283.2868pt>
+id=2452, 879.40569pt x 283.2868pt>
 File: research-3/figs/Dumas2007_edit.pdf Graphic file (type pdf)
 
 <use research-3/figs/Dumas2007_edit.pdf>
 Package pdftex.def Info: research-3/figs/Dumas2007_edit.pdf used on input line 
-170.
+168.
 (pdftex.def)             Requested size: 483.69687pt x 155.81686pt.
  [96 <./research-3/figs/Laird2017_thesis.pdf>]
-<research-3/figs/Muxworthy2006B.pdf, id=2495, 531.9875pt x 539.01375pt>
+<research-3/figs/Muxworthy2006B.pdf, id=2492, 531.9875pt x 539.01375pt>
 File: research-3/figs/Muxworthy2006B.pdf Graphic file (type pdf)
 
 <use research-3/figs/Muxworthy2006B.pdf>
 Package pdftex.def Info: research-3/figs/Muxworthy2006B.pdf used on input line 
-178.
+176.
 (pdftex.def)             Requested size: 193.47578pt x 196.02695pt.
 
-<research-3/figs/Roberts2011_edit.pdf, id=2507, 260.6934pt x 278.07294pt>
+<research-3/figs/Roberts2011_edit.pdf, id=2504, 260.6934pt x 278.07294pt>
 File: research-3/figs/Roberts2011_edit.pdf Graphic file (type pdf)
 
 <use research-3/figs/Roberts2011_edit.pdf>
 Package pdftex.def Info: research-3/figs/Roberts2011_edit.pdf used on input lin
-e 186.
+e 184.
 (pdftex.def)             Requested size: 193.47578pt x 206.3775pt.
  [97 <./research-3/figs/Dumas2007_edit.pdf>] <research-3/figs/FIG_09.pdf, id=25
-33, 757.14871pt x 612.48827pt>
+30, 757.14871pt x 612.48827pt>
 File: research-3/figs/FIG_09.pdf Graphic file (type pdf)
 
 <use research-3/figs/FIG_09.pdf>
-Package pdftex.def Info: research-3/figs/FIG_09.pdf used on input line 194.
+Package pdftex.def Info: research-3/figs/FIG_09.pdf used on input line 192.
 (pdftex.def)             Requested size: 483.69687pt x 391.29022pt.
  [98 <./research-3/figs/Muxworthy2006B.pdf>]
 [99 <./research-3/figs/Roberts2011_edit.pdf>] [100 <./research-3/figs/FIG_09.pd
@@ -1576,7 +1576,7 @@ Chapter 5.
 [102
 
 ] [103] [104] [105]
-<research-4/figs/mesh_orientations_HD.pdf, id=2677, 4015.0pt x 4015.0pt>
+<research-4/figs/mesh_orientations_HD.pdf, id=2674, 4015.0pt x 4015.0pt>
 File: research-4/figs/mesh_orientations_HD.pdf Graphic file (type pdf)
 
 <use research-4/figs/mesh_orientations_HD.pdf>
@@ -1584,7 +1584,7 @@ Package pdftex.def Info: research-4/figs/mesh_orientations_HD.pdf used on input
  line 75.
 (pdftex.def)             Requested size: 193.47578pt x 193.47136pt.
  [106 <./research-4/figs/mesh_orientations_HD.pdf>]
-<research-4/figs/forcs_easy_hard.pdf, id=2703, 843.82452pt x 677.89258pt>
+<research-4/figs/forcs_easy_hard.pdf, id=2700, 843.82452pt x 677.89258pt>
 File: research-4/figs/forcs_easy_hard.pdf Graphic file (type pdf)
 
 <use research-4/figs/forcs_easy_hard.pdf>
@@ -1592,7 +1592,7 @@ Package pdftex.def Info: research-4/figs/forcs_easy_hard.pdf used on input line
  93.
 (pdftex.def)             Requested size: 483.69687pt x 388.58533pt.
  [107] [108 <./research-4/figs/forcs_easy_hard.pdf>]
-<research-4/figs/remanent_supervortex.pdf, id=2726, 5845.84pt x 3970.835pt>
+<research-4/figs/remanent_supervortex.pdf, id=2723, 5845.84pt x 3970.835pt>
 File: research-4/figs/remanent_supervortex.pdf Graphic file (type pdf)
 
 <use research-4/figs/remanent_supervortex.pdf>
@@ -1600,14 +1600,14 @@ Package pdftex.def Info: research-4/figs/remanent_supervortex.pdf used on input
  line 105.
 (pdftex.def)             Requested size: 483.69687pt x 328.5189pt.
 
-<research-4/figs/forc_avg.pdf, id=2730, 852.78598pt x 346.89601pt>
+<research-4/figs/forc_avg.pdf, id=2727, 852.78598pt x 346.89601pt>
 File: research-4/figs/forc_avg.pdf Graphic file (type pdf)
 
 <use research-4/figs/forc_avg.pdf>
 Package pdftex.def Info: research-4/figs/forc_avg.pdf used on input line 113.
 (pdftex.def)             Requested size: 483.69687pt x 196.75352pt.
 
-<research-4/figs/forc_mix.pdf, id=2734, 780.51598pt x 346.89601pt>
+<research-4/figs/forc_mix.pdf, id=2731, 780.51598pt x 346.89601pt>
 File: research-4/figs/forc_mix.pdf Graphic file (type pdf)
 
 <use research-4/figs/forc_mix.pdf>
@@ -1618,7 +1618,7 @@ c_avg.pdf
 
 pdfTeX warning: pdflatex (file ./research-4/figs/forc_avg.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
->] <research-4/figs/DayPlot.pdf, id=2762, 462.52798pt x 346.89601pt>
+>] <research-4/figs/DayPlot.pdf, id=2759, 462.52798pt x 346.89601pt>
 File: research-4/figs/DayPlot.pdf Graphic file (type pdf)
 
 <use research-4/figs/DayPlot.pdf>
@@ -1626,21 +1626,21 @@ Package pdftex.def Info: research-4/figs/DayPlot.pdf used on input line 130.
 (pdftex.def)             Requested size: 290.22107pt x 217.67755pt.
  [111 <./research-4/figs/forc_mix.pdf>]
 [112 <./research-4/figs/DayPlot.pdf>]
-<research-4/figs/Chou2012.pdf, id=2855, 408.52625pt x 567.11874pt>
+<research-4/figs/Chou2012.pdf, id=2852, 408.52625pt x 567.11874pt>
 File: research-4/figs/Chou2012.pdf Graphic file (type pdf)
 
 <use research-4/figs/Chou2012.pdf>
 Package pdftex.def Info: research-4/figs/Chou2012.pdf used on input line 149.
 (pdftex.def)             Requested size: 241.84843pt x 335.73943pt.
  [113]
-<research-4/figs/Rowan2006.pdf, id=2866, 1231.60126pt x 1563.8425pt>
+<research-4/figs/Rowan2006.pdf, id=2863, 1231.60126pt x 1563.8425pt>
 File: research-4/figs/Rowan2006.pdf Graphic file (type pdf)
 
 <use research-4/figs/Rowan2006.pdf>
 Package pdftex.def Info: research-4/figs/Rowan2006.pdf used on input line 156.
 (pdftex.def)             Requested size: 435.32422pt x 552.74596pt.
 
-<research-4/figs/loop21_76nm_annotated.pdf, id=2872, 462.52798pt x 346.89601pt>
+<research-4/figs/loop21_76nm_annotated.pdf, id=2869, 462.52798pt x 346.89601pt>
 File: research-4/figs/loop21_76nm_annotated.pdf Graphic file (type pdf)
 <use research-4/figs/loop21_76nm_annotated.pdf>
 Package pdftex.def Info: research-4/figs/loop21_76nm_annotated.pdf used on inpu
@@ -1648,23 +1648,23 @@ t line 166.
 (pdftex.def)             Requested size: 435.32422pt x 326.51103pt.
  [114 <./research-4/figs/Chou2012.pdf>] [115 <./research-4/figs/Rowan2006.pdf>]
  [116 <./research-4/figs/loop21_76nm_annotated.pdf>]) (./conclusions/conclusion
-s.tex [117] [118]
+s.tex [117]
 Chapter 6.
-[119
+[118
 
-] [120] [121]) [122] (./thesis.bbl [123
+] [119] [120] [121]) [122] (./thesis.bbl [123
 
 ] [124] [125]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [126] [127] [128]
-[129] [130] [131] [132]
+ [126] [127]
+[128] [129] [130] [131] [132]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [133] [134] [135] [136] [137] [138] [139] [140])
-[141]
+ [133] [134] [135] [136] [137] [138] [139]
+[140]) [141]
 \openout2 = `appendix/appendix.aux'.
 
  (./appendix/appendix.tex
@@ -1698,7 +1698,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: E0D2FB2555C9466812413FC488F93909;4683.
+(rerunfilecheck)             Checksum: DEE8F1A42BE02C20D63A49E14B80855F;4676.
 
 
 LaTeX Warning: There were undefined references.
@@ -1706,10 +1706,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
- 25973 strings out of 494953
- 477681 string characters out of 6180978
- 721256 words of memory out of 5000000
- 27677 multiletter control sequences out of 15000+600000
+ 25978 strings out of 494953
+ 477754 string characters out of 6180978
+ 721468 words of memory out of 5000000
+ 27681 multiletter control sequences out of 15000+600000
  38168 words of font info for 190 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  46i,16n,45p,10428b,2335s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1732,10 +1732,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (159 pages, 99031725 bytes).
+Output written on thesis.pdf (159 pages, 99036249 bytes).
 PDF statistics:
- 4042 PDF objects out of 4296 (max. 8388607)
- 3540 compressed objects within 36 object streams
- 1002 named destinations out of 1200 (max. 500000)
+ 4060 PDF objects out of 4296 (max. 8388607)
+ 3558 compressed objects within 36 object streams
+ 1003 named destinations out of 1200 (max. 500000)
  42720 words of extra memory for PDF output out of 42996 (max. 10000000)
 

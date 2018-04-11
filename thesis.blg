@@ -15,52 +15,52 @@ I was expecting a `,' or a `}'---line 1172 of file references.bib
  : //publisher = {Elsevier},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2066 of file references.bib
+I was expecting a `,' or a `}'---line 2079 of file references.bib
  : 
  : //publisher = {AIP},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--empty publisher in Bloch1932
 Warning--empty journal in ValdezGrijalva2017
-You've used 142 entries,
+You've used 143 entries,
             2821 wiz_defined-function locations,
-            1685 strings with 35263 characters,
-and the built_in function-call counts, 76180 in all, are:
-= -- 7724
-> -- 4288
+            1691 strings with 35632 characters,
+and the built_in function-call counts, 77027 in all, are:
+= -- 7789
+> -- 4379
 < -- 72
-+ -- 1639
-- -- 1458
-* -- 7225
-:= -- 13703
-add.period$ -- 431
-call.type$ -- 142
-change.case$ -- 1203
-chr.to.int$ -- 141
-cite$ -- 144
-duplicate$ -- 2529
-empty$ -- 4833
-format.name$ -- 1896
-if$ -- 15010
++ -- 1675
+- -- 1491
+* -- 7321
+:= -- 13865
+add.period$ -- 434
+call.type$ -- 143
+change.case$ -- 1219
+chr.to.int$ -- 142
+cite$ -- 145
+duplicate$ -- 2547
+empty$ -- 4865
+format.name$ -- 1932
+if$ -- 15163
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 142
-newline$ -- 554
-num.names$ -- 572
-pop$ -- 1039
+missing$ -- 143
+newline$ -- 558
+num.names$ -- 576
+pop$ -- 1054
 preamble$ -- 1
-purify$ -- 1052
+purify$ -- 1067
 quote$ -- 0
-skip$ -- 1849
+skip$ -- 1861
 stack$ -- 0
-substring$ -- 4585
-swap$ -- 332
+substring$ -- 4610
+swap$ -- 334
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1266
+type$ -- 1275
 warning$ -- 2
-while$ -- 651
+while$ -- 655
 width$ -- 0
-write$ -- 1687
+write$ -- 1699
 (There were 2 error messages)
