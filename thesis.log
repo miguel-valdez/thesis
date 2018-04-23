@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.1)  11 APR 2018 16:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.1)  23 APR 2018 10:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1570,13 +1570,16 @@ File: research-3/figs/FIG_09.pdf Graphic file (type pdf)
 Package pdftex.def Info: research-3/figs/FIG_09.pdf used on input line 192.
 (pdftex.def)             Requested size: 483.69687pt x 391.29022pt.
  [98 <./research-3/figs/Muxworthy2006B.pdf>]
-[99 <./research-3/figs/Roberts2011_edit.pdf>] [100 <./research-3/figs/FIG_09.pd
-f>]) (./research-4/research-4.tex [101]
+[99 <./research-3/figs/Roberts2011_edit.pdf> <./research-3/figs/FIG_09.pdf
+
+pdfTeX warning: pdflatex (file ./research-3/figs/FIG_09.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+>] [100]) (./research-4/research-4.tex [101]
 Chapter 5.
 [102
 
 ] [103] [104] [105]
-<research-4/figs/mesh_orientations_HD.pdf, id=2674, 4015.0pt x 4015.0pt>
+<research-4/figs/mesh_orientations_HD.pdf, id=2673, 4015.0pt x 4015.0pt>
 File: research-4/figs/mesh_orientations_HD.pdf Graphic file (type pdf)
 
 <use research-4/figs/mesh_orientations_HD.pdf>
@@ -1584,7 +1587,7 @@ Package pdftex.def Info: research-4/figs/mesh_orientations_HD.pdf used on input
  line 75.
 (pdftex.def)             Requested size: 193.47578pt x 193.47136pt.
  [106 <./research-4/figs/mesh_orientations_HD.pdf>]
-<research-4/figs/forcs_easy_hard.pdf, id=2700, 843.82452pt x 677.89258pt>
+<research-4/figs/forcs_easy_hard.pdf, id=2699, 843.82452pt x 677.89258pt>
 File: research-4/figs/forcs_easy_hard.pdf Graphic file (type pdf)
 
 <use research-4/figs/forcs_easy_hard.pdf>
@@ -1592,7 +1595,7 @@ Package pdftex.def Info: research-4/figs/forcs_easy_hard.pdf used on input line
  93.
 (pdftex.def)             Requested size: 483.69687pt x 388.58533pt.
  [107] [108 <./research-4/figs/forcs_easy_hard.pdf>]
-<research-4/figs/remanent_supervortex.pdf, id=2723, 5845.84pt x 3970.835pt>
+<research-4/figs/remanent_supervortex.pdf, id=2722, 5845.84pt x 3970.835pt>
 File: research-4/figs/remanent_supervortex.pdf Graphic file (type pdf)
 
 <use research-4/figs/remanent_supervortex.pdf>
@@ -1600,14 +1603,14 @@ Package pdftex.def Info: research-4/figs/remanent_supervortex.pdf used on input
  line 105.
 (pdftex.def)             Requested size: 483.69687pt x 328.5189pt.
 
-<research-4/figs/forc_avg.pdf, id=2727, 852.78598pt x 346.89601pt>
+<research-4/figs/forc_avg.pdf, id=2726, 852.78598pt x 346.89601pt>
 File: research-4/figs/forc_avg.pdf Graphic file (type pdf)
 
 <use research-4/figs/forc_avg.pdf>
 Package pdftex.def Info: research-4/figs/forc_avg.pdf used on input line 113.
 (pdftex.def)             Requested size: 483.69687pt x 196.75352pt.
 
-<research-4/figs/forc_mix.pdf, id=2731, 780.51598pt x 346.89601pt>
+<research-4/figs/forc_mix.pdf, id=2730, 780.51598pt x 346.89601pt>
 File: research-4/figs/forc_mix.pdf Graphic file (type pdf)
 
 <use research-4/figs/forc_mix.pdf>
@@ -1618,7 +1621,7 @@ c_avg.pdf
 
 pdfTeX warning: pdflatex (file ./research-4/figs/forc_avg.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
->] <research-4/figs/DayPlot.pdf, id=2759, 462.52798pt x 346.89601pt>
+>] <research-4/figs/DayPlot.pdf, id=2758, 462.52798pt x 346.89601pt>
 File: research-4/figs/DayPlot.pdf Graphic file (type pdf)
 
 <use research-4/figs/DayPlot.pdf>
@@ -1626,21 +1629,21 @@ Package pdftex.def Info: research-4/figs/DayPlot.pdf used on input line 130.
 (pdftex.def)             Requested size: 290.22107pt x 217.67755pt.
  [111 <./research-4/figs/forc_mix.pdf>]
 [112 <./research-4/figs/DayPlot.pdf>]
-<research-4/figs/Chou2012.pdf, id=2852, 408.52625pt x 567.11874pt>
+<research-4/figs/Chou2012.pdf, id=2851, 408.52625pt x 567.11874pt>
 File: research-4/figs/Chou2012.pdf Graphic file (type pdf)
 
 <use research-4/figs/Chou2012.pdf>
 Package pdftex.def Info: research-4/figs/Chou2012.pdf used on input line 149.
 (pdftex.def)             Requested size: 241.84843pt x 335.73943pt.
  [113]
-<research-4/figs/Rowan2006.pdf, id=2863, 1231.60126pt x 1563.8425pt>
+<research-4/figs/Rowan2006.pdf, id=2862, 1231.60126pt x 1563.8425pt>
 File: research-4/figs/Rowan2006.pdf Graphic file (type pdf)
 
 <use research-4/figs/Rowan2006.pdf>
 Package pdftex.def Info: research-4/figs/Rowan2006.pdf used on input line 156.
 (pdftex.def)             Requested size: 435.32422pt x 552.74596pt.
 
-<research-4/figs/loop21_76nm_annotated.pdf, id=2869, 462.52798pt x 346.89601pt>
+<research-4/figs/loop21_76nm_annotated.pdf, id=2868, 462.52798pt x 346.89601pt>
 File: research-4/figs/loop21_76nm_annotated.pdf Graphic file (type pdf)
 <use research-4/figs/loop21_76nm_annotated.pdf>
 Package pdftex.def Info: research-4/figs/loop21_76nm_annotated.pdf used on inpu
@@ -1708,7 +1711,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
 Here is how much of TeX's memory you used:
  25978 strings out of 494953
  477754 string characters out of 6180978
- 721468 words of memory out of 5000000
+ 721467 words of memory out of 5000000
  27681 multiletter control sequences out of 15000+600000
  38168 words of font info for 190 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1732,7 +1735,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (159 pages, 99036249 bytes).
+Output written on thesis.pdf (159 pages, 99035929 bytes).
 PDF statistics:
  4060 PDF objects out of 4296 (max. 8388607)
  3558 compressed objects within 36 object streams

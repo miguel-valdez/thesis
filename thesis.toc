@@ -68,7 +68,7 @@
 \contentsline {subsection}{\numberline {4.2.2}The FORC model}{82}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Results}{83}{section.4.3}
 \contentsline {section}{\numberline {4.4}Discussion}{95}{section.4.4}
-\contentsline {section}{\numberline {4.5}Conclusion}{99}{section.4.5}
+\contentsline {section}{\numberline {4.5}Conclusion}{100}{section.4.5}
 \contentsline {chapter}{\numberline {5}First-order reversal curve diagram modelling of framboidal greigite}{102}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{102}{section.5.1}
 \contentsline {section}{\numberline {5.2}Methods}{104}{section.5.2}

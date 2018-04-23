@@ -10,12 +10,12 @@ A level-1 auxiliary file: pre/nomenclature.aux
 The style file: elsarticle-harv.bst
 A level-1 auxiliary file: appendix/appendix.aux
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 1172 of file references.bib
+I was expecting a `,' or a `}'---line 1173 of file references.bib
  : 
  : //publisher = {Elsevier},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 2079 of file references.bib
+I was expecting a `,' or a `}'---line 2080 of file references.bib
  : 
  : //publisher = {AIP},
 (Error may have been on previous line)
@@ -24,14 +24,14 @@ Warning--empty publisher in Bloch1932
 Warning--empty journal in ValdezGrijalva2017
 You've used 143 entries,
             2821 wiz_defined-function locations,
-            1691 strings with 35632 characters,
-and the built_in function-call counts, 77027 in all, are:
+            1692 strings with 35671 characters,
+and the built_in function-call counts, 77030 in all, are:
 = -- 7789
 > -- 4379
 < -- 72
 + -- 1675
 - -- 1491
-* -- 7321
+* -- 7323
 := -- 13865
 add.period$ -- 434
 call.type$ -- 143
@@ -45,13 +45,13 @@ if$ -- 15163
 int.to.chr$ -- 2
 int.to.str$ -- 1
 missing$ -- 143
-newline$ -- 558
+newline$ -- 559
 num.names$ -- 576
 pop$ -- 1054
 preamble$ -- 1
 purify$ -- 1067
 quote$ -- 0
-skip$ -- 1861
+skip$ -- 1860
 stack$ -- 0
 substring$ -- 4610
 swap$ -- 334
@@ -62,5 +62,5 @@ type$ -- 1275
 warning$ -- 2
 while$ -- 655
 width$ -- 0
-write$ -- 1699
+write$ -- 1700
 (There were 2 error messages)
